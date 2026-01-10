@@ -1,0 +1,5 @@
+We're wating to make some data visualizations for a Provo Music Museum project.
+
+I want to download all the show data from Velour Live's website (https://velourlive.com/) and try and visualize it.
+
+First i need to get all the data downloaded and organized into a nice spreadsheet (tsv or csv)

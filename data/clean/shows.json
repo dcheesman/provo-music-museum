@@ -1,0 +1,3843 @@
+[
+  {
+    "id": "f77a4c07-3caa-4b6a-85c5-69a745955e48",
+    "date": "2006-01-13",
+    "title": "8pm\u00bb Grand Opening! Palomino",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Grand Opening! Palomino w/ Wires (formerly Jerrytown) and Marcus Bently",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "09ec14ed-8d16-4dc5-993d-5112d17e706f",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "6805c4b5-fba3-4353-9739-f417453e5164",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "formerly Jerrytown"
+      },
+      {
+        "artist_id": "22cea024-b17c-4560-b39d-439fda61fa09",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Marcus Bently, Palomino, Wires",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004709",
+    "created_at": "2026-01-10T12:09:33.532381",
+    "updated_at": "2026-01-10T12:09:33.532393"
+  },
+  {
+    "id": "ccfa36e1-a6f3-4141-bdfb-b255995c271f",
+    "date": "2006-01-14",
+    "title": "8pm\u00bb (indie-rock) Return To Sender, Taught Me, Between Sleep & Sound",
+    "genre": "indie-rock",
+    "description": "8pm\u00bb\u00a0(indie-rock) Return To Sender, Taught Me, Between Sleep & Sound",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "1127c0f9-0c3e-48f6-82e1-123efc94ebe8",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "beb7a7ed-c5dd-4104-82e4-bdabd70c9d9f",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "ac55fd61-52c4-4991-b793-7a03aeaaf6a5",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Return To Sender, Taught Me, Sound",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004761",
+    "created_at": "2026-01-10T12:09:36.535875",
+    "updated_at": "2026-01-10T12:09:36.535963"
+  },
+  {
+    "id": "8c7c4c8c-8434-44cc-a1ea-a65dc800c833",
+    "date": "2006-01-17",
+    "title": "Open-Mic Acoustic Night Returns!",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Returns! Open-Mic Acoustic Night Returns",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004788",
+    "created_at": "2026-01-10T12:09:36.536213",
+    "updated_at": "2026-01-10T12:09:36.536216"
+  },
+  {
+    "id": "3ef7dfd0-007c-49ec-979a-5021cd753002",
+    "date": "2006-01-18",
+    "title": "8pm\u00bb (indie/emo) A Film In The Ballroom, Declaration, Spiral Diary, The Yearbook",
+    "genre": "indie/emo",
+    "description": "8pm\u00bb\u00a0(indie/emo) A Film In The Ballroom, Declaration, Spiral Diary, The Yearbook",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "24a840b6-b69b-4218-801d-90a842c7ebb9",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "d85a149e-64ca-42b2-9a31-6d8c5b1c3591",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "8859dce3-245d-491a-a15f-1f473ef51f4e",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "3c8292c1-acdf-48a7-9026-38487c345738",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "A Film In The Ballroom, Spiral Diary, The Yearbook, Declaration, Film in the Ballroom, Dia",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004810",
+    "created_at": "2026-01-10T12:09:39.625895",
+    "updated_at": "2026-01-10T12:09:39.625920"
+  },
+  {
+    "id": "3faec151-98e9-4f38-ba97-216defc5b5ce",
+    "date": "2006-01-19",
+    "title": "8pm\u00bb (indie pop-punk) Johnny Most, Foolish Pete and After It All",
+    "genre": "indie pop-punk",
+    "description": "8pm\u00bb\u00a0(indie pop-punk) Johnny Most, Foolish Pete and After It All",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "8e33cd87-fa6a-4110-9b65-f696aaecd75c",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "5448753e-74e5-46e7-8c74-c2c7ca0fe9a2",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "1400dbc2-87a4-418c-a8ce-122beda3af0f",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Johnny Most, After It All, Foolish Pete",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004833",
+    "created_at": "2026-01-10T12:09:42.504222",
+    "updated_at": "2026-01-10T12:09:42.504236"
+  },
+  {
+    "id": "7d7d362c-4826-4256-8206-a71a9d688625",
+    "date": "2006-01-20",
+    "title": "8pm\u00bb (funky roots-rock) Matt Lewis Band",
+    "genre": "funky roots-rock",
+    "description": "8pm\u00bb\u00a0(funky roots-rock) Matt Lewis Band w/ Joshua James and The Hideout",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "50badb58-0340-40d3-b7be-6e783ab48647",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "d7e4896a-cb73-4bb8-9a2a-4117262be865",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "117461ed-9739-43be-8aba-81051dd6053c",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Joshua James, Matt Lewis Band, The Hideout",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004853",
+    "created_at": "2026-01-10T12:09:45.244119",
+    "updated_at": "2026-01-10T12:09:45.244126"
+  },
+  {
+    "id": "ed275a79-5f5e-4592-a26f-17e5af5e6509",
+    "date": "2006-01-21",
+    "title": "8pm\u00bb (indie) Mathmatics Etc, Seve vs. Evan, The John Whites and Ok Ikumi",
+    "genre": "indie",
+    "description": "8pm\u00bb\u00a0 (indie) Mathmatics Etc, Seve vs. Evan, The John Whites and Ok Ikumi",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "dabbacb7-8723-4c33-9089-055c86212f85",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "1576d657-71bc-4300-845c-158aeebd8260",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "f316ab9c-d062-4ef5-9422-d473f6db1b85",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "6a71e6fe-b491-4e30-9279-c4960b4bb35c",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Seve vs. Evan, The John Whites, etc, John Whites, Ok Ikumi, John White, Mathmatics Etc, Evan",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004870",
+    "created_at": "2026-01-10T12:09:48.513917",
+    "updated_at": "2026-01-10T12:09:48.513927"
+  },
+  {
+    "id": "db91fbf4-127a-4b81-aa23-020213d59d62",
+    "date": "2006-01-24",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004883",
+    "created_at": "2026-01-10T12:09:48.514011",
+    "updated_at": "2026-01-10T12:09:48.514013"
+  },
+  {
+    "id": "144e4f36-5ff7-4821-945b-082dbe6d8cd7",
+    "date": "2006-01-25",
+    "title": "8pm\u00bb (Theatrical Music Side-Show) MONKEYGRINDER Come In Costume!",
+    "genre": "Theatrical Music Side-Show",
+    "description": "8pm\u00bb\u00a0(Theatrical Music Side-Show) MONKEYGRINDER Come In Costume!",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "e1185f3c-7112-4603-bc1f-1c5129168979",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "Theatrical Music Side-Show, Come In Costume"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004898",
+    "created_at": "2026-01-10T12:09:51.435601",
+    "updated_at": "2026-01-10T12:09:51.435614"
+  },
+  {
+    "id": "32850242-643a-40d0-b83d-38c1c31efa77",
+    "date": "2006-01-26",
+    "title": "8pm\u00bb (indie) The Eden Express, St. Sebastians School..., The Weak Men",
+    "genre": "indie",
+    "description": "8pm\u00bb\u00a0(indie) The Eden Express, St. Sebastians School..., The Weak Men",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "a4309784-d175-400e-b62f-c3be2b9e2756",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "71a03ddf-1d6c-4ee5-9365-0b7d9600d57d",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "9458a40c-2ddb-4675-afae-683d15020a74",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Eden Express, Eden Express, The Weak Men, St. Sebastians, St. Sebastians School",
+    "parse_confidence": 0.9,
+    "needs_review": true,
+    "review_notes": "The ellipsis after 'St. Sebastians School...' suggests the band name may be truncated or incomplete",
+    "original_extracted_at": "2025-10-11T15:04:53.004912",
+    "created_at": "2026-01-10T12:09:55.112760",
+    "updated_at": "2026-01-10T12:09:55.112771"
+  },
+  {
+    "id": "16c98905-751b-4436-ac42-f5167dddeae1",
+    "date": "2006-01-27",
+    "title": "8pm\u00bb Auburn (formerly Cassey Golie Band), Cory Mon, Ashley Garbe-Rogers, Sweet Water",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Auburn (formerly Cassey Golie Band), Cory Mon, Ashley Garbe-Rogers, Sweet Water",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "86a0fdad-2c79-4a76-99d6-7173a02587dd",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "formerly Cassey Golie Band"
+      },
+      {
+        "artist_id": "2ac07da6-1df6-49e4-a242-352f4d717519",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "b587cdca-4a97-4708-a288-cf2779d68f17",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "42366ca6-bd99-4651-9fe8-dfb66a599d05",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Cory Mon, Auburn, Ashley Garbe, Sweet Water, Ashley Garbe-Rogers",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004927",
+    "created_at": "2026-01-10T12:09:57.944605",
+    "updated_at": "2026-01-10T12:09:57.944619"
+  },
+  {
+    "id": "9429a9b1-8104-45d2-afb9-396a0c332fc1",
+    "date": "2006-01-28",
+    "title": "8pm\u00bb (Ska) 2 1/2 White Guys",
+    "genre": "Ska",
+    "description": "8pm\u00bb\u00a0(Ska) 2 1/2 White Guys w/ Side Dish and Abby Normal",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "4bba4866-f2a0-492f-a57c-15a58a9468ca",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "b6274874-42d5-42b2-94ec-8a2102a3d0f3",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "cc2c867b-02a4-4dad-b889-c294eb8f6050",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Abby Normal, Side Dish, 2 1/2 White Guys",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004943",
+    "created_at": "2026-01-10T12:10:00.735418",
+    "updated_at": "2026-01-10T12:10:00.735430"
+  },
+  {
+    "id": "863a76bc-9821-49f7-ac9c-9fea5891d1ea",
+    "date": "2006-01-31",
+    "title": "8pm\u00bb Open-Mic Acoustic Night",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Open-Mic Acoustic Night",
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night 8pm\u00bb\u00a0Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004956",
+    "created_at": "2026-01-10T12:10:00.735516",
+    "updated_at": "2026-01-10T12:10:00.735519"
+  },
+  {
+    "id": "6e5fbead-0eaf-42f4-b228-7a48d273b1f0",
+    "date": "2006-02-01",
+    "title": "Closed for some final construction",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Closed for some final construction Closed for some final construction",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305156",
+    "created_at": "2026-01-10T12:10:00.735536",
+    "updated_at": "2026-01-10T12:10:00.735538"
+  },
+  {
+    "id": "219a6891-7147-4e07-b5fd-e0f18ef6ca21",
+    "date": "2006-02-02",
+    "title": "Closed for some final construction",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Closed for some final construction Closed for some final construction",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305178",
+    "created_at": "2026-01-10T12:10:00.735553",
+    "updated_at": "2026-01-10T12:10:00.735555"
+  },
+  {
+    "id": "162e067f-e76d-4093-a579-450697f6e075",
+    "date": "2006-02-03",
+    "title": "8pm\u00bb (Maverick Records) Broke",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0(Maverick Records) Broke w/ The Trademark and Allred",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "aebfe260-4045-4435-ae92-5295554ba3ce",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "Maverick Records"
+      },
+      {
+        "artist_id": "7366fdea-b554-4ade-878d-3e992d6a0535",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "ef4afc6c-b114-4a72-a2d6-bc785f0d9405",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Trademark and Allred",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305194",
+    "created_at": "2026-01-10T12:10:04.179979",
+    "updated_at": "2026-01-10T12:10:04.179990"
+  },
+  {
+    "id": "221cf5a2-b1ca-4489-a9df-8a5ef1c4301e",
+    "date": "2006-02-04",
+    "title": "8pm\u00bb Palomino",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Palomino w/ Andrew Norsworthy & Jared Woods (from AK) and The Annuals",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "09ec14ed-8d16-4dc5-993d-5112d17e706f",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "e04b954b-5bcf-4ea7-bc57-da0d32230bcd",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "from AK"
+      },
+      {
+        "artist_id": "0efc24ec-abf7-4fbd-830b-0209d5c33431",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": "from AK"
+      },
+      {
+        "artist_id": "e83b027d-40d1-41bb-94cf-a881a8e43c0b",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Andrew Norsworthy & Jared Woods (from AK) and The Annuals",
+    "parse_confidence": 0.9,
+    "needs_review": true,
+    "review_notes": "Uncertain if 'Andrew Norsworthy & Jared Woods' represents two separate artists or a duo act, though the '(from AK)' suffix suggests they are likely separate individuals both from Alaska",
+    "original_extracted_at": "2025-10-11T15:04:53.305210",
+    "created_at": "2026-01-10T12:10:08.573828",
+    "updated_at": "2026-01-10T12:10:08.573842"
+  },
+  {
+    "id": "6b49ab06-0721-40cf-83dd-80a1d2cbdda0",
+    "date": "2006-02-07",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305222",
+    "created_at": "2026-01-10T12:10:08.573918",
+    "updated_at": "2026-01-10T12:10:08.573921"
+  },
+  {
+    "id": "7eca7c09-f195-4d85-b362-ab19b99443d4",
+    "date": "2006-02-08",
+    "title": "8pm\u00bb (bluegrass",
+    "genre": "bluegrass",
+    "description": "8pm\u00bb\u00a0(bluegrass w/ costumes) Wasatch Sasquatch Watch",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "609adacc-b974-4e14-a696-5b1bc9e16f39",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "costumes) Wasatch Sasquatch Watch",
+    "parse_confidence": 0.85,
+    "needs_review": true,
+    "review_notes": "The listing appears incomplete or truncated - title shows '8pm\u00bb (bluegrass' which seems cut off, and the description format is unusual",
+    "original_extracted_at": "2025-10-11T15:04:53.305234",
+    "created_at": "2026-01-10T12:10:12.050502",
+    "updated_at": "2026-01-10T12:10:12.050513"
+  },
+  {
+    "id": "32d7529e-9f7a-4f9b-ac9d-73ec6de2c829",
+    "date": "2006-02-09",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305246",
+    "created_at": "2026-01-10T12:10:12.050575",
+    "updated_at": "2026-01-10T12:10:12.050578"
+  },
+  {
+    "id": "5ef2399e-0c4b-45c5-ba53-543c28c378f8",
+    "date": "2006-01-13",
+    "title": "8pm\u00bb Grand Opening! Palomino",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Grand Opening! Palomino w/ Wires (formerly Jerrytown) and Marcus Bently",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "09ec14ed-8d16-4dc5-993d-5112d17e706f",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "Grand Opening show"
+      },
+      {
+        "artist_id": "6805c4b5-fba3-4353-9739-f417453e5164",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "formerly Jerrytown"
+      },
+      {
+        "artist_id": "22cea024-b17c-4560-b39d-439fda61fa09",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Marcus Bently, Palomino, Wires",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004709",
+    "created_at": "2026-01-10T12:10:44.255295",
+    "updated_at": "2026-01-10T12:10:44.255311"
+  },
+  {
+    "id": "9f1c0c55-9c8c-4a9e-9e5f-77579bcd2b13",
+    "date": "2006-01-14",
+    "title": "8pm\u00bb (indie-rock) Return To Sender, Taught Me, Between Sleep & Sound",
+    "genre": "indie-rock",
+    "description": "8pm\u00bb\u00a0(indie-rock) Return To Sender, Taught Me, Between Sleep & Sound",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "1127c0f9-0c3e-48f6-82e1-123efc94ebe8",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "beb7a7ed-c5dd-4104-82e4-bdabd70c9d9f",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "ac55fd61-52c4-4991-b793-7a03aeaaf6a5",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Return To Sender, Taught Me, Sound",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004761",
+    "created_at": "2026-01-10T12:10:47.265715",
+    "updated_at": "2026-01-10T12:10:47.265731"
+  },
+  {
+    "id": "3846dd45-7a47-4c37-900e-d0314b3e2088",
+    "date": "2006-01-17",
+    "title": "Open-Mic Acoustic Night Returns!",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Returns! Open-Mic Acoustic Night Returns",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004788",
+    "created_at": "2026-01-10T12:10:47.265803",
+    "updated_at": "2026-01-10T12:10:47.265807"
+  },
+  {
+    "id": "ad5abf8c-5e7b-4768-aa25-521e609e780a",
+    "date": "2006-01-18",
+    "title": "8pm\u00bb (indie/emo) A Film In The Ballroom, Declaration, Spiral Diary, The Yearbook",
+    "genre": "indie/emo",
+    "description": "8pm\u00bb\u00a0(indie/emo) A Film In The Ballroom, Declaration, Spiral Diary, The Yearbook",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "24a840b6-b69b-4218-801d-90a842c7ebb9",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "d85a149e-64ca-42b2-9a31-6d8c5b1c3591",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "8859dce3-245d-491a-a15f-1f473ef51f4e",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "3c8292c1-acdf-48a7-9026-38487c345738",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "A Film In The Ballroom, Spiral Diary, The Yearbook, Declaration, Film in the Ballroom, Dia",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004810",
+    "created_at": "2026-01-10T12:10:50.495053",
+    "updated_at": "2026-01-10T12:10:50.495070"
+  },
+  {
+    "id": "5a3b5d05-876f-4b54-b90f-aa37614a15c8",
+    "date": "2006-01-19",
+    "title": "8pm\u00bb (indie pop-punk) Johnny Most, Foolish Pete and After It All",
+    "genre": "indie pop-punk",
+    "description": "8pm\u00bb\u00a0(indie pop-punk) Johnny Most, Foolish Pete and After It All",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "8e33cd87-fa6a-4110-9b65-f696aaecd75c",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "5448753e-74e5-46e7-8c74-c2c7ca0fe9a2",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "1400dbc2-87a4-418c-a8ce-122beda3af0f",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Johnny Most, After It All, Foolish Pete",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004833",
+    "created_at": "2026-01-10T12:10:53.178657",
+    "updated_at": "2026-01-10T12:10:53.178674"
+  },
+  {
+    "id": "ffe3e131-1a6b-411f-a222-b0cd6fd00a35",
+    "date": "2006-01-20",
+    "title": "8pm\u00bb (funky roots-rock) Matt Lewis Band",
+    "genre": "funky roots-rock",
+    "description": "8pm\u00bb\u00a0(funky roots-rock) Matt Lewis Band w/ Joshua James and The Hideout",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "50badb58-0340-40d3-b7be-6e783ab48647",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "d7e4896a-cb73-4bb8-9a2a-4117262be865",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "117461ed-9739-43be-8aba-81051dd6053c",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Joshua James, Matt Lewis Band, The Hideout",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004853",
+    "created_at": "2026-01-10T12:10:56.155901",
+    "updated_at": "2026-01-10T12:10:56.155912"
+  },
+  {
+    "id": "14b319bd-2a8e-4422-bbd4-7a2c39f6a498",
+    "date": "2006-01-21",
+    "title": "8pm\u00bb (indie) Mathmatics Etc, Seve vs. Evan, The John Whites and Ok Ikumi",
+    "genre": "indie",
+    "description": "8pm\u00bb\u00a0 (indie) Mathmatics Etc, Seve vs. Evan, The John Whites and Ok Ikumi",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "dabbacb7-8723-4c33-9089-055c86212f85",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "1576d657-71bc-4300-845c-158aeebd8260",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "f316ab9c-d062-4ef5-9422-d473f6db1b85",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "6a71e6fe-b491-4e30-9279-c4960b4bb35c",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Seve vs. Evan, The John Whites, etc, John Whites, Ok Ikumi, John White, Mathmatics Etc, Evan",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004870",
+    "created_at": "2026-01-10T12:10:59.379568",
+    "updated_at": "2026-01-10T12:10:59.379586"
+  },
+  {
+    "id": "7aaf3d85-60e1-4dab-b89d-afc17405b773",
+    "date": "2006-01-24",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004883",
+    "created_at": "2026-01-10T12:10:59.379641",
+    "updated_at": "2026-01-10T12:10:59.379645"
+  },
+  {
+    "id": "897f5a2f-a5bf-448d-9a29-fb2633f28def",
+    "date": "2006-01-25",
+    "title": "8pm\u00bb (Theatrical Music Side-Show) MONKEYGRINDER Come In Costume!",
+    "genre": "Theatrical Music Side-Show",
+    "description": "8pm\u00bb\u00a0(Theatrical Music Side-Show) MONKEYGRINDER Come In Costume!",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "e1185f3c-7112-4603-bc1f-1c5129168979",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "Theatrical Music Side-Show"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004898",
+    "created_at": "2026-01-10T12:11:02.012016",
+    "updated_at": "2026-01-10T12:11:02.012028"
+  },
+  {
+    "id": "e15a079a-4887-4319-ba65-b45305798449",
+    "date": "2006-01-26",
+    "title": "8pm\u00bb (indie) The Eden Express, St. Sebastians School..., The Weak Men",
+    "genre": "indie",
+    "description": "8pm\u00bb\u00a0(indie) The Eden Express, St. Sebastians School..., The Weak Men",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "a4309784-d175-400e-b62f-c3be2b9e2756",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "71a03ddf-1d6c-4ee5-9365-0b7d9600d57d",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "9458a40c-2ddb-4675-afae-683d15020a74",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Eden Express, Eden Express, The Weak Men, St. Sebastians, St. Sebastians School",
+    "parse_confidence": 0.85,
+    "needs_review": true,
+    "review_notes": "Band name 'St. Sebastians School...' appears truncated with ellipsis, suggesting incomplete information",
+    "original_extracted_at": "2025-10-11T15:04:53.004912",
+    "created_at": "2026-01-10T12:11:05.497477",
+    "updated_at": "2026-01-10T12:11:05.497488"
+  },
+  {
+    "id": "d9f50446-2ed2-4d53-8e7e-813e74f59318",
+    "date": "2006-01-27",
+    "title": "8pm\u00bb Auburn (formerly Cassey Golie Band), Cory Mon, Ashley Garbe-Rogers, Sweet Water",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Auburn (formerly Cassey Golie Band), Cory Mon, Ashley Garbe-Rogers, Sweet Water",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "86a0fdad-2c79-4a76-99d6-7173a02587dd",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "formerly Cassey Golie Band"
+      },
+      {
+        "artist_id": "2ac07da6-1df6-49e4-a242-352f4d717519",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "b587cdca-4a97-4708-a288-cf2779d68f17",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "42366ca6-bd99-4651-9fe8-dfb66a599d05",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Cory Mon, Auburn, Ashley Garbe, Sweet Water, Ashley Garbe-Rogers",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004927",
+    "created_at": "2026-01-10T12:11:08.689174",
+    "updated_at": "2026-01-10T12:11:08.689185"
+  },
+  {
+    "id": "2cc407f6-b988-4bda-8967-cafe36ec9310",
+    "date": "2006-01-28",
+    "title": "8pm\u00bb (Ska) 2 1/2 White Guys",
+    "genre": "Ska",
+    "description": "8pm\u00bb\u00a0(Ska) 2 1/2 White Guys w/ Side Dish and Abby Normal",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "4bba4866-f2a0-492f-a57c-15a58a9468ca",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "b6274874-42d5-42b2-94ec-8a2102a3d0f3",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "cc2c867b-02a4-4dad-b889-c294eb8f6050",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Abby Normal, Side Dish, 2 1/2 White Guys",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004943",
+    "created_at": "2026-01-10T12:11:11.730825",
+    "updated_at": "2026-01-10T12:11:11.730836"
+  },
+  {
+    "id": "9ae33889-e46f-4f45-860c-ce4e54c89b41",
+    "date": "2006-01-31",
+    "title": "8pm\u00bb Open-Mic Acoustic Night",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Open-Mic Acoustic Night",
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night 8pm\u00bb\u00a0Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.004956",
+    "created_at": "2026-01-10T12:11:11.730875",
+    "updated_at": "2026-01-10T12:11:11.730878"
+  },
+  {
+    "id": "e8a6598b-5bda-4d5d-978b-fe76e73f901d",
+    "date": "2006-02-01",
+    "title": "Closed for some final construction",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Closed for some final construction Closed for some final construction",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305156",
+    "created_at": "2026-01-10T12:11:11.730893",
+    "updated_at": "2026-01-10T12:11:11.730895"
+  },
+  {
+    "id": "616c8d1a-3d69-46e5-ba5e-e9d46250f590",
+    "date": "2006-02-02",
+    "title": "Closed for some final construction",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Closed for some final construction Closed for some final construction",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305178",
+    "created_at": "2026-01-10T12:11:11.730908",
+    "updated_at": "2026-01-10T12:11:11.730910"
+  },
+  {
+    "id": "b49f5db0-ce47-452a-b271-cc70b1e8a02e",
+    "date": "2006-02-03",
+    "title": "8pm\u00bb (Maverick Records) Broke",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0(Maverick Records) Broke w/ The Trademark and Allred",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "aebfe260-4045-4435-ae92-5295554ba3ce",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "Maverick Records"
+      },
+      {
+        "artist_id": "7366fdea-b554-4ade-878d-3e992d6a0535",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "ef4afc6c-b114-4a72-a2d6-bc785f0d9405",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Trademark and Allred",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305194",
+    "created_at": "2026-01-10T12:11:14.636678",
+    "updated_at": "2026-01-10T12:11:14.636692"
+  },
+  {
+    "id": "aee58fb0-2081-4164-a6e6-48e94915f20e",
+    "date": "2006-02-04",
+    "title": "8pm\u00bb Palomino",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Palomino w/ Andrew Norsworthy & Jared Woods (from AK) and The Annuals",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "09ec14ed-8d16-4dc5-993d-5112d17e706f",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "e04b954b-5bcf-4ea7-bc57-da0d32230bcd",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "from AK"
+      },
+      {
+        "artist_id": "0efc24ec-abf7-4fbd-830b-0209d5c33431",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": "from AK"
+      },
+      {
+        "artist_id": "e83b027d-40d1-41bb-94cf-a881a8e43c0b",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Andrew Norsworthy & Jared Woods (from AK) and The Annuals",
+    "parse_confidence": 0.85,
+    "needs_review": true,
+    "review_notes": "Uncertain whether 'Andrew Norsworthy & Jared Woods' represents one collaborative act or two separate artists. The parenthetical '(from AK)' could apply to both together or individually.",
+    "original_extracted_at": "2025-10-11T15:04:53.305210",
+    "created_at": "2026-01-10T12:11:18.664199",
+    "updated_at": "2026-01-10T12:11:18.664208"
+  },
+  {
+    "id": "9178ea36-ff2e-4f1b-9a33-9c1250b120f0",
+    "date": "2006-02-07",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305222",
+    "created_at": "2026-01-10T12:11:18.664246",
+    "updated_at": "2026-01-10T12:11:18.664248"
+  },
+  {
+    "id": "a1bc9d6a-6512-4ac0-9e31-3fbe9b0edef6",
+    "date": "2006-02-08",
+    "title": "8pm\u00bb (bluegrass",
+    "genre": "bluegrass",
+    "description": "8pm\u00bb\u00a0(bluegrass w/ costumes) Wasatch Sasquatch Watch",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "609adacc-b974-4e14-a696-5b1bc9e16f39",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "costumes) Wasatch Sasquatch Watch",
+    "parse_confidence": 0.85,
+    "needs_review": true,
+    "review_notes": "The listing appears incomplete or malformed - only contains partial information with '8pm\u00bb (bluegrass w/ costumes)' followed by the artist name, which is unusual formatting",
+    "original_extracted_at": "2025-10-11T15:04:53.305234",
+    "created_at": "2026-01-10T12:11:22.797786",
+    "updated_at": "2026-01-10T12:11:22.797798"
+  },
+  {
+    "id": "f6018d52-312c-4c98-b7e5-44d88ba8ada4",
+    "date": "2006-02-09",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305246",
+    "created_at": "2026-01-10T12:11:22.797839",
+    "updated_at": "2026-01-10T12:11:22.797842"
+  },
+  {
+    "id": "776d2555-44f3-49a3-ac72-5eebe441cb13",
+    "date": "2006-02-10",
+    "title": "8pm\u00bb (alt-indie) Another Statistic CD Release!!",
+    "genre": "alt-indie",
+    "description": "8pm\u00bb\u00a0(alt-indie) Another Statistic CD Release!! w/ A Film In The Ballroom and Niobion",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "a37723dd-9be5-4f51-b497-5bc84dff1c61",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "CD Release"
+      },
+      {
+        "artist_id": "24a840b6-b69b-4218-801d-90a842c7ebb9",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "1b989b9e-ab6c-4313-8972-566b1e87b248",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "A Film In The Ballroom and Niobion",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305267",
+    "created_at": "2026-01-10T12:11:25.796980",
+    "updated_at": "2026-01-10T12:11:25.796993"
+  },
+  {
+    "id": "a95a35a5-e3c0-4fd2-8d8a-7fd9bc363c1a",
+    "date": "2006-02-11",
+    "title": "8pm\u00bb (indie-emo) Neon Trees",
+    "genre": "indie-emo",
+    "description": "8pm\u00bb\u00a0(indie-emo) Neon Trees w/ The New Nervous and Pariah Poetic",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "e6204ded-82e4-49fb-a78f-332dff721ff2",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "e8db6583-c774-4c4f-a60a-2adc101348bb",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "c7392c1a-05f0-408c-b347-2ecc4947d25d",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The New Nervous and Pariah Poetic",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305281",
+    "created_at": "2026-01-10T12:11:28.775827",
+    "updated_at": "2026-01-10T12:11:28.775840"
+  },
+  {
+    "id": "63779936-58c7-4b1a-96d0-5da88c79f563",
+    "date": "2006-02-14",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305292",
+    "created_at": "2026-01-10T12:11:28.775918",
+    "updated_at": "2026-01-10T12:11:28.775920"
+  },
+  {
+    "id": "1c4fad8a-3cdc-4e57-85a5-72ae7198a856",
+    "date": "2006-02-15",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305303",
+    "created_at": "2026-01-10T12:11:28.775935",
+    "updated_at": "2026-01-10T12:11:28.775937"
+  },
+  {
+    "id": "99bef432-db92-4868-b2c0-2b6905adf8d7",
+    "date": "2006-02-16",
+    "title": "8pm\u00bb (from Canada) Maren Ord",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0(from Canada) Maren Ord w/ Debra fotheringham, Justin Evans, Secily Saunders",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "4e0d8956-5a2b-4348-95ef-967ea03dd445",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "from Canada"
+      },
+      {
+        "artist_id": "728ed1e5-f196-421d-9341-ddf3cd8fe0c3",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "7f566990-94b9-470c-9e02-3fa3bc3752bd",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "b4766f68-1594-4f9c-ac6d-060ec7bdc3bb",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Debra fotheringham, Justin Evans, Secily Saunders",
+    "parse_confidence": 0.9,
+    "needs_review": true,
+    "review_notes": "Possible misspelling in 'fotheringham' (lowercase f) and unusual spelling of 'Secily' may indicate transcription errors",
+    "original_extracted_at": "2025-10-11T15:04:53.305315",
+    "created_at": "2026-01-10T12:11:32.817897",
+    "updated_at": "2026-01-10T12:11:32.817908"
+  },
+  {
+    "id": "ac02440e-77c6-4aac-84cd-3316fa6329d0",
+    "date": "2006-02-17",
+    "title": "8pm\u00bb (funky roots-rock) Matt Lewis Band",
+    "genre": "funky roots-rock",
+    "description": "8pm\u00bb\u00a0(funky roots-rock) Matt Lewis Band w/ Shelton (CD release), SLC's Causeway",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "50badb58-0340-40d3-b7be-6e783ab48647",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "d21672eb-3d43-4302-b598-aefa567c1be4",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "CD release"
+      },
+      {
+        "artist_id": "413dc060-6667-4d6a-9209-0ba355f7355f",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": "from SLC"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Shelton (CD release), SLC's Causeway",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305329",
+    "created_at": "2026-01-10T12:11:36.007882",
+    "updated_at": "2026-01-10T12:11:36.007895"
+  },
+  {
+    "id": "a738484c-8ae7-4c88-97ee-24b40d64dd60",
+    "date": "2006-02-18",
+    "title": "8pm\u00bb (indie) Midwife Crisis CD Release",
+    "genre": "indie",
+    "description": "8pm\u00bb\u00a0(indie) Midwife Crisis CD Release w/ Brilliant Stereo Mob and Uzi & Ari",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "4efc5a21-df32-4b0b-b54e-0cdd11d4ac95",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "CD Release"
+      },
+      {
+        "artist_id": "eec5b4b0-ba1c-49b1-8e0a-4e8942941ac4",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "0fb0786d-8182-4fd4-b436-d956973edd92",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Brilliant Stereo Mob and Uzi & Ari",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305344",
+    "created_at": "2026-01-10T12:11:38.746112",
+    "updated_at": "2026-01-10T12:11:38.746127"
+  },
+  {
+    "id": "7e42e7f0-08f1-409f-96a4-9cc54af3cf55",
+    "date": "2006-02-21",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305354",
+    "created_at": "2026-01-10T12:11:38.746274",
+    "updated_at": "2026-01-10T12:11:38.746278"
+  },
+  {
+    "id": "0436f38c-d59c-461e-a82a-1cb3a8051f9d",
+    "date": "2006-02-22",
+    "title": "8pm\u00bb (Acoustic Showcase) McKay Stevens, Jeff Stone, Catherine Worsham,Devin Richmond",
+    "genre": "Acoustic",
+    "description": "8pm\u00bb\u00a0 (Acoustic Showcase) McKay Stevens, Jeff Stone, Catherine Worsham,Devin Richmond",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "28e71983-89f0-4407-8485-de18ac71f70d",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "2e650d53-a1fe-4329-9d4e-6b72ad7ddfe1",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "0b70de0a-b3c2-4f1c-ad77-f717d6b4e140",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "989c1ee6-6f0a-4ce6-92f0-eb7af8a9295b",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Jeff Stone, McKay Stevens, Devin Richmond, Catherine Worsham",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305367",
+    "created_at": "2026-01-10T12:11:41.793749",
+    "updated_at": "2026-01-10T12:11:41.793761"
+  },
+  {
+    "id": "2ff40552-b67d-4e05-9080-d85e21826805",
+    "date": "2006-02-23",
+    "title": "8pm\u00bb (Touring) Morningside Drive,The Finalist",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0(Touring) Morningside Drive,The Finalist w/ Elliott's Assassin,Shattered 2 Step",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "04d972c3-c619-4665-a2b2-468ca1cc2442",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "touring"
+      },
+      {
+        "artist_id": "e7308135-0135-483e-a6f2-1d9ea53c1895",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "touring"
+      },
+      {
+        "artist_id": "3e4fc929-8a66-4344-86d2-ade2ace10495",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "0539d317-9f52-4d09-bd08-e0a39adca0ae",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Elliott's Assassin, Shattered 2 Step",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305380",
+    "created_at": "2026-01-10T12:11:44.904873",
+    "updated_at": "2026-01-10T12:11:44.904888"
+  },
+  {
+    "id": "2abd7f53-0ba3-4881-8f05-5bff07703a27",
+    "date": "2006-02-24",
+    "title": "8pm\u00bb (Roots-rock) Joshua James & the Southern Boys, Marcus Bently, Colin Moore",
+    "genre": "Roots-rock",
+    "description": "8pm\u00bb\u00a0(Roots-rock) Joshua James & the Southern Boys, Marcus Bently,  Colin Moore",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "e956baca-031b-4a3c-8d21-a0c993ca0cd3",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "22cea024-b17c-4560-b39d-439fda61fa09",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "025857bb-27eb-4963-8cb3-86e6699a5cb3",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Marcus Bently, Joshua James, Ben, the Southern Boys, Colin Moore, Joshua J, James, Olin, the So",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305393",
+    "created_at": "2026-01-10T12:11:47.902488",
+    "updated_at": "2026-01-10T12:11:47.902499"
+  },
+  {
+    "id": "246f424a-43e6-4e59-9d91-fabd749d41b2",
+    "date": "2006-02-25",
+    "title": "8pm\u00bb (Touring alt-emo) Cary Judd CD Release",
+    "genre": "alt-emo",
+    "description": "8pm\u00bb\u00a0(Touring alt-emo) Cary Judd CD Release w/ Issac Hayden and Allouette",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "2dee75bd-8c7a-40d5-9fc3-fe92ddef3c60",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "CD Release"
+      },
+      {
+        "artist_id": "d1cdb1ed-95a6-44ea-a609-dbd60ef97c49",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "127f638c-bedc-4eae-b0a4-5d6481a5daac",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Issac Hayden and Allouette",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305407",
+    "created_at": "2026-01-10T12:11:50.719424",
+    "updated_at": "2026-01-10T12:11:50.719434"
+  },
+  {
+    "id": "8c94c08e-ecd5-417e-8681-775cfdc5fc56",
+    "date": "2006-02-28",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.305417",
+    "created_at": "2026-01-10T12:11:50.719502",
+    "updated_at": "2026-01-10T12:11:50.719504"
+  },
+  {
+    "id": "ec62507f-68f0-41fc-99fa-0a935f6345f2",
+    "date": "2006-03-01",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601294",
+    "created_at": "2026-01-10T12:11:50.719575",
+    "updated_at": "2026-01-10T12:11:50.719578"
+  },
+  {
+    "id": "eff3b2fb-0b69-4a32-8680-d54d2a3579d9",
+    "date": "2006-03-02",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601323",
+    "created_at": "2026-01-10T12:11:50.719590",
+    "updated_at": "2026-01-10T12:11:50.719592"
+  },
+  {
+    "id": "a8bd0793-6fcd-4ead-900a-61d04618050d",
+    "date": "2006-03-03",
+    "title": "8pm\u00bb (acoustic roots-rock) Dave Eaton",
+    "genre": "acoustic roots-rock",
+    "description": "8pm\u00bb\u00a0(acoustic roots-rock) Dave Eaton w/ Cory Mon, and Armchair Cowboy",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "535b532d-fcb1-4814-a03a-60658aa9a12c",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "2ac07da6-1df6-49e4-a242-352f4d717519",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "e29ade4b-08ef-40b9-835e-a626fa899cf5",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Cory Mon, and Armchair Cowboy",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601348",
+    "created_at": "2026-01-10T12:11:53.486713",
+    "updated_at": "2026-01-10T12:11:53.486726"
+  },
+  {
+    "id": "1102438c-cacc-4a5b-90c1-565abcc5187b",
+    "date": "2006-03-04",
+    "title": "8pm\u00bb Auburn (formerly Cassey Golie Band), Maxfield, Lucy Moore",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Auburn (formerly Cassey Golie Band), Maxfield, Lucy Moore",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "86a0fdad-2c79-4a76-99d6-7173a02587dd",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "formerly Cassey Golie Band"
+      },
+      {
+        "artist_id": "e9837900-fb28-4b2e-94d5-6930ed26f6f7",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "77a3d7b2-04a8-427a-8e22-fee816033f06",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Lucy Moore, Maxfield, Auburn",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601367",
+    "created_at": "2026-01-10T12:11:56.107145",
+    "updated_at": "2026-01-10T12:11:56.107165"
+  },
+  {
+    "id": "ebd6ebb7-fccd-4881-ab80-f8e4f0c492aa",
+    "date": "2006-03-07",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601383",
+    "created_at": "2026-01-10T12:11:56.107295",
+    "updated_at": "2026-01-10T12:11:56.107300"
+  },
+  {
+    "id": "a9d578b4-08a8-4486-a1c7-6416bc78a5a7",
+    "date": "2006-03-09",
+    "title": "Randi Olsen, Long Live Sun , Dan & Ben Tengelsen",
+    "genre": "acoustic",
+    "description": "(acoustic) Randi Olsen, Long Live Sun , Dan & Ben Tengelsen",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "9e41f827-a861-4669-b6f0-6f7e813c610d",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "01667681-456b-4b32-bc4f-d0e4537d364b",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "6f401ccc-0e07-4f1a-95ca-1e6174f2c89c",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Randi Olsen, Ben, Ben Tengelsen, Long Live Sun, Dan",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601403",
+    "created_at": "2026-01-10T12:11:59.292573",
+    "updated_at": "2026-01-10T12:11:59.292584"
+  },
+  {
+    "id": "b1b82f0d-f22e-496c-a996-b50157f0213e",
+    "date": "2006-03-10",
+    "title": "8pm\u00bb (indie) Mathmatics Etc.",
+    "genre": "indie",
+    "description": "8pm\u00bb\u00a0(indie) Mathmatics Etc. w/ Tolchok Trio and Brilliant Stereo Mob",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "398160fa-3350-4f04-8ce3-fc369ff33f15",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "a307a112-c3da-470a-adc4-af22c1effecb",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "eec5b4b0-ba1c-49b1-8e0a-4e8942941ac4",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Tolchok Trio and Brilliant Stereo Mob",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601422",
+    "created_at": "2026-01-10T12:12:02.053715",
+    "updated_at": "2026-01-10T12:12:02.053730"
+  },
+  {
+    "id": "4463dbc2-378d-44d5-928a-7d288c20bd86",
+    "date": "2006-03-11",
+    "title": "8pm\u00bb (roots-rock/ indie) Palomino",
+    "genre": "roots-rock/ indie",
+    "description": "8pm\u00bb\u00a0(roots-rock/ indie) Palomino w/ The John Whites, and Mason Porter",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "09ec14ed-8d16-4dc5-993d-5112d17e706f",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "f316ab9c-d062-4ef5-9422-d473f6db1b85",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "92333bec-ccc1-48b8-8c6d-9cf02c59b475",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The John Whites, and Mason Porter",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601440",
+    "created_at": "2026-01-10T12:12:04.609185",
+    "updated_at": "2026-01-10T12:12:04.609197"
+  },
+  {
+    "id": "4d085f19-1d0d-4830-9dfe-820977060a17",
+    "date": "2006-03-12",
+    "title": "138pm\u00bb\u00a0Debut of The Thrillionaires Improv Theater",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Debut of The Thrillionaires Improv Theater 138pm\u00bb\u00a0Debut of The Thrillionaires Improv Theater",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.603441",
+    "created_at": "2026-01-10T12:12:04.609306",
+    "updated_at": "2026-01-10T12:12:04.609311"
+  },
+  {
+    "id": "01d28f60-739f-4309-9772-284e2efa176e",
+    "date": "2006-03-13",
+    "title": "8pm\u00bb Debut of The Thrillionaires Improv Theater",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Debut of The Thrillionaires Improv Theater",
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Debut of The Thrillionaires Improv Theater 8pm\u00bb\u00a0Debut of The Thrillionaires Improv Theater",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601456",
+    "created_at": "2026-01-10T12:12:04.609352",
+    "updated_at": "2026-01-10T12:12:04.609357"
+  },
+  {
+    "id": "b77daf2e-6194-40c9-aef0-8bbd03ced8f6",
+    "date": "2006-03-14",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601471",
+    "created_at": "2026-01-10T12:12:04.609390",
+    "updated_at": "2026-01-10T12:12:04.609394"
+  },
+  {
+    "id": "34a05821-aaa9-46cf-9930-a58cc64e763c",
+    "date": "2006-03-15",
+    "title": "8pm\u00bb Cabaret Velour featuring music, art, poetry etc.",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Cabaret Velour featuring music, art, poetry etc.",
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "etc, poetry etc",
+    "parse_confidence": 0.8,
+    "needs_review": true,
+    "review_notes": "This appears to be a general event announcement for 'Cabaret Velour' rather than a specific concert with named musical artists. No specific band or artist names are mentioned in the title or description.",
+    "original_extracted_at": "2025-10-11T15:04:53.601487",
+    "created_at": "2026-01-10T12:12:07.644297",
+    "updated_at": "2026-01-10T12:12:07.644312"
+  },
+  {
+    "id": "d630c78a-43df-4808-92ba-f8ace7da4764",
+    "date": "2006-03-16",
+    "title": "8pm\u00bb (Emo/punk) The Trademark,",
+    "genre": "Emo/punk",
+    "description": "8pm\u00bb\u00a0(Emo/punk) The Trademark, w/ SLC's Incamera, Abby Normal and Digital Black",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "7366fdea-b554-4ade-878d-3e992d6a0535",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "2984b0a2-cb48-4795-8b97-438f3a936ed2",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "from SLC"
+      },
+      {
+        "artist_id": "cc2c867b-02a4-4dad-b889-c294eb8f6050",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "7c090d35-b1c1-4a51-a38c-a2000f5d8fb0",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "SLC's Incamera, Abby Normal and Digital Black",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601505",
+    "created_at": "2026-01-10T12:12:10.687404",
+    "updated_at": "2026-01-10T12:12:10.687415"
+  },
+  {
+    "id": "1c1988b7-89d7-480a-b8fd-add493734fdc",
+    "date": "2006-03-17",
+    "title": "SKANKPATRICKS DAY! 2 1/2 White Guys,Side Dish, Super Hero, The Upstarts",
+    "genre": "Ska",
+    "description": "(Ska) SKANKPATRICKS DAY! 2 1/2 White Guys,Side Dish, Super Hero, The Upstarts",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "4bba4866-f2a0-492f-a57c-15a58a9468ca",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "b6274874-42d5-42b2-94ec-8a2102a3d0f3",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "282af962-7883-4502-ae65-c1bfa177376a",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "046412a5-14e7-4c39-9a50-93d3d675b29a",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Side Dish, RTS, The Upstarts, 2 1/2 White Guys, SKANKPATRICKS DAY! 2 1/2 White Guys, Super Hero",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601523",
+    "created_at": "2026-01-10T12:12:13.761988",
+    "updated_at": "2026-01-10T12:12:13.762001"
+  },
+  {
+    "id": "3775b4a0-36e1-48ed-aa7d-c14ca816f856",
+    "date": "2006-03-18",
+    "title": "8pm\u00bb (alt-indie) Another Statistic, The Otters, St. Sebastians School For Wicked Girl",
+    "genre": "alt-indie",
+    "description": "8pm\u00bb\u00a0(alt-indie) Another Statistic, The Otters, St. Sebastians School For Wicked Girl",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "a37723dd-9be5-4f51-b497-5bc84dff1c61",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "740139ee-900d-4b62-9fd7-a0d809139154",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "7e0cda29-bdb5-409a-a754-d000086e31ba",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Another Statistic, St. Sebastians School For Wicked Girl, St. Sebastians, St. Sebastians School, The Otters",
+    "parse_confidence": 0.9,
+    "needs_review": true,
+    "review_notes": "The band name 'St. Sebastians School For Wicked Girl' appears incomplete - it might be 'St. Sebastians School For Wicked Girls' with a missing 's'",
+    "original_extracted_at": "2025-10-11T15:04:53.601541",
+    "created_at": "2026-01-10T12:12:17.880866",
+    "updated_at": "2026-01-10T12:12:17.880880"
+  },
+  {
+    "id": "2fce348b-e45b-4fb4-a669-8df5fbf77df4",
+    "date": "2006-03-19",
+    "title": "20The Thrillionaires Improv Theater",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "20The Thrillionaires Improv Theater 20The Thrillionaires Improv Theater",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.603519",
+    "created_at": "2026-01-10T12:12:17.880953",
+    "updated_at": "2026-01-10T12:12:17.880955"
+  },
+  {
+    "id": "0ed338fd-58b1-42fd-b86b-abf32c876454",
+    "date": "2006-03-20",
+    "title": "The Thrillionaires Improv Theater",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires Improv Theater The Thrillionaires Improv Theater",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601556",
+    "created_at": "2026-01-10T12:12:17.880974",
+    "updated_at": "2026-01-10T12:12:17.880977"
+  },
+  {
+    "id": "cd497d66-a7fe-41d2-8d5c-ca109b63d61f",
+    "date": "2006-03-21",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601571",
+    "created_at": "2026-01-10T12:12:17.890744",
+    "updated_at": "2026-01-10T12:12:17.890757"
+  },
+  {
+    "id": "e416f5e0-f16e-4ac0-ab29-2b3a58dac016",
+    "date": "2006-03-23",
+    "title": "8pm\u00bb (Pop-punk/rock) Foolish Pete",
+    "genre": "Pop-punk/rock",
+    "description": "8pm\u00bb\u00a0(Pop-punk/rock) Foolish Pete w/ Ivy League and The Tacks",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "5448753e-74e5-46e7-8c74-c2c7ca0fe9a2",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "6fde4757-9c2f-4232-9688-bd54caf35d14",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "a22bf39d-c311-4db8-b1d8-ad9aa6514774",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Ivy League and The Tacks",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601596",
+    "created_at": "2026-01-10T12:12:23.056203",
+    "updated_at": "2026-01-10T12:12:23.056214"
+  },
+  {
+    "id": "b5113663-5eac-442b-b59b-321a23568fc9",
+    "date": "2006-03-24",
+    "title": "8pm\u00bb (americana) Joshua James",
+    "genre": "americana",
+    "description": "8pm\u00bb\u00a0(americana) Joshua James w/ Virgil Cane (CA touring), and Matt Weidauer",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "d7e4896a-cb73-4bb8-9a2a-4117262be865",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "21cff0e9-2d90-47dd-a84f-71511c02b07d",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "CA touring"
+      },
+      {
+        "artist_id": "016a4b6f-51e6-4402-8c34-fba3c0b9b4bf",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Virgil Cane (CA touring), and Matt Weidauer",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601614",
+    "created_at": "2026-01-10T12:12:25.979603",
+    "updated_at": "2026-01-10T12:12:25.979622"
+  },
+  {
+    "id": "8239e0bb-37e0-422b-b2f6-06aeccdad622",
+    "date": "2006-03-25",
+    "title": "8pm\u00bb (indie-dance/emo) Neon Trees, The Brobecks (SLC), The Handsome,The Belafonte(ID)",
+    "genre": "indie-dance/emo",
+    "description": "8pm\u00bb\u00a0(indie-dance/emo) Neon Trees, The Brobecks (SLC), The Handsome,The Belafonte(ID)",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "e6204ded-82e4-49fb-a78f-332dff721ff2",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "b424c2c5-8326-48b9-a6a6-49b4406eec62",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "SLC"
+      },
+      {
+        "artist_id": "f52e6c76-4eff-4cba-bcef-85f3a25ac040",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "dcc08030-8690-4ef5-8a9a-4e054e9d212a",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": "ID"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Neon Trees, The Brobecks, The Handsome, The Belafonte, Dan",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601631",
+    "created_at": "2026-01-10T12:12:28.985064",
+    "updated_at": "2026-01-10T12:12:28.985082"
+  },
+  {
+    "id": "b7de9247-2190-41e6-b863-cb37fcff0de5",
+    "date": "2006-03-26",
+    "title": "27The Thrillionaires Improv Theater",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "27The Thrillionaires Improv Theater 27The Thrillionaires Improv Theater",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.603592",
+    "created_at": "2026-01-10T12:12:28.985171",
+    "updated_at": "2026-01-10T12:12:28.985173"
+  },
+  {
+    "id": "7062e56e-2470-4af0-abf0-894398e7456c",
+    "date": "2006-03-27",
+    "title": "The Thrillionaires Improv Theater",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires Improv Theater The Thrillionaires Improv Theater",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601646",
+    "created_at": "2026-01-10T12:12:28.985189",
+    "updated_at": "2026-01-10T12:12:28.985190"
+  },
+  {
+    "id": "ba9aed56-819b-4483-9bdf-4fee23744d8a",
+    "date": "2006-03-28",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601664",
+    "created_at": "2026-01-10T12:12:28.985204",
+    "updated_at": "2026-01-10T12:12:28.985206"
+  },
+  {
+    "id": "740fc068-977d-4ef2-b119-7e1a26f88eaa",
+    "date": "2006-03-29",
+    "title": "8pm\u00bb (Seattle indie) Some by Sea",
+    "genre": "indie",
+    "description": "8pm\u00bb\u00a0(Seattle indie) Some by Sea w/ The Eden Express, Kid Theodore, Jamie Timm",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "ac953948-2964-460a-9366-48486e510e89",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "Seattle indie"
+      },
+      {
+        "artist_id": "a4309784-d175-400e-b62f-c3be2b9e2756",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "229c39ca-4392-4f22-acb6-6afb470e5cfe",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "75e2f91d-359f-4901-8ed1-5f863b1a8956",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Eden Express, Kid Theodore, Jamie Timm",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601683",
+    "created_at": "2026-01-10T12:12:31.829953",
+    "updated_at": "2026-01-10T12:12:31.829963"
+  },
+  {
+    "id": "78561c2b-a35d-4e38-be8b-0058f00e58a1",
+    "date": "2006-03-30",
+    "title": "8pm\u00bb (power-pop/folk) Simple People CD Release,SweetHaven and Benton Paul",
+    "genre": "power-pop/folk",
+    "description": "8pm\u00bb\u00a0(power-pop/folk) Simple People CD Release,SweetHaven and Benton Paul",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "dbe86ee0-17dc-4874-9923-be8f9ddfc2c5",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "CD Release"
+      },
+      {
+        "artist_id": "d717891e-1cbf-46de-bbea-04a04a445ad9",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "ea5ff5e6-8ffc-41a1-9e11-866abbd76680",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Benton Paul, Ben, Paul, Simple People, SweetHaven",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601700",
+    "created_at": "2026-01-10T12:12:34.783873",
+    "updated_at": "2026-01-10T12:12:34.783885"
+  },
+  {
+    "id": "804809d3-3667-45bf-a896-136424f6dfe5",
+    "date": "2006-03-31",
+    "title": "8pm\u00bb (roots-rock) Matt Lewis Band, Marcus Bently, Matt Hopper (touring AK)",
+    "genre": "roots-rock",
+    "description": "8pm\u00bb\u00a0(roots-rock) Matt Lewis Band, Marcus Bently, Matt Hopper (touring AK)",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "50badb58-0340-40d3-b7be-6e783ab48647",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "22cea024-b17c-4560-b39d-439fda61fa09",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "2cc275d4-0505-43c4-9488-dbee5a7599a6",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": "touring AK"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Marcus Bently, Matt Hopper, Matt Lewis Band, Matt Lewis, Ben",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.601717",
+    "created_at": "2026-01-10T12:12:37.576314",
+    "updated_at": "2026-01-10T12:12:37.576327"
+  },
+  {
+    "id": "8fdf5466-49e0-4a9a-b235-218a4d2c0c4e",
+    "date": "2006-04-01",
+    "title": "7pm\u00bb (Barsuk records) Rocky Votolato, Damien Jurado, Brinton Jones(Palomino) $8-$10",
+    "genre": "",
+    "description": "7pm\u00bb\u00a0(Barsuk records) Rocky Votolato, Damien Jurado, Brinton Jones(Palomino) $8-$10",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "ccd93ab6-1005-4d65-a337-5c42762deb46",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "34f5d145-562b-4b78-98a0-5e03df83e0d4",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "5e6203a8-8709-42fd-8435-d69849bb77f9",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": "Palomino"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": "$8-$10",
+    "sold_out": false,
+    "raw_artists_text": "Brinton Jones, Palomino, Rocky Votolato, Damien Jurado",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899665",
+    "created_at": "2026-01-10T12:12:40.995743",
+    "updated_at": "2026-01-10T12:12:40.995756"
+  },
+  {
+    "id": "485d04ed-8d29-4d77-9119-3a6c636602d7",
+    "date": "2006-04-02",
+    "title": "03The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "03The Thrillionaires (Improv Theater) 03The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.901199",
+    "created_at": "2026-01-10T12:12:40.995839",
+    "updated_at": "2026-01-10T12:12:40.995841"
+  },
+  {
+    "id": "82fe8d51-6835-48bd-9231-feca77c793a8",
+    "date": "2006-04-03",
+    "title": "The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires (Improv Theater) The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899695",
+    "created_at": "2026-01-10T12:12:40.995856",
+    "updated_at": "2026-01-10T12:12:40.995858"
+  },
+  {
+    "id": "d67f5ca9-5d51-461d-974f-4bb5c37b648e",
+    "date": "2006-04-04",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899714",
+    "created_at": "2026-01-10T12:12:40.995871",
+    "updated_at": "2026-01-10T12:12:40.995873"
+  },
+  {
+    "id": "4a6e44ac-e021-4bfe-a155-9bfed52c3eeb",
+    "date": "2006-04-06",
+    "title": "Truman CD Release",
+    "genre": "",
+    "description": "Truman CD Release w/ Causeway and Armchair Cowboy",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "0e2ddc75-44b0-4342-b7d7-8a47c9727455",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "CD release"
+      },
+      {
+        "artist_id": "413dc060-6667-4d6a-9209-0ba355f7355f",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "e29ade4b-08ef-40b9-835e-a626fa899cf5",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Causeway and Armchair Cowboy",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899733",
+    "created_at": "2026-01-10T12:12:43.768185",
+    "updated_at": "2026-01-10T12:12:43.768196"
+  },
+  {
+    "id": "130a8859-c96b-4e7a-8990-2acb375295b1",
+    "date": "2006-04-07",
+    "title": "8pm\u00bb (punk/pop/rock) 2 The Same CD Release",
+    "genre": "punk/pop/rock",
+    "description": "8pm\u00bb\u00a0(punk/pop/rock) 2 The Same CD Release w/ Man Of Action (WA formerly Derby) etc",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "79397ba1-44f6-488d-8bd9-cce049db17cb",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "CD Release"
+      },
+      {
+        "artist_id": "ce4d3562-3eea-4994-9bef-49b1e8f616cf",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "WA formerly Derby"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Man Of Action (WA formerly Derby) etc",
+    "parse_confidence": 0.85,
+    "needs_review": true,
+    "review_notes": "Uncertain about 'etc' at the end - may indicate additional artists not fully listed",
+    "original_extracted_at": "2025-10-11T15:04:53.899755",
+    "created_at": "2026-01-10T12:12:47.993759",
+    "updated_at": "2026-01-10T12:12:47.993771"
+  },
+  {
+    "id": "dad129ae-6c38-45c6-ab71-37c349ae6658",
+    "date": "2006-04-08",
+    "title": "8pm\u00bb (touring alt/emo-pop) Cary Judd",
+    "genre": "alt/emo-pop",
+    "description": "8pm\u00bb\u00a0(touring alt/emo-pop) Cary Judd w/ Slightly Drawn (NV), and Chance Lewis of Abby",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "2dee75bd-8c7a-40d5-9fc3-fe92ddef3c60",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "touring alt/emo-pop"
+      },
+      {
+        "artist_id": "5d06b279-dbd9-4e87-a5e4-2084085525dd",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "from NV"
+      },
+      {
+        "artist_id": "5eb62033-79a4-4da8-a65b-239619456809",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Slightly Drawn (NV), and Chance Lewis of Abby",
+    "parse_confidence": 0.9,
+    "needs_review": true,
+    "review_notes": "Uncertain if 'Chance Lewis of Abby' means Chance Lewis is from a band called Abby, or if it should be parsed differently",
+    "original_extracted_at": "2025-10-11T15:04:53.899774",
+    "created_at": "2026-01-10T12:12:52.246054",
+    "updated_at": "2026-01-10T12:12:52.246065"
+  },
+  {
+    "id": "0d3a3913-7408-4c0c-873e-0452fdd3cb1e",
+    "date": "2006-04-09",
+    "title": "10The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "10The Thrillionaires (Improv Theater) 10The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.901282",
+    "created_at": "2026-01-10T12:12:52.246125",
+    "updated_at": "2026-01-10T12:12:52.246127"
+  },
+  {
+    "id": "b4093d27-b0e4-498e-8718-e6575444d306",
+    "date": "2006-04-10",
+    "title": "The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires (Improv Theater) The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899791",
+    "created_at": "2026-01-10T12:12:52.246142",
+    "updated_at": "2026-01-10T12:12:52.246144"
+  },
+  {
+    "id": "273fc7c4-cdcb-462b-98cb-0b2504c39752",
+    "date": "2006-04-11",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899807",
+    "created_at": "2026-01-10T12:12:52.246157",
+    "updated_at": "2026-01-10T12:12:52.246159"
+  },
+  {
+    "id": "bb5c379d-53e8-4cff-8866-81efae466325",
+    "date": "2006-04-12",
+    "title": "8pm\u00bb (folk-rock) Cory Mon",
+    "genre": "folk-rock",
+    "description": "8pm\u00bb\u00a0(folk-rock) Cory Mon w/ Cas Lucas (touring folk artist) and Jeff Stone",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "2ac07da6-1df6-49e4-a242-352f4d717519",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "21fd234f-420a-4512-8280-66f14d65f8c8",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "touring folk artist"
+      },
+      {
+        "artist_id": "2e650d53-a1fe-4329-9d4e-6b72ad7ddfe1",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Cas Lucas (touring folk artist) and Jeff Stone",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899825",
+    "created_at": "2026-01-10T12:12:55.058604",
+    "updated_at": "2026-01-10T12:12:55.058615"
+  },
+  {
+    "id": "3dc55922-c097-4d32-a3f4-0f2e77c6c9ed",
+    "date": "2006-04-13",
+    "title": "8pm\u00bb (Seattle indie) Andrea Maxand",
+    "genre": "Seattle indie",
+    "description": "8pm\u00bb\u00a0(Seattle indie) Andrea Maxand w/ A Film In The Ballroom, Spork & Knife",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "0913f5d3-0f74-4f44-8639-2193044426a9",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "24a840b6-b69b-4218-801d-90a842c7ebb9",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "13b5f03a-f02c-4069-a692-dfc10f1f4f27",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "A Film In The Ballroom, Spork & Knife",
+    "parse_confidence": 0.9,
+    "needs_review": true,
+    "review_notes": "Uncertain if 'Spork & Knife' is one band name or two separate artists 'Spork' and 'Knife'",
+    "original_extracted_at": "2025-10-11T15:04:53.899840",
+    "created_at": "2026-01-10T12:12:58.718104",
+    "updated_at": "2026-01-10T12:12:58.718115"
+  },
+  {
+    "id": "0cba1d31-c646-4888-b4f4-c2e6fb005684",
+    "date": "2006-04-14",
+    "title": "Return To Sender",
+    "genre": "indie-Rock",
+    "description": "(indie-Rock) Return To Sender w/ Awake & Alert (from AZ), Incamera",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "1127c0f9-0c3e-48f6-82e1-123efc94ebe8",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "87f790a0-53eb-49fe-b509-d9c5c7419657",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "from AZ"
+      },
+      {
+        "artist_id": "2984b0a2-cb48-4795-8b97-438f3a936ed2",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Awake & Alert (from AZ), Incamera",
+    "parse_confidence": 0.9,
+    "needs_review": true,
+    "review_notes": "Uncertain if 'Awake & Alert' is one band name or two separate artists 'Awake' and 'Alert'",
+    "original_extracted_at": "2025-10-11T15:04:53.899854",
+    "created_at": "2026-01-10T12:13:02.104094",
+    "updated_at": "2026-01-10T12:13:02.104108"
+  },
+  {
+    "id": "91f39d4e-f8cf-48ff-8756-91b302cb4f6b",
+    "date": "2006-04-15",
+    "title": "8pm\u00bb (indie/glam) Lady Venus & The Vixens, The Handsome, Neon Trees (acoustic)",
+    "genre": "indie/glam",
+    "description": "8pm\u00bb\u00a0(indie/glam) Lady Venus & The Vixens, The Handsome, Neon Trees (acoustic)",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "4973a9a7-876a-44d9-9b5e-f27c1910e2a8",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "f52e6c76-4eff-4cba-bcef-85f3a25ac040",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "e6204ded-82e4-49fb-a78f-332dff721ff2",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": "acoustic"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Neon Trees, Lady, The Handsome, Lady Venus, The Vixens",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899871",
+    "created_at": "2026-01-10T12:13:04.883027",
+    "updated_at": "2026-01-10T12:13:04.883039"
+  },
+  {
+    "id": "0997ad33-9d4a-4bc3-a3d0-920d74eba957",
+    "date": "2006-04-16",
+    "title": "17The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "17The Thrillionaires (Improv Theater) 17The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.901365",
+    "created_at": "2026-01-10T12:13:04.883092",
+    "updated_at": "2026-01-10T12:13:04.883094"
+  },
+  {
+    "id": "ed9c65d6-48c0-47d0-89fe-33a52b8c8118",
+    "date": "2006-04-17",
+    "title": "The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires (Improv Theater) The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899883",
+    "created_at": "2026-01-10T12:13:04.883110",
+    "updated_at": "2026-01-10T12:13:04.883112"
+  },
+  {
+    "id": "5a58853a-6429-4466-9547-56bdc1a79740",
+    "date": "2006-04-18",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899895",
+    "created_at": "2026-01-10T12:13:04.883126",
+    "updated_at": "2026-01-10T12:13:04.883128"
+  },
+  {
+    "id": "4453fe74-b059-4cd8-a851-01fffa8c472f",
+    "date": "2006-04-19",
+    "title": "8pm\u00bb Monthly Cabaret Velour! Music by Colby Stead, Poetry by Alex Caldiero + Art",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0Monthly Cabaret Velour! Music by Colby Stead, Poetry by Alex Caldiero + Art",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "c5d24bac-0545-4a70-975a-e54999b079e0",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "d7d20130-bdfe-4998-941c-08c05c2d01b2",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": "Poetry"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Colby Stead, Alex, Poetry by Alex Caldiero + Art, Alex Caldiero",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899908",
+    "created_at": "2026-01-10T12:13:07.686129",
+    "updated_at": "2026-01-10T12:13:07.686140"
+  },
+  {
+    "id": "b3e7e7d0-d497-475a-be90-205f66cb12f0",
+    "date": "2006-04-20",
+    "title": "8pm\u00bb (Portland indie music/film project) Antler And",
+    "genre": "indie",
+    "description": "8pm\u00bb\u00a0(Portland indie music/film project) Antler And w/ The Eden Express, The Weakmen",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "6a30f81a-7acb-40d0-90ae-dca21054b1d6",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "Portland indie music/film project"
+      },
+      {
+        "artist_id": "a4309784-d175-400e-b62f-c3be2b9e2756",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "9ed181e1-a2a7-447b-9a66-a6a439e2349e",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Eden Express, The Weakmen",
+    "parse_confidence": 0.9,
+    "needs_review": true,
+    "review_notes": "The headliner name 'Antler And' appears to end abruptly - it may be incomplete or truncated in the original text",
+    "original_extracted_at": "2025-10-11T15:04:53.899922",
+    "created_at": "2026-01-10T12:13:11.795600",
+    "updated_at": "2026-01-10T12:13:11.795611"
+  },
+  {
+    "id": "6d573584-bb39-4828-81b1-908fe6bc2b56",
+    "date": "2006-04-21",
+    "title": "8pm\u00bb (indie/roots-rock) Palomino",
+    "genre": "indie/roots-rock",
+    "description": "8pm\u00bb\u00a0(indie/roots-rock) Palomino w/ Mathematics Et Cetera and Marcus Bently",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "09ec14ed-8d16-4dc5-993d-5112d17e706f",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "891f3df9-77ff-4744-8c3c-29a4cd34f736",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "22cea024-b17c-4560-b39d-439fda61fa09",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Mathematics Et Cetera and Marcus Bently",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899935",
+    "created_at": "2026-01-10T12:13:14.719600",
+    "updated_at": "2026-01-10T12:13:14.719612"
+  },
+  {
+    "id": "c9bbd8f5-cebd-4452-9c8b-741c976a45da",
+    "date": "2006-04-22",
+    "title": "8pm\u00bb (indie pop-rock) The Brobecks CD Release",
+    "genre": "indie pop-rock",
+    "description": "8pm\u00bb\u00a0(indie pop-rock) The Brobecks CD Release w/ Seve Vs. Evan and Soular (from NM)",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "b424c2c5-8326-48b9-a6a6-49b4406eec62",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "CD Release"
+      },
+      {
+        "artist_id": "1576d657-71bc-4300-845c-158aeebd8260",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "7f567874-de50-4b18-8220-826d227bb426",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": "from NM"
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Seve Vs. Evan and Soular (from NM)",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899949",
+    "created_at": "2026-01-10T12:13:17.995188",
+    "updated_at": "2026-01-10T12:13:17.995198"
+  },
+  {
+    "id": "5777012e-6d5c-4b5b-a2f8-ad213c4f5130",
+    "date": "2006-04-23",
+    "title": "24The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "24The Thrillionaires (Improv Theater) 24The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.901438",
+    "created_at": "2026-01-10T12:13:17.995250",
+    "updated_at": "2026-01-10T12:13:17.995252"
+  },
+  {
+    "id": "fa32d007-1c81-4e7f-ba5d-203d759c67af",
+    "date": "2006-04-24",
+    "title": "The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires (Improv Theater) The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899960",
+    "created_at": "2026-01-10T12:13:17.995284",
+    "updated_at": "2026-01-10T12:13:17.995286"
+  },
+  {
+    "id": "76aa6ce3-767d-43aa-9415-c1932b8d7093",
+    "date": "2006-04-25",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899971",
+    "created_at": "2026-01-10T12:13:17.995300",
+    "updated_at": "2026-01-10T12:13:17.995302"
+  },
+  {
+    "id": "7e2123c2-ea26-41be-a4db-cad328b78a79",
+    "date": "2006-04-26",
+    "title": "8pm\u00bb (Acoustic) Quasi Stellar Radio, Byjustin, Ashley Garbe, Pat Driscoll",
+    "genre": "Acoustic",
+    "description": "8pm\u00bb\u00a0(Acoustic) Quasi Stellar Radio, Byjustin, Ashley Garbe, Pat Driscoll",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "a6efd4fe-b823-453f-8e4f-e62bedfab7fd",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "acoustic"
+      },
+      {
+        "artist_id": "a299a505-3282-49f1-b193-65074ead1b47",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "ade530b2-f111-416a-b13a-c3a75820f5f8",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "8cb3d1b2-5a88-4a79-b3b4-8e05620abafd",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Ashley Garbe, Pat Driscoll, Quasi Stellar Radio, Byjustin",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899984",
+    "created_at": "2026-01-10T12:13:22.069026",
+    "updated_at": "2026-01-10T12:13:22.069040"
+  },
+  {
+    "id": "49249fc3-74ae-4eb5-9c05-0e965228442d",
+    "date": "2006-04-28",
+    "title": "7pm\u00bb (touring indie-electronic) Shiny Toy Guns, Kill Hannah, Clear Static $10",
+    "genre": "indie-electronic",
+    "description": "7pm\u00bb\u00a0(touring indie-electronic) Shiny Toy Guns, Kill Hannah, Clear Static $10",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "f0da544d-51fa-433c-b989-9750a9343d14",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "touring indie-electronic"
+      },
+      {
+        "artist_id": "b3a60c7b-d2ef-4aba-8ccb-5b87bc26c1c0",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "e3ee23bd-0e4e-4eed-a935-fe54d7027657",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": "$10",
+    "sold_out": false,
+    "raw_artists_text": "Kill Hannah, Clear Static $10, Shiny Toy Guns",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:53.899996",
+    "created_at": "2026-01-10T12:13:24.874122",
+    "updated_at": "2026-01-10T12:13:24.874131"
+  },
+  {
+    "id": "275d07b3-25a0-4279-9912-b03987968fab",
+    "date": "2006-05-01",
+    "title": "8pm\u00bb The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0The Thrillionaires (Improv Theater)",
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires (Improv Theater) 8pm\u00bb\u00a0The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191465",
+    "created_at": "2026-01-10T12:13:24.874217",
+    "updated_at": "2026-01-10T12:13:24.874219"
+  },
+  {
+    "id": "da2ed8bc-00b9-43f2-a224-8f02af9fc941",
+    "date": "2006-05-02",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191503",
+    "created_at": "2026-01-10T12:13:24.874235",
+    "updated_at": "2026-01-10T12:13:24.874237"
+  },
+  {
+    "id": "5fe22d7e-d635-4ddb-977d-c36571beb35a",
+    "date": "2006-05-03",
+    "title": "8pm\u00bb (alt-emo rock) Nural (CA)",
+    "genre": "alt-emo rock",
+    "description": "8pm\u00bb\u00a0(alt-emo rock) Nural (CA) w/ IQ20, Preferra(Volition) and Akelles",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "a13a7ce5-9843-4a53-b8b1-edecf011fba7",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "69cafe6b-b420-41b5-bfbd-036de4a75317",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "9b788579-2fab-42ad-9696-9404dc83ce4e",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "305bcf46-1bc1-431d-9aad-205906f8d415",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "IQ20, Preferra(Volition) and Akelles",
+    "parse_confidence": 0.85,
+    "needs_review": true,
+    "review_notes": "Uncertain about 'Preferra(Volition)' - unclear if Volition is part of the band name or a separate descriptor",
+    "original_extracted_at": "2025-10-11T15:04:54.191530",
+    "created_at": "2026-01-10T12:13:28.468896",
+    "updated_at": "2026-01-10T12:13:28.468907"
+  },
+  {
+    "id": "63d389d6-f677-4457-8c16-98fe96e8c604",
+    "date": "2006-05-04",
+    "title": "8pm\u00bb (emo-pop) Allred CD Release",
+    "genre": "emo-pop",
+    "description": "8pm\u00bb\u00a0(emo-pop) Allred CD Release w/ The Trademark, Meg & Dia, Autumn Rhodes",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "ef4afc6c-b114-4a72-a2d6-bc785f0d9405",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "CD Release"
+      },
+      {
+        "artist_id": "7366fdea-b554-4ade-878d-3e992d6a0535",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "a51e4a37-5b8a-481d-bd0f-21786f9f404e",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "8f8fea00-0042-42a3-a839-16340b2dcbd8",
+        "billing_order": 4,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Trademark, Meg & Dia, Autumn Rhodes",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191555",
+    "created_at": "2026-01-10T12:13:31.390170",
+    "updated_at": "2026-01-10T12:13:31.390182"
+  },
+  {
+    "id": "25a007f0-2295-426e-a2d4-9b624e2d2ed1",
+    "date": "2006-05-05",
+    "title": "8pm\u00bb (Blues/roots-rock) Matt Harding (NYC) CD Release",
+    "genre": "Blues/roots-rock",
+    "description": "8pm\u00bb\u00a0(Blues/roots-rock) Matt Harding (NYC) CD Release w/ Marcus Bently and Joshua J",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "174e25d2-ab9f-43a7-9f13-cd73bf68289d",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": "NYC, CD Release"
+      },
+      {
+        "artist_id": "22cea024-b17c-4560-b39d-439fda61fa09",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "5879f46c-900a-454d-8a90-878396243e35",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Marcus Bently and Joshua J",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191579",
+    "created_at": "2026-01-10T12:13:34.313647",
+    "updated_at": "2026-01-10T12:13:34.313662"
+  },
+  {
+    "id": "ede74a7b-b6a7-4ba0-afb6-e00e2fba69e5",
+    "date": "2006-05-06",
+    "title": "8pm\u00bb (punk-pop-indie) Abby Normal, The New Nervous, Ambrose Channel",
+    "genre": "punk-pop-indie",
+    "description": "8pm\u00bb\u00a0(punk-pop-indie) Abby Normal, The New Nervous, Ambrose Channel",
+    "venue": "Velour Live Music Gallery",
+    "artists": [
+      {
+        "artist_id": "cc2c867b-02a4-4dad-b889-c294eb8f6050",
+        "billing_order": 0,
+        "is_headliner": true,
+        "set_notes": null
+      },
+      {
+        "artist_id": "e8db6583-c774-4c4f-a60a-2adc101348bb",
+        "billing_order": 2,
+        "is_headliner": false,
+        "set_notes": null
+      },
+      {
+        "artist_id": "4f9c3672-702d-47f6-bcb9-472635d2b31b",
+        "billing_order": 3,
+        "is_headliner": false,
+        "set_notes": null
+      }
+    ],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "concert",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Abby Normal, The New Nervous, New Nervous, Ambrose Channel",
+    "parse_confidence": 0.95,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191599",
+    "created_at": "2026-01-10T12:13:37.227148",
+    "updated_at": "2026-01-10T12:13:37.227159"
+  },
+  {
+    "id": "ee9d5f4e-b40c-4aaf-8ceb-6a786c9ed84d",
+    "date": "2006-05-07",
+    "title": "088pm\u00bb\u00a0The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires (Improv Theater) 088pm\u00bb\u00a0The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.193694",
+    "created_at": "2026-01-10T12:13:37.227214",
+    "updated_at": "2026-01-10T12:13:37.227216"
+  },
+  {
+    "id": "4198112b-4839-4d91-9114-c6d37c6dd279",
+    "date": "2006-05-08",
+    "title": "8pm\u00bb The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": "8pm\u00bb\u00a0The Thrillionaires (Improv Theater)",
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires (Improv Theater) 8pm\u00bb\u00a0The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191617",
+    "created_at": "2026-01-10T12:13:37.227232",
+    "updated_at": "2026-01-10T12:13:37.227235"
+  },
+  {
+    "id": "eebfc0b0-48e0-4fef-bfb0-b7ce9825cc88",
+    "date": "2006-05-09",
+    "title": "Open-Mic Acoustic Night",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "open_mic",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Open-Mic Acoustic Night Open-Mic Acoustic Night",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191635",
+    "created_at": "2026-01-10T12:13:37.227249",
+    "updated_at": "2026-01-10T12:13:37.227251"
+  },
+  {
+    "id": "ffd0d712-3a16-4c07-a2e5-47327596f200",
+    "date": "2006-05-10",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191652",
+    "created_at": "2026-01-10T12:13:37.227286",
+    "updated_at": "2026-01-10T12:13:37.227288"
+  },
+  {
+    "id": "1849751a-708c-4810-809e-accd4a376f08",
+    "date": "2006-05-11",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191677",
+    "created_at": "2026-01-10T12:13:37.227301",
+    "updated_at": "2026-01-10T12:13:37.227303"
+  },
+  {
+    "id": "ffae9eca-9b77-4bfe-83ae-440bc63f353b",
+    "date": "2006-05-12",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191714",
+    "created_at": "2026-01-10T12:13:37.227315",
+    "updated_at": "2026-01-10T12:13:37.227316"
+  },
+  {
+    "id": "d0ae2b44-3551-4f64-a4d3-92154c9fb3d8",
+    "date": "2006-05-13",
+    "title": "Closed for Renovations",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": false,
+    "event_type": "closed",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "Reno",
+    "parse_confidence": 1.0,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.191731",
+    "created_at": "2026-01-10T12:13:37.227328",
+    "updated_at": "2026-01-10T12:13:37.227330"
+  },
+  {
+    "id": "cf168614-98ad-439e-8d66-d0bf329b2e7d",
+    "date": "2006-05-14",
+    "title": "158pm\u00bb\u00a0The Thrillionaires (Improv Theater)",
+    "genre": "",
+    "description": null,
+    "venue": "Velour Live Music Gallery",
+    "artists": [],
+    "media": [],
+    "is_music_event": true,
+    "event_type": "improv",
+    "ticket_price": null,
+    "sold_out": false,
+    "raw_artists_text": "The Thrillionaires (Improv Theater) 158pm\u00bb\u00a0The Thrillionaires (Improv Theater)",
+    "parse_confidence": 0.9,
+    "needs_review": false,
+    "review_notes": null,
+    "original_extracted_at": "2025-10-11T15:04:54.193782",
+    "created_at": "2026-01-10T12:13:37.227344",
+    "updated_at": "2026-01-10T12:13:37.227345"
+  }
+]

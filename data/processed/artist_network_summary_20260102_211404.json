@@ -1,0 +1,460 @@
+{
+  "total_unique_artists": 3134,
+  "total_connections": 7226,
+  "total_shows_processed": 7193,
+  "top_artists": [
+    {
+      "name": "Cory Mon",
+      "shows": 45
+    },
+    {
+      "name": "Boots to the Moon",
+      "shows": 28
+    },
+    {
+      "name": "Code Hero",
+      "shows": 25
+    },
+    {
+      "name": "Desert Noises",
+      "shows": 23
+    },
+    {
+      "name": "Mia Grace",
+      "shows": 23
+    },
+    {
+      "name": "Kathleen Frewin",
+      "shows": 22
+    },
+    {
+      "name": "Neon Trees",
+      "shows": 21
+    },
+    {
+      "name": "Kid Theodore",
+      "shows": 20
+    },
+    {
+      "name": "The Devil Whale",
+      "shows": 20
+    },
+    {
+      "name": "Timmy The Teeth",
+      "shows": 20
+    },
+    {
+      "name": "Jeff Stone",
+      "shows": 19
+    },
+    {
+      "name": "Quasi-Stellar Radio",
+      "shows": 19
+    },
+    {
+      "name": "Seve vs. Evan",
+      "shows": 18
+    },
+    {
+      "name": "Cowboys",
+      "shows": 18
+    },
+    {
+      "name": "Marcus Bently",
+      "shows": 17
+    },
+    {
+      "name": "The Trademark",
+      "shows": 17
+    },
+    {
+      "name": "Katie Brandeburg",
+      "shows": 17
+    },
+    {
+      "name": "Emily Brown",
+      "shows": 17
+    },
+    {
+      "name": "Abby Normal",
+      "shows": 16
+    },
+    {
+      "name": "Queenadilla",
+      "shows": 16
+    },
+    {
+      "name": "Cary Judd",
+      "shows": 15
+    },
+    {
+      "name": "Paul Jacobsen",
+      "shows": 15
+    },
+    {
+      "name": "The New Nervous",
+      "shows": 14
+    },
+    {
+      "name": "The New Electric Sound",
+      "shows": 14
+    },
+    {
+      "name": "Return To Sender",
+      "shows": 13
+    },
+    {
+      "name": "The John Whites",
+      "shows": 13
+    },
+    {
+      "name": "Allred",
+      "shows": 13
+    },
+    {
+      "name": "Isaac Russell",
+      "shows": 13
+    },
+    {
+      "name": "The Vibrant Sound",
+      "shows": 13
+    },
+    {
+      "name": "Cody Rigby",
+      "shows": 13
+    },
+    {
+      "name": "Lake Island",
+      "shows": 13
+    },
+    {
+      "name": "Deadtooth",
+      "shows": 13
+    },
+    {
+      "name": "Spirit City",
+      "shows": 13
+    },
+    {
+      "name": "Joshua James",
+      "shows": 12
+    },
+    {
+      "name": "Another Statistic",
+      "shows": 12
+    },
+    {
+      "name": "Brinton Jones",
+      "shows": 12
+    },
+    {
+      "name": "Nate Pyfer",
+      "shows": 12
+    },
+    {
+      "name": "Elizabethan Report",
+      "shows": 12
+    },
+    {
+      "name": "RuRu",
+      "shows": 12
+    },
+    {
+      "name": "Searching for Celia",
+      "shows": 12
+    },
+    {
+      "name": "Westward The Tide",
+      "shows": 12
+    },
+    {
+      "name": "The Lovestrange",
+      "shows": 12
+    },
+    {
+      "name": "Pinguin Mofex",
+      "shows": 12
+    },
+    {
+      "name": "Harpers",
+      "shows": 12
+    },
+    {
+      "name": "Drusky",
+      "shows": 12
+    },
+    {
+      "name": "A Film In The Ballroom",
+      "shows": 11
+    },
+    {
+      "name": "The Eden Express",
+      "shows": 11
+    },
+    {
+      "name": "Shady Chapel",
+      "shows": 11
+    },
+    {
+      "name": "Book on Tapeworm",
+      "shows": 11
+    },
+    {
+      "name": "Mad Diving Barons",
+      "shows": 11
+    }
+  ],
+  "top_connections": [
+    {
+      "artist1": "Echo",
+      "artist2": "Shake",
+      "shows_together": 9
+    },
+    {
+      "artist1": "Old",
+      "artist2": "Young",
+      "shows_together": 8
+    },
+    {
+      "artist1": "Cory Mon",
+      "artist2": "Jeff Stone",
+      "shows_together": 6
+    },
+    {
+      "artist1": "Robert",
+      "artist2": "the Carrolls",
+      "shows_together": 6
+    },
+    {
+      "artist1": "The Flame",
+      "artist2": "The Moth",
+      "shows_together": 6
+    },
+    {
+      "artist1": "Gent",
+      "artist2": "Lady",
+      "shows_together": 6
+    },
+    {
+      "artist1": "Michael Barrow",
+      "artist2": "the Tourists",
+      "shows_together": 6
+    },
+    {
+      "artist1": "art",
+      "artist2": "Cabaret Velour\" featuring music",
+      "shows_together": 5
+    },
+    {
+      "artist1": "Code Hero",
+      "artist2": "Cory Mon",
+      "shows_together": 5
+    },
+    {
+      "artist1": "Cory Mon",
+      "artist2": "the S.G",
+      "shows_together": 5
+    },
+    {
+      "artist1": "Mad Max",
+      "artist2": "the Wild Ones",
+      "shows_together": 5
+    },
+    {
+      "artist1": "art",
+      "artist2": "poetry etc",
+      "shows_together": 4
+    },
+    {
+      "artist1": "Cabaret Velour\" featuring music",
+      "artist2": "poetry etc",
+      "shows_together": 4
+    },
+    {
+      "artist1": "Andy Martin",
+      "artist2": "Joe Castor",
+      "shows_together": 4
+    },
+    {
+      "artist1": "Qcom",
+      "artist2": "the JT Empire",
+      "shows_together": 4
+    },
+    {
+      "artist1": "Ferocious Oaks",
+      "artist2": "The Devil Whale",
+      "shows_together": 4
+    },
+    {
+      "artist1": "Caleb Blood",
+      "artist2": "Nik Day",
+      "shows_together": 4
+    },
+    {
+      "artist1": "Allred",
+      "artist2": "The Trademark",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Cary Judd",
+      "artist2": "Jeff Stone",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Isaac Russell",
+      "artist2": "Joe Castor",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Kid Theodore",
+      "artist2": "The John Whites",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Cory Mon",
+      "artist2": "Dave Eaton",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Donnie Bonelli",
+      "artist2": "Nate Pyfer",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Desert Noises",
+      "artist2": "The Devil Whale",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Ricky",
+      "artist2": "the Rayguns",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Cory Mon",
+      "artist2": "the Starlight Gospel",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Boots to the Moon",
+      "artist2": "Desert Noises",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Adam",
+      "artist2": "Darcie",
+      "shows_together": 3
+    },
+    {
+      "artist1": "furniture",
+      "artist2": "VINTAGE FLEA MARKET!!!! (Clothing",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Ferocious Oaks",
+      "artist2": "Gypsy Cab",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Blind Actuaries",
+      "artist2": "The Brocks",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Chasing Kings",
+      "artist2": "Eyes Lips Eyes",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Mighty Sequoyah",
+      "artist2": "The Flame",
+      "shows_together": 3
+    },
+    {
+      "artist1": "J.R. Boyce",
+      "artist2": "Kathleen Frewin",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Eidola",
+      "artist2": "Temples",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Jay W. Henderson",
+      "artist2": "Timmy The Teeth",
+      "shows_together": 3
+    },
+    {
+      "artist1": "BBGUN",
+      "artist2": "Queenadilla",
+      "shows_together": 3
+    },
+    {
+      "artist1": "The National Parks",
+      "artist2": "Westward The Tide",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Cory Mon",
+      "artist2": "Peter Harper",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Le Mule",
+      "artist2": "Lemon",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Brumby",
+      "artist2": "Westward The Tide",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Mac Wright",
+      "artist2": "The Generous",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Avintaquin",
+      "artist2": "Local Kin",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Bonneville",
+      "artist2": "With Andrea",
+      "shows_together": 3
+    },
+    {
+      "artist1": "If",
+      "artist2": "When",
+      "shows_together": 3
+    },
+    {
+      "artist1": "Auburn",
+      "artist2": "Cory Mon",
+      "shows_together": 2
+    },
+    {
+      "artist1": "Abby Normal",
+      "artist2": "Side Dish",
+      "shows_together": 2
+    },
+    {
+      "artist1": "Andrew Norsworthy",
+      "artist2": "Jared Woods",
+      "shows_together": 2
+    },
+    {
+      "artist1": "Pariah Poetic",
+      "artist2": "The New Nervous",
+      "shows_together": 2
+    },
+    {
+      "artist1": "Ari",
+      "artist2": "Uzi",
+      "shows_together": 2
+    }
+  ],
+  "created_at": "2026-01-02T21:14:05.496470"
+}

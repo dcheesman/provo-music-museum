@@ -1,0 +1,311 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Artist Network">
+  <section class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-white mb-4">Artist Network</h1>
+    <p class="text-gray-400 mb-8 max-w-2xl">
+      Explore the connections between artists who have shared the stage at Velour.
+      Each node represents an artist, and lines connect artists who have played together.
+    </p>
+
+    <!-- Controls -->
+    <div class="flex flex-wrap gap-4 mb-8">
+      <input
+        type="text"
+        id="network-search"
+        placeholder="Search for an artist..."
+        class="search-input max-w-md"
+      />
+      <button id="reset-view" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg">
+        Reset View
+      </button>
+    </div>
+
+    <!-- Network Container -->
+    <div id="network-container" class="network-container relative">
+      <div id="network-loading" class="absolute inset-0 flex items-center justify-center">
+        <span class="text-gray-400">Loading network visualization...</span>
+      </div>
+      <svg id="network-svg" class="w-full h-full" style="display: none;"></svg>
+    </div>
+
+    <!-- Legend -->
+    <div class="mt-8 flex flex-wrap gap-6 text-sm text-gray-400">
+      <div class="flex items-center gap-2">
+        <div class="w-4 h-4 rounded-full bg-amber-400"></div>
+        <span>High connection count</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <div class="w-4 h-4 rounded-full bg-amber-700"></div>
+        <span>Medium connection count</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <div class="w-4 h-4 rounded-full bg-gray-600"></div>
+        <span>Lower connection count</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Artist Details Panel -->
+  <div id="artist-panel" class="fixed right-0 top-0 h-full w-80 bg-gray-900 border-l border-gray-800 p-6 transform translate-x-full transition-transform z-50">
+    <button id="close-panel" class="absolute top-4 right-4 text-gray-500 hover:text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <h2 id="panel-artist-name" class="text-2xl font-bold text-white mb-4"></h2>
+    <div id="panel-stats" class="space-y-2 text-gray-400 mb-6"></div>
+    <h3 class="font-bold text-white mb-2">Connections</h3>
+    <ul id="panel-connections" class="space-y-1 text-gray-400 max-h-96 overflow-y-auto"></ul>
+  </div>
+</Layout>
+
+<script>
+  import * as d3 from 'd3';
+
+  interface NetworkNode {
+    id: string;
+    name: string;
+    showCount: number;
+    connectionCount: number;
+    x?: number;
+    y?: number;
+    fx?: number | null;
+    fy?: number | null;
+  }
+
+  interface NetworkLink {
+    source: string | NetworkNode;
+    target: string | NetworkNode;
+    weight: number;
+  }
+
+  interface NetworkData {
+    nodes: NetworkNode[];
+    links: NetworkLink[];
+  }
+
+  let simulation: d3.Simulation<NetworkNode, NetworkLink>;
+  let svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>;
+  let networkData: NetworkData;
+
+  async function loadNetworkData(): Promise<NetworkData | null> {
+    try {
+      const response = await fetch('/data/network.json');
+      if (response.ok) {
+        return await response.json();
+      }
+    } catch (e) {
+      console.error('Failed to load network data:', e);
+    }
+    return null;
+  }
+
+  function initNetwork(data: NetworkData) {
+    const container = document.getElementById('network-container');
+    const loading = document.getElementById('network-loading');
+    const svgElement = document.getElementById('network-svg') as SVGSVGElement;
+
+    if (!container || !svgElement) return;
+
+    loading?.remove();
+    svgElement.style.display = 'block';
+
+    const width = container.clientWidth;
+    const height = 600;
+
+    // Clear existing
+    svgElement.innerHTML = '';
+
+    svg = d3.select(svgElement)
+      .attr('viewBox', [0, 0, width, height]);
+
+    // Add zoom behavior
+    const g = svg.append('g');
+
+    const zoom = d3.zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.1, 4])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+      });
+
+    svg.call(zoom);
+
+    // Scale for node size
+    const sizeScale = d3.scaleSqrt()
+      .domain([1, d3.max(data.nodes, d => d.showCount) || 100])
+      .range([3, 20]);
+
+    // Color scale based on connections
+    const colorScale = d3.scaleSequential()
+      .domain([0, d3.max(data.nodes, d => d.connectionCount) || 50])
+      .interpolator(d3.interpolateYlOrBr);
+
+    // Create simulation
+    simulation = d3.forceSimulation(data.nodes)
+      .force('link', d3.forceLink(data.links)
+        .id((d: any) => d.id)
+        .distance(50))
+      .force('charge', d3.forceManyBody().strength(-100))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius((d: any) => sizeScale(d.showCount) + 2));
+
+    // Draw links
+    const link = g.append('g')
+      .attr('stroke', '#374151')
+      .attr('stroke-opacity', 0.3)
+      .selectAll('line')
+      .data(data.links)
+      .join('line')
+      .attr('stroke-width', (d: any) => Math.sqrt(d.weight));
+
+    // Draw nodes
+    const node = g.append('g')
+      .selectAll('circle')
+      .data(data.nodes)
+      .join('circle')
+      .attr('r', d => sizeScale(d.showCount))
+      .attr('fill', d => colorScale(d.connectionCount))
+      .attr('stroke', '#1f2937')
+      .attr('stroke-width', 1)
+      .attr('class', 'artist-node')
+      .call(d3.drag<SVGCircleElement, NetworkNode>()
+        .on('start', dragstarted)
+        .on('drag', dragged)
+        .on('end', dragended))
+      .on('click', (event, d) => showArtistPanel(d))
+      .on('mouseover', function() {
+        d3.select(this).attr('stroke', '#fbbf24').attr('stroke-width', 2);
+      })
+      .on('mouseout', function() {
+        d3.select(this).attr('stroke', '#1f2937').attr('stroke-width', 1);
+      });
+
+    // Add tooltips
+    node.append('title')
+      .text(d => `${d.name}\n${d.showCount} shows, ${d.connectionCount} connections`);
+
+    // Update positions on tick
+    simulation.on('tick', () => {
+      link
+        .attr('x1', (d: any) => d.source.x)
+        .attr('y1', (d: any) => d.source.y)
+        .attr('x2', (d: any) => d.target.x)
+        .attr('y2', (d: any) => d.target.y);
+
+      node
+        .attr('cx', d => d.x!)
+        .attr('cy', d => d.y!);
+    });
+
+    networkData = data;
+  }
+
+  function dragstarted(event: d3.D3DragEvent<SVGCircleElement, NetworkNode, NetworkNode>, d: NetworkNode) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(event: d3.D3DragEvent<SVGCircleElement, NetworkNode, NetworkNode>, d: NetworkNode) {
+    d.fx = event.x;
+    d.fy = event.y;
+  }
+
+  function dragended(event: d3.D3DragEvent<SVGCircleElement, NetworkNode, NetworkNode>, d: NetworkNode) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+
+  function showArtistPanel(artist: NetworkNode) {
+    const panel = document.getElementById('artist-panel');
+    const nameEl = document.getElementById('panel-artist-name');
+    const statsEl = document.getElementById('panel-stats');
+    const connectionsEl = document.getElementById('panel-connections');
+
+    if (!panel || !nameEl || !statsEl || !connectionsEl) return;
+
+    nameEl.textContent = artist.name;
+    statsEl.innerHTML = `
+      <div><span class="text-amber-400">${artist.showCount}</span> shows</div>
+      <div><span class="text-amber-400">${artist.connectionCount}</span> connections</div>
+    `;
+
+    // Find connections
+    const connections = networkData.links
+      .filter((l: any) => l.source.id === artist.id || l.target.id === artist.id)
+      .map((l: any) => {
+        const other = l.source.id === artist.id ? l.target : l.source;
+        return { name: other.name, weight: l.weight };
+      })
+      .sort((a, b) => b.weight - a.weight);
+
+    connectionsEl.innerHTML = connections.map(c => `
+      <li class="flex justify-between">
+        <span>${c.name}</span>
+        <span class="text-gray-500">${c.weight} shows</span>
+      </li>
+    `).join('');
+
+    panel.classList.remove('translate-x-full');
+  }
+
+  function hideArtistPanel() {
+    const panel = document.getElementById('artist-panel');
+    panel?.classList.add('translate-x-full');
+  }
+
+  function searchNetwork(term: string) {
+    if (!networkData) return;
+
+    const searchLower = term.toLowerCase();
+    const matches = networkData.nodes.filter(n =>
+      n.name.toLowerCase().includes(searchLower)
+    );
+
+    // Highlight matches
+    svg.selectAll('circle')
+      .attr('opacity', (d: any) =>
+        term ? (matches.includes(d) ? 1 : 0.2) : 1
+      );
+  }
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', async () => {
+    const data = await loadNetworkData();
+    if (data) {
+      initNetwork(data);
+    } else {
+      const loading = document.getElementById('network-loading');
+      if (loading) {
+        loading.innerHTML = `
+          <div class="text-center">
+            <p class="text-gray-400 mb-4">Network data is being processed.</p>
+            <p class="text-gray-500 text-sm">Run the migration and export scripts to generate the data.</p>
+          </div>
+        `;
+      }
+    }
+
+    // Event handlers
+    document.getElementById('close-panel')?.addEventListener('click', hideArtistPanel);
+    document.getElementById('reset-view')?.addEventListener('click', () => {
+      svg.transition().duration(500).call(
+        d3.zoom<SVGSVGElement, unknown>().transform as any,
+        d3.zoomIdentity
+      );
+    });
+
+    const searchInput = document.getElementById('network-search') as HTMLInputElement;
+    let searchTimeout: number;
+    searchInput?.addEventListener('input', (e) => {
+      clearTimeout(searchTimeout);
+      searchTimeout = window.setTimeout(() => {
+        searchNetwork((e.target as HTMLInputElement).value);
+      }, 300);
+    });
+  });
+</script>

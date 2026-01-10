@@ -1,0 +1,6 @@
+# Core dependencies for data tools
+anthropic>=0.18.0      # Claude API for LLM parsing
+
+# Already in main requirements.txt (included for completeness):
+# pandas>=1.5.0        # Data manipulation
+# requests>=2.28.0     # HTTP requests

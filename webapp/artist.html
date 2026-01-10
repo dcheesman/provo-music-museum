@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Detail - Velour Live</title>
+    <link rel="stylesheet" href="artist.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Artist Detail</h1>
+            <div class="header-actions">
+                <a href="index.html" class="btn btn-secondary">← Network View</a>
+                <a href="editor.html" class="btn btn-secondary">← Editor</a>
+                <a href="shows.html" class="btn btn-secondary">Show Management</a>
+            </div>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="artistSearch" placeholder="Search for an artist..." autocomplete="off">
+                <button id="searchBtn" class="btn btn-primary">Search</button>
+            </div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+
+        <div id="artistDetail" class="artist-detail" style="display: none;">
+            <div class="detail-header">
+                <h2 id="artistName">Artist Name</h2>
+                <button id="editInEditor" class="btn btn-primary">Edit in Editor</button>
+            </div>
+
+            <div class="detail-stats">
+                <div class="stat-card">
+                    <div class="stat-label">Total Shows</div>
+                    <div class="stat-value" id="totalShows">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Connections</div>
+                    <div class="stat-value" id="connectionCount">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Years Active</div>
+                    <div class="stat-value" id="yearsActive">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">First Year</div>
+                    <div class="stat-value" id="firstYear">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Last Year</div>
+                    <div class="stat-value" id="lastYear">-</div>
+                </div>
+            </div>
+
+            <div class="similar-artists-section">
+                <h3>Similar Artists (Potential Duplicates)</h3>
+                <p class="help-text">These artists have similar names and might be duplicates that should be merged.</p>
+                <div id="similarArtists" class="similar-artists-list"></div>
+            </div>
+
+            <div class="connections-section">
+                <h3>Connected Artists</h3>
+                <p class="help-text">Artists who have performed together with this artist.</p>
+                <div id="connectedArtists" class="connected-artists-list"></div>
+            </div>
+        </div>
+
+        <!-- Merge Modal -->
+        <div id="mergeModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Merge Artists</h2>
+                    <button class="close-btn" id="closeMergeModal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="merge-explanation">
+                        <h4>Choose Merge Direction:</h4>
+                        <div class="merge-options">
+                            <div class="merge-option">
+                                <input type="radio" name="mergeDirection" id="mergeInto" value="into" checked>
+                                <label for="mergeInto">
+                                    <strong>Merge <span id="sourceName1"></span> INTO <span id="targetName1"></span></strong>
+                                    <p class="merge-desc">
+                                        This will:<br>
+                                        • Add all shows from <span id="sourceName1b"></span> to <span id="targetName1b"></span><br>
+                                        • Keep the name "<span id="targetName1c"></span>"<br>
+                                        • Delete <span id="sourceName1d"></span>
+                                    </p>
+                                </label>
+                            </div>
+                            <div class="merge-option">
+                                <input type="radio" name="mergeDirection" id="mergeFrom" value="from">
+                                <label for="mergeFrom">
+                                    <strong>Merge <span id="targetName2"></span> INTO <span id="sourceName2"></span></strong>
+                                    <p class="merge-desc">
+                                        This will:<br>
+                                        • Add all shows from <span id="targetName2b"></span> to <span id="sourceName2b"></span><br>
+                                        • Keep the name "<span id="sourceName2c"></span>"<br>
+                                        • Delete <span id="targetName2d"></span>
+                                    </p>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="merge-preview">
+                        <div class="preview-card">
+                            <h4>Source Artist</h4>
+                            <p><strong id="previewSourceName"></strong></p>
+                            <p>Shows: <span id="previewSourceShows"></span></p>
+                            <p>Connections: <span id="previewSourceConnections"></span></p>
+                        </div>
+                        <div class="preview-arrow">→</div>
+                        <div class="preview-card">
+                            <h4>Target Artist (Will Keep This Name)</h4>
+                            <p><strong id="previewTargetName"></strong></p>
+                            <p>Shows: <span id="previewTargetShows"></span></p>
+                            <p>Connections: <span id="previewTargetConnections"></span></p>
+                        </div>
+                        <div class="preview-result">
+                            <h4>Result</h4>
+                            <p><strong id="previewResultName"></strong></p>
+                            <p>Total Shows: <span id="previewResultShows"></span></p>
+                            <p>Total Connections: <span id="previewResultConnections"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="cancelMerge">Cancel</button>
+                    <button class="btn btn-primary" id="confirmMerge">Confirm Merge</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="artist.js"></script>
+</body>
+</html>
+

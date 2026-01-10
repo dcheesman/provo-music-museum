@@ -1,0 +1,58 @@
+{
+  "collection_date": "2025-10-11T15:00:46.433039",
+  "total_shows": 7177,
+  "date_range": {
+    "earliest": "2006-01-01",
+    "latest": "2026-12-31"
+  },
+  "years_covered": 21,
+  "venue": "Velour Live Music Gallery",
+  "data_source": "https://velourlive.com/calendar/month.php",
+  "collection_method": "Automated web scraping with historical parser",
+  "shows_by_year": {
+    "2006": 371,
+    "2007": 386,
+    "2008": 394,
+    "2009": 369,
+    "2010": 351,
+    "2011": 368,
+    "2012": 366,
+    "2013": 371,
+    "2014": 371,
+    "2015": 375,
+    "2016": 358,
+    "2017": 328,
+    "2018": 353,
+    "2019": 354,
+    "2020": 261,
+    "2021": 254,
+    "2022": 352,
+    "2023": 354,
+    "2024": 365,
+    "2025": 353,
+    "2026": 123
+  },
+  "shows_by_decade": {
+    "2000s": 1520,
+    "2010s": 3595,
+    "2020s": 2062
+  },
+  "peak_years": [
+    "2008",
+    "2007",
+    "2015",
+    "2014",
+    "2013"
+  ],
+  "covid_impact": {
+    "2020": 261,
+    "2021": 254,
+    "note": "Significant reduction in shows during COVID-19 pandemic"
+  },
+  "recovery_years": {
+    "2022": 352,
+    "2023": 354,
+    "2024": 365,
+    "note": "Show count recovered to pre-pandemic levels"
+  }
+}

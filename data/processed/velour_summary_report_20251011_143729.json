@@ -1,0 +1,29 @@
+{
+  "total_shows": 122,
+  "date_range": {
+    "earliest": "2025-10-01",
+    "latest": "2025-10-31"
+  },
+  "genres": {
+    "Unknown": 98,
+    "Indie-Jazz/Rock": 3,
+    "Rock/Indie": 6,
+    "Pop": 3,
+    "Indie/Art-Rock": 3,
+    "Alt/Rock": 3,
+    "Indie/Post-Punk": 3,
+    "Alt-Indie": 3
+  },
+  "event_types": {
+    "Open Mic": 9,
+    "Festivals": 33,
+    "Special Events": 3,
+    "Regular Shows": 77
+  },
+  "monthly_breakdown": {
+    "October": 122
+  },
+  "venue": "Velour Live Music Gallery",
+  "data_source": "https://velourlive.com/calendar/index.php",
+  "created_at": "2025-10-11T14:37:29.071497"
+}

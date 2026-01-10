@@ -1,0 +1,31 @@
+{
+  "main_page": {
+    "url": "https://velourlive.com",
+    "status_code": 200,
+    "title": "Velour Live Music Gallery ::",
+    "soup": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n\n<html>\n<head>\n<title>Velour Live Music Gallery ::</title>\n<meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"/>\n<link href=\"../text.css\" rel=\"stylesheet\" type=\"text/css\"/>\n</head>\n<body background=\"../images/background.jpg\" leftmargin=\"0\" topmargin=\"0\">\n<div align=\"center\">\n<table cellpadding=\"0\" cellspacing=\"0\" width=\"804\">\n<tr>\n<td>\n<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tr>\n<td>\n<div align=\"center\"><img height=\"141\" src=\"../images/top.jpg\" width=\"804\"/></div>\n</td>\n</tr>\n<tr>\n<td>\n<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tr>\n<td width=\"67\"><img height=\"448\" src=\"../images/left.jpg\" width=\"67\"/></td>\n<td valign=\"top\">\n<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tr>\n<td><img height=\"42\" src=\"../images/main1.jpg\" width=\"670\"/></td>\n</tr>\n<tr>\n<td>\n<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tr>\n<td width=\"21\"><img height=\"369\" src=\"../images/main2.jpg\" width=\"37\"/></td>\n<td background=\"../images/mainBackground.jpg\" valign=\"top\">\n<div align=\"left\"> <iframe align=\"center\" frameborder=\"0\" height=\"369\" name=\"main\" src=\"../calendar/index.php\" width=\"599\"></iframe> </div>\n</td>\n<td width=\"21\"><img height=\"369\" src=\"../images/main3.jpg\" width=\"34\"/></td>\n</tr>\n</table>\n</td>\n</tr>\n<tr>\n<td><img height=\"37\" src=\"../images/main4.jpg\" width=\"670\"/></td>\n</tr>\n</table>\n</td>\n<td width=\"67\">\n<div align=\"right\"><img height=\"448\" src=\"../images/right.jpg\" width=\"67\"/></div>\n</td>\n</tr>\n</table>\n</td>\n</tr>\n<tr>\n<td>\n<div align=\"center\"><object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0\" height=\"50\" width=\"804\">\n<param name=\"movie\" value=\"../menu.swf\"/>\n<param name=\"quality\" value=\"high\"/>\n<embed height=\"50\" pluginspage=\"http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash\" quality=\"high\" src=\"../menu.swf\" type=\"application/x-shockwave-flash\" width=\"804\"/>\n</object></div>\n</td>\n</tr>\n</table>\n</td>\n</tr>\n</table>\n</div>\n</body>\n</html>\n",
+    "text_content": "\n\n\nVelour Live Music Gallery ::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "show_indicators": {
+      "date_patterns": [],
+      "time_patterns": [],
+      "venue_mentions": [
+        "velour",
+        "gallery"
+      ],
+      "artist_mentions": [],
+      "show_keywords": [
+        "music",
+        "live"
+      ],
+      "ticket_mentions": [],
+      "price_mentions": []
+    },
+    "links": [],
+    "content_length": 99
+  },
+  "internal_links": [],
+  "promising_pages": [],
+  "page_results": {},
+  "total_shows_found": 0,
+  "show_data": []
+}

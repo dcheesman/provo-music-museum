@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velour Live Artist Network</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Velour Live Music Gallery</h1>
+            <h2>Artist Network Visualization</h2>
+            <div class="controls">
+                <label>
+                    <input type="range" id="nodeSizeSlider" min="1" max="10" value="3" step="0.5">
+                    <span>Node Size: <span id="nodeSizeValue">3</span></span>
+                </label>
+                <label>
+                    <input type="range" id="linkDistanceSlider" min="10" max="200" value="50" step="10">
+                    <span>Link Distance: <span id="linkDistanceValue">50</span></span>
+                </label>
+                <label>
+                    <input type="range" id="chargeSlider" min="-500" max="-10" value="-100" step="10">
+                    <span>Charge: <span id="chargeValue">-100</span></span>
+                </label>
+                <button id="resetButton">Reset View</button>
+                <button id="filterButton">Filter Top Artists</button>
+                <button id="relaxButton">Relax Network</button>
+            </div>
+            <div class="stats">
+                <span id="nodeCount">Loading...</span>
+                <span id="linkCount">Loading...</span>
+            </div>
+        </header>
+        
+        <div id="tooltip" class="tooltip"></div>
+        <div id="linkTooltip" class="tooltip link-tooltip"></div>
+        
+        <svg id="network"></svg>
+        
+            <div class="info">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <h3>Instructions</h3>
+                <div style="display: flex; gap: 10px;">
+                    <a href="artist.html" class="btn btn-secondary" style="text-decoration: none;">Artist Search →</a>
+                    <a href="editor.html" class="btn btn-secondary" style="text-decoration: none;">Edit Data →</a>
+                    <a href="shows.html" class="btn btn-secondary" style="text-decoration: none;">Manage Shows →</a>
+                </div>
+            </div>
+            <ul>
+                <li><strong>Hover over nodes</strong> to see artist names</li>
+                <li><strong>Hover over links</strong> to see show details</li>
+                <li><strong>Drag nodes</strong> to rearrange the network</li>
+                <li><strong>Click nodes</strong> to highlight connections</li>
+                <li>Use sliders to adjust visualization parameters</li>
+                <li><strong>Edit data</strong> using the editor to fix typos and clean up names</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+

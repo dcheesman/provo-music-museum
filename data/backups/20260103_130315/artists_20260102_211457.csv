@@ -1,0 +1,2820 @@
+artist_name,normalized_name,total_shows,connection_count,years_active,first_year,last_year,years_span
+Cory Mon,cory mon,31,82,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2021, 2024]",2006,2024,13
+Boots to the Moon,boots to the moon,27,57,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016]",2007,2016,8
+Code Hero,code hero,25,43,"[2006, 2007, 2008, 2009, 2010, 2011, 2016]",2006,2016,7
+Mia Grace,mia grace,22,48,"[2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024]",2011,2024,13
+Desert Noises,desert noises,22,37,"[2008, 2009, 2010, 2011, 2012, 2014]",2008,2014,6
+Kathleen Frewin,kathleen frewin,22,50,"[2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2019, 2020, 2021, 2022, 2023]",2009,2023,13
+Neon Trees,neon trees,25,50,"[2006, 2007, 2008, 2009, 2010]",2006,2010,5
+Timmy The Teeth,timmy the teeth,20,38,"[2012, 2013, 2014, 2015, 2016, 2017, 2018]",2012,2018,7
+The Devil Whale,the devil whale,17,42,"[2008, 2009, 2010, 2011, 2012, 2016]",2008,2016,6
+Kid Theodore,kid theodore,21,34,"[2006, 2007, 2008, 2009, 2010, 2016]",2006,2016,6
+Quasi-Stellar Radio,quasi-stellar radio,18,34,"[2006, 2007, 2008, 2009, 2011, 2012]",2006,2012,6
+Jeff Stone,jeff stone,16,34,"[2006, 2007, 2008, 2009, 2011, 2015, 2016, 2024]",2006,2024,8
+Cowboys,cowboys,18,66,"[2006, 2007, 2009, 2010, 2011, 2012, 2013, 2014, 2019]",2006,2019,9
+Seve vs. Evan,seve vs. evan,19,38,"[2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]",2006,2013,8
+The Trademark,the trademark,16,30,"[2006, 2007, 2008, 2009, 2010]",2006,2010,5
+Emily Brown,emily brown,17,32,"[2010, 2011, 2012, 2014, 2015, 2017, 2019]",2010,2019,7
+Katie Brandeburg,katie brandeburg,17,38,"[2007, 2008, 2009, 2010, 2011]",2007,2011,5
+Marcus Bently,marcus bently,11,28,"[2006, 2007, 2008, 2013, 2014, 2015, 2018]",2006,2018,7
+Queenadilla,queenadilla,17,26,"[2013, 2014, 2015, 2016, 2017, 2019, 2022, 2023, 2024, 2025]",2013,2025,10
+Abby Normal,abby normal,16,30,"[2006, 2007, 2010, 2016]",2006,2016,4
+Paul Jacobsen,paul jacobsen,12,28,"[2007, 2008, 2009, 2010, 2011, 2016, 2022, 2024, 2025]",2007,2025,9
+Cary Judd,cary judd,5,26,"[2006, 2007, 2008, 2009, 2010, 2012, 2013, 2016]",2006,2016,8
+The New Electric Sound,the new electric sound,14,25,"[2012, 2013, 2014, 2015, 2016]",2012,2016,5
+The New Nervous,the new nervous,13,28,"[2006, 2007, 2008, 2009, 2016]",2006,2016,5
+Isaac Russell,isaac russell,12,26,"[2007, 2008, 2010, 2012, 2013, 2014, 2015]",2007,2015,7
+Lake Island,lake island,13,25,"[2011, 2012, 2013, 2014, 2016]",2011,2016,5
+The John Whites,the john whites,12,24,"[2006, 2007, 2008, 2010, 2016]",2006,2016,5
+Deadtooth,deadtooth,13,25,"[2012, 2013, 2014, 2015, 2016]",2012,2016,5
+Cody Rigby,cody rigby,13,32,"[2009, 2010, 2011]",2009,2011,3
+Allred,allred,12,24,"[2006, 2007, 2008, 2014, 2015, 2021]",2006,2021,6
+Return To Sender,return to sender,13,29,"[2006, 2007, 2008, 2009, 2016]",2006,2016,5
+Spirit City,spirit city,13,19,"[2014, 2015, 2016, 2017, 2021, 2022]",2014,2022,6
+The Vibrant Sound,the vibrant sound,12,18,"[2009, 2010, 2011, 2013, 2014, 2015]",2009,2015,6
+Another Statistic,another statistic,12,30,"[2006, 2007, 2008]",2006,2008,3
+Harpers,harpers,12,13,"[2018, 2019, 2022, 2023, 2025]",2018,2025,5
+Joshua James,joshua james,8,21,"[2006, 2007, 2014]",2006,2014,3
+RuRu,ruru,10,18,"[2008, 2009, 2015, 2016]",2008,2016,4
+Drusky,drusky,12,29,"[2019, 2020, 2021, 2022, 2023, 2024, 2025]",2019,2025,7
+Pinguin Mofex,pinguin mofex,12,19,"[2016, 2017, 2018, 2019, 2020, 2021, 2022, 2025]",2016,2025,8
+Brinton Jones,brinton jones,11,20,"[2006, 2007, 2008, 2009, 2012, 2013, 2014]",2006,2014,7
+Nate Pyfer,nate pyfer,11,22,"[2007, 2008, 2009, 2011, 2013, 2015, 2018]",2007,2018,7
+The Lovestrange,the lovestrange,11,17,"[2015, 2016, 2017, 2018, 2025]",2015,2025,5
+Searching for Celia,searching for celia,12,27,"[2011, 2012]",2011,2012,2
+Westward The Tide,westward the tide,12,20,"[2013, 2014, 2015, 2016]",2013,2016,4
+Book on Tapeworm,book on tapeworm,9,19,"[2009, 2010, 2011]",2009,2011,3
+Coral Bones,coral bones,11,16,"[2013, 2014, 2015, 2016]",2013,2016,4
+With Andrea,with andrea,10,16,"[2021, 2022, 2023, 2024, 2025]",2021,2025,5
+The Brocks,the brocks,13,21,"[2011, 2012, 2013, 2014, 2015, 2016]",2011,2016,6
+Grey Fiction,grey fiction,11,20,"[2011, 2012, 2013, 2017]",2011,2017,4
+Shady Chapel,shady chapel,11,25,"[2008, 2009, 2010, 2011]",2008,2011,4
+The Flame,the flame,11,24,"[2011, 2012, 2013, 2015]",2011,2015,4
+A Film In The Ballroom,a film in the ballroom,10,21,"[2006, 2007, 2008, 2016]",2006,2016,4
+Ferocious Oaks,ferocious oaks,11,28,"[2010, 2011, 2012, 2014]",2010,2014,4
+The Neighbors,the neighbors,11,20,"[2010, 2011, 2012, 2013]",2010,2013,4
+The Eden Express,the eden express,11,18,"[2006, 2007, 2008, 2009, 2010]",2006,2010,5
+Book On Tape Worm,book on tape worm,11,8,"[2011, 2012, 2013, 2014, 2015, 2020, 2023]",2011,2023,7
+Little Moon,little moon,11,14,"[2017, 2018, 2019, 2022, 2023, 2024]",2017,2024,6
+Mad Diving Barons,mad diving barons,11,30,"[2010, 2011, 2012]",2010,2012,3
+Garon Brett,garon brett,10,11,"[2018, 2019, 2020, 2021, 2022, 2023, 2024]",2018,2024,7
+Shark Speed,shark speed,12,30,"[2008, 2009, 2010, 2011, 2016]",2008,2016,5
+Colby Stead,colby stead,10,16,"[2006, 2008, 2014, 2016]",2006,2016,4
+Bat Manors,bat manors,10,17,"[2013, 2014, 2015]",2013,2015,3
+Tessa Barton,tessa barton,10,18,"[2010, 2011, 2012, 2013]",2010,2013,4
+Toy Bombs,toy bombs,10,26,"[2011, 2012, 2013, 2014]",2011,2014,4
+Goldmyth,goldmyth,11,18,"[2015, 2017, 2019, 2021, 2022, 2024]",2015,2024,6
+Brother,brother,10,13,"[2012, 2016, 2017, 2018, 2019, 2022]",2012,2022,6
+Okkah,okkah,9,15,"[2014, 2015, 2016, 2017, 2018]",2014,2018,5
+Michael Barrow,michael barrow,3,19,"[2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024]",2015,2024,9
+Caleb Darger,caleb darger,8,17,"[2011, 2016, 2017, 2022, 2023, 2024]",2011,2024,6
+Benton Paul,benton paul,9,14,"[2006, 2007, 2008, 2010]",2006,2010,4
+Blue Aces,blue aces,10,18,"[2011, 2012, 2013, 2014, 2015]",2011,2015,5
+Jenn Blosil,jenn blosil,11,15,"[2009, 2010, 2011, 2012, 2013, 2018, 2019, 2022, 2024, 2025]",2009,2025,10
+Donnie Bonelli,donnie bonelli,9,21,"[2007, 2008, 2014, 2021]",2007,2021,4
+Sunflow,sunflow,10,22,"[2010, 2011]",2010,2011,2
+Caleb Blood,caleb blood,9,21,"[2010, 2011, 2012, 2013, 2014]",2010,2014,5
+Love You Long Time,love you long time,8,22,"[2006, 2007, 2008, 2009]",2006,2009,4
+Drew Danburry,drew danburry,11,19,"[2006, 2008, 2009, 2012, 2016]",2006,2016,5
+Debra fotheringham,debra fotheringham,10,20,"[2006, 2007, 2008, 2009, 2010, 2016, 2024, 2025]",2006,2025,8
+The Archers Apple,the archers apple,11,19,"[2009, 2010, 2011, 2012]",2009,2012,4
+The Second Estate,the second estate,9,16,"[2009, 2010, 2011]",2009,2011,3
+Gypsy Cab,gypsy cab,9,18,"[2009, 2010, 2011, 2012, 2013, 2014]",2009,2014,6
+Kitfox,kitfox,9,14,"[2013, 2014, 2015, 2016, 2018]",2013,2018,5
+Ryan Innes,ryan innes,9,17,"[2010, 2011, 2013, 2014, 2016, 2024]",2010,2024,6
+VanLadyLove,vanladylove,10,14,"[2012, 2013, 2014, 2015]",2012,2015,4
+Mighty Sequoyah,mighty sequoyah,9,20,"[2011, 2012, 2013]",2011,2013,3
+Robert Loud,robert loud,5,15,"[2016, 2017, 2018, 2019, 2024, 2025]",2016,2025,6
+Kaytlin Numbers,kaytlin numbers,9,14,"[2023, 2024, 2025]",2023,2025,3
+Mmend,mmend,8,10,"[2016, 2017, 2018, 2019, 2021, 2022]",2016,2022,6
+Blind Actuaries,blind actuaries,9,20,"[2011, 2012]",2011,2012,2
+The Question,the question,9,22,"[2008, 2009, 2010]",2008,2010,3
+Mideau,mideau,9,8,"[2012, 2013, 2014, 2015, 2016]",2012,2016,5
+Rally,rally,9,18,"[2019, 2021, 2022, 2023, 2024, 2025]",2019,2025,6
+New Shack,new shack,8,12,"[2015, 2016, 2017]",2015,2017,3
+Cherish Degraaf,cherish degraaf,9,18,"[2016, 2017, 2018, 2019, 2020, 2022, 2024, 2025]",2016,2025,8
+Broke City,broke city,9,16,"[2007, 2008, 2009, 2010]",2007,2010,4
+Dustin Christensen,dustin christensen,8,17,"[2010, 2011, 2012, 2014, 2015, 2016]",2010,2016,6
+Talin Everett,talin everett,9,15,"[2021, 2022, 2023, 2024]",2021,2024,4
+Swimm,swimm,3,13,"[2013, 2014, 2015, 2017, 2019]",2013,2019,5
+Robert,robert,9,23,"[2008, 2011, 2012, 2013, 2014]",2008,2014,5
+Shake,shake,9,21,"[2007, 2008, 2009]",2007,2009,3
+Victoria,victoria,9,18,"[2008, 2009, 2010, 2011]",2008,2011,4
+Side Dish,side dish,7,22,"[2006, 2007]",2006,2007,2
+Cody Taylor,cody taylor,9,21,"[2010, 2012, 2013]",2010,2013,3
+Grove,grove,9,11,"[2016, 2017, 2018, 2019, 2020]",2016,2020,5
+Red Yeti,red yeti,9,19,"[2012, 2013, 2014, 2016]",2012,2016,4
+Kiss Me Kill Me,kiss me kill me,9,20,"[2008, 2009, 2010, 2011, 2013]",2008,2013,5
+Cactus Tree,cactus tree,9,16,"[2022, 2023, 2024, 2025]",2022,2025,4
+Echo,echo,9,21,"[2007, 2008, 2009]",2007,2009,3
+Grizzly Goat,grizzly goat,8,22,"[2014, 2015, 2016, 2017, 2019, 2021, 2023, 2024]",2014,2024,8
+Empirates,empirates,9,21,"[2010, 2011, 2012]",2010,2012,3
+Forgotten Charity,forgotten charity,12,19,"[2006, 2007, 2008]",2006,2008,3
+Static Waves,static waves,9,8,"[2014, 2015, 2016]",2014,2016,3
+Avintaquin,avintaquin,9,13,"[2022, 2023, 2024, 2025]",2022,2025,4
+Andy Martin,andy martin,8,17,"[2006, 2007, 2008]",2006,2008,3
+Strange Familia,strange familia,8,13,"[2015, 2016, 2017, 2018, 2019, 2024]",2015,2024,6
+Lantern By Sea,lantern by sea,8,16,"[2018, 2019, 2021, 2023]",2018,2023,4
+One Man Short,one man short,8,22,"[2006, 2009, 2010]",2006,2010,3
+Faith Johnson,faith johnson,6,7,"[2011, 2012, 2013, 2014, 2016]",2011,2016,5
+Matt Hopper,matt hopper,9,18,"[2006, 2007, 2008, 2010, 2013, 2018]",2006,2018,6
+Seth Brown,seth brown,7,17,"[2014, 2015, 2016, 2017, 2018, 2020, 2022]",2014,2022,7
+Star Crossed Loners,star crossed loners,8,13,"[2016, 2017, 2018, 2023]",2016,2023,4
+Salazar,salazar,8,17,"[2011, 2012, 2013, 2014, 2015]",2011,2015,5
+Temples,temples,8,17,"[2012, 2013, 2014, 2015]",2012,2015,4
+Eyes Lips Eyes,eyes lips eyes,9,17,"[2010, 2011, 2012, 2016]",2010,2016,4
+Bonneville,bonneville,8,12,"[2023, 2024, 2025]",2023,2025,3
+RKDN,rkdn,8,11,"[2014, 2015, 2016]",2014,2016,3
+Seafinch,seafinch,7,17,"[2011, 2012]",2011,2012,2
+Chasing Kings,chasing kings,1,16,"[2010, 2011, 2012, 2016]",2010,2016,4
+The Weakmen,the weakmen,11,14,"[2006, 2007, 2008, 2010]",2006,2010,4
+Mudbison,mudbison,8,13,"[2009, 2010, 2011]",2009,2011,3
+Cesley,cesley,8,20,"[2019, 2020, 2023, 2024, 2025]",2019,2025,5
+Paul Travis,paul travis,8,17,"[2013, 2014, 2015, 2016, 2017]",2013,2017,5
+Imagine Dragons,imagine dragons,8,19,"[2008, 2009, 2010]",2008,2010,3
+Flannel Graph,flannel graph,1,10,"[2014, 2015, 2016]",2014,2016,3
+Strange Family,strange family,8,15,"[2013, 2014, 2015]",2013,2015,3
+Kambree,kambree,8,16,"[2017, 2018, 2019, 2020]",2017,2020,4
+The National Parks,the national parks,8,14,"[2013, 2014, 2016]",2013,2016,3
+Band of Annuals,band of annuals,8,17,"[2006, 2007, 2008, 2009]",2006,2009,4
+John Allred,john allred,7,10,"[2006, 2007, 2014, 2015, 2016, 2024]",2006,2024,6
+etc,etc,3,21,"[2006, 2007, 2010, 2011, 2013, 2023]",2006,2023,6
+Mathematics Et Cetera,mathematics et cetera,9,9,"[2006, 2007, 2008]",2006,2008,3
+Homestyle Dinner Rolls,homestyle dinner rolls,10,17,"[2021, 2022, 2023, 2024]",2021,2024,4
+Jordan Moyes,jordan moyes,8,12,"[2015, 2018, 2019, 2022, 2023, 2024]",2015,2024,6
+Emily Bea,emily bea,8,16,"[2013, 2014, 2015, 2016, 2017, 2019, 2022, 2024]",2013,2024,8
+Old,old,8,19,"[2013, 2014, 2015]",2013,2015,3
+Young,young,8,19,"[2013, 2014, 2015]",2013,2015,3
+Truman,truman,7,12,"[2006, 2008, 2009, 2010, 2011]",2006,2011,5
+Quiet House,quiet house,6,10,"[2014, 2015, 2016, 2017]",2014,2017,4
+Lovingly Clad,lovingly clad,7,13,"[2023, 2024, 2025]",2023,2025,3
+Paige Fish,paige fish,7,17,"[2021, 2022, 2023, 2024]",2021,2024,4
+Brumby,brumby,5,13,"[2014, 2015, 2016]",2014,2016,3
+Chance Lewis,chance lewis,6,14,"[2008, 2009, 2010, 2011, 2012]",2008,2012,5
+Local Kin,local kin,8,16,"[2023, 2024, 2025]",2023,2025,3
+Sunfish,sunfish,7,11,"[2020, 2021, 2022, 2023]",2020,2023,4
+Mia Hicken,mia hicken,7,15,"[2018, 2019, 2022]",2018,2022,3
+Jack Pines,jack pines,7,15,"[2014, 2015, 2016]",2014,2016,3
+Michael Bradford,michael bradford,7,16,"[2008, 2009, 2012, 2013, 2014, 2015]",2008,2015,6
+Victim Effect,victim effect,7,17,"[2006, 2007, 2008]",2006,2008,3
+Internet Lover Boys,internet lover boys,7,14,"[2024, 2025]",2024,2025,2
+Joe Castor,joe castor,7,8,"[2006, 2007, 2008]",2006,2008,3
+Le Dad,le dad,6,10,"[2019, 2020, 2021, 2022, 2023]",2019,2023,5
+Parlor Hawk,parlor hawk,8,15,"[2010, 2011, 2013]",2010,2013,3
+Tishmal,tishmal,8,7,"[2017, 2018, 2019, 2020]",2017,2020,4
+Street Legal,street legal,7,14,"[2010, 2011, 2012]",2010,2012,3
+Libbie Linton,libbie linton,1,16,"[2015, 2020, 2021, 2023, 2024, 2025]",2015,2025,6
+Ivy League,ivy league,6,11,"[2006, 2007]",2006,2007,2
+Tess Comrie,tess comrie,7,12,"[2012, 2013, 2014, 2015]",2012,2015,4
+Mathematics Etc,mathematics etc,6,19,"[2007, 2008, 2009, 2010]",2007,2010,4
+Ben Reneer,ben reneer,6,14,"[2014, 2017, 2018, 2019, 2023, 2024]",2014,2024,6
+Fatigi,fatigi,7,18,"[2010, 2011, 2012]",2010,2012,3
+The Fellows,the fellows,7,18,"[2013, 2014]",2013,2014,2
+In Dreaming,in dreaming,7,15,"[2009, 2010, 2011]",2009,2011,3
+Eidola,eidola,7,19,"[2011, 2012, 2013]",2011,2013,3
+Lo-Fi Riot,lo-fi riot,8,13,"[2011, 2012, 2015, 2019, 2022]",2011,2022,5
+Hollow Hill,hollow hill,7,8,"[2021, 2022, 2023, 2024]",2021,2024,4
+Haley Hendrickson,haley hendrickson,7,16,"[2008, 2009, 2011, 2012, 2014, 2016]",2008,2016,6
+the Carrolls,the carrolls,7,18,"[2008, 2011, 2012, 2013, 2014]",2008,2014,5
+Pando,pando,7,15,"[2013, 2014]",2013,2014,2
+Counterfeit Digits,counterfeit digits,7,13,"[2007, 2008, 2009]",2007,2009,3
+Crossing Columbia,crossing columbia,7,15,"[2008, 2009, 2010, 2013]",2008,2013,4
+John Whites,john whites,7,18,"[2007, 2008]",2007,2008,2
+Festive People,festive people,7,13,"[2014, 2015, 2016, 2017]",2014,2017,4
+Soft Science,soft science,6,14,"[2011, 2012]",2011,2012,2
+Grey Glass,grey glass,7,15,"[2014, 2015, 2016, 2018, 2019]",2014,2019,5
+Lady,lady,7,16,"[2011, 2012, 2013]",2011,2013,3
+Telesomniac,telesomniac,7,10,"[2015, 2017, 2018, 2019]",2015,2019,4
+Seve vs Evan,seve vs evan,8,14,"[2014, 2015, 2016]",2014,2016,3
+Sayde Price,sayde price,6,8,"[2008, 2009, 2010]",2008,2010,3
+the Tourists,the tourists,7,13,"[2017, 2018, 2019, 2022, 2023, 2024]",2017,2024,6
+HOLY WATER BUFFALO,holy water buffalo,6,19,"[2011, 2023]",2011,2023,2
+The Rubies,the rubies,7,15,"[2018, 2019, 2020, 2022, 2023]",2018,2023,5
+Nate Hardyman,nate hardyman,7,8,"[2017, 2018, 2019, 2023]",2017,2023,4
+The Highwire Act,the highwire act,7,9,"[2006, 2007, 2008, 2009]",2006,2009,4
+AURHE,aurhe,7,14,"[2024, 2025]",2024,2025,2
+Nik Day,nik day,6,11,"[2010, 2011, 2012]",2010,2012,3
+Qcom,qcom,6,17,"[2007, 2008]",2007,2008,2
+Somber Party,somber party,7,18,"[2008, 2009, 2010]",2008,2010,3
+Beeson,beeson,5,13,"[2021, 2022, 2023, 2024]",2021,2024,4
+Faith Marie,faith marie,6,10,"[2016, 2019, 2022, 2023, 2024]",2016,2024,5
+Marlee,marlee,6,13,"[2009, 2010, 2011]",2009,2011,3
+Haarlem,haarlem,6,8,"[2015, 2017]",2015,2017,2
+Kindred Dead,kindred dead,6,11,"[2014, 2015, 2016]",2014,2016,3
+Currents,currents,6,11,"[2018, 2019, 2020]",2018,2020,3
+Moses,moses,4,14,"[2009, 2010]",2009,2010,2
+Mac Wright,mac wright,3,16,"[2018, 2020, 2022, 2023, 2024]",2018,2024,5
+Violet Waves,violet waves,6,9,"[2014, 2015]",2014,2015,2
+NA-G,na-g,6,13,"[2014, 2015, 2016, 2018]",2014,2018,4
+New American Gothic,new american gothic,6,16,"[2022, 2023, 2024]",2022,2024,3
+Hasha,hasha,6,12,"[2023, 2024, 2025]",2023,2025,3
+Spencer Russell,spencer russell,7,14,"[2009, 2011, 2012, 2016]",2009,2016,4
+Swerved By Blondes,swerved by blondes,6,15,"[2023, 2024, 2025]",2023,2025,3
+Kieran Hellum,kieran hellum,6,11,"[2021, 2022, 2023, 2024]",2021,2024,4
+The Last Wild Buffalo,the last wild buffalo,6,14,"[2024, 2025]",2024,2025,2
+L'anarchiste,l'anarchiste,6,12,"[2013, 2014, 2015]",2013,2015,3
+Mad Max,mad max,6,13,"[2012, 2014, 2015, 2016, 2017]",2012,2017,5
+Palomino,palomino,6,11,"[2006, 2007]",2006,2007,2
+Jenessa Buttars,jenessa buttars,5,12,"[2010, 2013]",2010,2013,2
+Garret Williams,garret williams,5,13,"[2010, 2013, 2014]",2010,2014,3
+Gent,gent,6,14,"[2011, 2012, 2013]",2011,2013,3
+POLYTYPE,polytype,4,11,"[2013, 2014, 2016]",2013,2016,3
+Pariah Poetic,pariah poetic,5,14,"[2006, 2008, 2009]",2006,2009,3
+Johan The Angel,johan the angel,6,7,"[2007, 2008]",2007,2008,2
+J. Wride,j. wride,6,14,"[2008, 2009, 2010, 2013, 2016]",2008,2016,5
+Malcolm Jackson,malcolm jackson,6,16,"[2011, 2012, 2013]",2011,2013,3
+The Brobecks,the brobecks,8,10,"[2007, 2008, 2009]",2007,2009,3
+Mortigi Tempo,mortigi tempo,6,13,"[2012, 2013, 2014, 2016]",2012,2016,4
+Hoppy,hoppy,6,12,"[2019, 2021, 2022, 2023]",2019,2023,4
+Vainly Expressed,vainly expressed,6,15,"[2006, 2007]",2006,2007,2
+Al Deans,al deans,6,17,"[2007, 2008, 2009, 2011, 2016, 2018]",2007,2018,6
+Dad Bod,dad bod,6,7,"[2018, 2019, 2021, 2023]",2018,2023,4
+Battle School,battle school,6,15,"[2010, 2011, 2012]",2010,2012,3
+Cubworld,cubworld,3,13,"[2010, 2011, 2013]",2010,2013,3
+Lazy Loners,lazy loners,6,11,"[2023, 2024, 2025]",2023,2025,3
+Regal Beast,regal beast,6,15,"[2011, 2012]",2011,2012,2
+Poolhouse,poolhouse,6,9,"[2021, 2022, 2023, 2024]",2021,2024,4
+Harbor Patrol,harbor patrol,6,11,"[2018, 2019, 2022, 2023]",2018,2023,4
+Miss Valentine,miss valentine,6,14,"[2022, 2023]",2022,2023,2
+The North Valley,the north valley,6,16,"[2012, 2013]",2012,2013,2
+Moriah Glazier,moriah glazier,6,13,"[2011, 2012]",2011,2012,2
+Say Hey,say hey,6,11,"[2018, 2019, 2022]",2018,2022,3
+Spiral Diary,spiral diary,6,11,"[2006, 2007, 2008, 2009]",2006,2009,4
+Saemore,saemore,6,14,"[2024, 2025]",2024,2025,2
+Hello Helicopter,hello helicopter,5,9,[2009],2009,2009,1
+Prince of Whales,prince of whales,6,17,"[2010, 2011, 2013]",2010,2013,3
+Scott Bowden,scott bowden,6,15,"[2009, 2011, 2014]",2009,2014,3
+The Yaks,the yaks,6,13,"[2008, 2009]",2008,2009,2
+Mason Porter,mason porter,5,15,"[2006, 2007, 2008, 2011]",2006,2011,4
+Richie Kissinger,richie kissinger,6,10,"[2014, 2015]",2014,2015,2
+Steel Born Buffalo,steel born buffalo,6,12,"[2014, 2015, 2016]",2014,2016,3
+Broken Hearted Rounds,broken hearted rounds,6,14,"[2008, 2009, 2010]",2008,2010,3
+The Sardines,the sardines,6,9,"[2018, 2019]",2018,2019,2
+The Handsome,the handsome,7,13,"[2006, 2007]",2006,2007,2
+New Nervous,new nervous,6,15,"[2006, 2007, 2009]",2006,2009,3
+Jordan Clark,jordan clark,5,12,"[2006, 2007, 2013, 2014]",2006,2014,4
+Friends,friends,5,12,"[2011, 2012, 2017]",2011,2017,3
+Suit Up Soldier,suit up soldier,5,11,"[2014, 2016, 2017, 2018, 2019]",2014,2019,5
+Kasadoom,kasadoom,5,9,"[2018, 2019]",2018,2019,2
+James Belliston,james belliston,4,13,"[2006, 2007, 2008]",2006,2008,3
+Tal Haslam,tal haslam,5,9,"[2015, 2016, 2018, 2019]",2015,2019,4
+Southernmost Gravy,southernmost gravy,5,10,"[2021, 2022, 2023]",2021,2023,3
+Taught Me,taught me,5,7,"[2006, 2011]",2006,2011,2
+Seaslak,seaslak,5,11,"[2022, 2023, 2024]",2022,2024,3
+Teilani,teilani,5,8,"[2019, 2020]",2019,2020,2
+Brogan Kelby,brogan kelby,5,6,"[2013, 2016, 2017, 2019, 2020]",2013,2020,5
+Kenzie James,kenzie james,1,13,"[2011, 2012]",2011,2012,2
+Pipes,pipes,5,8,"[2016, 2017, 2018]",2016,2018,3
+Norther,norther,5,11,"[2010, 2011]",2010,2011,2
+The Penny Candies,the penny candies,5,9,"[2020, 2021, 2022, 2023, 2024]",2020,2024,5
+Lucy Moore,lucy moore,6,8,"[2006, 2007, 2008]",2006,2008,3
+Timber!,timber!,4,11,[2011],2011,2011,1
+Moonwhale,moonwhale,5,10,[2007],2007,2007,1
+Ok Ikumi,ok ikumi,4,12,"[2006, 2007]",2006,2007,2
+Cardinal Bloom,cardinal bloom,5,9,"[2021, 2022, 2023]",2021,2023,3
+NED,ned,5,11,"[2014, 2015]",2014,2015,2
+Mt. Everett,mt. everett,4,14,"[2020, 2021, 2022, 2023]",2020,2023,4
+Echo Dog,echo dog,5,9,"[2012, 2013, 2014]",2012,2014,3
+Mr. Smith,mr. smith,5,7,"[2013, 2014]",2013,2014,2
+The Howl,the howl,5,10,"[2013, 2014, 2015, 2016]",2013,2016,4
+James Robin,james robin,5,10,"[2019, 2021, 2022, 2023]",2019,2023,4
+Mr. Mention,mr. mention,5,11,"[2006, 2007, 2008]",2006,2008,3
+Double or Nothing,double or nothing,5,11,"[2009, 2010, 2011, 2013]",2009,2013,4
+Clarence Jessop,clarence jessop,5,13,"[2011, 2013]",2011,2013,2
+Hello Amsterdam,hello amsterdam,4,6,"[2006, 2007, 2010, 2011]",2006,2011,4
+The Blue Aces,the blue aces,5,11,"[2011, 2013, 2014, 2015]",2011,2015,4
+T.S.G,t.s.g,5,18,"[2007, 2010, 2011, 2013]",2007,2013,4
+Kelsie Everson,kelsie everson,5,11,"[2007, 2008, 2018, 2020]",2007,2020,4
+Steven Stucki,steven stucki,5,8,"[2011, 2012, 2013, 2014, 2022]",2011,2022,5
+the Wild Ones,the wild ones,5,10,"[2012, 2014, 2015, 2017]",2012,2017,4
+Botanical Animal,botanical animal,5,7,"[2022, 2024, 2025]",2022,2025,3
+Barsie,barsie,4,6,"[2014, 2015, 2016]",2014,2016,3
+the S.G,the s.g,5,10,"[2008, 2009, 2010]",2008,2010,3
+furniture,furniture,2,4,"[2009, 2010]",2009,2010,2
+Location Location,location location,5,12,"[2008, 2009, 2010, 2016]",2008,2016,4
+Luna Lune,luna lune,5,8,"[2013, 2014, 2015]",2013,2015,3
+Claire Elise,claire elise,5,9,"[2014, 2015]",2014,2015,2
+Jay W. Henderson,jay w. henderson,5,10,"[2012, 2014, 2015, 2016]",2012,2016,4
+Danger Kids,danger kids,5,15,"[2012, 2013, 2014]",2012,2014,3
+Down River,down river,5,13,"[2022, 2023, 2024]",2022,2024,3
+Mooninite,mooninite,5,8,"[2012, 2013, 2015, 2024]",2012,2024,4
+Mowth,mowth,5,9,"[2019, 2020, 2021, 2023]",2019,2023,4
+Tighty Willis,tighty willis,5,13,"[2009, 2010, 2011, 2012]",2009,2012,4
+The Mighty Sequoyah,the mighty sequoyah,5,9,"[2011, 2012, 2013]",2011,2013,3
+This is Anfield,this is anfield,5,6,"[2009, 2010, 2014]",2009,2014,3
+Mojave Nomads,mojave nomads,5,9,"[2015, 2016, 2019]",2015,2019,3
+Matt Lewis Band,matt lewis band,6,13,"[2006, 2007, 2008, 2009]",2006,2009,4
+Coin In the Sea,coin in the sea,5,12,"[2013, 2014, 2015]",2013,2015,3
+Nymph,nymph,5,9,"[2018, 2019]",2018,2019,2
+Drape,drape,5,9,"[2015, 2016]",2015,2016,2
+Sun House,sun house,4,8,[2014],2014,2014,1
+Orcamind,orcamind,5,8,"[2023, 2024, 2025]",2023,2025,3
+Elemental,elemental,5,11,"[2009, 2011, 2012, 2013]",2009,2013,4
+Over Under,over under,5,7,"[2019, 2020, 2021, 2022, 2024]",2019,2024,5
+Forest World,forest world,5,11,"[2007, 2008, 2009]",2007,2009,3
+Indigo Waves,indigo waves,5,5,"[2018, 2019, 2021]",2018,2021,3
+The Second Round,the second round,5,11,"[2010, 2011]",2010,2011,2
+Apt,apt,2,12,"[2011, 2012, 2014, 2016]",2011,2016,4
+Ashley Hess,ashley hess,5,10,"[2014, 2016, 2021, 2025]",2014,2025,4
+Sego,sego,5,7,"[2015, 2016, 2019, 2022]",2015,2022,4
+Sonsapapa,sonsapapa,4,6,"[2013, 2016, 2017, 2018]",2013,2018,4
+Lunar Spirit,lunar spirit,4,12,"[2023, 2024, 2025]",2023,2025,3
+Madfish,madfish,4,8,"[2024, 2025]",2024,2025,2
+If,if,4,11,"[2024, 2025]",2024,2025,2
+Maxfield,maxfield,4,10,"[2006, 2007]",2006,2007,2
+Brady Parks,brady parks,3,15,"[2012, 2013]",2012,2013,2
+Amber Lynn,amber lynn,4,8,"[2015, 2016, 2017]",2015,2017,3
+Mason Murphy,mason murphy,4,6,"[2015, 2016, 2017]",2015,2017,3
+The 2:13's,the 2:13's,4,8,"[2012, 2013]",2012,2013,2
+Viridian,viridian,3,8,[2024],2024,2024,1
+Solarsuit,solarsuit,4,7,"[2013, 2014, 2017]",2013,2017,3
+the JT Empire,the jt empire,4,11,"[2007, 2008]",2007,2008,2
+Care,care,4,11,"[2021, 2022, 2024, 2025]",2021,2025,4
+Anna Beck,anna beck,4,9,"[2022, 2023, 2024, 2025]",2022,2025,4
+Chi Chi Le Mot,chi chi le mot,4,9,"[2021, 2022, 2024]",2021,2024,3
+Dave Eaton,dave eaton,4,10,"[2007, 2008, 2009, 2010]",2007,2010,4
+Seventh Seal,seventh seal,4,12,"[2022, 2023]",2022,2023,2
+No Such Animal,no such animal,7,8,"[2022, 2023, 2024, 2025]",2022,2025,4
+Josh Snider,josh snider,2,3,"[2017, 2018, 2019]",2017,2019,3
+Ruble,ruble,4,6,"[2018, 2019]",2018,2019,2
+Jake Ruplinger,jake ruplinger,4,6,"[2023, 2024]",2023,2024,2
+Two Nations,two nations,3,6,"[2015, 2016]",2015,2016,2
+Randi Olsen,randi olsen,4,7,"[2006, 2007]",2006,2007,2
+The Solarists,the solarists,4,8,"[2017, 2018, 2019]",2017,2019,3
+Seth Hanks,seth hanks,4,14,"[2009, 2010, 2013]",2009,2013,3
+Broke,broke,4,9,"[2006, 2007, 2016]",2006,2016,3
+Sister Adolescent,sister adolescent,4,4,"[2017, 2018]",2017,2018,2
+Miicah,miicah,5,4,"[2024, 2025]",2024,2025,2
+Egan's Theory,egan's theory,4,5,"[2007, 2008, 2010]",2007,2010,3
+When,when,4,11,"[2023, 2024, 2025]",2023,2025,3
+Allie Holman,allie holman,4,10,"[2013, 2014]",2013,2014,2
+19 Miles Per Hour,19 miles per hour,4,8,"[2020, 2022, 2024]",2020,2024,3
+Vibrant Sound,vibrant sound,4,10,"[2009, 2011]",2009,2011,2
+House of Lewis,house of lewis,4,5,"[2013, 2016, 2018]",2013,2018,3
+Sober Down,sober down,4,6,"[2010, 2011]",2010,2011,2
+Mimi Knowles,mimi knowles,3,9,"[2013, 2016]",2013,2016,2
+Eden Express,eden express,4,9,"[2007, 2016]",2007,2016,2
+KYLE HENDERSON,kyle henderson,4,7,"[2013, 2015, 2016, 2023]",2013,2023,4
+J.Wride,j.wride,3,7,"[2010, 2012, 2018]",2010,2018,3
+Rachel James,rachel james,4,8,"[2024, 2025]",2024,2025,2
+I/O,i/o,4,6,"[2013, 2014, 2015]",2013,2015,3
+Preston Pugmire,preston pugmire,2,7,"[2009, 2010, 2011]",2009,2011,3
+Coup De Grace,coup de grace,4,8,"[2007, 2008, 2009]",2007,2009,3
+Jay William Henderson,jay william henderson,4,6,"[2010, 2013, 2014]",2010,2014,3
+Ben Day,ben day,4,5,"[2019, 2021]",2019,2021,2
+Set In Stone,set in stone,4,7,"[2006, 2007]",2006,2007,2
+Matt Weidauer,matt weidauer,4,9,"[2009, 2014]",2009,2014,2
+Creatively Bound,creatively bound,4,8,"[2019, 2020]",2019,2020,2
+Devin Powell,devin powell,3,11,"[2009, 2013, 2014, 2015]",2009,2015,4
+Paul Clonts,paul clonts,4,8,"[2013, 2015]",2013,2015,2
+McKay Stevens,mckay stevens,4,12,"[2006, 2008]",2006,2008,2
+Paint The Woods,paint the woods,4,8,"[2016, 2017]",2016,2017,2
+Virtual Pandas,virtual pandas,4,8,"[2007, 2008]",2007,2008,2
+Rated Hero,rated hero,3,7,"[2006, 2007, 2008]",2006,2008,3
+Sub Radio,sub radio,4,1,"[2021, 2022]",2021,2022,2
+Stacy Stringham,stacy stringham,4,7,"[2012, 2014]",2012,2014,2
+Ferrin,ferrin,4,6,"[2023, 2024, 2025]",2023,2025,3
+90's Television,90's television,4,13,"[2011, 2012]",2011,2012,2
+Ricky,ricky,4,14,"[2008, 2009]",2008,2009,2
+Malik,malik,4,10,[2012],2012,2012,1
+Peter Harper,peter harper,4,7,"[2014, 2015, 2016]",2014,2016,3
+Komas,komas,6,7,"[2022, 2023, 2025]",2022,2025,3
+Wasatch,wasatch,4,7,"[2013, 2014, 2019]",2013,2019,3
+Batty Blue,batty blue,5,7,[2015],2015,2015,1
+Bryson Jarrett,bryson jarrett,4,8,"[2017, 2021, 2022]",2017,2022,3
+Adam,adam,4,13,"[2009, 2025]",2009,2025,2
+Bri Ray,bri ray,4,8,"[2016, 2017, 2020, 2022]",2016,2022,4
+26fix,26fix,4,8,"[2022, 2023]",2022,2023,2
+Andrew Norsworthy,andrew norsworthy,4,5,"[2006, 2007, 2008]",2006,2008,3
+Nicholas Allen,nicholas allen,4,7,"[2011, 2014, 2021]",2011,2021,3
+Go Suburban,go suburban,4,8,"[2014, 2015]",2014,2015,2
+Evan Sharp,evan sharp,4,7,"[2017, 2018]",2017,2018,2
+Diatom,diatom,4,7,"[2014, 2015]",2014,2015,2
+Oceanear,oceanear,4,10,"[2013, 2014]",2013,2014,2
+Local Sports Team,local sports team,4,7,"[2018, 2019]",2018,2019,2
+Chris Merritt,chris merritt,5,10,"[2007, 2008]",2007,2008,2
+Raven Watch,raven watch,4,8,"[2011, 2012, 2013]",2011,2013,3
+Jumpmonk,jumpmonk,4,9,"[2019, 2022, 2023]",2019,2023,3
+Ocean Commotion,ocean commotion,4,6,"[2014, 2015]",2014,2015,2
+Jennifer Blosil,jennifer blosil,4,3,"[2009, 2010, 2011]",2009,2011,3
+Forest Eyes,forest eyes,1,5,"[2013, 2015]",2013,2015,2
+Jessica Bassett,jessica bassett,4,6,"[2009, 2010, 2013, 2014]",2009,2014,4
+Dulce Sky,dulce sky,4,8,"[2006, 2007, 2008, 2009]",2006,2009,4
+Tuck,tuck,4,7,"[2019, 2020]",2019,2020,2
+The Old Grey Geese,the old grey geese,4,12,[2011],2011,2011,1
+Mount Saint,mount saint,3,6,"[2014, 2015]",2014,2015,2
+Nick Allen,nick allen,4,10,"[2011, 2012]",2011,2012,2
+Second Estate,second estate,4,11,"[2009, 2010, 2011]",2009,2011,3
+The Bombshell Flowers,the bombshell flowers,4,9,"[2023, 2024, 2025]",2023,2025,3
+poetry etc,poetry etc,4,0,[2006],2006,2006,1
+Mindy Gledhill,mindy gledhill,3,7,"[2007, 2011, 2020, 2024]",2007,2024,4
+Ryan Darton,ryan darton,1,7,[2012],2012,2012,1
+HardDrive to France,harddrive to france,3,6,"[2009, 2010]",2009,2010,2
+Lemon,lemon,3,3,"[2014, 2015]",2014,2015,2
+The Moonspinners,the moonspinners,3,7,[2025],2025,2025,1
+Just Khakis,just khakis,3,4,"[2023, 2025]",2023,2025,2
+MAHD,mahd,3,8,"[2021, 2022, 2023]",2021,2023,3
+Lucy Chris,lucy chris,3,7,"[2023, 2024, 2025]",2023,2025,3
+ER,er,2,8,[2010],2010,2010,1
+Robbed,robbed,3,9,"[2008, 2009]",2008,2009,2
+Texture Love,texture love,3,7,"[2019, 2021]",2019,2021,2
+Digital Black,digital black,2,7,"[2006, 2007]",2006,2007,2
+Sabrina Fair,sabrina fair,3,7,"[2024, 2025]",2024,2025,2
+Gerade,gerade,3,7,"[2011, 2012]",2011,2012,2
+The Sash,the sash,3,4,"[2014, 2015]",2014,2015,2
+Auburn,auburn,3,6,[2006],2006,2006,1
+Maple Grove,maple grove,3,6,[2008],2008,2008,1
+Jacket Weather,jacket weather,3,7,"[2008, 2010, 2011]",2008,2011,3
+The Yearbook,the yearbook,3,6,"[2006, 2007]",2006,2007,2
+Robert Loud!,robert loud!,2,5,"[2011, 2012, 2018]",2011,2018,3
+Charging Frederick,charging frederick,3,4,"[2008, 2010]",2008,2010,2
+John Lane,john lane,3,3,"[2014, 2015]",2014,2015,2
+Ellee Duke,ellee duke,3,7,"[2013, 2019, 2020]",2013,2020,3
+Julianne Brough,julianne brough,3,4,"[2012, 2017, 2022]",2012,2022,3
+Synergy,synergy,2,7,[2014],2014,2014,1
+Wild Apples,wild apples,3,9,"[2011, 2012, 2014]",2011,2014,3
+Formerly So,formerly so,3,8,"[2008, 2009, 2011]",2008,2011,3
+Le Mule,le mule,3,3,"[2014, 2015]",2014,2015,2
+Bluhme,bluhme,3,8,[2013],2013,2013,1
+Sammy Brue,sammy brue,3,2,"[2014, 2019, 2023]",2014,2023,3
+Joel Pack,joel pack,3,11,"[2012, 2013]",2012,2013,2
+Lighten Up Francis,lighten up francis,3,8,"[2023, 2024, 2025]",2023,2025,3
+the Starlight Gospel,the starlight gospel,3,8,"[2009, 2011]",2009,2011,2
+Fake Nice,fake nice,3,4,"[2020, 2021, 2022]",2020,2022,3
+Pablo,pablo,3,6,"[2006, 2008]",2006,2008,2
+The Backseat Lovers,the backseat lovers,3,4,[2018],2018,2018,1
+Cameron McGill,cameron mcgill,2,6,"[2007, 2008, 2013]",2007,2013,3
+The Daniels,the daniels,3,7,"[2011, 2012]",2011,2012,2
+Brass Rook,brass rook,2,1,[2018],2018,2018,1
+Cinders,cinders,3,4,"[2016, 2017]",2016,2017,2
+Angie Petty,angie petty,3,7,"[2022, 2023]",2022,2023,2
+Devil Whale,devil whale,3,8,"[2008, 2009]",2008,2009,2
+Hockey House,hockey house,3,7,"[2023, 2024, 2025]",2023,2025,3
+The Color Gypsy,the color gypsy,3,4,[2008],2008,2008,1
+Pleytime,pleytime,3,7,"[2019, 2020]",2019,2020,2
+The Plastic Cherries,the plastic cherries,3,8,"[2023, 2024]",2023,2024,2
+Kira Stone,kira stone,2,4,"[2013, 2014, 2016]",2013,2016,3
+Kissed Out,kissed out,3,7,"[2015, 2016]",2015,2016,2
+Cayson Renshaw,cayson renshaw,3,4,"[2019, 2021, 2024]",2019,2024,3
+Federal Empire,federal empire,3,5,"[2016, 2017, 2019]",2016,2019,3
+Renshaw,renshaw,3,5,"[2017, 2018]",2017,2018,2
+Aly Hardy,aly hardy,3,8,"[2015, 2017, 2018]",2015,2018,3
+J.R. Boyce,j.r. boyce,3,6,"[2012, 2016]",2012,2016,2
+Jay Henderson,jay henderson,3,3,"[2006, 2012]",2006,2012,2
+Antelope Island,antelope island,3,5,[2023],2023,2023,1
+The Strike,the strike,3,5,"[2013, 2016]",2013,2016,2
+The Crylics,the crylics,3,8,"[2008, 2010, 2011]",2008,2011,3
+King Kobras,king kobras,3,5,[2008],2008,2008,1
+Sky Olson,sky olson,1,4,"[2023, 2024]",2023,2024,2
+Isaac Hayden,isaac hayden,1,7,"[2007, 2008, 2009]",2007,2009,3
+Cobra Cat,cobra cat,1,5,"[2009, 2012]",2009,2012,2
+Highwire Act,highwire act,3,6,"[2007, 2008, 2009]",2007,2009,3
+Palmegranate,palmegranate,3,4,"[2017, 2018]",2017,2018,2
+Jason Anderson,jason anderson,1,5,"[2012, 2013]",2012,2013,2
+Detective Deckard,detective deckard,3,3,"[2019, 2020]",2019,2020,2
+John White,john white,3,3,"[2008, 2009]",2008,2009,2
+Crashing at Dawn,crashing at dawn,3,8,"[2011, 2012]",2011,2012,2
+Michael Gross,michael gross,1,11,"[2008, 2010, 2011]",2008,2011,3
+Bleu Grave,bleu grave,3,8,"[2023, 2025]",2023,2025,2
+Drew Capener,drew capener,4,8,"[2008, 2009]",2008,2009,2
+the Rayguns,the rayguns,3,10,"[2008, 2009]",2008,2009,2
+Kenton,kenton,3,7,"[2017, 2018]",2017,2018,2
+New Hollywood,new hollywood,3,4,"[2017, 2018]",2017,2018,2
+A Way of Life,a way of life,5,5,"[2006, 2007]",2006,2007,2
+Loverunner,loverunner,3,8,"[2006, 2007]",2006,2007,2
+Chase Baker,chase baker,3,7,"[2010, 2013, 2015]",2010,2015,3
+Sweet Tangerine,sweet tangerine,3,6,"[2021, 2022, 2025]",2021,2025,3
+Backspun,backspun,3,8,"[2023, 2024]",2023,2024,2
+Wilbere,wilbere,3,4,"[2024, 2025]",2024,2025,2
+Scott,scott,3,7,"[2013, 2014]",2013,2014,2
+VINTAGE FLEA MARKET!!!! (Clothing,vintage flea market!!!! (clothing,3,1,"[2009, 2010]",2009,2010,2
+BBGUN,bbgun,3,5,"[2013, 2014]",2013,2014,2
+Luminaire,luminaire,3,6,"[2011, 2012]",2011,2012,2
+Vandergoose,vandergoose,3,6,"[2020, 2021, 2022]",2020,2022,3
+Future of the Ghost,future of the ghost,3,8,"[2008, 2011]",2008,2011,2
+Wild Flour,wild flour,4,7,[2024],2024,2024,1
+Soul Research Foundation,soul research foundation,3,5,"[2010, 2011, 2015]",2010,2015,3
+The Young Electric,the young electric,3,8,"[2011, 2012]",2011,2012,2
+Darcie,darcie,3,9,"[2009, 2025]",2009,2025,2
+Loafa,loafa,3,7,"[2023, 2024, 2025]",2023,2025,3
+Aldao,aldao,3,6,"[2006, 2007]",2006,2007,2
+John Ross Boyce,john ross boyce,1,10,"[2011, 2012]",2011,2012,2
+Can't Stop Wont Stop,can't stop wont stop,3,8,"[2009, 2013]",2009,2013,2
+Middle Mountain,middle mountain,3,4,"[2016, 2019, 2020]",2016,2020,3
+Matt Ben Jackson,matt ben jackson,3,10,"[2009, 2010]",2009,2010,2
+Good Blood,good blood,3,7,"[2012, 2013]",2012,2013,2
+Follow the Earth,follow the earth,3,7,"[2008, 2010]",2008,2010,2
+Tommy Gunn,tommy gunn,3,8,"[2013, 2015]",2013,2015,2
+Hurtado,hurtado,3,6,"[2022, 2023]",2022,2023,2
+Liam Lars,liam lars,3,5,"[2023, 2024]",2023,2024,2
+Parker,parker,2,1,"[2008, 2009]",2008,2009,2
+Solarists,solarists,3,4,"[2016, 2017]",2016,2017,2
+Sasha Haydn,sasha haydn,3,5,"[2024, 2025]",2024,2025,2
+Frantic Memories,frantic memories,3,2,"[2022, 2023]",2022,2023,2
+Katie Forbes,katie forbes,2,5,"[2012, 2014, 2016]",2012,2016,3
+Late for What,late for what,3,7,"[2023, 2025]",2023,2025,2
+Conquer Monster,conquer monster,3,4,"[2015, 2016, 2017]",2015,2017,3
+RTS,rts,4,9,"[2006, 2009]",2006,2009,2
+Maddie Wilson,maddie wilson,3,2,"[2012, 2013, 2015]",2012,2015,3
+Advent Horizon,advent horizon,3,6,"[2013, 2015, 2017]",2013,2017,3
+David Oliver,david oliver,3,7,[2012],2012,2012,1
+Mel Soul,mel soul,3,8,"[2017, 2019, 2024]",2017,2024,3
+Lizzy Dunford,lizzy dunford,3,7,"[2018, 2019]",2018,2019,2
+Ryley Shupe,ryley shupe,3,9,"[2024, 2025]",2024,2025,2
+The Standstill,the standstill,3,5,[2007],2007,2007,1
+Jack,jack,3,10,"[2009, 2013]",2009,2013,2
+Dallin Hunt,dallin hunt,3,4,"[2017, 2018]",2017,2018,2
+Health Care,health care,4,9,[2023],2023,2023,1
+Gulosh,gulosh,3,6,"[2007, 2008, 2012]",2007,2012,3
+Paul Gonzales,paul gonzales,3,5,[2008],2008,2008,1
+Laken,laken,3,7,"[2015, 2016, 2020]",2015,2020,3
+Del Perro,del perro,3,7,"[2022, 2024, 2025]",2022,2025,3
+Das Nix,das nix,3,6,"[2015, 2017]",2015,2017,2
+The Wanna Go,the wanna go,3,7,"[2018, 2019]",2018,2019,2
+Noble Bodies,noble bodies,3,2,"[2018, 2019]",2018,2019,2
+Modern Crush,modern crush,3,7,[2007],2007,2007,1
+Dune Moss,dune moss,3,5,"[2023, 2024, 2025]",2023,2025,3
+Summer Thunder,summer thunder,3,7,"[2012, 2013]",2012,2013,2
+The Arcadians,the arcadians,2,7,"[2012, 2013]",2012,2013,2
+The Voodoo Orchestra,the voodoo orchestra,2,3,"[2010, 2011, 2019]",2010,2019,3
+Lexington Heights,lexington heights,3,8,"[2013, 2014]",2013,2014,2
+Cole,cole,3,8,"[2016, 2017]",2016,2017,2
+The Fangs,the fangs,3,5,[2017],2017,2017,1
+4th East Flood,4th east flood,3,5,"[2016, 2017]",2016,2017,2
+Kimball Frank,kimball frank,3,5,"[2023, 2024]",2023,2024,2
+Inside,inside,3,8,[2008],2008,2008,1
+Waters Underground,waters underground,3,9,[2008],2008,2008,1
+Psychedelic Purple,psychedelic purple,3,8,[2022],2022,2022,1
+Officer Jenny,officer jenny,3,5,"[2013, 2015, 2016]",2013,2016,3
+Matt Lewis,matt lewis,3,7,"[2007, 2013, 2016]",2007,2016,3
+Becca Russell,becca russell,3,8,"[2007, 2008, 2009]",2007,2009,3
+The Mystic,the mystic,3,5,"[2017, 2018]",2017,2018,2
+Michael Radford,michael radford,3,7,"[2014, 2015, 2016]",2014,2016,3
+more,more,3,5,"[2008, 2010, 2012]",2008,2012,3
+Jacob Luttrell,jacob luttrell,3,8,[2007],2007,2007,1
+Jenny War,jenny war,3,6,"[2008, 2011]",2008,2011,2
+Brandon White,brandon white,3,8,"[2009, 2010]",2009,2010,2
+Desmond Mar,desmond mar,3,6,[2011],2011,2011,1
+The What-Nots,the what-nots,3,8,"[2023, 2024, 2025]",2023,2025,3
+Foreign Figures,foreign figures,3,6,"[2014, 2015, 2017]",2014,2017,3
+Paper Guns,paper guns,3,6,[2014],2014,2014,1
+Hot Parents,hot parents,3,9,"[2008, 2009, 2011]",2008,2011,3
+Mury,mury,3,4,[2009],2009,2009,1
+Cameron Rafati,cameron rafati,2,6,"[2010, 2011, 2013]",2010,2013,3
+Red Orange,red orange,3,10,"[2011, 2013]",2011,2013,2
+Tyler Gould,tyler gould,3,5,"[2012, 2024, 2025]",2012,2025,3
+Nick Johnson,nick johnson,3,4,"[2017, 2018, 2019]",2017,2019,3
+Dane Brock,dane brock,3,5,"[2007, 2009]",2007,2009,2
+The Generous,the generous,3,9,"[2020, 2022, 2023]",2020,2023,3
+Lovecapades,lovecapades,3,6,"[2011, 2012, 2014]",2011,2014,3
+Burning Olympus,burning olympus,3,7,[2009],2009,2009,1
+Lost in Bourbon,lost in bourbon,3,7,[2015],2015,2015,1
+Johnny Most,johnny most,3,5,[2006],2006,2006,1
+Black Tie Event,black tie event,3,2,"[2014, 2015, 2018]",2014,2018,3
+Awakening Autumn,awakening autumn,3,9,[2025],2025,2025,1
+Belle Jewell,belle jewell,3,8,"[2015, 2016, 2017]",2015,2017,3
+Camrunyan,camrunyan,3,5,"[2007, 2008]",2007,2008,2
+Ignatious,ignatious,3,9,"[2023, 2024]",2023,2024,2
+Angelfelt,angelfelt,3,7,"[2008, 2009]",2008,2009,2
+South Paw,south paw,3,6,[2014],2014,2014,1
+The Djinn,the djinn,3,8,"[2017, 2018]",2017,2018,2
+Salem Swing,salem swing,3,7,"[2015, 2018, 2019]",2015,2019,3
+Vol Suetra,vol suetra,4,6,"[2006, 2007]",2006,2007,2
+Micah Willis,micah willis,3,6,"[2016, 2020]",2016,2020,2
+Beautiful People of Belgium,beautiful people of belgium,3,9,[2013],2013,2013,1
+Day Sounds,day sounds,2,6,"[2019, 2020]",2019,2020,2
+The Lip,the lip,2,6,"[2023, 2024]",2023,2024,2
+Akelles,akelles,1,4,"[2006, 2007]",2006,2007,2
+The Mckeon Sisters,the mckeon sisters,2,6,[2015],2015,2015,1
+Emily Wolfe,emily wolfe,2,7,[2010],2010,2010,1
+Good Morning Maxfield,good morning maxfield,3,3,"[2007, 2008]",2007,2008,2
+Watterson,watterson,2,5,[2025],2025,2025,1
+Love You Long Time!,love you long time!,2,5,"[2007, 2009]",2007,2009,2
+As We Speak,as we speak,1,5,"[2014, 2015]",2014,2015,2
+Ryan Holdaway,ryan holdaway,2,4,"[2010, 2011]",2010,2011,2
+Concubine,concubine,2,3,[2008],2008,2008,1
+Hayley Hernandez,hayley hernandez,2,5,[2010],2010,2010,1
+After It All,after it all,1,5,[2006],2006,2006,1
+A.I,a.i,2,6,"[2007, 2008]",2007,2008,2
+Lonnefelt,lonnefelt,2,3,"[2023, 2025]",2023,2025,2
+Andrew Belle,andrew belle,2,4,[2010],2010,2010,1
+Issac Hayden,issac hayden,2,2,[2006],2006,2006,1
+Motion Coaster,motion coaster,2,6,"[2016, 2017]",2016,2017,2
+Rob Spice,rob spice,2,4,[2025],2025,2025,1
+Hello Kavita,hello kavita,2,5,"[2009, 2010]",2009,2010,2
+Katie Dellenbach,katie dellenbach,2,4,[2010],2010,2010,1
+The Heartstrings,the heartstrings,2,4,"[2013, 2014]",2013,2014,2
+Pick Pocket,pick pocket,2,1,[2019],2019,2019,1
+Extravision,extravision,2,5,"[2017, 2018]",2017,2018,2
+Maple Grove. Modern Crush,maple grove. modern crush,2,0,[2007],2007,2007,1
+They Shall Be Lions,they shall be lions,2,6,[2011],2011,2011,1
+The Powerless,the powerless,2,5,"[2006, 2007]",2006,2007,2
+Brandon Robbins,brandon robbins,1,4,"[2015, 2023]",2015,2023,2
+Little Barefoot,little barefoot,2,3,"[2013, 2016]",2013,2016,2
+Derk Boss,derk boss,2,5,[2016],2016,2016,1
+Mckay Stevens Project,mckay stevens project,2,4,[2008],2008,2008,1
+Bellagrace,bellagrace,2,6,"[2024, 2025]",2024,2025,2
+Miniature Tigers,miniature tigers,2,2,[2010],2010,2010,1
+Wes Kirkpatrick,wes kirkpatrick,2,5,"[2011, 2014]",2011,2014,2
+Whilmington,whilmington,2,4,[2011],2011,2011,1
+Gralley,gralley,2,3,[2025],2025,2025,1
+Jared Pierce,jared pierce,2,2,"[2011, 2012]",2011,2012,2
+Allred $12/$14,allred $12/$14,2,2,[2009],2009,2009,1
+Cannibal Queen,cannibal queen,2,6,"[2024, 2025]",2024,2025,2
+Kid You Nauts,kid you nauts,2,5,[2007],2007,2007,1
+Midnite Judges,midnite judges,2,3,[2025],2025,2025,1
+Flashburnt Shapes,flashburnt shapes,2,5,[2007],2007,2007,1
+Bottleship,bottleship,2,6,[2011],2011,2011,1
+Declaration,declaration,2,6,"[2006, 2007]",2006,2007,2
+Archers Apple,archers apple,2,6,"[2010, 2011]",2010,2011,2
+Preacher,preacher,2,4,"[2008, 2009]",2008,2009,2
+Fired Pilots,fired pilots,2,4,"[2017, 2018]",2017,2018,2
+John Schultz,john schultz,2,3,"[2014, 2015]",2014,2015,2
+Jay Wride,jay wride,2,6,[2007],2007,2007,1
+Tatanka,tatanka,2,2,[2011],2011,2011,1
+T.B.S,t.b.s,2,6,"[2006, 2007]",2006,2007,2
+Grace Wawro,grace wawro,2,6,[2025],2025,2025,1
+Due to illness,due to illness,2,1,[2017],2017,2017,1
+DefMoe,defmoe,2,5,"[2024, 2025]",2024,2025,2
+Old Birds,old birds,2,7,"[2019, 2020]",2019,2020,2
+The Echo Chorus,the echo chorus,2,6,[2014],2014,2014,1
+Ruts-N-Weeds,ruts-n-weeds,2,4,[2012],2012,2012,1
+the Madison Arm,the madison arm,2,2,"[2009, 2011]",2009,2011,2
+Last Wild Buffalo,last wild buffalo,2,2,[2025],2025,2025,1
+John Michael Marinos,john michael marinos,2,3,"[2017, 2018]",2017,2018,2
+Father Time,father time,2,6,[2011],2011,2011,1
+Crazy Talk,crazy talk,2,5,"[2012, 2013]",2012,2013,2
+Vann Moon,vann moon,2,3,"[2018, 2023]",2018,2023,2
+Pablo Blaqk,pablo blaqk,2,4,"[2010, 2012]",2010,2012,2
+Waters Rising,waters rising,2,5,"[2011, 2012]",2011,2012,2
+Mountainears,mountainears,2,3,"[2013, 2014]",2013,2014,2
+The Lunatic,the lunatic,2,7,"[2010, 2011]",2010,2011,2
+Audio Polaroids,audio polaroids,2,5,"[2011, 2015]",2011,2015,2
+Facing New York,facing new york,1,4,"[2006, 2007]",2006,2007,2
+Mirrim,mirrim,2,3,[2008],2008,2008,1
+the Shivaree,the shivaree,2,7,[2010],2010,2010,1
+Half Life,half life,2,5,"[2024, 2025]",2024,2025,2
+The Easy Riders,the easy riders,2,5,[2012],2012,2012,1
+Better Taste Bureau,better taste bureau,2,2,"[2013, 2014]",2013,2014,2
+The Young Hurricanes,the young hurricanes,2,6,[2010],2010,2010,1
+Angel Taylor,angel taylor,2,4,"[2013, 2014]",2013,2014,2
+June Cat,june cat,1,4,[2014],2014,2014,1
+Steven Halliday Band,steven halliday band,3,4,"[2015, 2016]",2015,2016,2
+more...),more...),2,3,[2009],2009,2009,1
+Asher in the Rye,asher in the rye,2,5,[2008],2008,2008,1
+The Valley,the valley,2,3,"[2023, 2024]",2023,2024,2
+Kin Lodge,kin lodge,2,4,"[2020, 2021]",2020,2021,2
+the Astronaut,the astronaut,2,6,"[2012, 2015]",2012,2015,2
+Parker Pratt 7:30pm,parker pratt 7:30pm,2,1,[2019],2019,2019,1
+Smile for the Captain,smile for the captain,1,5,"[2013, 2016]",2013,2016,2
+No Robot,no robot,2,2,"[2018, 2019]",2018,2019,2
+The Knockouts,the knockouts,2,7,[2012],2012,2012,1
+Shaelynn Dalton,shaelynn dalton,2,5,"[2012, 2013]",2012,2013,2
+Dry Erase Tracks,dry erase tracks,2,5,[2015],2015,2015,1
+Young Buffalo,young buffalo,2,2,[2015],2015,2015,1
+Bright Whistles,bright whistles,2,5,[2014],2014,2014,1
+Casio Ghost,casio ghost,2,3,"[2023, 2024]",2023,2024,2
+Hollow Bodies,hollow bodies,2,5,[2014],2014,2014,1
+Donnie B,donnie b,1,6,"[2011, 2016]",2011,2016,2
+Ben,ben,2,9,"[2013, 2016]",2013,2016,2
+Kipling,kipling,2,4,[2013],2013,2013,1
+Sarah Anne DeGraw,sarah anne degraw,2,3,"[2012, 2013]",2012,2013,2
+James McIntyre,james mcintyre,2,5,"[2017, 2018]",2017,2018,2
+Hope Broman,hope broman,2,2,"[2018, 2024]",2018,2024,2
+Everybody Else,everybody else,2,0,[2008],2008,2008,1
+Shane Jackman,shane jackman,2,2,"[2006, 2008]",2006,2008,2
+The Alligators,the alligators,2,5,[2008],2008,2008,1
+UNI,uni,2,5,"[2011, 2012]",2011,2012,2
+Don Juan,don juan,2,7,"[2011, 2012]",2011,2012,2
+David Charles,david charles,1,4,[2012],2012,2012,1
+Ex-machina,ex-machina,2,5,"[2007, 2008]",2007,2008,2
+HBD,hbd,2,4,[2019],2019,2019,1
+Kara H,kara h,2,7,[2010],2010,2010,1
+Provo),provo),2,3,"[2007, 2008]",2007,2008,2
+Foolish Pete,foolish pete,1,3,"[2006, 2007]",2006,2007,2
+Tolchok Trio,tolchok trio,2,2,[2006],2006,2006,1
+Burnt Out House,burnt out house,2,1,"[2017, 2018]",2017,2018,2
+Adding Machines,adding machines,2,5,"[2008, 2014]",2008,2014,2
+Death,death,2,6,"[2008, 2020]",2008,2020,2
+Kat Roemer,kat roemer,2,2,[2014],2014,2014,1
+Jarrett Burns,jarrett burns,1,2,"[2009, 2010]",2009,2010,2
+Grant Olsen $8,grant olsen $8,2,1,[2007],2007,2007,1
+Jordan Reynolds,jordan reynolds,2,4,"[2014, 2015]",2014,2015,2
+Robots Ate My Garden,robots ate my garden,2,5,[2017],2017,2017,1
+Leaping Gnome,leaping gnome,1,4,"[2018, 2019]",2018,2019,2
+Coma Pilot,coma pilot,2,4,[2014],2014,2014,1
+Bentelou,bentelou,2,3,"[2024, 2025]",2024,2025,2
+Federal Party Players,federal party players,2,6,[2011],2011,2011,1
+Headaches,headaches,2,5,[2013],2013,2013,1
+19MPH,19mph,2,3,[2021],2021,2021,1
+Baby Ghosts,baby ghosts,2,4,[2012],2012,2012,1
+Post Meridian,post meridian,2,5,[2006],2006,2006,1
+Caysen Wright,caysen wright,2,6,[2023],2023,2023,1
+Jung Neil,jung neil,2,4,[2019],2019,2019,1
+Slightly Drawn,slightly drawn,1,1,"[2006, 2007]",2006,2007,2
+Garrett Williams,garrett williams,2,6,[2011],2011,2011,1
+Numbs,numbs,2,3,"[2009, 2010]",2009,2010,2
+The Inevitables,the inevitables,2,5,"[2015, 2016]",2015,2016,2
+Adam Derfler,adam derfler,2,3,[2014],2014,2014,1
+Kid Machine,kid machine,2,5,"[2015, 2016]",2015,2016,2
+Saul,saul,2,5,[2012],2012,2012,1
+Brittany Joell,brittany joell,2,3,[2015],2015,2015,1
+Gils,gils,2,4,"[2012, 2015]",2012,2015,2
+Madilyn Page,madilyn page,2,5,"[2016, 2019]",2016,2019,2
+The King's Solar,the king's solar,2,4,[2014],2014,2014,1
+TAG,tag,2,3,"[2022, 2023]",2022,2023,2
+Branson Anderson,branson anderson,2,2,[2015],2015,2015,1
+His Boy Elroy,his boy elroy,2,5,"[2006, 2008]",2006,2008,2
+Shrink The Giant,shrink the giant,2,6,"[2012, 2015]",2012,2015,2
+Friends&Friends,friends&friends,2,8,"[2011, 2012]",2011,2012,2
+Ben Swisher,ben swisher,2,3,"[2013, 2014]",2013,2014,2
+Lindenfield,lindenfield,2,2,"[2011, 2012]",2011,2012,2
+Blue Wavers,blue wavers,2,4,[2014],2014,2014,1
+The 2:13s,the 2:13s,2,4,[2012],2012,2012,1
+Belle Jewel,belle jewel,2,6,"[2019, 2020]",2019,2020,2
+Cyber Cowboy,cyber cowboy,2,4,[2013],2013,2013,1
+the Sea,the sea,2,3,[2006],2006,2006,1
+Jamboree,jamboree,2,4,"[2023, 2024]",2023,2024,2
+Fletch,fletch,2,5,"[2006, 2007]",2006,2007,2
+Mitchee,mitchee,2,4,[2025],2025,2025,1
+Mansions,mansions,2,3,[2009],2009,2009,1
+Forest Slater,forest slater,2,2,"[2024, 2025]",2024,2025,2
+PAPER RIVAL,paper rival,2,8,[2008],2008,2008,1
+Justin Warnick,justin warnick,2,3,"[2021, 2023]",2021,2023,2
+Antoine Dufour,antoine dufour,2,3,"[2017, 2018]",2017,2018,2
+Ryan Call,ryan call,2,3,"[2024, 2025]",2024,2025,2
+TAG!,tag!,2,2,[2022],2022,2022,1
+Mike Fralick,mike fralick,2,4,[2010],2010,2010,1
+Iris,iris,2,6,"[2015, 2024]",2015,2024,2
+TerraQ,terraq,2,6,[2015],2015,2015,1
+Drink Up Gerald,drink up gerald,2,2,"[2015, 2016]",2015,2016,2
+Holly Arballo,holly arballo,2,4,"[2016, 2018]",2016,2018,2
+Larry Bagby,larry bagby,2,7,"[2008, 2010]",2008,2010,2
+Cub World,cub world,2,3,"[2007, 2016]",2007,2016,2
+Currency,currency,2,2,[2008],2008,2008,1
+Leslie,leslie,2,5,"[2008, 2009]",2008,2009,2
+J Wride,j wride,2,6,"[2010, 2011]",2010,2011,2
+Third Ward,third ward,1,1,"[2019, 2024]",2019,2024,2
+Spencer Petersen,spencer petersen,1,0,[2021],2021,2021,1
+The Continentals,the continentals,2,3,[2010],2010,2010,1
+Steady Machete,steady machete,2,2,[2008],2008,2008,1
+Atherton,atherton,2,5,"[2007, 2010]",2007,2010,2
+Les Femmes Roadie,les femmes roadie,2,4,"[2019, 2020]",2019,2020,2
+Bryn Johnson,bryn johnson,2,6,[2024],2024,2024,1
+Q&A,q&a,2,4,"[2012, 2013]",2012,2013,2
+Emilee Holgate,emilee holgate,1,5,"[2015, 2017]",2015,2017,2
+Callery Pears,callery pears,2,5,[2022],2022,2022,1
+Ida Grey,ida grey,2,5,[2025],2025,2025,1
+Emjay Hink,emjay hink,2,6,"[2024, 2025]",2024,2025,2
+Heber Matute,heber matute,2,5,[2025],2025,2025,1
+Jon Peter Lewis,jon peter lewis,2,4,"[2007, 2008]",2007,2008,2
+Roz Harding,roz harding,2,5,[2019],2019,2019,1
+The Mellons,the mellons,2,2,"[2021, 2023]",2021,2023,2
+Keaton Simons,keaton simons,1,2,[2008],2008,2008,1
+Fellows,fellows,2,4,[2017],2017,2017,1
+To the Death,to the death,2,5,[2007],2007,2007,1
+Lonely Heights,lonely heights,2,4,"[2022, 2024]",2022,2024,2
+Adam Klopp,adam klopp,1,3,"[2011, 2013]",2011,2013,2
+Whitney Olsen,whitney olsen,2,4,"[2008, 2009]",2008,2009,2
+In Memory,in memory,1,4,"[2006, 2007]",2006,2007,2
+Alarm Call,alarm call,2,4,"[2014, 2015]",2014,2015,2
+Kage Hughart Project,kage hughart project,2,5,"[2019, 2020]",2019,2020,2
+The F.C.B,the f.c.b,2,4,[2013],2013,2013,1
+Cera Gibson,cera gibson,2,2,"[2015, 2019]",2015,2019,2
+Anyone Awake,anyone awake,1,2,[2025],2025,2025,1
+Uzi,uzi,2,4,"[2006, 2010]",2006,2010,2
+Albert,albert,2,5,"[2023, 2024]",2023,2024,2
+Ultraviolet Catastrophe,ultraviolet catastrophe,2,6,[2011],2011,2011,1
+Vanishing Act,vanishing act,2,4,[2008],2008,2008,1
+the Carroll's,the carroll's,2,6,"[2008, 2013]",2008,2013,2
+Humble Everest,humble everest,2,6,"[2011, 2012]",2011,2012,2
+These Architects,these architects,2,5,[2010],2010,2010,1
+The Weak Men,the weak men,2,6,[2006],2006,2006,1
+Ashley Taylor,ashley taylor,2,4,[2017],2017,2017,1
+the Badgers,the badgers,2,5,"[2008, 2009]",2008,2009,2
+Child Ivory,child ivory,2,3,"[2016, 2018]",2016,2018,2
+Eric Elsworth,eric elsworth,2,4,"[2008, 2009]",2008,2009,2
+Queen of Nebraska,queen of nebraska,2,6,"[2008, 2009]",2008,2009,2
+100 Mile House,100 mile house,2,5,"[2014, 2015]",2014,2015,2
+No 1s Home,no 1s home,2,7,[2024],2024,2024,1
+Mom Dad,mom dad,2,4,[2024],2024,2024,1
+St Charles,st charles,2,4,[2014],2014,2014,1
+Malcom Jackson,malcom jackson,2,5,"[2009, 2011]",2009,2011,2
+Kinnen,kinnen,2,5,[2024],2024,2024,1
+Sarah Degraw,sarah degraw,1,4,"[2013, 2016]",2013,2016,2
+Chance,chance,2,7,"[2011, 2012]",2011,2012,2
+Candid!,candid!,2,1,"[2023, 2024]",2023,2024,2
+Midas Whale,midas whale,2,5,"[2013, 2014]",2013,2014,2
+The Technicolors,the technicolors,2,4,"[2011, 2013]",2011,2013,2
+The Kid You Nauts,the kid you nauts,2,3,"[2007, 2009]",2007,2009,2
+Grant Olsen,grant olsen,2,5,"[2006, 2007]",2006,2007,2
+Larusso,larusso,2,5,[2007],2007,2007,1
+The Trappers,the trappers,2,6,"[2011, 2012]",2011,2012,2
+Ashley Garbe,ashley garbe,2,6,"[2006, 2007]",2006,2007,2
+T.A.K,t.a.k,2,3,"[2018, 2019]",2018,2019,2
+Ready Set Verb,ready set verb,2,4,[2008],2008,2008,1
+The Crosswinds,the crosswinds,2,2,[2016],2016,2016,1
+Roadie,roadie,4,2,"[2018, 2019]",2018,2019,2
+The Arvos,the arvos,2,6,"[2015, 2017]",2015,2017,2
+the Southern Boys,the southern boys,2,4,[2006],2006,2006,1
+Please Be Human,please be human,2,4,"[2012, 2013]",2012,2013,2
+Vicious Beat,vicious beat,2,4,"[2015, 2018]",2015,2018,2
+Echo Mind,echo mind,2,4,[2015],2015,2015,1
+Endon,endon,1,3,"[2007, 2008]",2007,2008,2
+James Allen Spirit,james allen spirit,2,4,[2015],2015,2015,1
+Brilliant Stereo Mob,brilliant stereo mob,2,3,[2006],2006,2006,1
+Valentines Day Club,valentines day club,2,5,[2025],2025,2025,1
+Kenya,kenya,2,4,[2025],2025,2025,1
+Love Junk,love junk,2,6,[2023],2023,2023,1
+Jaxton Dayton,jaxton dayton,2,4,[2018],2018,2018,1
+Kara Henderson,kara henderson,2,5,[2010],2010,2010,1
+Henniker,henniker,2,3,"[2023, 2024]",2023,2024,2
+Mendy Magistro,mendy magistro,2,4,[2009],2009,2009,1
+20 Stories Falling,20 stories falling,2,5,"[2007, 2008]",2007,2008,2
+Knife,knife,2,3,[2006],2006,2006,1
+Hayley,hayley,2,4,[2011],2011,2011,1
+Brysn,brysn,2,4,[2024],2024,2024,1
+Amiamo,amiamo,2,6,[2011],2011,2011,1
+Andrew Goldring,andrew goldring,2,4,"[2007, 2011]",2007,2011,2
+VI,vi,2,4,"[2021, 2022]",2021,2022,2
+Dahbose,dahbose,2,6,"[2023, 2024]",2023,2024,2
+Coupe De Grace,coupe de grace,2,5,"[2007, 2008]",2007,2008,2
+Jules Morrow,jules morrow,2,2,"[2009, 2011]",2009,2011,2
+Sunhills,sunhills,2,3,"[2021, 2022]",2021,2022,2
+Maren Gayle,maren gayle,2,5,"[2023, 2025]",2023,2025,2
+Starcrossed Loners,starcrossed loners,2,4,"[2015, 2021]",2015,2021,2
+Ari,ari,2,4,"[2006, 2010]",2006,2010,2
+The Old World,the old world,2,5,[2012],2012,2012,1
+Crazy Old Maurice,crazy old maurice,2,5,[2012],2012,2012,1
+Our Olde Soul,our olde soul,2,3,[2017],2017,2017,1
+Anesty,anesty,2,6,[2006],2006,2006,1
+Nuclear Hearse,nuclear hearse,2,6,[2007],2007,2007,1
+Golden Sun,golden sun,2,5,"[2012, 2013]",2012,2013,2
+Canadians Among Us,canadians among us,1,4,[2006],2006,2006,1
+Pat Driscoll,pat driscoll,2,6,"[2006, 2009]",2006,2009,2
+Kristian H,kristian h,2,2,[2008],2008,2008,1
+Sidizen King,sidizen king,2,0,[2016],2016,2016,1
+CAYSN,caysn,2,3,[2025],2025,2025,1
+Tate Sexton,tate sexton,2,4,"[2018, 2021]",2018,2021,2
+Ashley Fairbourne,ashley fairbourne,2,5,[2009],2009,2009,1
+The Atomics,the atomics,2,6,"[2012, 2013]",2012,2013,2
+Tri-Polar Bear,tri-polar bear,2,2,"[2013, 2015]",2013,2015,2
+Kaleb Shelley,kaleb shelley,2,4,"[2023, 2025]",2023,2025,2
+Salt City,salt city,1,4,[2006],2006,2006,1
+The Red on Black,the red on black,2,5,"[2012, 2014]",2012,2014,2
+Basement Waves,basement waves,4,5,"[2021, 2022]",2021,2022,2
+Trisha Storey,trisha storey,2,1,[2010],2010,2010,1
+The Record Life,the record life,2,3,[2009],2009,2009,1
+The Summerset,the summerset,2,2,[2008],2008,2008,1
+Ben Bailey,ben bailey,2,5,"[2012, 2013]",2012,2013,2
+Tempered,tempered,2,4,[2008],2008,2008,1
+Sunset Station,sunset station,2,6,[2023],2023,2023,1
+Chris Bennion,chris bennion,1,6,"[2013, 2014]",2013,2014,2
+Spork,spork,2,3,[2006],2006,2006,1
+Kevin Edwards,kevin edwards,2,6,"[2013, 2014]",2013,2014,2
+Bus People,bus people,2,5,"[2011, 2012]",2011,2012,2
+Samuel Charles,samuel charles,2,2,"[2024, 2025]",2024,2025,2
+Team Mom,team mom,2,2,[2008],2008,2008,1
+Dear Stranger,dear stranger,2,6,[2007],2007,2007,1
+the Giant,the giant,2,7,[2013],2013,2013,1
+Ritt Momney,ritt momney,2,2,"[2018, 2019]",2018,2019,2
+Active Strand,active strand,2,4,"[2014, 2015]",2014,2015,2
+Travis Van Hoff,travis van hoff,2,1,"[2011, 2012]",2011,2012,2
+Dacia Chant,dacia chant,2,6,"[2010, 2011]",2010,2011,2
+Lebaron,lebaron,2,4,"[2009, 2010]",2009,2010,2
+Cas Haley,cas haley,2,2,[2011],2011,2011,1
+Sarah June,sarah june,2,6,"[2022, 2025]",2022,2025,2
+Aubree Liz,aubree liz,2,5,"[2015, 2017]",2015,2017,2
+Wolves,wolves,2,5,[2011],2011,2011,1
+Dino Troupe,dino troupe,2,6,[2025],2025,2025,1
+Kid Presentable,kid presentable,2,5,"[2024, 2025]",2024,2025,2
+Just for the Record,just for the record,2,4,[2010],2010,2010,1
+The Lamplight Pages Caleb Loveless,the lamplight pages caleb loveless,2,4,"[2013, 2014]",2013,2014,2
+His Troubles,his troubles,2,7,"[2011, 2012]",2011,2012,2
+Chadgib,chadgib,2,6,[2014],2014,2014,1
+The Hideout,the hideout,1,3,[2006],2006,2006,1
+Vinyl Tapestries,vinyl tapestries,2,5,"[2015, 2016]",2015,2016,2
+Door City,door city,2,6,"[2024, 2025]",2024,2025,2
+Missy Lynn,missy lynn,2,5,"[2012, 2019]",2012,2019,2
+oh!no?ok,oh!no?ok,2,3,"[2019, 2020]",2019,2020,2
+BB Gun,bb gun,2,6,[2013],2013,2013,1
+Wallfly,wallfly,2,2,"[2018, 2019]",2018,2019,2
+Brendo,brendo,2,4,"[2013, 2014]",2013,2014,2
+The Jordan Brothers,the jordan brothers,2,3,"[2014, 2015]",2014,2015,2
+Aaron Puzey,aaron puzey,2,4,"[2013, 2016]",2013,2016,2
+Jason,jason,2,6,"[2012, 2015]",2012,2015,2
+Apache,apache,2,2,[2010],2010,2010,1
+Spaced Out,spaced out,2,6,"[2019, 2020]",2019,2020,2
+UltraVatic,ultravatic,2,3,[2025],2025,2025,1
+No Diploma,no diploma,2,5,[2022],2022,2022,1
+Tyler Glenn,tyler glenn,1,2,"[2007, 2009]",2007,2009,2
+Me,me,2,4,[2024],2024,2024,1
+By,by,2,5,"[2023, 2024]",2023,2024,2
+Jodie Skidmore,jodie skidmore,2,6,"[2014, 2015]",2014,2015,2
+The Thrill Collective,the thrill collective,2,3,"[2015, 2016]",2015,2016,2
+Muninn,muninn,2,4,"[2021, 2022]",2021,2022,2
+Jonah Feigleson,jonah feigleson,2,3,[2025],2025,2025,1
+Cant Stop Wont Stop,cant stop wont stop,2,4,[2010],2010,2010,1
+Jared Woods,jared woods,2,2,"[2006, 2008]",2006,2008,2
+The People's Thieves,the people's thieves,2,3,[2018],2018,2018,1
+Rosetan,rosetan,1,4,"[2022, 2023]",2022,2023,2
+Great White Shore,great white shore,2,2,[2018],2018,2018,1
+Slumber Party rescheduled for next weekend,slumber party rescheduled for next weekend,2,1,[2017],2017,2017,1
+Ayin,ayin,2,5,[2007],2007,2007,1
+Francis 3.The Last Wild Buffalo 4.Bleu Grave,francis 3.the last wild buffalo 4.bleu grave,2,2,[2025],2025,2025,1
+Geist,geist,2,3,[2025],2025,2025,1
+Tim George,tim george,3,4,"[2008, 2010, 2012]",2008,2012,3
+The Moonboys,the moonboys,2,4,[2016],2016,2016,1
+A Sweet Bitter Winter,a sweet bitter winter,2,3,[2008],2008,2008,1
+The Howitzers,the howitzers,2,6,"[2011, 2012]",2011,2012,2
+Clean Freak,clean freak,2,4,[2025],2025,2025,1
+Paper Tom,paper tom,3,5,"[2012, 2013]",2012,2013,2
+Ivouries,ivouries,2,1,[2018],2018,2018,1
+Jonas Swanson,jonas swanson,2,4,[2019],2019,2019,1
+The Campaign,the campaign,2,4,[2011],2011,2011,1
+Tommy,tommy,2,2,"[2021, 2022]",2021,2022,2
+Willy,willy,2,9,"[2010, 2016]",2010,2016,2
+The Tacks,the tacks,1,4,[2006],2006,2006,1
+The Moon,the moon,2,3,[2006],2006,2006,1
+Chris Riding,chris riding,2,2,[2022],2022,2022,1
+The Grand Gasconade,the grand gasconade,2,7,[2013],2013,2013,1
+The May Reunion,the may reunion,2,3,[2014],2014,2014,1
+BLACK,black,2,8,"[2006, 2007]",2006,2007,2
+Delphic Quorum,delphic quorum,2,3,[2011],2011,2011,1
+Sage Lane,sage lane,3,4,"[2021, 2022]",2021,2022,2
+David Moon,david moon,2,1,[2018],2018,2018,1
+canoe,canoe,1,4,"[2007, 2009]",2007,2009,2
+Ilios,ilios,2,4,"[2010, 2011]",2010,2011,2
+Tyler Howells,tyler howells,2,3,[2007],2007,2007,1
+Parker Rudd,parker rudd,2,5,"[2017, 2018]",2017,2018,2
+Carlos Viitanen,carlos viitanen,2,3,[2015],2015,2015,1
+Indigo Plateau,indigo plateau,2,3,"[2016, 2018]",2016,2018,2
+Sam Cooley,sam cooley,2,6,"[2017, 2018]",2017,2018,2
+American Hitmen,american hitmen,2,4,"[2008, 2013]",2008,2013,2
+Show Me Island,show me island,2,4,"[2012, 2020]",2012,2020,2
+It Foot It Ears,it foot it ears,2,2,"[2015, 2021]",2015,2021,2
+Sen Wisher,sen wisher,2,2,"[2014, 2015]",2014,2015,2
+s2_cool,s2_cool,1,6,"[2015, 2019]",2015,2019,2
+The Whits,the whits,3,5,"[2011, 2012]",2011,2012,2
+Nate Baldwin,nate baldwin,2,6,"[2009, 2010]",2009,2010,2
+Back Patio,back patio,2,7,[2025],2025,2025,1
+Goodmorning Maxfield,goodmorning maxfield,2,2,[2008],2008,2008,1
+The Schwacksters,the schwacksters,2,8,"[2024, 2025]",2024,2025,2
+Pierrot Le Fou,pierrot le fou,2,3,"[2006, 2007]",2006,2007,2
+Mason Winter,mason winter,2,5,[2013],2013,2013,1
+Kenz Hall,kenz hall,2,3,"[2014, 2015]",2014,2015,2
+Housewarming Party,housewarming party,2,4,"[2018, 2019]",2018,2019,2
+Saylo,saylo,2,2,"[2017, 2018]",2017,2018,2
+Nicole Canaan,nicole canaan,2,2,"[2022, 2025]",2022,2025,2
+Mabel Elmore,mabel elmore,2,5,"[2024, 2025]",2024,2025,2
+Kippersnack,kippersnack,1,2,"[2019, 2022]",2019,2022,2
+The Ladells,the ladells,2,7,[2013],2013,2013,1
+The Moss,the moss,1,3,[2019],2019,2019,1
+Amy Geis,amy geis,2,6,"[2024, 2025]",2024,2025,2
+City of Salt,city of salt,2,7,"[2015, 2017]",2015,2017,2
+Colin Moore,colin moore,2,5,"[2006, 2007]",2006,2007,2
+Tom Butler,tom butler,2,6,[2012],2012,2012,1
+Image Down,image down,2,4,[2011],2011,2011,1
+Spiral Diary $10,spiral diary $10,2,3,[2009],2009,2009,1
+Apollo,apollo,2,5,[2012],2012,2012,1
+Mindy Gledhill 8pm,mindy gledhill 8pm,2,0,[2012],2012,2012,1
+Candy Claws,candy claws,2,2,[2010],2010,2010,1
+Spencer Glenn Band,spencer glenn band,2,6,"[2011, 2012]",2011,2012,2
+RIP Cassette,rip cassette,3,5,"[2021, 2022]",2021,2022,2
+The Truman Brothers,the truman brothers,2,3,"[2016, 2017]",2016,2017,2
+Nicole Sheahan,nicole sheahan,2,2,"[2008, 2009]",2008,2009,2
+Pug,pug,2,6,[2007],2007,2007,1
+Justian Read,justian read,2,4,[2016],2016,2016,1
+Cahoots,cahoots,2,3,"[2012, 2013]",2012,2013,2
+Moncheri,moncheri,2,4,[2006],2006,2006,1
+Breezeway,breezeway,2,4,"[2013, 2016]",2013,2016,2
+Trey Warner,trey warner,2,3,[2022],2022,2022,1
+AYEM,ayem,2,3,[2012],2012,2012,1
+berry,berry,2,6,"[2024, 2025]",2024,2025,2
+Jordan Finlay,jordan finlay,2,6,"[2022, 2025]",2022,2025,2
+The Echo Era,the echo era,2,3,"[2013, 2015]",2013,2015,2
+SDR,sdr,2,4,[2008],2008,2008,1
+Obeeyay,obeeyay,2,2,"[2021, 2022]",2021,2022,2
+Teeter Totter,teeter totter,1,5,"[2019, 2022]",2019,2022,2
+The Band of Annuals,the band of annuals,2,4,"[2006, 2007]",2006,2007,2
+Les Sages,les sages,2,5,[2011],2011,2011,1
+Jay Warren,jay warren,2,0,"[2018, 2019]",2018,2019,2
+John Heart Jackie,john heart jackie,1,6,"[2011, 2012]",2011,2012,2
+Daniel Hanks,daniel hanks,1,6,"[2012, 2015]",2012,2015,2
+The Protons,the protons,2,6,"[2009, 2010]",2009,2010,2
+Funky Violet,funky violet,2,2,"[2009, 2011]",2009,2011,2
+Berkley German,berkley german,1,3,[2025],2025,2025,1
+Nate Wagoner,nate wagoner,1,2,[2017],2017,2017,1
+Tanner Pace,tanner pace,1,3,[2018],2018,2018,1
+Skalloween! 2 1/2 White Guys,skalloween! 2 1/2 white guys,1,3,[2006],2006,2006,1
+Red Spectre,red spectre,1,2,[2006],2006,2006,1
+Crystal Eyes,crystal eyes,1,3,[2017],2017,2017,1
+Sitcom,sitcom,1,3,[2007],2007,2007,1
+Jared Harding,jared harding,1,2,[2015],2015,2015,1
+Kick,kick,1,3,[2015],2015,2015,1
+The Schwackters,the schwackters,1,3,[2019],2019,2019,1
+Sord,sord,1,2,[2018],2018,2018,1
+Can't Stop Won't Stop,can't stop won't stop,1,2,[2012],2012,2012,1
+Paul Pablo Gonzales,paul pablo gonzales,1,2,[2008],2008,2008,1
+Paul Jacobsen $10,paul jacobsen $10,1,1,[2006],2006,2006,1
+Ethan Case,ethan case,1,2,[2017],2017,2017,1
+Curt Lundquist,curt lundquist,1,3,[2012],2012,2012,1
+John Allred (24tix.com,john allred (24tix.com,1,2,[2013],2013,2013,1
+Mister Smith,mister smith,1,3,[2014],2014,2014,1
+Toddfather,toddfather,1,3,[2025],2025,2025,1
+MAD,mad,1,2,[2012],2012,2012,1
+The Sweater Friends,the sweater friends,1,2,[2011],2011,2011,1
+Reckless,reckless,1,3,[2025],2025,2025,1
+Ben Tengelsen,ben tengelsen,1,3,[2006],2006,2006,1
+Long Live Sun,long live sun,1,3,[2006],2006,2006,1
+Funcoffin,funcoffin,1,0,[2013],2013,2013,1
+The Cold Year,the cold year,1,2,[2016],2016,2016,1
+Dalan Thomas,dalan thomas,1,0,[2024],2024,2024,1
+Bat Brain,bat brain,1,3,[2025],2025,2025,1
+Griffen,griffen,1,3,[2017],2017,2017,1
+Sounds of Emergency,sounds of emergency,1,1,[2008],2008,2008,1
+Pats Cajamas,pats cajamas,1,2,[2025],2025,2025,1
+Junior Mathematics,junior mathematics,1,2,[2016],2016,2016,1
+Princess Peach,princess peach,1,2,[2022],2022,2022,1
+Jason Reeves,jason reeves,1,1,[2008],2008,2008,1
+English Budgies,english budgies,1,3,[2025],2025,2025,1
+Kat Tingey,kat tingey,1,2,[2011],2011,2011,1
+Mel's Kitchen,mel's kitchen,1,2,[2017],2017,2017,1
+Mariah Hansen,mariah hansen,1,2,[2009],2009,2009,1
+Lønnefelt,lønnefelt,1,1,[2024],2024,2024,1
+Les Femmes LUNA LUNE,les femmes luna lune,1,3,[2020],2020,2020,1
+Silver Dueling Society,silver dueling society,1,3,[2007],2007,2007,1
+Ian Cooke,ian cooke,1,1,[2012],2012,2012,1
+18 Natalie Portman's Shaved Head,18 natalie portman's shaved head,1,2,[2008],2008,2008,1
+The Squirms,the squirms,1,3,[2022],2022,2022,1
+Mary Cox,mary cox,1,4,[2006],2006,2006,1
+and Strange Family,and strange family,1,2,[2013],2013,2013,1
+Chronicle of the Country Film Premier + music by Taylor Olson,chronicle of the country film premier + music by taylor olson,1,1,[2013],2013,2013,1
+Vintage Mob,vintage mob,1,1,[2007],2007,2007,1
+Tyler,tyler,1,3,[2010],2010,2010,1
+Andrew Wiscombe,andrew wiscombe,1,2,[2015],2015,2015,1
+25 JOHN VANDERSLICE,25 john vanderslice,1,1,[2011],2011,2011,1
+Guava Tree,guava tree,1,2,[2024],2024,2024,1
+Pipes $10/24tix.com,pipes $10/24tix.com,1,0,[2017],2017,2017,1
+David Higbee,david higbee,1,3,[2012],2012,2012,1
+18SOLD OUT! CITIZEN SOLDIER,18sold out! citizen soldier,1,1,[2023],2023,2023,1
+Jackpines,jackpines,1,2,[2015],2015,2015,1
+Thrash Unreal,thrash unreal,1,1,[2008],2008,2008,1
+Storming Stages-n-Stereos,storming stages-n-stereos,1,2,[2011],2011,2011,1
+Kat Kills Mountains,kat kills mountains,1,3,[2013],2013,2013,1
+M&P,m&p,1,4,[2013],2013,2013,1
+Friend of Mine,friend of mine,1,2,[2012],2012,2012,1
+Noah Ruble,noah ruble,1,1,[2018],2018,2018,1
+Carlos Cornia,carlos cornia,1,1,[2007],2007,2007,1
+Chris Comer,chris comer,1,3,[2013],2013,2013,1
+Forte,forte,1,2,[2013],2013,2013,1
+Mia Parrish,mia parrish,1,2,[2024],2024,2024,1
+Gully Bandits,gully bandits,1,3,[2020],2020,2020,1
+Rookie of the Year,rookie of the year,1,2,[2022],2022,2022,1
+Jane Beeson,jane beeson,1,4,[2019],2019,2019,1
+Cub Country,cub country,1,3,[2008],2008,2008,1
+Levi Levitt,levi levitt,1,1,[2013],2013,2013,1
+The Bird Watchers,the bird watchers,1,2,[2021],2021,2021,1
+Roz H,roz h,1,3,[2020],2020,2020,1
+Anni Pasto,anni pasto,1,3,[2025],2025,2025,1
+The Button Ups,the button ups,1,3,[2022],2022,2022,1
+Playing Ghosts,playing ghosts,1,2,[2016],2016,2016,1
+Big Trub,big trub,1,2,[2010],2010,2010,1
+The Narrows,the narrows,1,2,[2019],2019,2019,1
+Zac Kaiser,zac kaiser,1,2,[2012],2012,2012,1
+Sunny,sunny,1,2,[2015],2015,2015,1
++ DJ Sauce Packet,+ dj sauce packet,1,2,[2022],2022,2022,1
+Lauren,lauren,1,5,[2016],2016,2016,1
+David Hopkins,david hopkins,1,2,[2008],2008,2008,1
+Liv Rylan,liv rylan,1,1,[2025],2025,2025,1
+Saivs,saivs,1,1,[2017],2017,2017,1
+Nathan Hardyman,nathan hardyman,1,1,[2023],2023,2023,1
+Back Chat,back chat,1,3,[2011],2011,2011,1
+Brian Sabre Sessions,brian sabre sessions,1,4,[2006],2006,2006,1
+Ryan Cluff,ryan cluff,1,4,[2012],2012,2012,1
+Adult Prom,adult prom,1,1,[2018],2018,2018,1
+Jarom Rasmus,jarom rasmus,1,3,[2015],2015,2015,1
+The Viiceroys,the viiceroys,1,1,[2018],2018,2018,1
+Rocktober 7th Breezeway,rocktober 7th breezeway,1,4,[2017],2017,2017,1
+Michael Vee,michael vee,1,3,[2017],2017,2017,1
+Stuart Wheeler,stuart wheeler,1,0,[2010],2010,2010,1
+Lyfe On Mars,lyfe on mars,1,2,[2018],2018,2018,1
+Tylor,tylor,1,3,[2018],2018,2018,1
+Taylor Mir,taylor mir,1,1,[2016],2016,2016,1
+Blake,blake,1,3,[2023],2023,2023,1
+Agents,agents,1,1,[2010],2010,2010,1
+Box Trained Caps,box trained caps,1,2,[2013],2013,2013,1
+19 Miles Per Hour + No Such Animal,19 miles per hour + no such animal,1,1,[2023],2023,2023,1
+Bix Fosters,bix fosters,1,3,[2022],2022,2022,1
+Scarlett,scarlett,1,3,[2024],2024,2024,1
+Becca Hawkes,becca hawkes,1,3,[2019],2019,2019,1
+Rockin Rob,rockin rob,1,4,[2006],2006,2006,1
+Better Taste Bur,better taste bur,1,4,[2013],2013,2013,1
+Dustin C,dustin c,1,4,[2011],2011,2011,1
+Natural Roots,natural roots,1,2,[2014],2014,2014,1
+5 YEAR ANNIVERSARY! CORY MON,5 year anniversary! cory mon,1,4,[2011],2011,2011,1
+Mesa Driv,mesa driv,1,3,[2008],2008,2008,1
+Kemp,kemp,1,1,[2013],2013,2013,1
+Waiving at Daises,waiving at daises,1,1,[2012],2012,2012,1
+Mathew,mathew,1,4,[2010],2010,2010,1
+The Saturday Giant,the saturday giant,1,1,[2015],2015,2015,1
+Ferraby Lionheart $8,ferraby lionheart $8,1,1,[2007],2007,2007,1
+Beck Brothers,beck brothers,2,4,[2022],2022,2022,1
+Arithmatic Transfer,arithmatic transfer,1,2,[2007],2007,2007,1
+: Kelsie Everson,: kelsie everson,1,3,[2016],2016,2016,1
+Hanzel,hanzel,1,3,[2018],2018,2018,1
+Paul Porter,paul porter,1,2,[2011],2011,2011,1
+Painting the Roses,painting the roses,1,3,[2007],2007,2007,1
+Mike Wilson,mike wilson,1,3,[2014],2014,2014,1
+The Signal Sound,the signal sound,1,1,[2013],2013,2013,1
+David Elijah,david elijah,1,3,[2010],2010,2010,1
+Kira Walk,kira walk,1,3,[2023],2023,2023,1
+Shadow Work,shadow work,1,2,[2024],2024,2024,1
+Riah Divis,riah divis,1,1,[2019],2019,2019,1
+Kingston Winter,kingston winter,1,3,[2015],2015,2015,1
+Riahpaan,riahpaan,1,2,[2019],2019,2019,1
+Victory Heist,victory heist,1,1,[2009],2009,2009,1
+Bleacher Babe,bleacher babe,1,3,[2024],2024,2024,1
+Jr. Mathematics,jr. mathematics,1,3,[2016],2016,2016,1
+Jesus or Genome,jesus or genome,1,4,[2011],2011,2011,1
+Viridian Sun,viridian sun,1,3,[2023],2023,2023,1
+Jacob Westfall,jacob westfall,1,4,[2023],2023,2023,1
+Sione Toki,sione toki,1,2,[2014],2014,2014,1
+the J.T Empire,the j.t empire,1,4,[2007],2007,2007,1
+1.This is Anfield 2.Oh,1.this is anfield 2.oh,1,1,[2009],2009,2009,1
+Call the Cops,call the cops,1,2,[2009],2009,2009,1
+Justin Duckwitz,justin duckwitz,1,2,[2013],2013,2013,1
+various guests,various guests,1,0,[2009],2009,2009,1
+The Sols,the sols,1,1,[2022],2022,2022,1
+In Color,in color,1,4,[2013],2013,2013,1
+Brooke,brooke,1,4,[2012],2012,2012,1
+Efficiency,efficiency,1,3,[2014],2014,2014,1
+Garden Drive,garden drive,1,3,[2024],2024,2024,1
+Lydians,lydians,1,2,[2014],2014,2014,1
+The Company,the company,1,1,[2024],2024,2024,1
+Tracey,tracey,1,3,[2016],2016,2016,1
+the Hope,the hope,1,4,[2010],2010,2010,1
+And The Winner Is,and the winner is,1,2,[2012],2012,2012,1
+Jenna Baker,jenna baker,1,3,[2011],2011,2011,1
+the Mob,the mob,1,2,[2013],2013,2013,1
+Painted Roses,painted roses,1,1,[2024],2024,2024,1
+The Eden Express etc,the eden express etc,1,1,[2006],2006,2006,1
+Taylor Olson,taylor olson,1,2,[2013],2013,2013,1
+Elsinor,elsinor,1,2,[2009],2009,2009,1
+Northern National,northern national,1,1,[2018],2018,2018,1
+Jhonny K,jhonny k,1,4,[2012],2012,2012,1
+The Wednesday People,the wednesday people,1,1,[2016],2016,2016,1
+Cherish DeGraff,cherish degraff,1,1,[2017],2017,2017,1
+Tay,tay,1,5,[2016],2016,2016,1
+Jesture,jesture,1,2,[2011],2011,2011,1
+Good Honest Effort,good honest effort,1,5,[2013],2013,2013,1
+Milla Boles,milla boles,1,2,[2011],2011,2011,1
+Casey Truman,casey truman,1,3,[2015],2015,2015,1
+I'm Designer,i'm designer,1,3,[2012],2012,2012,1
+Velocirapture,velocirapture,1,3,[2012],2012,2012,1
+Aan,aan,1,2,[2012],2012,2012,1
+Bidwell,bidwell,1,2,[2009],2009,2009,1
+Eric Michaels,eric michaels,1,3,[2014],2014,2014,1
+1.Lighten Up,1.lighten up,1,1,[2023],2023,2023,1
+SIRE with Kasadoom,sire with kasadoom,1,2,[2019],2019,2019,1
+David Bradford,david bradford,1,3,[2011],2011,2011,1
+Wilde,wilde,1,3,[2025],2025,2025,1
+Neu Yeuth,neu yeuth,1,1,[2016],2016,2016,1
+Scrub Oaks,scrub oaks,1,3,[2019],2019,2019,1
+Van Hof,van hof,1,3,[2017],2017,2017,1
+So's,so's,1,4,[2018],2018,2018,1
+The Annuals,the annuals,1,2,[2006],2006,2006,1
+Skylar Geer,skylar geer,1,4,[2024],2024,2024,1
+Dave Eaton $8,dave eaton $8,1,1,[2007],2007,2007,1
+James Devine,james devine,1,1,[2013],2013,2013,1
+Slow Children @ Play,slow children @ play,1,2,[2007],2007,2007,1
+Jantzen Dalley,jantzen dalley,1,0,[2013],2013,2013,1
+Alpine Loop,alpine loop,1,2,[2019],2019,2019,1
+The Pickpockets,the pickpockets,1,2,[2012],2012,2012,1
+Katy McCallister,katy mccallister,1,3,[2013],2013,2013,1
+Anthony Ruiz,anthony ruiz,1,1,[2020],2020,2020,1
+Savannah,savannah,1,2,[2018],2018,2018,1
+ZooHeart,zooheart,1,1,[2009],2009,2009,1
+Shogun,shogun,1,3,[2013],2013,2013,1
+Lake Effect,lake effect,1,3,[2025],2025,2025,1
+The Chain,the chain,1,3,[2025],2025,2025,1
+Teen Hearts,teen hearts,1,2,[2009],2009,2009,1
+VanMarter Project,vanmarter project,1,3,[2011],2011,2011,1
+Fabulous Beasts,fabulous beasts,1,2,[2013],2013,2013,1
+Merc,merc,1,3,[2021],2021,2021,1
+Mathew Deason,mathew deason,1,2,[2016],2016,2016,1
+The Former Kings,the former kings,1,3,[2013],2013,2013,1
+The Soil,the soil,1,3,[2013],2013,2013,1
+Maht Paulos,maht paulos,1,2,[2010],2010,2010,1
+Branden White,branden white,1,3,[2010],2010,2010,1
+Atl Atl,atl atl,1,3,[2010],2010,2010,1
+Papercut Party,papercut party,1,3,[2021],2021,2021,1
+Likelihood,likelihood,1,2,[2015],2015,2015,1
+Shelle,shelle,1,3,[2024],2024,2024,1
+Josh Wilson,josh wilson,1,3,[2007],2007,2007,1
+Emme Packer,emme packer,1,2,[2007],2007,2007,1
+Morningside Drive,morningside drive,1,2,[2006],2006,2006,1
+Say it Back,say it back,1,2,[2023],2023,2023,1
+Ska Patricks 2.5 White Guys,ska patricks 2.5 white guys,1,2,[2011],2011,2011,1
+St. Paddy's Fest! Matt Lewis Band,st. paddy's fest! matt lewis band,1,1,[2007],2007,2007,1
+Soles,soles,1,1,[2014],2014,2014,1
+Emma Nissen,emma nissen,1,1,[2024],2024,2024,1
+Jackson Larson,jackson larson,1,1,[2014],2014,2014,1
+Haley Hernandez,haley hernandez,1,2,[2009],2009,2009,1
+Dum Luv,dum luv,1,3,[2022],2022,2022,1
+Bobby Swingler,bobby swingler,1,2,[2012],2012,2012,1
+New Tragedy,new tragedy,1,3,[2010],2010,2010,1
+Tyler Stenson,tyler stenson,1,1,[2015],2015,2015,1
+Matt Lewis Band etc,matt lewis band etc,1,1,[2007],2007,2007,1
+Tiebreaker,tiebreaker,1,1,[2008],2008,2008,1
+Cory Mon &,cory mon &,1,0,[2008],2008,2008,1
+Justin Sane,justin sane,1,3,[2017],2017,2017,1
+J.J,j.j,1,5,[2008],2008,2008,1
+Cait Thompson,cait thompson,1,3,[2017],2017,2017,1
+Taylor Wilson,taylor wilson,1,2,[2016],2016,2016,1
+The Mean Degree,the mean degree,1,3,[2010],2010,2010,1
+English Budges,english budges,1,3,[2020],2020,2020,1
+Dallin Phillips,dallin phillips,1,3,[2022],2022,2022,1
+Soap Box Opera,soap box opera,1,4,[2006],2006,2006,1
+MYKEL,mykel,1,3,[2022],2022,2022,1
+IDK,idk,1,2,[2017],2017,2017,1
+JOURNAL JAM! (Funny childhood/teen Journal entrees,journal jam! (funny childhood/teen journal entrees,1,2,[2015],2015,2015,1
+The Upstarts,the upstarts,1,3,[2006],2006,2006,1
+Jennie Wayne,jennie wayne,1,2,[2013],2013,2013,1
+The Goodlife Experience,the goodlife experience,1,3,[2007],2007,2007,1
+Stereo Title,stereo title,1,2,[2012],2012,2012,1
+the Business,the business,1,2,[2015],2015,2015,1
+The Sequence,the sequence,1,0,[2009],2009,2009,1
+All the Apparatus,all the apparatus,1,2,[2011],2011,2011,1
+Attic Wolves,attic wolves,1,0,[2015],2015,2015,1
+Bert Curtis,bert curtis,1,4,[2010],2010,2010,1
+James Han,james han,1,1,[2018],2018,2018,1
+SCHEMATIC Asker,schematic asker,1,2,[2013],2013,2013,1
+Isaac Taylor,isaac taylor,1,3,[2017],2017,2017,1
+Micah Clements,micah clements,1,0,[2013],2013,2013,1
+the Regard,the regard,1,2,[2019],2019,2019,1
+Wires,wires,1,1,[2006],2006,2006,1
+Spencer Petersen + Paul Jacobsen,spencer petersen + paul jacobsen,1,1,[2023],2023,2023,1
+South of Ramona,south of ramona,1,3,[2012],2012,2012,1
+Lives of Famous Men,lives of famous men,1,2,[2008],2008,2008,1
+Brooke Mackintosh,brooke mackintosh,1,3,[2017],2017,2017,1
+Justin Evans,justin evans,1,2,[2006],2006,2006,1
+48 Hours,48 hours,1,3,[2012],2012,2012,1
+The Head,the head,1,5,[2010],2010,2010,1
+Brian Higgins,brian higgins,1,3,[2022],2022,2022,1
+Bramble,bramble,1,3,[2013],2013,2013,1
+Joshua J,joshua j,1,1,[2006],2006,2006,1
+Austin Payne,austin payne,1,1,[2019],2019,2019,1
+Drew Rindlisbacher,drew rindlisbacher,1,1,[2014],2014,2014,1
+Autumn Eclipse,autumn eclipse,1,2,[2012],2012,2012,1
+Brian P. Hansen,brian p. hansen,1,3,[2014],2014,2014,1
+Noelle Bybee,noelle bybee,1,2,[2015],2015,2015,1
+and Mason Porter,and mason porter,1,1,[2006],2006,2006,1
+26You Me,26you me,1,4,[2012],2012,2012,1
++ DJ Jaws,+ dj jaws,1,2,[2022],2022,2022,1
+1yr Anniversary #2 Neon Trees,1yr anniversary #2 neon trees,1,3,[2007],2007,2007,1
+Discourse,discourse,1,2,[2009],2009,2009,1
+Miniature Tigers $10,miniature tigers $10,1,1,[2009],2009,2009,1
+ROCKY VOTOLATOMakers 10yr Anniversary TourChris Staples,rocky votolatomakers 10yr anniversary tourchris staples,1,1,[2016],2016,2016,1
+Devin Barrus,devin barrus,1,4,[2008],2008,2008,1
+Marinade,marinade,1,1,[2013],2013,2013,1
+Goose,goose,1,3,[2019],2019,2019,1
+The Vision,the vision,1,1,[2013],2013,2013,1
+Ivy League etc!,ivy league etc!,1,1,[2007],2007,2007,1
+Bearcats,bearcats,1,3,[2011],2011,2011,1
+Morganne Wakefield,morganne wakefield,1,2,[2007],2007,2007,1
+Atlas,atlas,1,3,[2021],2021,2021,1
+Bridger Hall,bridger hall,1,3,[2015],2015,2015,1
+Folka Dots,folka dots,1,3,[2012],2012,2012,1
+Mountain Strings,mountain strings,1,1,[2024],2024,2024,1
+Kjellstrum,kjellstrum,1,2,[2018],2018,2018,1
+Brogan Kelby $1.96!,brogan kelby $1.96!,1,0,[2017],2017,2017,1
+Michelle Chisolm,michelle chisolm,1,3,[2015],2015,2015,1
+IQ20,iq20,1,2,[2006],2006,2006,1
+Definit,definit,1,2,[2008],2008,2008,1
+Rooftop Concert Series: FREE! (Joshua James,rooftop concert series: free! (joshua james,1,2,[2013],2013,2013,1
+T Street,t street,1,3,[2025],2025,2025,1
+Rubystar,rubystar,1,4,[2012],2012,2012,1
+Brian Bingham Band,brian bingham band,1,3,[2015],2015,2015,1
+Woodward Avenue,woodward avenue,1,2,[2014],2014,2014,1
+Acoustic: Kelsie Everson,acoustic: kelsie everson,1,3,[2007],2007,2007,1
+Stella Schorer,stella schorer,1,2,[2019],2019,2019,1
+Orchard of Strings,orchard of strings,1,3,[2025],2025,2025,1
+Silika,silika,1,3,[2025],2025,2025,1
+Grandparents,grandparents,1,1,[2015],2015,2015,1
+Footlight Parade,footlight parade,1,2,[2019],2019,2019,1
+Major Tom,major tom,2,3,[2016],2016,2016,1
+Thrill Collective,thrill collective,1,3,[2013],2013,2013,1
+No Bad Ideas,no bad ideas,1,3,[2022],2022,2022,1
+Andrew Wells,andrew wells,1,3,[2013],2013,2013,1
+DJ!,dj!,1,3,[2009],2009,2009,1
+THE FORECAST,the forecast,1,5,[2008],2008,2008,1
+Seafich,seafich,1,2,[2010],2010,2010,1
+Cory Mon $6,cory mon $6,1,0,[2007],2007,2007,1
+Stucki,stucki,1,2,[2011],2011,2011,1
+Val Larsen,val larsen,1,3,[2013],2013,2013,1
+Maeve Buchanan,maeve buchanan,1,0,[2013],2013,2013,1
+Something in Portuguese,something in portuguese,1,1,[2007],2007,2007,1
+Grimwood,grimwood,1,3,[2022],2022,2022,1
+CalJo,caljo,1,3,[2024],2024,2024,1
+Versus the Man,versus the man,1,2,[2015],2015,2015,1
+Less Yes,less yes,1,3,[2007],2007,2007,1
+Bryce Taylor,bryce taylor,1,2,[2008],2008,2008,1
+Avonlee,avonlee,1,3,[2008],2008,2008,1
+Jay Wride's Ecletic Show,jay wride's ecletic show,1,2,[2008],2008,2008,1
+Dryggs,dryggs,1,3,[2022],2022,2022,1
+Be Clever 3.Rotten Musicians 4.Matt Weidauer,be clever 3.rotten musicians 4.matt weidauer,1,1,[2009],2009,2009,1
+Jacki Bladen,jacki bladen,1,1,[2013],2013,2013,1
+Ace Olsen,ace olsen,1,2,[2025],2025,2025,1
+Donner Partyhouse,donner partyhouse,1,4,[2013],2013,2013,1
+Film! (Castle Rock Amphitheater,film! (castle rock amphitheater,1,2,[2008],2008,2008,1
+Treefeathers Smith,treefeathers smith,1,2,[2012],2012,2012,1
+SLFM,slfm,1,3,[2010],2010,2010,1
+Schadelverletzung,schadelverletzung,1,1,[2008],2008,2008,1
+Bryson Jarret,bryson jarret,1,1,[2020],2020,2020,1
+Kelli Moyle,kelli moyle,1,3,[2012],2012,2012,1
+Mimicking Birds,mimicking birds,1,2,[2015],2015,2015,1
+Julie,julie,1,4,[2011],2011,2011,1
+guests The May Reunion,guests the may reunion,1,0,[2014],2014,2014,1
+Doug Bush,doug bush,1,3,[2018],2018,2018,1
+Les Femmes Pipes,les femmes pipes,1,3,[2020],2020,2020,1
+I Hear Sirens,i hear sirens,1,1,[2013],2013,2013,1
+Mortal American Body,mortal american body,1,2,[2025],2025,2025,1
+Kashiwazaki,kashiwazaki,1,3,[2008],2008,2008,1
+Star Power,star power,1,4,[2011],2011,2011,1
+Prime Time Real Estate,prime time real estate,1,2,[2011],2011,2011,1
+Halloween Costume Ball!! Seve vs. Evan,halloween costume ball!! seve vs. evan,1,3,[2007],2007,2007,1
+The Botanicals,the botanicals,1,1,[2019],2019,2019,1
+Kill Hannah,kill hannah,1,2,[2006],2006,2006,1
+Track Club,track club,1,2,[2025],2025,2025,1
+Seasons Extreme,seasons extreme,2,3,"[2009, 2013]",2009,2013,2
+Postcard Reunion,postcard reunion,1,3,[2013],2013,2013,1
+Matt Wood,matt wood,1,2,[2010],2010,2010,1
+SKA PATRICKS DAY! The Gringos,ska patricks day! the gringos,1,2,[2020],2020,2020,1
+Fairweather Friends,fairweather friends,1,2,[2024],2024,2024,1
+Wayne Hos,wayne hos,1,1,[2013],2013,2013,1
+Elliot's Assassin,elliot's assassin,1,2,[2006],2006,2006,1
+SeaSalt,seasalt,1,3,[2014],2014,2014,1
+TOMORROW'S BAD SEEDS $8/$12 24tix.com,tomorrow's bad seeds $8/$12 24tix.com,1,0,[2010],2010,2010,1
+Taste Buds,taste buds,1,1,[2019],2019,2019,1
+Elkano Browning Cream,elkano browning cream,1,1,[2007],2007,2007,1
+the Knoockouts,the knoockouts,1,3,[2012],2012,2012,1
+Second Anchor Line,second anchor line,1,3,[2017],2017,2017,1
+JESSIE BAYLIN,jessie baylin,1,2,[2008],2008,2008,1
+Lenore,lenore,1,1,[2019],2019,2019,1
+Lady Denim,lady denim,1,2,[2023],2023,2023,1
+Nicodemus Blue,nicodemus blue,1,2,[2012],2012,2012,1
+Dirty Mary,dirty mary,1,2,[2008],2008,2008,1
+Bronze Museum,bronze museum,1,3,[2014],2014,2014,1
+07 Hosannas,07 hosannas,1,3,[2010],2010,2010,1
+Tom Heinl,tom heinl,1,2,[2006],2006,2006,1
+Always Her,always her,1,2,[2025],2025,2025,1
+Sunday Socks,sunday socks,1,2,[2010],2010,2010,1
+Jacki Charmaine,jacki charmaine,1,3,[2016],2016,2016,1
+Mornings of the Season,mornings of the season,1,2,[2010],2010,2010,1
+Dakota,dakota,1,2,[2012],2012,2012,1
+Caleb Hawley,caleb hawley,1,0,[2017],2017,2017,1
+Luco,luco,1,1,[2019],2019,2019,1
+La Onda Caribena,la onda caribena,1,2,[2016],2016,2016,1
+Chris Seefried,chris seefried,1,2,[2008],2008,2008,1
+The Middle End,the middle end,1,3,[2007],2007,2007,1
+The Very Most,the very most,1,5,[2009],2009,2009,1
+Rumble Gums,rumble gums,1,2,[2015],2015,2015,1
+Matt Brown,matt brown,1,2,[2006],2006,2006,1
+Eric Baines,eric baines,1,3,[2009],2009,2009,1
+The Shuttles,the shuttles,1,3,[2008],2008,2008,1
+The Young Electric!,the young electric!,1,0,[2012],2012,2012,1
+Raavyn,raavyn,1,3,[2019],2019,2019,1
+Good Grim,good grim,1,1,[2022],2022,2022,1
+Rooftop Concert Series: FREE! (Ryan Innes,rooftop concert series: free! (ryan innes,1,2,[2013],2013,2013,1
+Deerest,deerest,1,3,[2013],2013,2013,1
+Mike Evans,mike evans,1,2,[2010],2010,2010,1
+Red Jacket Mine,red jacket mine,1,3,[2009],2009,2009,1
+Jessica Long,jessica long,1,3,[2011],2011,2011,1
+Electric Valentine,electric valentine,1,0,[2010],2010,2010,1
+For: Fairweather,for: fairweather,1,3,[2007],2007,2007,1
+Ethan Carling,ethan carling,1,0,[2019],2019,2019,1
+All Human,all human,1,4,[2011],2011,2011,1
+Jay Warren + Friends,jay warren + friends,1,0,[2019],2019,2019,1
+Denys Fetotov,denys fetotov,1,2,[2015],2015,2015,1
+Jason Kelly,jason kelly,1,4,[2016],2016,2016,1
+PETER BREINHOLT,peter breinholt,1,0,[2014],2014,2014,1
+SwitchGear,switchgear,1,3,[2012],2012,2012,1
+Lello,lello,1,3,[2025],2025,2025,1
+Isaac Landin Flower,isaac landin flower,1,3,[2024],2024,2024,1
+The Mountainears,the mountainears,1,2,[2013],2013,2013,1
+MJ Wood,mj wood,1,1,[2022],2022,2022,1
+the Sea Dogs,the sea dogs,1,4,[2023],2023,2023,1
+Voycemail... More!,voycemail... more!,1,2,[2020],2020,2020,1
+DDS Sound Lab,dds sound lab,1,1,[2008],2008,2008,1
+Sauce,sauce,1,4,[2007],2007,2007,1
+Stereotype Inc,stereotype inc,1,3,[2015],2015,2015,1
+Kylanne,kylanne,1,0,[2022],2022,2022,1
+Valentine,valentine,1,2,[2019],2019,2019,1
+Doris Day,doris day,1,3,[2017],2017,2017,1
+The Fifth Normal,the fifth normal,1,1,[2006],2006,2006,1
+Mesa Drive,mesa drive,1,2,[2008],2008,2008,1
+Love Kenna,love kenna,1,3,[2025],2025,2025,1
+Sister Sky,sister sky,1,3,[2012],2012,2012,1
+Emyrson Flora,emyrson flora,1,3,[2022],2022,2022,1
+SEGO+Another Statistic,sego+another statistic,1,1,[2017],2017,2017,1
+America Yeah,america yeah,1,2,[2008],2008,2008,1
+Paul Pablo Chavez,paul pablo chavez,1,2,[2008],2008,2008,1
+Eli Whitney,eli whitney,1,2,[2014],2014,2014,1
+Kings,kings,1,5,[2025],2025,2025,1
+Wearymother,wearymother,1,2,[2015],2015,2015,1
+The Heaters,the heaters,1,3,[2007],2007,2007,1
+Lost Ocean,lost ocean,1,3,[2007],2007,2007,1
+Loom,loom,1,2,[2007],2007,2007,1
+Hazel&Vine,hazel&vine,1,2,[2009],2009,2009,1
+Misspelt + Mouth Reader,misspelt + mouth reader,1,1,[2015],2015,2015,1
+Asher Hunt,asher hunt,1,2,[2025],2025,2025,1
+Pink Spiders,pink spiders,1,2,[2008],2008,2008,1
+Ultaviolet Catastrophe,ultaviolet catastrophe,1,3,[2011],2011,2011,1
+So Long Davey,so long davey,1,1,[2008],2008,2008,1
+The IndiAnns,the indianns,1,2,[2012],2012,2012,1
+Kit Fox,kit fox,1,2,[2015],2015,2015,1
+Iz,iz,1,1,[2017],2017,2017,1
+The Hotness,the hotness,1,1,[2008],2008,2008,1
+the Sounds of Reason,the sounds of reason,1,3,[2007],2007,2007,1
+Mt St. Helens Vietnam Band,mt st. helens vietnam band,1,1,[2009],2009,2009,1
+$500 Fine,$500 fine,1,3,[2006],2006,2006,1
+Kimber PackerKimber Packer,kimber packerkimber packer,1,3,[2015],2015,2015,1
+Spencer Russell + Movie!,spencer russell + movie!,1,3,[2012],2012,2012,1
+Book On Tape Worm),book on tape worm),1,1,[2012],2012,2012,1
+Abner Avenue,abner avenue,1,3,[2024],2024,2024,1
+Power House,power house,1,2,[2013],2013,2013,1
+The Clean Prophets,the clean prophets,1,3,[2007],2007,2007,1
+Tyke James,tyke james,1,2,[2019],2019,2019,1
+Sad Cartoon,sad cartoon,2,1,[2025],2025,2025,1
+Something We Know,something we know,1,3,[2023],2023,2023,1
+Brinton Jones $8/$10,brinton jones $8/$10,1,2,[2007],2007,2007,1
+Gooch,gooch,1,2,[2018],2018,2018,1
+SKALLOWEEN 2007!!! 2 1/2 White Guys,skalloween 2007!!! 2 1/2 white guys,1,4,[2007],2007,2007,1
+Q.S.R,q.s.r,1,3,[2012],2012,2012,1
+BBQ,bbq,1,4,[2009],2009,2009,1
+Francis 2.Antelope Island 3.Jumpmonk 4.Comply or Evict,francis 2.antelope island 3.jumpmonk 4.comply or evict,1,1,[2023],2023,2023,1
+Trey Bishop,trey bishop,1,3,[2024],2024,2024,1
+Blake Snow,blake snow,1,2,[2022],2022,2022,1
+All the Day Holiday,all the day holiday,1,2,[2010],2010,2010,1
+Aaron Smith Band,aaron smith band,1,3,[2011],2011,2011,1
+Child Bite,child bite,1,0,[2009],2009,2009,1
+Mome Wrath,mome wrath,1,1,[2018],2018,2018,1
+The Flying Surgeons,the flying surgeons,1,2,[2013],2013,2013,1
+Reign of Kindo $12,reign of kindo $12,1,2,[2008],2008,2008,1
+Mick Rudolph,mick rudolph,1,4,[2022],2022,2022,1
+Kenzie Nimmo,kenzie nimmo,1,1,[2014],2014,2014,1
+Bill Webster,bill webster,1,2,[2016],2016,2016,1
+Aaron Southerland Band,aaron southerland band,1,1,[2010],2010,2010,1
+Woonded,woonded,1,3,[2014],2014,2014,1
+Ava Stone,ava stone,1,3,[2019],2019,2019,1
+Canvas,canvas,1,2,[2011],2011,2011,1
+Denys Fedotov,denys fedotov,1,3,[2014],2014,2014,1
+Garage Voice,garage voice,1,2,[2010],2010,2010,1
+Fight to Win,fight to win,1,3,[2014],2014,2014,1
+Addison Escape Device,addison escape device,1,2,[2013],2013,2013,1
+Young Rising Sons,young rising sons,1,1,[2016],2016,2016,1
+Tera Melos (CA,tera melos (ca,1,3,[2007],2007,2007,1
+Eric Schackne,eric schackne,1,1,[2012],2012,2012,1
+Dana Sorenson,dana sorenson,1,1,[2014],2014,2014,1
+Good Morning,good morning,1,3,[2007],2007,2007,1
+Poet Bones,poet bones,1,2,[2021],2021,2021,1
+Beijing Taxi,beijing taxi,1,3,[2024],2024,2024,1
+the S.O.R,the s.o.r,1,3,[2007],2007,2007,1
+Dark Rooms,dark rooms,1,1,[2018],2018,2018,1
+Ruby Chase O'Neil,ruby chase o'neil,1,3,[2012],2012,2012,1
+Clowns,clowns,1,5,[2025],2025,2025,1
+Bectics,bectics,1,3,[2015],2015,2015,1
+Spencer Glenn,spencer glenn,1,2,[2011],2011,2011,1
+Gilyeat Man,gilyeat man,1,4,[2014],2014,2014,1
+Texture Love SOLD OUT!,texture love sold out!,1,1,[2020],2020,2020,1
+Burnt Film,burnt film,1,1,[2025],2025,2025,1
+West,west,1,3,[2013],2013,2013,1
+Sean Mena,sean mena,1,2,[2017],2017,2017,1
+Cop Kid,cop kid,1,1,[2021],2021,2021,1
+Valentines! Truman,valentines! truman,1,3,[2011],2011,2011,1
+Makisi,makisi,1,2,[2014],2014,2014,1
+Kassidy Walker,kassidy walker,1,1,[2014],2014,2014,1
+Coma Toast,coma toast,1,2,[2019],2019,2019,1
+The Stoats,the stoats,1,1,[2025],2025,2025,1
+In Limbic,in limbic,1,2,[2018],2018,2018,1
+FREE Rooftop Concert Series! (FICTIONIST,free rooftop concert series! (fictionist,1,1,[2012],2012,2012,1
+My Fair Fiend,my fair fiend,1,2,[2014],2014,2014,1
+Soap,soap,1,2,[2022],2022,2022,1
+Michael Whittle,michael whittle,1,1,[2016],2016,2016,1
+the Articles,the articles,1,4,[2014],2014,2014,1
+Cory Chisel $10,cory chisel $10,1,0,[2009],2009,2009,1
+As Seen On TV Ryan Innes,as seen on tv ryan innes,1,3,[2017],2017,2017,1
+James Barlow,james barlow,1,3,[2008],2008,2008,1
+afterghost. Detective Deckard,afterghost. detective deckard,1,1,[2018],2018,2018,1
+Jake Chamberlain,jake chamberlain,1,1,[2017],2017,2017,1
+Serf,serf,1,3,[2017],2017,2017,1
+Sready Machette,sready machette,1,3,[2009],2009,2009,1
+Cedric,cedric,1,1,[2015],2015,2015,1
+Terrell Thomas,terrell thomas,1,3,[2022],2022,2022,1
+Shakedown at the Majestic,shakedown at the majestic,1,3,[2014],2014,2014,1
+My Dear Watson,my dear watson,1,1,[2018],2018,2018,1
+Aldao $6,aldao $6,1,1,[2006],2006,2006,1
+Chloe,chloe,1,4,[2019],2019,2019,1
+14 WE SHOT THE MOON,14 we shot the moon,1,3,[2009],2009,2009,1
+Avenue of Embers,avenue of embers,1,3,[2011],2011,2011,1
+Film in the Ballroom,film in the ballroom,1,3,[2006],2006,2006,1
+SKALLOWEEN!2 1/2 White Guys,skalloween!2 1/2 white guys,1,4,[2012],2012,2012,1
+Wakeside,wakeside,1,3,[2010],2010,2010,1
+Everett Dalton,everett dalton,1,3,[2025],2025,2025,1
+NVM,nvm,1,0,[2020],2020,2020,1
+Coastal Cities,coastal cities,1,2,[2025],2025,2025,1
+Rayguns,rayguns,1,5,[2009],2009,2009,1
+Debra F,debra f,1,1,[2006],2006,2006,1
+Don't Tell Sophie,don't tell sophie,1,2,[2008],2008,2008,1
+the Train Robbers,the train robbers,1,3,[2018],2018,2018,1
+Langley Drive $10,langley drive $10,1,1,[2008],2008,2008,1
+7:30pm» Lola Ray,7:30pm» lola ray,1,3,[2006],2006,2006,1
+Chanda Charmayne,chanda charmayne,1,3,[2012],2012,2012,1
+QMG,qmg,1,3,[2010],2010,2010,1
+Ponderosa,ponderosa,1,3,[2013],2013,2013,1
+11 The National Parks,11 the national parks,1,2,[2016],2016,2016,1
+VINTAGE FLEA MARKET!!!! 9am-5pm! (Clothing,vintage flea market!!!! 9am-5pm! (clothing,1,2,[2009],2009,2009,1
+Devin Richmond,devin richmond,1,3,[2006],2006,2006,1
+Les Femmes Tishmal,les femmes tishmal,1,3,[2019],2019,2019,1
+the Heart,the heart,1,5,[2010],2010,2010,1
+Zangief,zangief,1,3,[2011],2011,2011,1
+The Gentleman,the gentleman,1,4,[2010],2010,2010,1
+Derm,derm,1,2,[2023],2023,2023,1
+Kaddisfly!,kaddisfly!,1,3,[2006],2006,2006,1
+7 Jane,7 jane,1,2,[2011],2011,2011,1
+songs),songs),1,2,[2015],2015,2015,1
+Shifty Penguins,shifty penguins,1,3,[2006],2006,2006,1
+Caleb Loveless,caleb loveless,1,3,[2011],2011,2011,1
+Vibe Rising,vibe rising,1,1,[2010],2010,2010,1
+the Sun,the sun,1,3,[2013],2013,2013,1
+Imaginary Friendz,imaginary friendz,1,3,[2023],2023,2023,1
+The Wykees,the wykees,1,3,[2018],2018,2018,1
+Mathom House,mathom house,1,4,[2013],2013,2013,1
+Lovely Noughts,lovely noughts,1,4,[2017],2017,2017,1
+On The Brightside,on the brightside,1,3,[2006],2006,2006,1
+5 YEAR ANNIVERSARY! IMAGINE DRAGONS,5 year anniversary! imagine dragons,1,3,[2011],2011,2011,1
+Mallory Ownbey,mallory ownbey,1,3,[2018],2018,2018,1
+Chad Gibson etc,chad gibson etc,1,0,[2010],2010,2010,1
+Kristen Nelson,kristen nelson,1,2,[2011],2011,2011,1
+Jacob Lee,jacob lee,1,0,[2018],2018,2018,1
+Jamis Reed,jamis reed,1,1,[2025],2025,2025,1
+Talon Cardon,talon cardon,1,1,[2019],2019,2019,1
+Libby Clawson,libby clawson,1,1,[2018],2018,2018,1
+Songwriters In The Round James Robin,songwriters in the round james robin,1,2,[2019],2019,2019,1
+Coastal City,coastal city,1,1,[2025],2025,2025,1
+5 YEAR ANNIVERSARY! FICTIONIST,5 year anniversary! fictionist,1,3,[2011],2011,2011,1
+Ladylike,ladylike,1,4,[2013],2013,2013,1
+Austin Paxton,austin paxton,1,3,[2018],2018,2018,1
+Gravity Castle,gravity castle,1,1,[2020],2020,2020,1
+The Belafonte,the belafonte,1,2,[2007],2007,2007,1
+Chris Melhado,chris melhado,1,3,[2016],2016,2016,1
+Elizabeth Holden,elizabeth holden,1,3,[2014],2014,2014,1
+Fall Away,fall away,1,3,[2021],2021,2021,1
+Cameron Runyan,cameron runyan,1,1,[2006],2006,2006,1
+The Zero Summers,the zero summers,1,2,[2012],2012,2012,1
+Alli Barker,alli barker,1,3,[2024],2024,2024,1
+Fires In France,fires in france,1,3,[2012],2012,2012,1
+Incamera,incamera,1,2,[2006],2006,2006,1
+My Fair Friend,my fair friend,1,3,[2013],2013,2013,1
+Company Party,company party,1,1,[2021],2021,2021,1
+Steven Fogamomi,steven fogamomi,1,5,[2016],2016,2016,1
+Winter Sirens,winter sirens,1,0,[2018],2018,2018,1
+Olivia,olivia,1,4,[2019],2019,2019,1
+Paper Tongues,paper tongues,1,2,[2010],2010,2010,1
+Ike Russell,ike russell,1,3,[2008],2008,2008,1
+IZAK,izak,1,3,[2024],2024,2024,1
+Greg Downs,greg downs,1,3,[2010],2010,2010,1
+Alpha Reign,alpha reign,1,3,[2009],2009,2009,1
+Aspartame Sunshine,aspartame sunshine,1,1,[2015],2015,2015,1
+Weeds,weeds,1,4,[2011],2011,2011,1
+Pacificana,pacificana,1,1,[2018],2018,2018,1
+Less Than Three,less than three,1,2,[2015],2015,2015,1
+Leeseul,leeseul,1,3,[2024],2024,2024,1
+Gejo,gejo,1,3,[2025],2025,2025,1
+Three Mile Theory,three mile theory,1,3,[2025],2025,2025,1
+Pace,pace,1,4,[2016],2016,2016,1
+Kenya Clark,kenya clark,1,3,[2018],2018,2018,1
+John Hancock,john hancock,1,2,[2014],2014,2014,1
+Baby Gurl,baby gurl,1,4,[2013],2013,2013,1
+Autumn Rhodes,autumn rhodes,1,3,[2006],2006,2006,1
+Secily Saunders,secily saunders,1,2,[2006],2006,2006,1
+Andrew Langdon,andrew langdon,1,3,[2015],2015,2015,1
+Tamarack,tamarack,3,3,[2006],2006,2006,1
+Garden Plot,garden plot,1,1,[2021],2021,2021,1
+Ashtree,ashtree,1,2,[2013],2013,2013,1
+Graveljaw,graveljaw,1,3,[2023],2023,2023,1
+Aaron Smith,aaron smith,1,3,[2011],2011,2011,1
+Pilgrim,pilgrim,1,1,[2010],2010,2010,1
+Jonah Fiegleson,jonah fiegleson,1,3,[2024],2024,2024,1
+Auralee $6,auralee $6,1,1,[2007],2007,2007,1
+19 SEAN HAYES,19 sean hayes,1,1,[2014],2014,2014,1
+Wayne,wayne,1,2,[2015],2015,2015,1
+Auralee,auralee,1,3,[2007],2007,2007,1
+Alec Dean,alec dean,1,3,[2025],2025,2025,1
+Comas,comas,1,3,[2022],2022,2022,1
+Violet Nai,violet nai,1,2,[2017],2017,2017,1
+Pale Rooster,pale rooster,1,1,[2012],2012,2012,1
+Fossil Arms,fossil arms,1,2,[2015],2015,2015,1
+M. Gross,m. gross,1,1,[2011],2011,2011,1
+Ophelias Drowning,ophelias drowning,1,2,[2025],2025,2025,1
+Rexy,rexy,1,4,[2018],2018,2018,1
+Tyler Downs,tyler downs,1,2,[2017],2017,2017,1
+James,james,1,3,[2017],2017,2017,1
+Marcus Bently $10/$12,marcus bently $10/$12,1,0,[2013],2013,2013,1
+Clara Nicole,clara nicole,1,1,[2024],2024,2024,1
+Alert,alert,1,2,[2006],2006,2006,1
+Ashlee K. Thomas,ashlee k. thomas,1,3,[2012],2012,2012,1
+Rollercoaster for Henry,rollercoaster for henry,1,1,[2010],2010,2010,1
+The Mainstream,the mainstream,1,1,[2016],2016,2016,1
+Cosmonauts,cosmonauts,1,3,[2007],2007,2007,1
+Causeway,causeway,1,1,[2006],2006,2006,1
+Ask for the Future,ask for the future,1,1,[2009],2009,2009,1
+Parker Kay,parker kay,1,0,[2020],2020,2020,1
+Green Like July,green like july,1,1,[2009],2009,2009,1
+Catherine Eve,catherine eve,1,3,[2006],2006,2006,1
+Day Crash,day crash,1,0,[2023],2023,2023,1
+Abandon Kansas,abandon kansas,1,2,[2009],2009,2009,1
+The Naked Waiters,the naked waiters,1,3,[2015],2015,2015,1
+Local Chump,local chump,1,3,[2017],2017,2017,1
+Calling Card,calling card,1,2,[2025],2025,2025,1
+Fathertime,fathertime,1,3,[2011],2011,2011,1
+Caleb Gray,caleb gray,1,2,[2018],2018,2018,1
+Rret,rret,1,2,[2015],2015,2015,1
+Spencer Nelson,spencer nelson,1,3,[2018],2018,2018,1
+Breanne Taylor,breanne taylor,1,2,[2025],2025,2025,1
+Provopodcast Stupid Halloween Party!!! New Nervous,provopodcast stupid halloween party!!! new nervous,1,3,[2006],2006,2006,1
+The Material,the material,1,2,[2009],2009,2009,1
+Hug The Warrior,hug the warrior,1,1,[2025],2025,2025,1
+Maykit,maykit,1,4,[2011],2011,2011,1
+Blue Skyes,blue skyes,1,1,[2014],2014,2014,1
+The Storytellers,the storytellers,1,1,[2012],2012,2012,1
+The Moth & The Flame,the moth & the flame,11,8,"[2011, 2012, 2013]",2011,2013,3
+My Media,my media,1,2,[2007],2007,2007,1
+The Jigawatts,the jigawatts,1,3,[2006],2006,2006,1
+Goldmyth $10/24tix.com,goldmyth $10/24tix.com,1,0,[2017],2017,2017,1
+Aaliyah Rose,aaliyah rose,1,2,[2013],2013,2013,1
+Scheissters,scheissters,1,3,[2022],2022,2022,1
+Inaviate,inaviate,1,3,[2007],2007,2007,1
+Allouette,allouette,1,1,[2006],2006,2006,1
+Tandemoro,tandemoro,1,3,[2012],2012,2012,1
+Somewhere In Between,somewhere in between,1,1,[2006],2006,2006,1
+Outnumber,outnumber,1,5,[2025],2025,2025,1
+The American Fork,the american fork,1,2,[2012],2012,2012,1
+Riots of 80,riots of 80,1,2,[2008],2008,2008,1
+Folkadots,folkadots,1,4,[2012],2012,2012,1
+Adalyn Gaston,adalyn gaston,1,1,[2015],2015,2015,1
+Berkley,berkley,1,4,[2024],2024,2024,1
+Julie Feeney,julie feeney,1,2,[2011],2011,2011,1
+DJ Apt,dj apt,1,3,[2011],2011,2011,1
+Old Grey Geese,old grey geese,1,3,[2012],2012,2012,1
+Lacey Williams,lacey williams,1,3,[2016],2016,2016,1
+Jeff Crosby,jeff crosby,1,1,[2011],2011,2011,1
+Head Swap,head swap,1,3,[2011],2011,2011,1
+Aaron Ned,aaron ned,1,2,[2019],2019,2019,1
+The Vistanauts,the vistanauts,1,2,[2018],2018,2018,1
+The Johns,the johns,1,3,[2022],2022,2022,1
+Deb Fotheringham,deb fotheringham,1,3,[2024],2024,2024,1
+Olen,olen,1,1,[2023],2023,2023,1
+03 Arborea,03 arborea,1,3,[2011],2011,2011,1
+American Coast,american coast,1,2,[2017],2017,2017,1
+Micah A,micah a,1,4,[2007],2007,2007,1
+Scott S. Bowden,scott s. bowden,1,3,[2011],2011,2011,1
+limited seating),limited seating),1,2,[2014],2014,2014,1
+William Madson,william madson,1,2,[2025],2025,2025,1
+Emily Hearn,emily hearn,1,1,[2015],2015,2015,1
+Sydney,sydney,1,1,[2015],2015,2015,1
+Sonika9,sonika9,1,4,[2025],2025,2025,1
+Mabes,mabes,1,3,[2025],2025,2025,1
+Jessica Penrose,jessica penrose,1,3,[2007],2007,2007,1
+Cansisco,cansisco,1,1,[2025],2025,2025,1
+bennyjeans,bennyjeans,1,1,[2025],2025,2025,1
+Dawnlit,dawnlit,1,2,[2017],2017,2017,1
+Meg,meg,1,3,[2006],2006,2006,1
+Nowhere Man,nowhere man,1,3,[2006],2006,2006,1
+08B.O.T.B.Citrus Inquisition,08b.o.t.b.citrus inquisition,1,3,[2008],2008,2008,1
+The Clay Temples,the clay temples,1,1,[2016],2016,2016,1
+Goosechase,goosechase,1,4,[2013],2013,2013,1
+Seven Seater,seven seater,1,1,[2025],2025,2025,1
+Ike Houston,ike houston,1,3,[2024],2024,2024,1
+The Red Six,the red six,1,3,[2014],2014,2014,1
+Tell The Grass,tell the grass,1,2,[2007],2007,2007,1
+Tanner Averill,tanner averill,1,1,[2024],2024,2024,1
+Plastic Cherries,plastic cherries,1,2,[2022],2022,2022,1
+MOSH PITATOES,mosh pitatoes,1,2,[2024],2024,2024,1
+Patrick Driscol,patrick driscol,1,1,[2008],2008,2008,1
+Retrofect,retrofect,1,2,[2021],2021,2021,1
+Bad Heather,bad heather,1,1,[2021],2021,2021,1
+Untamed Engine,untamed engine,1,2,[2019],2019,2019,1
+Kenedi Anderson,kenedi anderson,1,3,[2022],2022,2022,1
+Acoustic Jeff Stone,acoustic jeff stone,1,3,[2006],2006,2006,1
+Becca Tremmel,becca tremmel,1,3,[2016],2016,2016,1
+Dia,dia,1,3,[2006],2006,2006,1
+Sam Lee,sam lee,1,2,[2012],2012,2012,1
+Brainstorm,brainstorm,1,2,[2013],2013,2013,1
+1.Atta Girl 2.Lighten Up,1.atta girl 2.lighten up,1,1,[2025],2025,2025,1
+Willy Eklof,willy eklof,1,2,[2016],2016,2016,1
+Mark Hender,mark hender,1,3,[2007],2007,2007,1
+Judd Warrick,judd warrick,1,2,[2024],2024,2024,1
+22 Aubrey Toone & Jeriqo,22 aubrey toone & jeriqo,1,1,[2019],2019,2019,1
+Watches,watches,1,3,[2013],2013,2013,1
+Natalie Davis,natalie davis,1,1,[2018],2018,2018,1
+3% Hero,3% hero,1,3,[2007],2007,2007,1
+Spell Talk,spell talk,1,3,[2010],2010,2010,1
+Audrianna Cole,audrianna cole,1,3,[2010],2010,2010,1
+Valentines Masquerade! Timber!,valentines masquerade! timber!,1,3,[2012],2012,2012,1
+Emily Hicks,emily hicks,1,3,[2025],2025,2025,1
+Mykah,mykah,1,3,[2023],2023,2023,1
+Speechless,speechless,1,3,[2008],2008,2008,1
+Delane Barrus,delane barrus,1,4,[2008],2008,2008,1
+Tiffany Sollis,tiffany sollis,1,3,[2012],2012,2012,1
+Tyler Lyle,tyler lyle,1,3,[2012],2012,2012,1
+27 IVORYLINE,27 ivoryline,1,1,[2009],2009,2009,1
+Lexi Lyon,lexi lyon,1,1,[2011],2011,2011,1
+P.A.C,p.a.c,1,3,[2010],2010,2010,1
+SEGO PARTY! Mathematics Et Cetera,sego party! mathematics et cetera,1,2,[2007],2007,2007,1
+Elliott's Assassin,elliott's assassin,1,2,[2006],2006,2006,1
+Riveter's Son,riveter's son,1,1,[2016],2016,2016,1
+The Silent Type,the silent type,1,3,[2006],2006,2006,1
+Raining Pouring,raining pouring,1,3,[2023],2023,2023,1
+The Federal Empire,the federal empire,1,1,[2016],2016,2016,1
+Skyline Drive,skyline drive,1,2,[2017],2017,2017,1
+Alex,alex,1,3,[2010],2010,2010,1
+The Smog,the smog,1,3,[2023],2023,2023,1
+Ice Hotel,ice hotel,1,3,[2013],2013,2013,1
+LOXS,loxs,1,2,[2015],2015,2015,1
+Homestyle D.R,homestyle d.r,1,3,[2022],2022,2022,1
+JP Heynee,jp heynee,1,2,[2009],2009,2009,1
+Jeff Weeks,jeff weeks,1,2,[2011],2011,2011,1
+Mel,mel,1,4,[2013],2013,2013,1
+Robert Carrol,robert carrol,1,2,[2008],2008,2008,1
+Landon Bench,landon bench,1,3,[2024],2024,2024,1
+Libby Linton + Dessert Bar,libby linton + dessert bar,1,0,[2011],2011,2011,1
+Lipsill,lipsill,1,3,[2024],2024,2024,1
+Six Parts Seven,six parts seven,1,2,[2007],2007,2007,1
+19The Strike,19the strike,1,1,[2021],2021,2021,1
+more...!,more...!,1,1,[2019],2019,2019,1
+Brinton Jones $10,brinton jones $10,1,0,[2009],2009,2009,1
+Track Fighter,track fighter,1,3,[2007],2007,2007,1
+Imperial Mammoth,imperial mammoth,1,1,[2014],2014,2014,1
+MC CHRIS,mc chris,1,1,[2007],2007,2007,1
+& Mia Hicken,& mia hicken,1,1,[2019],2019,2019,1
+Mathmatics Etc,mathmatics etc,1,3,[2006],2006,2006,1
+Zach Whitaker,zach whitaker,1,3,[2024],2024,2024,1
+Hard Drive to France,hard drive to france,1,3,[2011],2011,2011,1
+Mikey,mikey,1,3,[2021],2021,2021,1
+Scott Bowden $8,scott bowden $8,1,1,[2009],2009,2009,1
+Nate Pyfer $15,nate pyfer $15,1,0,[2007],2007,2007,1
+Nevermind,nevermind,1,1,[2009],2009,2009,1
+Anna Richey,anna richey,1,3,[2016],2016,2016,1
+Timmy The TeethVinyl Rls,timmy the teethvinyl rls,1,3,[2012],2012,2012,1
+Poetry) The Eden Express etc,poetry) the eden express etc,1,0,[2006],2006,2006,1
+GDB,gdb,1,3,[2006],2006,2006,1
+Leetham,leetham,1,1,[2024],2024,2024,1
+Jenny War etc,jenny war etc,1,1,[2009],2009,2009,1
+Isaac Russell $7,isaac russell $7,1,1,[2007],2007,2007,1
+Dusty Hulet,dusty hulet,1,1,[2024],2024,2024,1
+I Am Czar,i am czar,1,2,[2012],2012,2012,1
+Savannah Sgro,savannah sgro,1,3,[2022],2022,2022,1
+Alyssa Piper,alyssa piper,1,3,[2016],2016,2016,1
+Joe Brooks,joe brooks,1,0,[2012],2012,2012,1
+Archeology,archeology,1,3,[2011],2011,2011,1
+The Octopus Project $8,the octopus project $8,1,1,[2006],2006,2006,1
+Deset Noises,deset noises,1,3,[2009],2009,2009,1
+the Clay Pigeons,the clay pigeons,1,3,[2013],2013,2013,1
+Science Gone Wrong,science gone wrong,1,3,[2013],2013,2013,1
+Aubrey Auclair,aubrey auclair,1,3,[2017],2017,2017,1
+Sky Tides,sky tides,1,1,[2015],2015,2015,1
+Wish Granted Records Kindred Dead,wish granted records kindred dead,1,3,[2016],2016,2016,1
+Sydney Rian,sydney rian,1,3,[2025],2025,2025,1
+Armchair Cowboy,armchair cowboy,1,1,[2006],2006,2006,1
+Lilliehouse,lilliehouse,1,3,[2021],2021,2021,1
+Vincent Draper,vincent draper,1,2,[2014],2014,2014,1
+House Of Melk,house of melk,1,2,[2016],2016,2016,1
+Brandon Taft Robbins,brandon taft robbins,1,2,[2023],2023,2023,1
+Frank Zoo,frank zoo,1,3,[2018],2018,2018,1
+Faded Paper Figures,faded paper figures,1,1,[2014],2014,2014,1
+Long Hard Drive to France,long hard drive to france,1,3,[2009],2009,2009,1
+Mark H. Smith,mark h. smith,1,3,[2016],2016,2016,1
+Alaina Hirschi,alaina hirschi,1,3,[2022],2022,2022,1
+Commander Salamander,commander salamander,1,2,[2020],2020,2020,1
+Trace Bundy,trace bundy,1,1,[2009],2009,2009,1
+Mark Abernathy,mark abernathy,1,3,[2011],2011,2011,1
+Zelazowa (Phila,zelazowa (phila,1,2,[2007],2007,2007,1
+Them,them,1,3,[2025],2025,2025,1
+Celsey Parrish,celsey parrish,1,3,[2018],2018,2018,1
+the Pop Rocks,the pop rocks,1,4,[2006],2006,2006,1
+Playdead Movement $2/$3,playdead movement $2/$3,1,3,[2007],2007,2007,1
+The Veltexans,the veltexans,1,1,[2007],2007,2007,1
+Lucky Strikes,lucky strikes,1,2,[2012],2012,2012,1
+The Lucky Crickets,the lucky crickets,1,1,[2011],2011,2011,1
++ Yelpy,+ yelpy,1,2,[2017],2017,2017,1
+Our Lives in Indigo,our lives in indigo,1,2,[2015],2015,2015,1
+Vinyl Club,vinyl club,1,0,[2010],2010,2010,1
+Chaple,chaple,1,1,[2020],2020,2020,1
+Juice Box,juice box,1,3,[2012],2012,2012,1
+Eric Danielson,eric danielson,1,2,[2014],2014,2014,1
+Samuel Charles Band,samuel charles band,1,3,[2022],2022,2022,1
+Closed for SEGO FEST (Castle Rock Amphitheater,closed for sego fest (castle rock amphitheater,1,1,[2007],2007,2007,1
+Tribes,tribes,1,2,[2012],2012,2012,1
+Stay for the Summer,stay for the summer,1,2,[2009],2009,2009,1
+Zendlo,zendlo,1,2,[2020],2020,2020,1
+05 Canoe,05 canoe,1,2,[2008],2008,2008,1
+Hayley Reardon + Kate MacLeod,hayley reardon + kate macleod,1,1,[2024],2024,2024,1
+Dylan Gardener,dylan gardener,1,0,[2019],2019,2019,1
+the Lar,the lar,1,5,[2010],2010,2010,1
+Hindenburg Pilot,hindenburg pilot,1,3,[2012],2012,2012,1
+Uncle Muzz,uncle muzz,1,1,[2018],2018,2018,1
+The Alpines,the alpines,1,2,[2023],2023,2023,1
+Soular,soular,1,1,[2006],2006,2006,1
+Redsleeves,redsleeves,1,3,[2015],2015,2015,1
+Days,days,1,0,[2015],2015,2015,1
+Brainstorm 4 ftg Mr Tape,brainstorm 4 ftg mr tape,1,2,[2020],2020,2020,1
+N.E.S,n.e.s,1,2,[2013],2013,2013,1
+Parkway Avenue,parkway avenue,1,3,[2019],2019,2019,1
+Faraday Le Soleil,faraday le soleil,1,2,[2014],2014,2014,1
+Ryan Innes Stripped + Bare (Seated,ryan innes stripped + bare (seated,1,2,[2021],2021,2021,1
+Pop Warner,pop warner,1,2,[2022],2022,2022,1
+The Honorary Title,the honorary title,1,3,[2008],2008,2008,1
+Colby Stead $8,colby stead $8,1,0,[2008],2008,2008,1
+The New Electric Sound),the new electric sound),1,1,[2012],2012,2012,1
+Cambria Johnson,cambria johnson,1,2,[2018],2018,2018,1
+No Jure,no jure,1,2,[2023],2023,2023,1
+Lindsey Stirling,lindsey stirling,1,2,[2012],2012,2012,1
+Mon Cheri,mon cheri,1,3,[2006],2006,2006,1
+Slow Motion Characters,slow motion characters,1,3,[2012],2012,2012,1
+Future.exboyfriend,future.exboyfriend,1,2,[2022],2022,2022,1
+Bishop Allen,bishop allen,1,2,[2006],2006,2006,1
+Violettas,violettas,1,2,[2015],2015,2015,1
+Alicia Stockman,alicia stockman,1,3,[2025],2025,2025,1
+Silver Fortune,silver fortune,1,2,[2014],2014,2014,1
+The Photo Atlas,the photo atlas,1,3,[2007],2007,2007,1
+Swenson,swenson,1,3,[2017],2017,2017,1
+Alyssa Pyper,alyssa pyper,1,3,[2018],2018,2018,1
+Qcom!,qcom!,1,3,[2007],2007,2007,1
+Ree Boabo,ree boabo,1,4,[2010],2010,2010,1
+Wandering Woods,wandering woods,1,3,[2014],2014,2014,1
+Breakfast Biscuit,breakfast biscuit,1,3,[2022],2022,2022,1
+Brett Young(Tickets @ 24tix.com,brett young(tickets @ 24tix.com,1,1,[2013],2013,2013,1
+Aure,aure,1,2,[2008],2008,2008,1
+Omega Horns,omega horns,1,3,[2022],2022,2022,1
+Moi Navaro,moi navaro,1,3,[2014],2014,2014,1
+Samual Charles Band,samual charles band,1,3,[2022],2022,2022,1
+Tristan Cole,tristan cole,1,3,[2017],2017,2017,1
+White Party 2! Neon Trees,white party 2! neon trees,1,4,[2007],2007,2007,1
+Chloe Mae,chloe mae,1,3,[2023],2023,2023,1
+Libby Linton,libby linton,1,1,[2007],2007,2007,1
+Will Dailey $10,will dailey $10,1,0,[2009],2009,2009,1
+Superflow,superflow,1,1,[2023],2023,2023,1
+Jordan Jacobson,jordan jacobson,1,2,[2015],2015,2015,1
+Nicholas Naioti,nicholas naioti,1,3,[2018],2018,2018,1
+8YR ANNIVERSARY! The New Electric Sound,8yr anniversary! the new electric sound,1,3,[2014],2014,2014,1
+Lemonfern,lemonfern,1,3,[2025],2025,2025,1
+The Kings Solar,the kings solar,1,2,[2014],2014,2014,1
+Queen of Neb,queen of neb,1,4,[2008],2008,2008,1
+1yr Anniversary #1 Seve Vs. Evan,1yr anniversary #1 seve vs. evan,1,3,[2007],2007,2007,1
+Water Slice,water slice,1,2,[2017],2017,2017,1
+Blue Rainboots,blue rainboots,1,2,[2019],2019,2019,1
+Austin A-Strike,austin a-strike,1,2,[2018],2018,2018,1
+Brumby SOLD OUT,brumby sold out,1,2,[2016],2016,2016,1
+Cameron Rafati Paper Tom,cameron rafati paper tom,1,2,[2013],2013,2013,1
+The Shindas,the shindas,1,1,[2022],2022,2022,1
+Bryant Miller,bryant miller,1,2,[2019],2019,2019,1
+Jane Deere,jane deere,1,1,[2007],2007,2007,1
+Brian Bingham,brian bingham,1,3,[2016],2016,2016,1
+We Won the Science Fair,we won the science fair,1,2,[2010],2010,2010,1
+Tanner Townsend,tanner townsend,1,1,[2019],2019,2019,1
+Jenessa Adams,jenessa adams,1,3,[2010],2010,2010,1
+St. Charles,st. charles,1,3,[2014],2014,2014,1
+Maile Lavaki,maile lavaki,1,1,[2009],2009,2009,1
+Throat Vocal Band,throat vocal band,1,3,[2011],2011,2011,1
+Agent Apathy,agent apathy,1,3,[2006],2006,2006,1
+Emmalie Arntz,emmalie arntz,1,3,[2019],2019,2019,1
+Kaylie Stewart,kaylie stewart,1,3,[2016],2016,2016,1
+King Niko,king niko,1,1,[2014],2014,2014,1
+Keisa Keller,keisa keller,1,1,[2019],2019,2019,1
+Poetry by Alex Caldiero + Art,poetry by alex caldiero + art,1,0,[2006],2006,2006,1
++ Joel Pack solo set!,+ joel pack solo set!,1,2,[2010],2010,2010,1
+Dead Metro,dead metro,1,3,[2024],2024,2024,1
+Arm the Angels,arm the angels,1,2,[2008],2008,2008,1
+Woonded Accordian,woonded accordian,1,3,[2014],2014,2014,1
+Gentry Robinson,gentry robinson,1,2,[2012],2012,2012,1
+Addie,addie,1,3,[2025],2025,2025,1
+Trevor Hall,trevor hall,1,1,[2009],2009,2009,1
+Benz,benz,1,3,[2019],2019,2019,1
+M.Horton Smith,m.horton smith,1,3,[2018],2018,2018,1
+Jer Bear,jer bear,1,4,[2008],2008,2008,1
+Mathew Skaggs,mathew skaggs,1,2,[2015],2015,2015,1
+The Early Summer $10,the early summer $10,1,1,[2009],2009,2009,1
+Fearsome Poet Group,fearsome poet group,1,3,[2008],2008,2008,1
+Al Deans of QSR,al deans of qsr,1,3,[2011],2011,2011,1
+Nick Welch,nick welch,1,2,[2017],2017,2017,1
+Spencer Russell + Movie Screening,spencer russell + movie screening,1,1,[2009],2009,2009,1
+Jupiter Suit,jupiter suit,1,2,[2015],2015,2015,1
+Kendra Squire,kendra squire,1,3,[2016],2016,2016,1
+Trainsurfing,trainsurfing,1,3,[2023],2023,2023,1
+Ellis,ellis,1,4,[2008],2008,2008,1
+the Traveling Salesmen,the traveling salesmen,1,2,[2010],2010,2010,1
+Shimmertraps,shimmertraps,1,1,[2022],2022,2022,1
+7YR ANNIVERSARY! Desert Noises,7yr anniversary! desert noises,1,3,[2013],2013,2013,1
+Breaker,breaker,1,1,[2023],2023,2023,1
+Davin Nebeker,davin nebeker,1,3,[2015],2015,2015,1
+Egans Theory,egans theory,1,3,[2007],2007,2007,1
+Laura Lamn,laura lamn,1,3,[2015],2015,2015,1
+Magnanimous,magnanimous,1,3,[2008],2008,2008,1
+The Coast,the coast,1,1,[2011],2011,2011,1
+Jakdel,jakdel,1,2,[2025],2025,2025,1
+...Flying Yaks,...flying yaks,1,2,[2007],2007,2007,1
+CHASE PAGAN,chase pagan,1,2,[2008],2008,2008,1
+Ultra Violet Catastrophe,ultra violet catastrophe,1,3,[2012],2012,2012,1
+Blue Rain Coat,blue rain coat,1,1,[2019],2019,2019,1
+Wildwood,wildwood,1,2,[2025],2025,2025,1
+Long Live Logos,long live logos,1,1,[2008],2008,2008,1
+Grace Christensen,grace christensen,1,2,[2021],2021,2021,1
+Braxton,braxton,1,2,[2012],2012,2012,1
+Mckay Karren,mckay karren,1,2,[2017],2017,2017,1
+Eminent Sol,eminent sol,1,2,[2018],2018,2018,1
+End of School Bash! Gulosh,end of school bash! gulosh,1,2,[2008],2008,2008,1
+Paul,paul,1,3,[2013],2013,2013,1
+Owen Monroy,owen monroy,1,3,[2009],2009,2009,1
+Anaphora,anaphora,1,3,[2008],2008,2008,1
+12 Marvin Payne & the Gifted Seeds,12 marvin payne & the gifted seeds,1,1,[2010],2010,2010,1
+Mik,mik,1,2,[2025],2025,2025,1
+The Foreground,the foreground,1,2,[2013],2013,2013,1
+Aviva L,aviva l,1,2,[2018],2018,2018,1
+Renegade,renegade,1,2,[2011],2011,2011,1
+Prince Early,prince early,1,3,[2008],2008,2008,1
+All Hope Contained,all hope contained,1,3,[2017],2017,2017,1
+Maya Sorenson,maya sorenson,1,3,[2025],2025,2025,1
+If And When,if and when,2,2,[2025],2025,2025,1
+Su Grand,su grand,1,2,[2017],2017,2017,1
+9th East,9th east,1,3,[2019],2019,2019,1
+Jake Farney,jake farney,1,1,[2013],2013,2013,1
+Big Bad Wolf,big bad wolf,1,2,[2011],2011,2011,1
+Jeff Stone $8/$10,jeff stone $8/$10,1,1,[2007],2007,2007,1
+: Austin Lush,: austin lush,1,3,[2016],2016,2016,1
+Judson Moore,judson moore,1,3,[2017],2017,2017,1
+Dylan Dunlap,dylan dunlap,1,1,[2020],2020,2020,1
+Proving Ground,proving ground,1,2,[2011],2011,2011,1
+Fullers Field,fullers field,1,3,[2008],2008,2008,1
+Jaren Jolley,jaren jolley,1,3,[2015],2015,2015,1
+Bianca Merkley,bianca merkley,1,1,[2012],2012,2012,1
+Ricky Ray Butler,ricky ray butler,1,3,[2011],2011,2011,1
+The Pimpernels,the pimpernels,1,2,[2013],2013,2013,1
+Sarawak Skies,sarawak skies,1,2,[2010],2010,2010,1
+Luca Stricagnoli,luca stricagnoli,1,2,[2018],2018,2018,1
+SLC's Causeway,slc's causeway,1,1,[2006],2006,2006,1
+Provopodcast Party! Mathematics Et Cetera,provopodcast party! mathematics et cetera,1,3,[2006],2006,2006,1
+Wild Ones,wild ones,1,4,[2016],2016,2016,1
+ByNow,bynow,1,1,[2009],2009,2009,1
+Rocky Votolato,rocky votolato,1,2,[2006],2006,2006,1
+Alma Gutierrez,alma gutierrez,1,2,[2012],2012,2012,1
+Maxwell Hughes,maxwell hughes,1,2,[2014],2014,2014,1
+Scott Bowman,scott bowman,1,3,[2008],2008,2008,1
+Vibrant Sound $12/$14,vibrant sound $12/$14,1,0,[2009],2009,2009,1
+Jasmine Mae,jasmine mae,1,2,[2013],2013,2013,1
+Dylan Woolf Harris,dylan woolf harris,1,2,[2009],2009,2009,1
+Raccoon Dog,raccoon dog,1,3,[2013],2013,2013,1
+Preferra,preferra,2,3,"[2006, 2007]",2006,2007,2
+Beach Death,beach death,1,1,[2021],2021,2021,1
+Double or Nothingunplugged,double or nothingunplugged,1,3,[2011],2011,2011,1
+Angel Magic,angel magic,1,3,[2015],2015,2015,1
+Quasi Stellar Radio,quasi stellar radio,1,3,[2006],2006,2006,1
+06 Bishop Allen/ Page France,06 bishop allen/ page france,1,1,[2007],2007,2007,1
+The 5th Normal,the 5th normal,2,3,"[2006, 2007]",2006,2007,2
+Becket,becket,1,2,[2015],2015,2015,1
+Body Double Band,body double band,1,2,[2024],2024,2024,1
+Salt,salt,1,3,[2022],2022,2022,1
+Jordan Moyes + John Allred,jordan moyes + john allred,1,1,[2025],2025,2025,1
+Melissa Cooley,melissa cooley,1,3,[2013],2013,2013,1
+Camera Can't Lie,camera can't lie,1,0,[2009],2009,2009,1
+KTHKNG,kthkng,1,4,[2025],2025,2025,1
+Eva Renada,eva renada,1,2,[2006],2006,2006,1
+the Potters,the potters,1,3,[2006],2006,2006,1
+Kings Again,kings again,1,1,[2010],2010,2010,1
+Home Phone,home phone,1,1,[2021],2021,2021,1
+Amber Sky,amber sky,1,3,[2014],2014,2014,1
+The Wreck Chords,the wreck chords,1,2,[2012],2012,2012,1
+Frame,frame,1,2,[2011],2011,2011,1
+White Ribbon,white ribbon,1,3,[2008],2008,2008,1
+Brad Knutson,brad knutson,1,3,[2015],2015,2015,1
+Tay Voorhis,tay voorhis,1,3,[2015],2015,2015,1
+Oli K,oli k,1,2,[2017],2017,2017,1
+The Blaqks,the blaqks,1,3,[2014],2014,2014,1
+The Delta Mirror,the delta mirror,1,2,[2009],2009,2009,1
+Melody,melody,1,3,[2010],2010,2010,1
+The Paper Guns,the paper guns,1,3,[2014],2014,2014,1
+Forever In Fall,forever in fall,1,2,[2006],2006,2006,1
+Charles Elsworth,charles elsworth,1,2,[2014],2014,2014,1
+SOUNDHOUSE PRESENTS: Max Headroom,soundhouse presents: max headroom,1,2,[2022],2022,2022,1
+Tabernacles (,tabernacles (,1,1,[2016],2016,2016,1
+The Last Gatsby,the last gatsby,1,2,[2013],2013,2013,1
+The BackView Heights,the backview heights,1,3,[2017],2017,2017,1
+Aurange,aurange,1,1,[2021],2021,2021,1
+Culprit,culprit,1,2,[2011],2011,2011,1
+Colite Quartet,colite quartet,1,3,[2006],2006,2006,1
+Tiger Fire,tiger fire,1,3,[2006],2006,2006,1
+Rare Fracture,rare fracture,1,2,[2018],2018,2018,1
+GROOVY Queenadilla + Homestyle Dinner Rolls,groovy queenadilla + homestyle dinner rolls,1,2,[2024],2024,2024,1
+Hooligans Brass Band,hooligans brass band,1,3,[2015],2015,2015,1
+Sarah Witham,sarah witham,1,2,[2007],2007,2007,1
+Sweater Club,sweater club,1,3,[2006],2006,2006,1
+Red Pete,red pete,1,2,[2009],2009,2009,1
+St Charles $5 donation,st charles $5 donation,1,1,[2014],2014,2014,1
+Mirrors,mirrors,1,3,[2009],2009,2009,1
+Crab Scratch Ecstacy,crab scratch ecstacy,1,1,[2010],2010,2010,1
+Peter Wolf Crier,peter wolf crier,1,1,[2012],2012,2012,1
+14 TAUGHT ME,14 taught me,1,2,[2008],2008,2008,1
+the Orange,the orange,1,3,[2008],2008,2008,1
+Ruca 83,ruca 83,1,2,[2024],2024,2024,1
+Ambrose Channel,ambrose channel,1,2,[2006],2006,2006,1
+Evelyn Detzany,evelyn detzany,1,3,[2020],2020,2020,1
+IndiAnns,indianns,1,5,[2012],2012,2012,1
+Laryssa Birdseye,laryssa birdseye,1,3,[2022],2022,2022,1
+Wreck Room,wreck room,1,3,[2008],2008,2008,1
+Knotty Pine,knotty pine,1,3,[2007],2007,2007,1
+Garrett W,garrett w,1,4,[2010],2010,2010,1
+Sam King,sam king,1,1,[2013],2013,2013,1
+Damien Jurado,damien jurado,2,2,"[2006, 2015]",2006,2015,2
+Sam Payne,sam payne,1,0,[2008],2008,2008,1
+Pleasant Tree,pleasant tree,1,1,[2007],2007,2007,1
+The Glass Gentleman,the glass gentleman,1,3,[2014],2014,2014,1
+Seth Bonnell,seth bonnell,1,3,[2025],2025,2025,1
+Nothing But Flying Yaks,nothing but flying yaks,1,1,[2007],2007,2007,1
+Mikkia Osman,mikkia osman,1,2,[2014],2014,2014,1
+Richard Swift,richard swift,1,2,[2006],2006,2006,1
+2 1/2 White Guys,2 1/2 white guys,1,2,[2008],2008,2008,1
+The Maybelle SeriesSusie Brown,the maybelle seriessusie brown,1,3,[2016],2016,2016,1
+Coastal,coastal,1,2,[2015],2015,2015,1
+The Morning Benders $12,the morning benders $12,1,0,[2009],2009,2009,1
+the Moon Drew Capener,the moon drew capener,1,4,[2009],2009,2009,1
+Locaton Location,locaton location,1,3,[2008],2008,2008,1
+Scene of an Accident,scene of an accident,1,2,[2007],2007,2007,1
+VINTAGE FLEA MARKET!!!! 2pm-Late! (Clothing,vintage flea market!!!! 2pm-late! (clothing,1,2,[2009],2009,2009,1
+Kevin Long,kevin long,1,1,[2014],2014,2014,1
+Spitball,spitball,1,0,[2021],2021,2021,1
+Daytime Lover,daytime lover,1,2,[2022],2022,2022,1
+Friends of Stella,friends of stella,1,2,[2013],2013,2013,1
+John Goodman,john goodman,1,2,[2019],2019,2019,1
+30 Grit Slurry,30 grit slurry,1,2,[2007],2007,2007,1
+Tallulah Devi,tallulah devi,1,1,[2023],2023,2023,1
+Von Andeck,von andeck,1,3,[2013],2013,2013,1
+The By,the by,1,4,[2024],2024,2024,1
+Sorrymom,sorrymom,1,3,[2021],2021,2021,1
+Madison Hansen,madison hansen,1,2,[2018],2018,2018,1
+Lungus,lungus,1,3,[2008],2008,2008,1
+JoVial Lee,jovial lee,1,2,[2017],2017,2017,1
+Hello Sky!,hello sky!,1,3,[2010],2010,2010,1
+The New Electric Sound SOLD OUT!,the new electric sound sold out!,1,1,[2012],2012,2012,1
+Rabbit,rabbit,1,2,[2013],2013,2013,1
+He is We,he is we,1,3,[2010],2010,2010,1
+) Cory Mon,) cory mon,1,3,[2007],2007,2007,1
+Haylee Hernandez,haylee hernandez,1,3,[2009],2009,2009,1
+The Laohu,the laohu,1,2,[2012],2012,2012,1
+London,london,1,4,[2023],2023,2023,1
+Cool Gaze,cool gaze,1,2,[2019],2019,2019,1
+Mary Jackson,mary jackson,1,2,[2011],2011,2011,1
+The Bush Boys,the bush boys,1,4,[2025],2025,2025,1
+1.Love,1.love,1,1,[2025],2025,2025,1
+Lotte Kestner,lotte kestner,1,1,[2014],2014,2014,1
+Vybbe,vybbe,1,2,[2025],2025,2025,1
+Giraffic Jam,giraffic jam,1,2,[2015],2015,2015,1
+Cotton Bones,cotton bones,1,3,[2015],2015,2015,1
+and Armchair Cowboy,and armchair cowboy,1,1,[2006],2006,2006,1
+Sweet Water,sweet water,1,3,[2006],2006,2006,1
+The Band West,the band west,1,5,[2013],2013,2013,1
+Mary May I,mary may i,1,2,[2009],2009,2009,1
+Jessica Jewish Something,jessica jewish something,1,3,[2006],2006,2006,1
+David Williams,david williams,1,2,[2010],2010,2010,1
+Julianne Brough+ Movie!,julianne brough+ movie!,1,3,[2012],2012,2012,1
+Blueberries For Ben,blueberries for ben,1,3,[2011],2011,2011,1
+costumes) Wasatch Sasquatch Watch,costumes) wasatch sasquatch watch,1,0,[2006],2006,2006,1
+Wicked Bears,wicked bears,1,2,[2019],2019,2019,1
+7:30pm» RICHARD BUCKNER,7:30pm» richard buckner,1,2,[2007],2007,2007,1
+All About Rockets,all about rockets,1,2,[2007],2007,2007,1
+Avalon Landing,avalon landing,1,1,[2013],2013,2013,1
+Somewhere Under the Radar Paul Travis,somewhere under the radar paul travis,1,3,[2014],2014,2014,1
+Playdead Movement,playdead movement,1,2,[2008],2008,2008,1
+Monochovia,monochovia,1,2,[2007],2007,2007,1
+Comfort Club,comfort club,1,3,[2023],2023,2023,1
+Drawing North,drawing north,1,0,[2017],2017,2017,1
+DJ Boutzilla,dj boutzilla,1,1,[2017],2017,2017,1
+7:30pm» Victim Effect,7:30pm» victim effect,1,3,[2006],2006,2006,1
+Paula Eden,paula eden,1,3,[2012],2012,2012,1
+Byjustin,byjustin,1,3,[2006],2006,2006,1
+Tom,tom,1,2,[2025],2025,2025,1
+Hissyfit,hissyfit,1,3,[2024],2024,2024,1
+Spirit Machines,spirit machines,1,3,[2025],2025,2025,1
+Gully Lights,gully lights,1,0,[2008],2008,2008,1
+Doug Lane,doug lane,1,3,[2016],2016,2016,1
+D.O.N. $,d.o.n. $,1,2,[2010],2010,2010,1
+22 Drew Danburry,22 drew danburry,1,3,[2012],2012,2012,1
+The Great White Buffalo,the great white buffalo,1,1,[2014],2014,2014,1
+Vulpes! Vulpes!,vulpes! vulpes!,1,3,[2011],2011,2011,1
+Olin,olin,1,4,[2009],2009,2009,1
+The House Guests,the house guests,1,1,[2014],2014,2014,1
+The Lazy Loners,the lazy loners,1,1,[2023],2023,2023,1
+Milo,milo,1,2,[2011],2011,2011,1
+Baby New Year,baby new year,1,2,[2015],2015,2015,1
+Eye Alaska,eye alaska,2,1,[2008],2008,2008,1
+Jillian Innes,jillian innes,1,2,[2014],2014,2014,1
+The Outline,the outline,1,2,[2009],2009,2009,1
+Shay Obray,shay obray,1,1,[2023],2023,2023,1
+Clear Static $10,clear static $10,1,2,[2006],2006,2006,1
+THE HELIO SEQUENCE,the helio sequence,1,2,[2008],2008,2008,1
+Tina Ferguson,tina ferguson,1,2,[2012],2012,2012,1
+Running Sons,running sons,1,3,[2023],2023,2023,1
+Daisy Girl,daisy girl,1,3,[2025],2025,2025,1
+Black Tie Dynasty,black tie dynasty,1,4,[2007],2007,2007,1
+Lori Cunningham,lori cunningham,1,3,[2012],2012,2012,1
+04 MATT POND PA,04 matt pond pa,1,2,[2015],2015,2015,1
+Katie Brandebur,katie brandebur,1,2,[2009],2009,2009,1
+Tamedog,tamedog,1,3,[2025],2025,2025,1
+Maddie Penrose,maddie penrose,1,2,[2012],2012,2012,1
+Garrett Garfield,garrett garfield,1,1,[2019],2019,2019,1
+Eyes Buggy,eyes buggy,1,3,[2023],2023,2023,1
+Dj's,dj's,1,3,[2006],2006,2006,1
+The Boy,the boy,1,4,[2016],2016,2016,1
+Hana Eid,hana eid,1,3,[2024],2024,2024,1
+Closed for SEGO FEST: Local Music,closed for sego fest: local music,1,2,[2008],2008,2008,1
+JBAB,jbab,1,0,[2021],2021,2021,1
+Ruts,ruts,1,4,[2011],2011,2011,1
+Sean Wood,sean wood,1,2,[2006],2006,2006,1
+Inversion,inversion,1,1,[2024],2024,2024,1
+Reno,reno,1,2,[2025],2025,2025,1
+Id Rather Be,id rather be,1,3,[2024],2024,2024,1
+Grace Sims,grace sims,1,4,[2006],2006,2006,1
+Joel Ansett,joel ansett,1,1,[2018],2018,2018,1
+Blu C. Graham,blu c. graham,1,1,[2009],2009,2009,1
+Chelsea Blosil,chelsea blosil,1,2,[2012],2012,2012,1
+Lamp Light Pages Caleb Loveless,lamp light pages caleb loveless,1,3,[2011],2011,2011,1
+The Hindenburg Pilot,the hindenburg pilot,1,1,[2012],2012,2012,1
+Upstanding Youth,upstanding youth,1,1,[2007],2007,2007,1
+Alice Alcorn,alice alcorn,1,3,[2024],2024,2024,1
+Chac Xol,chac xol,1,3,[2022],2022,2022,1
+Carson Patrick,carson patrick,1,2,[2024],2024,2024,1
+Mike Sempert,mike sempert,1,2,[2014],2014,2014,1
+Amanda on the Moon,amanda on the moon,1,1,[2024],2024,2024,1
+Roger Comstock,roger comstock,1,3,[2013],2013,2013,1
+Parker + FREE BBQ!,parker + free bbq!,1,1,[2008],2008,2008,1
+R. Carrol,r. carrol,1,3,[2008],2008,2008,1
+Members of VanLadyLove,members of vanladylove,1,2,[2017],2017,2017,1
+Chasing Kings J.R. Boyce,chasing kings j.r. boyce,1,3,[2011],2011,2011,1
+The Lavender Hunnies,the lavender hunnies,1,1,[2018],2018,2018,1
+500 East,500 east,1,2,[2008],2008,2008,1
+Black Hounds,black hounds,1,2,[2010],2010,2010,1
+Girlfriend Season,girlfriend season,1,2,[2010],2010,2010,1
+Izzie Karren,izzie karren,1,1,[2018],2018,2018,1
+Roseburg,roseburg,1,1,[2019],2019,2019,1
+The Indigo,the indigo,1,1,[2017],2017,2017,1
+Adjacent to Nothing,adjacent to nothing,1,3,[2008],2008,2008,1
+Kayla Egbert,kayla egbert,1,3,[2025],2025,2025,1
+Songs,songs,1,2,[2021],2021,2021,1
+Floaty,floaty,1,3,[2025],2025,2025,1
+Ex Machina,ex machina,1,3,[2007],2007,2007,1
+St. Sebastians School For Wicked Girl,st. sebastians school for wicked girl,1,2,[2006],2006,2006,1
+Cory Mon $8,cory mon $8,1,1,[2008],2008,2008,1
+Rabid Young,rabid young,1,3,[2017],2017,2017,1
+Soul Research Foundation $5,soul research foundation $5,1,2,[2022],2022,2022,1
+30+ Bands! Info @ forkfest.org,30+ bands! info @ forkfest.org,1,0,[2025],2025,2025,1
+Jane Stewart,jane stewart,1,2,[2019],2019,2019,1
+Ryan Ruff,ryan ruff,1,3,[2007],2007,2007,1
+Hollering Pines,hollering pines,1,1,[2013],2013,2013,1
+Whitney Lusk,whitney lusk,1,3,[2015],2015,2015,1
+Schroeder,schroeder,1,5,[2010],2010,2010,1
+Foxheart,foxheart,1,3,[2011],2011,2011,1
+Ryan Darton Caleb Blood,ryan darton caleb blood,1,0,[2008],2008,2008,1
+Barcelona,barcelona,1,2,[2008],2008,2008,1
+WHITE PARTY! Neon Trees,white party! neon trees,1,4,[2006],2006,2006,1
+Daniel Spencer + Christian Ledek,daniel spencer + christian ledek,1,3,[2022],2022,2022,1
+St. Sebastian's,st. sebastian's,1,3,[2006],2006,2006,1
+$10,$10,1,2,[2009],2009,2009,1
+Big Surrender,big surrender,1,2,[2009],2009,2009,1
+My Dad The Astronaut,my dad the astronaut,1,2,[2017],2017,2017,1
+Civil Twilight,civil twilight,1,2,[2010],2010,2010,1
+Kip Congo,kip congo,1,3,[2025],2025,2025,1
+Awake,awake,1,2,[2006],2006,2006,1
+Gage Dancin,gage dancin,1,1,[2024],2024,2024,1
+Abhi the Nomad,abhi the nomad,1,0,[2018],2018,2018,1
+Easy Riders,easy riders,1,3,[2012],2012,2012,1
+Mud Bison,mud bison,1,2,[2009],2009,2009,1
+Briertone,briertone,1,3,[2007],2007,2007,1
+Battleschool,battleschool,1,3,[2009],2009,2009,1
+Baldwin Games,baldwin games,1,3,[2011],2011,2011,1
+Kissed Out Batty Blue,kissed out batty blue,1,1,[2015],2015,2015,1
+Rooftop Concert Series: FREE! (Mindy Geldhill,rooftop concert series: free! (mindy geldhill,1,1,[2013],2013,2013,1
+Simple Talk,simple talk,1,3,[2015],2015,2015,1
+Amy Whitcomb,amy whitcomb,1,2,[2013],2013,2013,1
+A Failsafe Story,a failsafe story,1,2,[2010],2010,2010,1
+Daphne Loves Derby,daphne loves derby,1,2,[2022],2022,2022,1
+NUMBS Kno It Alls,numbs kno it alls,1,2,[2008],2008,2008,1
+Brendo $,brendo $,1,3,[2013],2013,2013,1
+The Kirkpatrick Project,the kirkpatrick project,1,3,[2009],2009,2009,1
+Crown Point,crown point,1,2,[2010],2010,2010,1
+Dream Eater,dream eater,1,2,[2012],2012,2012,1
+LuvRex,luvrex,1,2,[2013],2013,2013,1
+Sandfish,sandfish,1,1,[2019],2019,2019,1
+Ska Patricks Day Voodoo Orchestra,ska patricks day voodoo orchestra,1,2,[2012],2012,2012,1
+Taylor Risk,taylor risk,1,2,[2015],2015,2015,1
+D9,d9,1,3,[2012],2012,2012,1
+Naked Waiters,naked waiters,1,2,[2015],2015,2015,1
+Utah Ladies Songwriters Round: Emily Bea,utah ladies songwriters round: emily bea,1,3,[2025],2025,2025,1
+Squaw Peak Road,squaw peak road,1,3,[2009],2009,2009,1
+Paula Bravo,paula bravo,1,1,[2014],2014,2014,1
+Grant Judkins,grant judkins,1,3,[2007],2007,2007,1
+Stories),stories),1,2,[2021],2021,2021,1
+Hope For Jamie Benefit Ocean Commotion,hope for jamie benefit ocean commotion,1,2,[2014],2014,2014,1
+Jessica Frech,jessica frech,1,3,[2016],2016,2016,1
+Wired For Havoc,wired for havoc,1,2,[2013],2013,2013,1
+Oh Be Clever,oh be clever,1,3,[2010],2010,2010,1
+The Bectics,the bectics,1,4,[2015],2015,2015,1
+Geneva Conflict,geneva conflict,1,1,[2015],2015,2015,1
+Jake Escobar,jake escobar,1,3,[2011],2011,2011,1
+the Callers,the callers,1,2,[2011],2011,2011,1
+Postcards Home,postcards home,1,3,[2007],2007,2007,1
+MY MAN FRIDAY!!!,my man friday!!!,1,1,[2016],2016,2016,1
+The Dreamtime,the dreamtime,1,3,[2020],2020,2020,1
+Shiny Toy Guns,shiny toy guns,1,2,[2006],2006,2006,1
+Dominic Moore,dominic moore,1,3,[2016],2016,2016,1
+Les Femmes New Shack/Madge,les femmes new shack/madge,1,3,[2020],2020,2020,1
+Bly Wall,bly wall,1,3,[2025],2025,2025,1
+Anthony Pena,anthony pena,1,0,[2015],2015,2015,1
+Black River Brethren,black river brethren,1,3,[2006],2006,2006,1
+Slumber Party 3Book On Tape Worm,slumber party 3book on tape worm,1,3,[2012],2012,2012,1
+Sarah A. Degraw,sarah a. degraw,1,2,[2014],2014,2014,1
+Ben D,ben d,1,2,[2013],2013,2013,1
+Brad Tallman,brad tallman,1,1,[2010],2010,2010,1
+Grenadine,grenadine,1,3,[2025],2025,2025,1
+The Goodfellas,the goodfellas,1,2,[2022],2022,2022,1
+Something About Bears,something about bears,1,3,[2020],2020,2020,1
+Till We Have Faces,till we have faces,1,3,[2011],2011,2011,1
+Benefit Concert! Andy Martin,benefit concert! andy martin,1,2,[2008],2008,2008,1
+Lazy,lazy,1,5,[2010],2010,2010,1
+Kipper Snack,kipper snack,1,1,[2019],2019,2019,1
+Parlours,parlours,1,3,[2012],2012,2012,1
+The Downfall Theory,the downfall theory,1,3,[2013],2013,2013,1
+Shelton,shelton,1,1,[2006],2006,2006,1
+AB Cherubim,ab cherubim,1,3,[2025],2025,2025,1
+The Weekenders,the weekenders,1,3,[2014],2014,2014,1
+The Ferocious Oaks,the ferocious oaks,1,3,[2010],2010,2010,1
+Jamie Timm,jamie timm,1,2,[2006],2006,2006,1
+Red Dog Revival,red dog revival,1,2,[2015],2015,2015,1
+Arvos,arvos,1,1,[2015],2015,2015,1
+CCQB,ccqb,1,3,[2008],2008,2008,1
+The Coin in the Sea,the coin in the sea,1,2,[2014],2014,2014,1
+SLC's Incamera,slc's incamera,1,3,[2006],2006,2006,1
+Charles Ellsworth/Vincent Draper,charles ellsworth/vincent draper,1,2,[2015],2015,2015,1
+Cary Judd David Hopkins,cary judd david hopkins,1,1,[2007],2007,2007,1
+JOSHUA JAMES!,joshua james!,1,0,[2008],2008,2008,1
+the Ninos,the ninos,1,3,[2022],2022,2022,1
+The Circulars,the circulars,1,2,[2014],2014,2014,1
+Freely Bound,freely bound,1,2,[2009],2009,2009,1
+Awful Truth,awful truth,1,2,[2010],2010,2010,1
+Chase; of the Jungle,chase; of the jungle,1,3,[2014],2014,2014,1
+De Nova Dahl,de nova dahl,1,1,[2008],2008,2008,1
+The Summer Obsession,the summer obsession,1,2,[2006],2006,2006,1
+Jesse Reid,jesse reid,1,3,[2025],2025,2025,1
+Cera,cera,1,3,[2016],2016,2016,1
+Ava Liv Mabry,ava liv mabry,1,1,[2023],2023,2023,1
+Blake Crestani,blake crestani,1,3,[2016],2016,2016,1
+A Few Feet High,a few feet high,1,3,[2023],2023,2023,1
+Mr. Tape!,mr. tape!,1,1,[2018],2018,2018,1
+PRKR,prkr,1,1,[2024],2024,2024,1
+Foothill Drive,foothill drive,1,1,[2023],2023,2023,1
+JAY NASH,jay nash,1,2,[2008],2008,2008,1
+Mckail Seely,mckail seely,1,1,[2010],2010,2010,1
+Les Femmes Faith Marie,les femmes faith marie,1,3,[2020],2020,2020,1
+Charlie Jensen,charlie jensen,1,2,[2019],2019,2019,1
+Twin,twin,1,2,[2013],2013,2013,1
+Hello Hellicopter,hello hellicopter,1,3,[2008],2008,2008,1
+Vanillaroma,vanillaroma,1,1,[2018],2018,2018,1
+Chi Chi,chi chi,1,1,[2025],2025,2025,1
+Austin Carlisle,austin carlisle,1,0,[2009],2009,2009,1
+S2cool,s2cool,1,2,[2022],2022,2022,1
+Ete AhPing,ete ahping,1,1,[2019],2019,2019,1
+Wildberry,wildberry,1,2,[2025],2025,2025,1
+the B.S,the b.s,1,3,[2007],2007,2007,1
+King Kashmir,king kashmir,1,2,[2022],2022,2022,1
+Slice,slice,1,0,[2022],2022,2022,1
+Hard Luck,hard luck,1,0,[2009],2009,2009,1
+The Medusa Collective Presents: Baby Ghosts,the medusa collective presents: baby ghosts,1,2,[2015],2015,2015,1
+Valentines Masquerade Ball!Book on Tapeworm Mudbison,valentines masquerade ball!book on tapeworm mudbison,1,2,[2010],2010,2010,1
+Jake Tengleson,jake tengleson,1,3,[2012],2012,2012,1
+Andru Markel,andru markel,1,2,[2013],2013,2013,1
+This Madilyn,this madilyn,1,0,[2009],2009,2009,1
+Leatherhand,leatherhand,1,3,[2007],2007,2007,1
+Lady Venus,lady venus,1,3,[2006],2006,2006,1
+Mythic Valley,mythic valley,1,2,[2018],2018,2018,1
+The Finalist,the finalist,1,2,[2006],2006,2006,1
+FREE Rooftop Concert Series! (Isaac Russell,free rooftop concert series! (isaac russell,1,1,[2012],2012,2012,1
+Dixie Linn Choque,dixie linn choque,1,2,[2025],2025,2025,1
+Maer,maer,1,2,[2014],2014,2014,1
+8YR ANNIVERSARY! Westward The Tide,8yr anniversary! westward the tide,1,4,[2014],2014,2014,1
+Sky Olson Trio,sky olson trio,1,3,[2022],2022,2022,1
+Les Femmes Jenn Blosil,les femmes jenn blosil,1,3,[2019],2019,2019,1
+Hazel Waves,hazel waves,1,3,[2025],2025,2025,1
+The Hit,the hit,1,3,[2025],2025,2025,1
+Ruthie,ruthie,1,2,[2012],2012,2012,1
+Toughitout,toughitout,2,3,[2022],2022,2022,1
+Kira Dawn,kira dawn,1,3,[2024],2024,2024,1
+Joy Downer,joy downer,1,3,[2022],2022,2022,1
+Landon Boyce,landon boyce,1,0,[2024],2024,2024,1
+Tyler Angel,tyler angel,1,3,[2013],2013,2013,1
+Make Me Shake,make me shake,1,2,[2010],2010,2010,1
+Aaron Southerland,aaron southerland,1,2,[2009],2009,2009,1
+Niobion,niobion,1,1,[2006],2006,2006,1
+stories,stories,1,2,[2015],2015,2015,1
+Ian Hullinger,ian hullinger,1,3,[2018],2018,2018,1
+Joshua James $12,joshua james $12,1,0,[2007],2007,2007,1
+21 TREVOR HALL,21 trevor hall,1,2,[2011],2011,2011,1
+BOTW @ Sundance!,botw @ sundance!,1,0,[2018],2018,2018,1
+Grace Peatross,grace peatross,1,3,[2025],2025,2025,1
+Spencer Knox,spencer knox,1,2,[2009],2009,2009,1
+The Recovery,the recovery,1,3,[2009],2009,2009,1
+Michelle's Retro B-day Bash! The Brobecks,michelle's retro b-day bash! the brobecks,1,2,[2007],2007,2007,1
+The Brobecks $8,the brobecks $8,1,1,[2008],2008,2008,1
+Michelle Gomez,michelle gomez,1,2,[2013],2013,2013,1
+Jaxen Hanks,jaxen hanks,1,1,[2025],2025,2025,1
+Bomb In A Bell,bomb in a bell,1,2,[2016],2016,2016,1
+Digital Black (Cedar Cit,digital black (cedar cit,1,1,[2006],2006,2006,1
+Nick Johnson. Emily Golightly,nick johnson. emily golightly,1,2,[2015],2015,2015,1
+Megaritual,megaritual,1,3,[2025],2025,2025,1
+Off Center,off center,1,3,[2021],2021,2021,1
+Fictionist,fictionist,1,1,[2025],2025,2025,1
+Rooftop Concert Series: FREE! (Desert Noises,rooftop concert series: free! (desert noises,1,1,[2013],2013,2013,1
+Aaron Puzey $10,aaron puzey $10,1,0,[2013],2013,2013,1
+NeoNoiz,neonoiz,1,3,[2008],2008,2008,1
+The Awful Truth,the awful truth,1,3,[2010],2010,2010,1
+231.Atta Girl 2.Lighten Up,231.atta girl 2.lighten up,1,1,[2025],2025,2025,1
+Nogusman,nogusman,1,4,[2024],2024,2024,1
+Amy Whitcomb),amy whitcomb),1,2,[2013],2013,2013,1
+Miles Out,miles out,1,1,[2015],2015,2015,1
+P. Jacobsen,p. jacobsen,1,0,[2010],2010,2010,1
+Zealand,zealand,1,3,[2013],2013,2013,1
+Codi Jordan,codi jordan,1,3,[2010],2010,2010,1
+Kaplan,kaplan,1,2,[2012],2012,2012,1
+Cole Wardle,cole wardle,1,2,[2022],2022,2022,1
+The Filibusters,the filibusters,1,2,[2025],2025,2025,1
+Fashion Show etc,fashion show etc,1,3,[2009],2009,2009,1
+Links,links,1,1,[2010],2010,2010,1
+Behind Smoke,behind smoke,1,3,[2009],2009,2009,1
+Tessa Blasko,tessa blasko,1,2,[2021],2021,2021,1
+17 PASSAFIRE,17 passafire,1,2,[2011],2011,2011,1
+the Scholar,the scholar,1,4,[2010],2010,2010,1
+Dave Eaton Band,dave eaton band,1,4,[2011],2011,2011,1
+We Include Pluto,we include pluto,1,1,[2016],2016,2016,1
+Random Obscurity,random obscurity,1,3,[2007],2007,2007,1
+Knife show,knife show,1,4,[2009],2009,2009,1
+REX,rex,1,3,[2024],2024,2024,1
+Alligators,alligators,1,1,[2008],2008,2008,1
+BoomDrops,boomdrops,1,3,[2025],2025,2025,1
+Hannah Frances,hannah frances,1,0,[2023],2023,2023,1
+Monrow,monrow,1,2,[2010],2010,2010,1
+05 MORNING BENDERS,05 morning benders,1,2,[2010],2010,2010,1
+iDealDialect,idealdialect,1,2,[2025],2025,2025,1
+Genius Hands,genius hands,1,3,[2011],2011,2011,1
+Die Shiny,die shiny,1,1,[2024],2024,2024,1
+Clay Summers,clay summers,1,4,[2010],2010,2010,1
+Social Cinema,social cinema,1,1,[2025],2025,2025,1
+FRIDAY THE 13THER,friday the 13ther,1,3,[2010],2010,2010,1
+S_2 Cool,s_2 cool,1,1,[2018],2018,2018,1
+Jupiter Sunrise,jupiter sunrise,1,3,[2006],2006,2006,1
+The Monikers,the monikers,1,3,[2006],2006,2006,1
+Adieta,adieta,1,3,[2007],2007,2007,1
+Others TBA,others tba,1,2,[2017],2017,2017,1
+Thesaurus Rex,thesaurus rex,1,3,[2012],2012,2012,1
+Low vs. Diamond,low vs. diamond,1,1,[2008],2008,2008,1
+Twin Swords,twin swords,1,3,[2007],2007,2007,1
+Bryan John Appleby,bryan john appleby,1,0,[2015],2015,2015,1
+Ysabelle Cuevas,ysabelle cuevas,1,3,[2025],2025,2025,1
+Mikkia,mikkia,1,3,[2022],2022,2022,1
+Debra Fotheringham etc,debra fotheringham etc,1,1,[2007],2007,2007,1
+Davey,davey,1,2,[2014],2014,2014,1
+The Forground,the forground,1,2,[2009],2009,2009,1
+U.V.C,u.v.c,1,3,[2012],2012,2012,1
+Star-Off,star-off,1,3,[2014],2014,2014,1
+Earth Pilot,earth pilot,1,2,[2011],2011,2011,1
+Jared Ferrin,jared ferrin,1,2,[2023],2023,2023,1
+Randi Kay Martin,randi kay martin,1,2,[2011],2011,2011,1
+Zan,zan,1,3,[2013],2013,2013,1
+Calico,calico,1,2,[2006],2006,2006,1
+J.E.M,j.e.m,1,3,[2024],2024,2024,1
+Carling,carling,1,3,[2019],2019,2019,1
+Emma Barzeele,emma barzeele,1,3,[2019],2019,2019,1
+Littlebigheart,littlebigheart,1,2,[2012],2012,2012,1
+Arienette,arienette,1,1,[2010],2010,2010,1
+Blue Rain Boots,blue rain boots,1,2,[2019],2019,2019,1
+the Breakers,the breakers,1,3,[2023],2023,2023,1
+Jukebox Antihero,jukebox antihero,1,3,[2015],2015,2015,1
+Johanna Johanna,johanna johanna,1,3,[2014],2014,2014,1
+James The 8th,james the 8th,1,3,[2017],2017,2017,1
+St. Paddy'sCory Mon,st. paddy'scory mon,1,3,[2011],2011,2011,1
+Scott Harris,scott harris,1,1,[2008],2008,2008,1
+UV Catastrophe,uv catastrophe,1,3,[2011],2011,2011,1
+the Exotic Birds,the exotic birds,1,5,[2008],2008,2008,1
+) Back Chat,) back chat,1,3,[2011],2011,2011,1
+Dominic Balli,dominic balli,1,1,[2015],2015,2015,1
+Dios Malos,dios malos,1,1,[2006],2006,2006,1
+Where Are You,where are you,1,0,[2011],2011,2011,1
+Jordan Jacobsen,jordan jacobsen,1,3,[2022],2022,2022,1
+S_2 Cool !!!,s_2 cool !!!,1,0,[2018],2018,2018,1
+31(Members of Parlor Hawk,31(members of parlor hawk,1,3,[2011],2011,2011,1
+The Scrub Oaks,the scrub oaks,1,3,[2018],2018,2018,1
+Genevra Munoa,genevra munoa,1,2,[2022],2022,2022,1
+888,888,1,1,[2016],2016,2016,1
+Lance Tingey,lance tingey,1,1,[2015],2015,2015,1
+Chapter 11,chapter 11,1,2,[2013],2013,2013,1
+Sam Benson,sam benson,1,3,[2015],2015,2015,1
+Simple People,simple people,1,2,[2007],2007,2007,1
+Harry,harry,1,3,[2006],2006,2006,1
+Lemon Tree Grove,lemon tree grove,1,3,[2021],2021,2021,1
+Scramjet,scramjet,1,3,[2011],2011,2011,1
+JOSIAH LEMING,josiah leming,1,2,[2010],2010,2010,1
+Sarah Allen,sarah allen,1,2,[2017],2017,2017,1
+Michelle Kaimi,michelle kaimi,1,3,[2008],2008,2008,1
+Phaya,phaya,1,3,[2012],2012,2012,1
+Chasing Chance,chasing chance,1,2,[2012],2012,2012,1
+Jake Justice,jake justice,1,2,[2014],2014,2014,1
+Arms Akimbo,arms akimbo,1,1,[2018],2018,2018,1
+Hobosapien,hobosapien,1,3,[2019],2019,2019,1
+Tanner K. Williams,tanner k. williams,1,3,[2011],2011,2011,1
+You Me,you me,1,4,[2012],2012,2012,1
+Haili Gregson,haili gregson,1,2,[2009],2009,2009,1
+Hilary McRae,hilary mcrae,1,1,[2008],2008,2008,1
+Merchants of Venice,merchants of venice,1,3,[2024],2024,2024,1
+the Crackerjacks,the crackerjacks,1,4,[2025],2025,2025,1
+Tom Briton,tom briton,1,3,[2011],2011,2011,1
+The Contintentals,the contintentals,1,3,[2010],2010,2010,1
+Objects in Mirror,objects in mirror,1,3,[2017],2017,2017,1
+Eric Blood Project,eric blood project,1,3,[2011],2011,2011,1
+Jacob Tengelsen,jacob tengelsen,1,1,[2015],2015,2015,1
+The Anchorage,the anchorage,1,1,[2019],2019,2019,1
+Rachel Koller,rachel koller,1,3,[2011],2011,2011,1
+Lya Santa Maria,lya santa maria,1,3,[2017],2017,2017,1
+Tim Larsen,tim larsen,1,3,[2009],2009,2009,1
+Take the Fall,take the fall,1,3,[2006],2006,2006,1
+Cherry Thomas,cherry thomas,1,2,[2017],2017,2017,1
+John White!,john white!,1,2,[2017],2017,2017,1
+The Secret Handshake,the secret handshake,1,1,[2008],2008,2008,1
+Lilac,lilac,1,3,[2018],2018,2018,1
+Bedside Fishtank,bedside fishtank,1,2,[2022],2022,2022,1
+Dave Christison,dave christison,1,1,[2013],2013,2013,1
+The Makeaways,the makeaways,1,2,[2020],2020,2020,1
+Farr Gone,farr gone,1,1,[2019],2019,2019,1
+Fly Fight Crow,fly fight crow,1,3,[2007],2007,2007,1
+Amanda Navares,amanda navares,1,3,[2009],2009,2009,1
+guest Joshua James!,guest joshua james!,1,3,[2009],2009,2009,1
+Jenny Guerra,jenny guerra,1,3,[2008],2008,2008,1
+Jay W. Henderson),jay w. henderson),1,2,[2013],2013,2013,1
+Antique Balerina,antique balerina,1,3,[2011],2011,2011,1
+Claw,claw,1,3,[2025],2025,2025,1
+St. Sebastians,st. sebastians,1,4,[2008],2008,2008,1
+Kyson Kidd,kyson kidd,1,3,[2017],2017,2017,1
+Fission Breakers,fission breakers,1,3,[2013],2013,2013,1
+90s Television,90s television,1,2,[2010],2010,2010,1
+and Chance Lewis of Abby,and chance lewis of abby,1,1,[2006],2006,2006,1
+Bishop Allen $10,bishop allen $10,1,0,[2007],2007,2007,1
+25 Spencer Russell,25 spencer russell,1,3,[2016],2016,2016,1
+Elise Glover,elise glover,1,2,[2008],2008,2008,1
+Jonathan Frazier,jonathan frazier,1,2,[2008],2008,2008,1
+Quatele,quatele,1,1,[2008],2008,2008,1
+Josh Rosenthal,josh rosenthal,1,3,[2007],2007,2007,1
+The Globes,the globes,1,2,[2008],2008,2008,1
+Cravy Dockett,cravy dockett,1,3,[2022],2022,2022,1
+T.K's,t.k's,1,3,[2012],2012,2012,1
+Christopher Stefanciw,christopher stefanciw,1,2,[2011],2011,2011,1
+Lane,lane,1,3,[2025],2025,2025,1
+St. Sebastians School,st. sebastians school,1,2,[2006],2006,2006,1
+Emily Vienna,emily vienna,1,2,[2014],2014,2014,1
+Hectic Hobo,hectic hobo,1,3,[2015],2015,2015,1
+Kyle Henderson $10,kyle henderson $10,1,0,[2009],2009,2009,1
+Steff,steff,1,4,[2014],2014,2014,1
+Mark Lanham,mark lanham,1,3,[2023],2023,2023,1
+Leslie Stevens,leslie stevens,1,2,[2007],2007,2007,1
+Amara Doxey,amara doxey,1,2,[2018],2018,2018,1
+CrazyOldMaurice,crazyoldmaurice,1,2,[2015],2015,2015,1
+Gypsy Cab etc.)Funky Violet,gypsy cab etc.)funky violet,1,3,[2011],2011,2011,1
+Slap Back Routine,slap back routine,1,1,[2019],2019,2019,1
+Statuettes,statuettes,1,5,[2010],2010,2010,1
+Heidi Zaylen,heidi zaylen,1,2,[2018],2018,2018,1
+Cataract,cataract,1,3,[2024],2024,2024,1
+The Fission Breakers,the fission breakers,1,3,[2013],2013,2013,1
+Gavin Castleton,gavin castleton,1,3,[2009],2009,2009,1
+the M.A,the m.a,1,2,[2025],2025,2025,1
+A Film in the Ballroom $8,a film in the ballroom $8,1,2,[2008],2008,2008,1
+The Monroe Clinic,the monroe clinic,1,1,[2021],2021,2021,1
+Joshy Soul,joshy soul,1,2,[2016],2016,2016,1
+The Conversationalists,the conversationalists,1,3,[2010],2010,2010,1
+The Lost Boys,the lost boys,1,2,[2013],2013,2013,1
+Mayday! Mayday!,mayday! mayday!,1,3,[2006],2006,2006,1
+Whiskey Girl,whiskey girl,1,3,[2006],2006,2006,1
+Ideal Horizon,ideal horizon,1,3,[2024],2024,2024,1
+Clint Pursor,clint pursor,1,3,[2013],2013,2013,1
+Mathew Harrison,mathew harrison,1,1,[2012],2012,2012,1
+Tinsley,tinsley,1,1,[2025],2025,2025,1
+25 DESERT NOISES,25 desert noises,1,2,[2024],2024,2024,1
+FINALS! 1.Moonwhale 2.Highwire Act 3.Chris Merritt 4. Code Hero,finals! 1.moonwhale 2.highwire act 3.chris merritt 4. code hero,1,1,[2007],2007,2007,1
+HoneySauce,honeysauce,1,2,[2024],2024,2024,1
+Nik Allen,nik allen,1,3,[2011],2011,2011,1
+Emmalie Breen,emmalie breen,1,2,[2021],2021,2021,1
+21 Eye Alaska,21 eye alaska,1,1,[2008],2008,2008,1
+Man Of Action etc,man of action etc,1,0,[2006],2006,2006,1
+Karan Reddy,karan reddy,1,3,[2022],2022,2022,1
+click for lineup!),click for lineup!),1,0,[2018],2018,2018,1
+Toneberry King $10,toneberry king $10,1,2,[2019],2019,2019,1
+Wyatt Maxwell,wyatt maxwell,1,2,[2014],2014,2014,1
+Another Statistc,another statistc,1,2,[2007],2007,2007,1
+Thunder Mistress,thunder mistress,1,3,[2008],2008,2008,1
+03 SHERWOOD!,03 sherwood!,1,2,[2009],2009,2009,1
+Ashley Garbe-Rogers,ashley garbe-rogers,1,3,[2006],2006,2006,1
+Mike Dixon,mike dixon,1,1,[2011],2011,2011,1
+Rich Moms,rich moms,1,1,[2021],2021,2021,1
+Queenadilla. Jack Pines,queenadilla. jack pines,1,2,[2014],2014,2014,1
+Lycanthropy,lycanthropy,1,2,[2011],2011,2011,1
+Eve Arko,eve arko,1,2,[2024],2024,2024,1
+Tiewa,tiewa,1,3,[2016],2016,2016,1
+Soft Cyanide,soft cyanide,1,2,[2017],2017,2017,1
+Reign Over Ruins,reign over ruins,1,3,[2007],2007,2007,1
+Naarah Black,naarah black,1,3,[2010],2010,2010,1
+Addie German,addie german,1,4,[2024],2024,2024,1
+) Michael Barrow,) michael barrow,1,3,[2018],2018,2018,1
+Corduroy,corduroy,1,1,[2025],2025,2025,1
+Eric Ellsworth,eric ellsworth,1,3,[2024],2024,2024,1
+Boy King,boy king,1,2,[2013],2013,2013,1
+Lemon Fern,lemon fern,1,2,[2024],2024,2024,1
+Jonathan Stark,jonathan stark,1,3,[2009],2009,2009,1
+Finding Autumn,finding autumn,1,3,[2011],2011,2011,1
+Planes on Paper,planes on paper,1,2,[2017],2017,2017,1
+Virgil Cane,virgil cane,1,1,[2006],2006,2006,1
+Matt Skaggs,matt skaggs,1,1,[2015],2015,2015,1
+poetry) music by Hauns Mill Massacre,poetry) music by hauns mill massacre,1,0,[2007],2007,2007,1
+Casanova Frankenstein,casanova frankenstein,1,3,[2011],2011,2011,1
+27Hope For Jamie Benefit Ocean Commotion,27hope for jamie benefit ocean commotion,1,2,[2014],2014,2014,1
+Rivvrs,rivvrs,1,0,[2016],2016,2016,1
+Jacob Beck,jacob beck,1,3,[2017],2017,2017,1
+Ave.of Embers,ave.of embers,1,3,[2011],2011,2011,1
+the South Paws,the south paws,1,3,[2013],2013,2013,1
+TYLER HILTON,tyler hilton,1,2,[2010],2010,2010,1
+Whiskey Kiss,whiskey kiss,1,1,[2007],2007,2007,1
+Joe Huntington,joe huntington,1,1,[2007],2007,2007,1
+Protons,protons,1,3,[2011],2011,2011,1
+Summer Rising,summer rising,1,4,[2010],2010,2010,1
+Jerome Holloway,jerome holloway,1,1,[2014],2014,2014,1
+Jordan O' Jordan,jordan o' jordan,1,2,[2006],2006,2006,1
+the So,the so,1,4,[2018],2018,2018,1
+HTA Presents: Parlor Hawk,hta presents: parlor hawk,1,2,[2011],2011,2011,1
+Up to Snuff,up to snuff,1,3,[2015],2015,2015,1
+Othelo,othelo,1,3,[2009],2009,2009,1
+James Junius,james junius,1,4,[2016],2016,2016,1
+Love Audrey,love audrey,1,2,[2025],2025,2025,1
+Joel Taylor,joel taylor,1,0,[2010],2010,2010,1
+11 Cameron McGill,11 cameron mcgill,1,2,[2011],2011,2011,1
+Thalia Zedek Tickets @ 24tix.com,thalia zedek tickets @ 24tix.com,1,0,[2013],2013,2013,1
+Dreamcatcher,dreamcatcher,1,3,[2014],2014,2014,1
+Evan,evan,1,4,[2012],2012,2012,1
+Stereo Receiver,stereo receiver,1,4,[2007],2007,2007,1
+Madge,madge,1,3,[2019],2019,2019,1
+Paul Muusse,paul muusse,1,1,[2013],2013,2013,1
+Madelyn Soleil,madelyn soleil,1,1,[2024],2024,2024,1
+The Merced $8,the merced $8,1,2,[2008],2008,2008,1
+The Ivasion,the ivasion,1,1,[2008],2008,2008,1
+CHURCH,church,1,2,[2009],2009,2009,1
+Dan Cutler,dan cutler,1,3,[2009],2009,2009,1
+Speak,speak,1,1,[2011],2011,2011,1
++ Jenn Blosil!,+ jenn blosil!,1,3,[2022],2022,2022,1
+Matt Orr,matt orr,1,1,[2012],2012,2012,1
+Frances,frances,1,2,[2025],2025,2025,1
+Hudson Powder Co,hudson powder co,1,3,[2025],2025,2025,1
+Windrose,windrose,1,4,[2018],2018,2018,1
+Vacationist,vacationist,1,2,[2015],2015,2015,1
+the Wolves,the wolves,1,4,[2010],2010,2010,1
+Spencer Harrison,spencer harrison,1,2,[2009],2009,2009,1
+Street To Nowhere!!!,street to nowhere!!!,1,1,[2007],2007,2007,1
+Lighthouse Logic,lighthouse logic,1,2,[2025],2025,2025,1
+Blindlove,blindlove,1,1,[2022],2022,2022,1
+Brittney Snyder,brittney snyder,1,1,[2015],2015,2015,1
+Penny Sparks,penny sparks,1,2,[2025],2025,2025,1
+Drive!Drive!,drive!drive!,1,3,[2019],2019,2019,1
+Liam Cahill,liam cahill,1,3,[2016],2016,2016,1
+Solyphony,solyphony,1,4,[2018],2018,2018,1
+Martian Cult,martian cult,1,3,[2017],2017,2017,1
+Cara Hunt,cara hunt,1,1,[2006],2006,2006,1
+Reeves,reeves,1,3,[2019],2019,2019,1
+Throwing Randy,throwing randy,2,3,[2006],2006,2006,1
+Coliseum Street,coliseum street,1,3,[2022],2022,2022,1
+SLMF,slmf,1,2,[2010],2010,2010,1
+Chuck,chuck,1,2,[2015],2015,2015,1
+H.T,h.t,1,3,[2011],2011,2011,1
+Kenna 2.Spencer Sanders 3.The Penny Candies 4.Clean Freak,kenna 2.spencer sanders 3.the penny candies 4.clean freak,1,1,[2025],2025,2025,1
+Jonny Malyon,jonny malyon,1,3,[2023],2023,2023,1
+FREE Rooftop Concert Series AQUABATS,free rooftop concert series aquabats,1,1,[2016],2016,2016,1
+Sea of Sound,sea of sound,1,3,[2009],2009,2009,1
+Moonwhal,moonwhal,1,4,[2007],2007,2007,1
+I Hate You Just Kidding,i hate you just kidding,1,3,[2012],2012,2012,1
+Phil Forte,phil forte,1,3,[2011],2011,2011,1
+Camden Graaf,camden graaf,1,2,[2024],2024,2024,1
+Dead Gowns,dead gowns,1,1,[2023],2023,2023,1
+DJ Sam Cannon,dj sam cannon,1,0,[2018],2018,2018,1
+Or The Whale,or the whale,1,2,[2007],2007,2007,1
+Kitfox. Bronze Museum,kitfox. bronze museum,1,2,[2013],2013,2013,1
+Copa All-Stars Live! Mya Park,copa all-stars live! mya park,1,3,[2019],2019,2019,1
+Wishful Thinking,wishful thinking,1,3,[2023],2023,2023,1
+Sound,sound,1,2,[2006],2006,2006,1
+M.P,m.p,1,2,[2013],2013,2013,1
+Ashley Garbe-Smith,ashley garbe-smith,1,2,[2007],2007,2007,1
+Mr. Tim,mr. tim,1,3,[2011],2011,2011,1
+King Darius,king darius,1,1,[2014],2014,2014,1
+JP Haynie,jp haynie,1,1,[2014],2014,2014,1
+Julia Star Croft,julia star croft,1,2,[2025],2025,2025,1
+SKANKPATRICKS DAY! 2 1/2 White Guys,skankpatricks day! 2 1/2 white guys,1,3,[2006],2006,2006,1
+Kites,kites,1,4,[2008],2008,2008,1
+Catherine Worsham,catherine worsham,1,3,[2006],2006,2006,1
+Allen Hughes etc,allen hughes etc,1,1,[2008],2008,2008,1
+Infinite Coachella,infinite coachella,1,3,[2025],2025,2025,1
+Paper Tron etc!,paper tron etc!,1,1,[2010],2010,2010,1
+Supertime,supertime,1,3,[2023],2023,2023,1
+600E,600e,1,2,[2010],2010,2010,1
+Northwest Stories,northwest stories,1,0,[2024],2024,2024,1
+As You Wish,as you wish,1,2,[2010],2010,2010,1
+Calla,calla,1,3,[2025],2025,2025,1
+Caitlin Connolly,caitlin connolly,1,3,[2013],2013,2013,1
+Reflektor,reflektor,1,3,[2017],2017,2017,1
+Leven,leven,1,1,[2024],2024,2024,1
+Logan Johnson,logan johnson,1,0,[2019],2019,2019,1
+Waterson,waterson,1,3,[2023],2023,2023,1
+15 SURFER BLOOD,15 surfer blood,1,1,[2015],2015,2015,1
+Archie Crisanto,archie crisanto,1,2,[2010],2010,2010,1
+Panic Pilot,panic pilot,1,3,[2014],2014,2014,1
+SYNTH PATRICKS DAY Young Hurricanes,synth patricks day young hurricanes,1,3,[2010],2010,2010,1
+The Aaron Smith Band,the aaron smith band,1,2,[2012],2012,2012,1
+Aaron Southerland Trio,aaron southerland trio,1,2,[2008],2008,2008,1
+The Sextones,the sextones,1,2,[2017],2017,2017,1
+Maddy Vance,maddy vance,1,2,[2018],2018,2018,1
+The Hots,the hots,1,2,[2009],2009,2009,1
+UVC,uvc,1,3,[2012],2012,2012,1
+The Mollies,the mollies,1,0,[2011],2011,2011,1
+Crosswinds,crosswinds,1,1,[2016],2016,2016,1
+The Adventures of Walter Ergo + Orcamind,the adventures of walter ergo + orcamind,1,1,[2023],2023,2023,1
+Moving Company,moving company,1,2,[2025],2025,2025,1
+Ugly Boys,ugly boys,1,1,[2018],2018,2018,1
+Dave Peery,dave peery,1,3,[2007],2007,2007,1
+The Two Tones,the two tones,1,3,[2007],2007,2007,1
+James Dawson,james dawson,1,2,[2015],2015,2015,1
+An Evening with MEIKO,an evening with meiko,1,2,[2008],2008,2008,1
+G.N.A,g.n.a,1,3,[2009],2009,2009,1
+Chance Lewis Project,chance lewis project,1,3,[2008],2008,2008,1
+The Apology Club,the apology club,1,3,[2024],2024,2024,1
+His Dog,his dog,1,4,[2016],2016,2016,1
+Steve Fogomami,steve fogomami,1,3,[2017],2017,2017,1
+Chamberwave,chamberwave,1,2,[2012],2012,2012,1
+The Poppies,the poppies,1,1,[2018],2018,2018,1
+York,york,1,2,[2015],2015,2015,1
+Benefit Concert! New Nervous,benefit concert! new nervous,1,3,[2009],2009,2009,1
+Laken Lambson,laken lambson,1,3,[2023],2023,2023,1
+Sophie Blair,sophie blair,1,3,[2020],2020,2020,1
+Voodoo Orchestra,voodoo orchestra,1,2,[2016],2016,2016,1
+Patrick Driscoll,patrick driscoll,1,3,[2009],2009,2009,1
+Goodgrim,goodgrim,1,0,[2022],2022,2022,1
+10 Geoff Koch,10 geoff koch,1,3,[2008],2008,2008,1
+Mason Porter Band,mason porter band,1,0,[2010],2010,2010,1
+JOSHUA JAMES 8pm,joshua james 8pm,1,1,[2015],2015,2015,1
+Hope&Tim,hope&tim,1,3,[2011],2011,2011,1
+Viking Moses,viking moses,1,3,[2008],2008,2008,1
+Citrus Inquisition,citrus inquisition,1,3,[2008],2008,2008,1
+Andy,andy,1,4,[2008],2008,2008,1
+Brady,brady,1,1,[2015],2015,2015,1
+Armorette,armorette,1,1,[2008],2008,2008,1
+Jordan Moyes (24tix.com,jordan moyes (24tix.com,1,0,[2024],2024,2024,1
+Blue Aces),blue aces),1,1,[2013],2013,2013,1
+CALLmeKAT $15,callmekat $15,1,0,[2012],2012,2012,1
+Morgan Rindlesbach,morgan rindlesbach,1,0,[2010],2010,2010,1
+Backhand,backhand,1,3,[2022],2022,2022,1
+Fear Liath Mor,fear liath mor,1,3,[2007],2007,2007,1
+Vincent + Guests,vincent + guests,1,0,[2015],2015,2015,1
+Ally Dean,ally dean,1,2,[2025],2025,2025,1
+Mike F,mike f,1,2,[2008],2008,2008,1
+Greenhouses,greenhouses,1,1,[2007],2007,2007,1
+02 Desert Noises,02 desert noises,1,2,[2010],2010,2010,1
+the SG,the sg,1,2,[2007],2007,2007,1
+Fatigo,fatigo,1,3,[2006],2006,2006,1
+Roxy Robinson,roxy robinson,1,2,[2008],2008,2008,1
+Idiot Kid,idiot kid,1,2,[2019],2019,2019,1
+and Matt Weidauer,and matt weidauer,1,1,[2006],2006,2006,1
+Ikaika,ikaika,1,3,[2017],2017,2017,1
+Hot Parents + DJ!,hot parents + dj!,1,2,[2009],2009,2009,1
+Everyday Tragedy,everyday tragedy,1,2,[2008],2008,2008,1
+5. QCom,5. qcom,1,1,[2007],2007,2007,1
+Citizen Hipocrisy,citizen hipocrisy,1,3,[2013],2013,2013,1
+Cas Lucas,cas lucas,1,1,[2006],2006,2006,1
+Hello Virtigo,hello virtigo,1,1,[2018],2018,2018,1
+The Play Dead Movement,the play dead movement,1,3,[2006],2006,2006,1
+Young Decay,young decay,1,3,[2023],2023,2023,1
+Billy,billy,1,4,[2011],2011,2011,1
+Quixote,quixote,1,3,[2022],2022,2022,1
+Sydney Rees,sydney rees,1,3,[2008],2008,2008,1
+Melody Reid,melody reid,1,3,[2025],2025,2025,1
+Alli Jane,alli jane,1,3,[2022],2022,2022,1
+Love Like Fire,love like fire,1,2,[2009],2009,2009,1
+Going 2nd,going 2nd,1,3,[2007],2007,2007,1
+Jefferson,jefferson,1,2,[2015],2015,2015,1
+Alex Bateman,alex bateman,1,1,[2012],2012,2012,1
+Bearproof,bearproof,1,0,[2011],2011,2011,1
+Aaron James Karr,aaron james karr,1,3,[2011],2011,2011,1
+Fight,fight,1,2,[2007],2007,2007,1
+Viceroys,viceroys,1,1,[2017],2017,2017,1
+Golden Boots,golden boots,1,3,[2010],2010,2010,1
+The Vixens,the vixens,1,3,[2006],2006,2006,1
+DJ Samaman,dj samaman,1,2,[2021],2021,2021,1
+BTB,btb,1,3,[2015],2015,2015,1
+Roomers,roomers,1,3,[2018],2018,2018,1
+The S.G.C,the s.g.c,1,3,[2010],2010,2010,1
+Luke Mitchum,luke mitchum,1,1,[2017],2017,2017,1
+Hosannas,hosannas,1,2,[2010],2010,2010,1
+The New Frontiers,the new frontiers,1,3,[2008],2008,2008,1
+Nostalgia,nostalgia,1,3,[2013],2013,2013,1
+Casey Shea,casey shea,1,1,[2011],2011,2011,1
+Tate Texton,tate texton,1,1,[2019],2019,2019,1
+Cobet,cobet,1,2,[2008],2008,2008,1
+Martina Aguirre,martina aguirre,1,3,[2019],2019,2019,1
+Bly Wallentine,bly wallentine,1,1,[2021],2021,2021,1
+Inland,inland,1,2,[2012],2012,2012,1
+Bravo,bravo,1,3,[2014],2014,2014,1
+On An On,on an on,1,2,[2013],2013,2013,1
+Matt Jennings,matt jennings,1,3,[2008],2008,2008,1
+Fishbowl,fishbowl,1,1,[2023],2023,2023,1
+Neil Meyers,neil meyers,1,2,[2012],2012,2012,1
+Izak Pew,izak pew,1,3,[2025],2025,2025,1
+S.A. Degraw,s.a. degraw,1,4,[2012],2012,2012,1
+Amzy Costume Party,amzy costume party,1,0,[2016],2016,2016,1
+Austin Heller,austin heller,1,3,[2007],2007,2007,1
+Dan,dan,1,3,[2006],2006,2006,1
+Mia Sullivan,mia sullivan,1,1,[2011],2011,2011,1
+Maude Lee,maude lee,1,1,[2009],2009,2009,1
+Cameron the Public,cameron the public,1,3,[2014],2014,2014,1
+Les Femmes Goldmyth,les femmes goldmyth,1,3,[2020],2020,2020,1
+Bryson Shxne,bryson shxne,1,2,[2025],2025,2025,1
+Season's Extreme,season's extreme,1,1,[2013],2013,2013,1
+Benji X,benji x,1,2,[2009],2009,2009,1
+The Salt the Sea,the salt the sea,1,4,[2013],2013,2013,1
+Red Fox Diner,red fox diner,1,1,[2025],2025,2025,1
+Rubies,rubies,1,1,[2019],2019,2019,1
+Mom-Dad-And Me,mom-dad-and me,1,3,[2023],2023,2023,1
+Synchronicity,synchronicity,1,1,[2019],2019,2019,1
+Courage Call,courage call,1,1,[2008],2008,2008,1
+The Playdead Movement,the playdead movement,2,3,[2006],2006,2006,1
+JOSIAH JOHNSON (of The Head,josiah johnson (of the head,1,2,[2018],2018,2018,1
+Brandon Robbins!,brandon robbins!,1,0,[2017],2017,2017,1
+Kilianna,kilianna,1,3,[2010],2010,2010,1
+Johanna Jones,johanna jones,1,1,[2016],2016,2016,1
+The J.D.B,the j.d.b,1,2,[2012],2012,2012,1
+Continetals,continetals,1,2,[2011],2011,2011,1
+The Otters,the otters,1,2,[2006],2006,2006,1
+Jefferson Montoya,jefferson montoya,1,2,[2013],2013,2013,1
+Jake Peterson,jake peterson,1,4,[2025],2025,2025,1
+Kambree Reunion,kambree reunion,1,3,[2025],2025,2025,1
+Brinton Jones $8-$10,brinton jones $8-$10,1,2,[2006],2006,2006,1
+Steven Halliday,steven halliday,1,3,[2015],2015,2015,1
+Chaz Prymek,chaz prymek,1,2,[2008],2008,2008,1
+Comply or Evict,comply or evict,1,3,[2023],2023,2023,1
+Hatchback,hatchback,1,3,[2025],2025,2025,1
+Hunter Kofford,hunter kofford,1,1,[2011],2011,2011,1
+The Rockaways,the rockaways,1,1,[2015],2015,2015,1
+SweetHaven,sweethaven,1,1,[2006],2006,2006,1
+Brother O Mine,brother o mine,1,4,[2022],2022,2022,1
+The Sunmills,the sunmills,1,4,[2017],2017,2017,1
+Fake Blond,fake blond,1,2,[2018],2018,2018,1
+To the D,to the d,1,3,[2007],2007,2007,1
+The Lower 48,the lower 48,1,4,[2011],2011,2011,1
+Adamade,adamade,1,3,[2008],2008,2008,1
+The Connection,the connection,1,3,[2014],2014,2014,1
+Galaxy of Heartbreak,galaxy of heartbreak,1,3,[2009],2009,2009,1
+Dandy Lyon,dandy lyon,1,2,[2010],2010,2010,1
+Mt. Gigantic,mt. gigantic,1,2,[2006],2006,2006,1
+Alex Caldiero,alex caldiero,1,1,[2021],2021,2021,1
+Madge SOLD OUT!,madge sold out!,1,0,[2018],2018,2018,1
+Rilee Nicole,rilee nicole,1,3,[2015],2015,2015,1
+Super Hero,super hero,1,3,[2006],2006,2006,1
+Cotton,cotton,1,3,[2007],2007,2007,1
+Grand Hallway,grand hallway,1,2,[2009],2009,2009,1
+Chase Boyle,chase boyle,1,2,[2013],2013,2013,1
+Adam Pasion,adam pasion,1,2,[2010],2010,2010,1
+Finn Morrison,finn morrison,2,3,[2021],2021,2021,1
+Mannequin,mannequin,0,0,[2017],2017,2017,1
+Chelsea Coleman,chelsea coleman,0,0,[2018],2018,2018,1
+13 International Espionage,13 international espionage,0,0,[2009],2009,2009,1
+Ferocious OaksReunion,ferocious oaksreunion,0,0,[2025],2025,2025,1
+Icarus Phoenix,icarus phoenix,0,0,[2025],2025,2025,1
+Mark Carey,mark carey,0,0,[2011],2011,2011,1
+You Are Plural,you are plural,0,0,[2011],2011,2011,1
+JONATHAN JONES,jonathan jones,0,0,[2011],2011,2011,1
+Broken Column,broken column,0,0,[2011],2011,2011,1
+International Espionage,international espionage,0,0,[2010],2010,2010,1
+Trio of Hosts,trio of hosts,0,0,[2010],2010,2010,1
+International Espionage,international espionage,0,0,[2009],2009,2009,1
+Social Studies,social studies,0,0,[2013],2013,2013,1
+Talkdemonic,talkdemonic,0,0,[2006],2006,2006,1
+Happy Body Slow Brain,happy body slow brain,0,0,[2011],2011,2011,1
+02 The Physics of Meaning,02 the physics of meaning,0,0,[2008],2008,2008,1
+MATT POND,matt pond,0,0,[2013],2013,2013,1
+Shelby Earl,shelby earl,0,0,[2014],2014,2014,1
+Great Glass Elevator,great glass elevator,0,0,[2007],2007,2007,1

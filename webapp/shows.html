@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velour Live - Show Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shows.css">
+</head>
+<body>
+    <div class="container">
+        <header class="banner">
+            <h1>Velour Live Show Management</h1>
+            <div class="header-actions">
+                <a href="index.html" class="btn btn-secondary">← Network</a>
+                <a href="editor.html" class="btn btn-secondary">Artist Editor</a>
+                <a href="artist.html" class="btn btn-secondary">Artist Search</a>
+                <button id="viewChangesBtn" class="btn btn-info">View Changes (<span id="changesCount">0</span>)</button>
+                <button id="autoDetectBtn" class="btn btn-success">Auto-Detect Artists</button>
+                <button id="saveChangesBtn" class="btn btn-primary">Save Changes</button>
+                <button id="exportCSVBtn" class="btn btn-secondary">Export CSV</button>
+                <button id="clearChangesBtn" class="btn btn-danger">Clear All Changes</button>
+            </div>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search shows by title, description, or artist...">
+                <button id="clearSearch" class="clear-btn">✕</button>
+            </div>
+            <div class="filter-controls">
+                <label>
+                    Year:
+                    <select id="yearFilter">
+                        <option value="">All Years</option>
+                    </select>
+                </label>
+                <label>
+                    Min artists:
+                    <input type="number" id="minArtists" value="0" min="0">
+                </label>
+                <label>
+                    <input type="checkbox" id="showOpenMic"> Show Open Mic
+                </label>
+            </div>
+            <div class="stats">
+                <span id="statsText">Loading shows...</span>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="showsTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Artists</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="showsTableBody">
+                    <tr>
+                        <td colspan="5">Loading shows...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Edit Show Modal -->
+    <div id="editShowModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Edit Show</h2>
+                <button class="close-btn" id="closeEditShowModal">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Date:</label>
+                    <input type="date" id="editShowDate">
+                </div>
+                <div class="form-group">
+                    <label>Title:</label>
+                    <input type="text" id="editShowTitle">
+                </div>
+                <div class="form-group">
+                    <label>Description:</label>
+                    <textarea id="editShowDescription" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Genre:</label>
+                    <input type="text" id="editShowGenre">
+                </div>
+                <div class="form-group">
+                    <label>Artists:</label>
+                    <div id="showArtistsList" class="artists-list">
+                        <!-- Artists will be added here -->
+                    </div>
+                    <div class="add-artist-controls">
+                        <input type="text" id="addArtistInput" placeholder="Search or type artist name...">
+                        <div id="artistSuggestions" class="suggestions"></div>
+                        <div style="display: flex; gap: 10px; margin-top: 8px;">
+                            <button id="addArtistBtn" class="btn btn-secondary">Add Artist</button>
+                            <button id="autoDetectShowBtn" class="btn btn-success">Auto-Detect from Title/Description</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="cancelEditShow" class="btn btn-secondary">Cancel</button>
+                <button id="saveShow" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- View Changes Modal -->
+    <div id="changesModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Pending Changes (<span id="changesCountSummary">0</span>)</h2>
+                <button class="close-btn" id="closeChangesModal">×</button>
+            </div>
+            <div class="modal-body">
+                <div id="changesSummary"></div>
+                <div id="changesList"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="closeChangesModalFooter">Close</button>
+                <button id="saveChangesFromModal" class="btn btn-primary">Save All Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="shows.js"></script>
+</body>
+</html>
+

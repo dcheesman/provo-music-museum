@@ -1,0 +1,243 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Placeholder data - will be replaced with actual data from JSON
+const artists = [
+  { name: "Neon Trees", showCount: 45, yearsActive: "2006-2012" },
+  { name: "Joshua James", showCount: 42, yearsActive: "2006-2018" },
+  { name: "Cory Mon", showCount: 38, yearsActive: "2006-2015" },
+  // ... more artists will be loaded from data
+];
+---
+
+<Layout title="Artists">
+  <section class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-white mb-4">Artists</h1>
+    <p class="text-gray-400 mb-8 max-w-2xl">
+      Browse through thousands of artists who have performed at Velour Live Music Gallery since 2006.
+    </p>
+
+    <!-- Search -->
+    <div class="mb-8">
+      <input
+        type="text"
+        id="artist-search"
+        placeholder="Search artists..."
+        class="search-input max-w-md"
+      />
+    </div>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-4 mb-8">
+      <select id="sort-by" class="bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-gray-100">
+        <option value="name">Sort by Name</option>
+        <option value="shows">Sort by Show Count</option>
+        <option value="recent">Most Recent</option>
+        <option value="earliest">Earliest</option>
+      </select>
+      <select id="year-filter" class="bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-gray-100">
+        <option value="">All Years</option>
+        {Array.from({ length: 20 }, (_, i) => 2006 + i).map((year) => (
+          <option value={year}>{year}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Artists Grid -->
+    <div id="artists-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="text-center py-12 col-span-full text-gray-500">
+        Loading artists...
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div id="pagination" class="flex justify-center gap-2 mt-8">
+      <!-- Pagination will be rendered by JavaScript -->
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // Client-side artist search and filtering
+  // This will load data from /data/artists.json
+
+  interface Artist {
+    id: string;
+    name: string;
+    showCount: number;
+    firstYear: number;
+    lastYear: number;
+    aliases?: string[];
+  }
+
+  let allArtists: Artist[] = [];
+  let filteredArtists: Artist[] = [];
+  let currentPage = 1;
+  const perPage = 30;
+
+  async function loadArtists() {
+    try {
+      const response = await fetch('/data/artists.json');
+      if (response.ok) {
+        allArtists = await response.json();
+        filteredArtists = [...allArtists];
+        renderArtists();
+      } else {
+        showPlaceholder();
+      }
+    } catch (e) {
+      showPlaceholder();
+    }
+  }
+
+  function showPlaceholder() {
+    const grid = document.getElementById('artists-grid');
+    if (grid) {
+      grid.innerHTML = `
+        <div class="col-span-full text-center py-12">
+          <p class="text-gray-400 mb-4">Artist data is being processed.</p>
+          <p class="text-gray-500 text-sm">Run the migration script to generate the data.</p>
+        </div>
+      `;
+    }
+  }
+
+  function renderArtists() {
+    const grid = document.getElementById('artists-grid');
+    if (!grid) return;
+
+    const start = (currentPage - 1) * perPage;
+    const end = start + perPage;
+    const pageArtists = filteredArtists.slice(start, end);
+
+    if (pageArtists.length === 0) {
+      grid.innerHTML = `<div class="col-span-full text-center py-12 text-gray-500">No artists found</div>`;
+      return;
+    }
+
+    grid.innerHTML = pageArtists.map(artist => `
+      <a href="/artist/${encodeURIComponent(artist.id)}" class="card group">
+        <h3 class="font-bold text-white group-hover:text-amber-400 transition-colors">
+          ${escapeHtml(artist.name)}
+        </h3>
+        <div class="flex gap-4 mt-2 text-sm text-gray-400">
+          <span>${artist.showCount} shows</span>
+          <span>${artist.firstYear}-${artist.lastYear}</span>
+        </div>
+      </a>
+    `).join('');
+
+    renderPagination();
+  }
+
+  function renderPagination() {
+    const pagination = document.getElementById('pagination');
+    if (!pagination) return;
+
+    const totalPages = Math.ceil(filteredArtists.length / perPage);
+    if (totalPages <= 1) {
+      pagination.innerHTML = '';
+      return;
+    }
+
+    let html = '';
+
+    // Previous button
+    html += `<button ${currentPage === 1 ? 'disabled' : ''}
+      class="px-3 py-1 rounded bg-gray-800 ${currentPage === 1 ? 'opacity-50' : 'hover:bg-gray-700'}"
+      data-page="${currentPage - 1}">Prev</button>`;
+
+    // Page numbers
+    for (let i = 1; i <= totalPages; i++) {
+      if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+        html += `<button class="px-3 py-1 rounded ${i === currentPage ? 'bg-amber-500 text-gray-900' : 'bg-gray-800 hover:bg-gray-700'}"
+          data-page="${i}">${i}</button>`;
+      } else if (i === currentPage - 3 || i === currentPage + 3) {
+        html += `<span class="px-2 text-gray-500">...</span>`;
+      }
+    }
+
+    // Next button
+    html += `<button ${currentPage === totalPages ? 'disabled' : ''}
+      class="px-3 py-1 rounded bg-gray-800 ${currentPage === totalPages ? 'opacity-50' : 'hover:bg-gray-700'}"
+      data-page="${currentPage + 1}">Next</button>`;
+
+    pagination.innerHTML = html;
+
+    // Add click handlers
+    pagination.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const page = parseInt(btn.dataset.page || '1');
+        if (page >= 1 && page <= totalPages) {
+          currentPage = page;
+          renderArtists();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+    });
+  }
+
+  function filterArtists(searchTerm: string, year?: string) {
+    filteredArtists = allArtists.filter(artist => {
+      const matchesSearch = !searchTerm ||
+        artist.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        artist.aliases?.some(a => a.toLowerCase().includes(searchTerm.toLowerCase()));
+
+      const matchesYear = !year ||
+        (artist.firstYear <= parseInt(year) && artist.lastYear >= parseInt(year));
+
+      return matchesSearch && matchesYear;
+    });
+    currentPage = 1;
+    renderArtists();
+  }
+
+  function sortArtists(sortBy: string) {
+    switch (sortBy) {
+      case 'shows':
+        filteredArtists.sort((a, b) => b.showCount - a.showCount);
+        break;
+      case 'recent':
+        filteredArtists.sort((a, b) => b.lastYear - a.lastYear);
+        break;
+      case 'earliest':
+        filteredArtists.sort((a, b) => a.firstYear - b.firstYear);
+        break;
+      default:
+        filteredArtists.sort((a, b) => a.name.localeCompare(b.name));
+    }
+    currentPage = 1;
+    renderArtists();
+  }
+
+  function escapeHtml(text: string): string {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', () => {
+    loadArtists();
+
+    const searchInput = document.getElementById('artist-search') as HTMLInputElement;
+    const sortSelect = document.getElementById('sort-by') as HTMLSelectElement;
+    const yearSelect = document.getElementById('year-filter') as HTMLSelectElement;
+
+    let searchTimeout: number;
+    searchInput?.addEventListener('input', (e) => {
+      clearTimeout(searchTimeout);
+      searchTimeout = window.setTimeout(() => {
+        filterArtists((e.target as HTMLInputElement).value, yearSelect?.value);
+      }, 300);
+    });
+
+    sortSelect?.addEventListener('change', (e) => {
+      sortArtists((e.target as HTMLSelectElement).value);
+    });
+
+    yearSelect?.addEventListener('change', (e) => {
+      filterArtists(searchInput?.value || '', (e.target as HTMLSelectElement).value);
+    });
+  });
+</script>

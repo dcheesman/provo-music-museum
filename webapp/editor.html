@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velour Live - Artist Data Editor</title>
+    <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Velour Live Artist Data Editor</h1>
+            <div class="header-actions">
+                <a href="index.html" class="btn btn-secondary">← Network</a>
+                <a href="shows.html" class="btn btn-secondary">Show Management</a>
+                <a href="artist.html" class="btn btn-secondary">Artist Search</a>
+                <button id="viewChangesBtn" class="btn btn-info">View Changes (<span id="changesCount">0</span>)</button>
+                <button id="saveBtn" class="btn btn-primary">Save Changes</button>
+                <button id="exportBtn" class="btn btn-success">Export CSV</button>
+                <button id="clearChangesBtn" class="btn btn-warning">Clear All Changes</button>
+            </div>
+        </header>
+
+        <div class="toolbar">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search artists...">
+                <button id="clearSearch" class="btn-icon">✕</button>
+            </div>
+            <div class="filter-box">
+                <label>
+                    Min shows: 
+                    <input type="number" id="minShows" value="1" min="1" max="100">
+                </label>
+            </div>
+            <div class="stats">
+                <span id="totalArtists">0</span> artists
+                <span id="filteredArtists">0</span> shown
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="artistsTable">
+                <thead>
+                    <tr>
+                        <th>Artist Name</th>
+                        <th>Normalized</th>
+                        <th>Shows</th>
+                        <th>Connections</th>
+                        <th>First Year</th>
+                        <th>Last Year</th>
+                        <th>Issues</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="artistsTableBody">
+                    <!-- Data will be loaded here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="editModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Edit Artist</h2>
+                    <button class="close-btn" id="closeModal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Artist Name:</label>
+                        <input type="text" id="editArtistName" class="form-input">
+                        <small>This is the display name</small>
+                    </div>
+                    <div class="form-group">
+                        <label>Normalized Name:</label>
+                        <input type="text" id="editNormalized" class="form-input">
+                        <small>Used for matching (lowercase, no special chars)</small>
+                    </div>
+                    <div class="form-group">
+                        <label>Merge with another artist:</label>
+                        <input type="text" id="mergeArtist" class="form-input" placeholder="Search artist to merge with...">
+                        <div id="mergeSuggestions" class="suggestions"></div>
+                    </div>
+                    <div class="form-group">
+                        <label>Notes:</label>
+                        <textarea id="editNotes" class="form-textarea" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="cancelEdit">Cancel</button>
+                    <button class="btn btn-warning" id="splitArtist">Split Artist</button>
+                    <button class="btn btn-danger" id="deleteArtist">Delete</button>
+                    <button class="btn btn-primary" id="saveEdit">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="confirmDeleteModal" class="modal">
+            <div class="modal-content modal-small">
+                <div class="modal-header">
+                    <h2>Confirm Delete</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to delete <strong id="deleteArtistName"></strong>?</p>
+                    <p class="help-text" style="color: #dc3545; margin-top: 10px;">This action cannot be undone.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="cancelDelete">Cancel</button>
+                    <button class="btn btn-danger" id="confirmDelete">Delete</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="splitModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Split Artist</h2>
+                    <button class="close-btn" id="closeSplitModal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="split-explanation">
+                        <p>Split <strong id="splitSourceName"></strong> into separate artist entries.</p>
+                        <p class="help-text">This is useful when an artist entry contains multiple artists that should be separate, or when you need to undo a merge.</p>
+                    </div>
+                    
+                    <div class="split-options">
+                        <h4>Create New Artists:</h4>
+                        <div id="splitArtistsList" class="split-artists-list">
+                            <!-- New artist inputs will be added here -->
+                        </div>
+                        <button class="btn btn-secondary" id="addSplitArtist">+ Add Another Artist</button>
+                    </div>
+                    
+                    <div class="split-preview">
+                        <h4>Preview:</h4>
+                        <div id="splitPreview" class="split-preview-content">
+                            <!-- Preview will be shown here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="cancelSplit">Cancel</button>
+                    <button class="btn btn-primary" id="confirmSplit">Confirm Split</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="changesModal" class="modal">
+            <div class="modal-content modal-large">
+                <div class="modal-header">
+                    <h2>Pending Changes</h2>
+                    <button class="close-btn" id="closeChangesModal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="changesSummary" class="changes-summary"></div>
+                    <div id="changesList" class="changes-list">
+                        <!-- Changes will be rendered here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="closeChangesBtn">Close</button>
+                    <button class="btn btn-danger" id="clearAllChangesBtn2">Clear All Changes</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mergeModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Merge Artists</h2>
+                    <button class="close-btn" id="closeMergeModal">×</button>
+                </div>
+                <div class="modal-body">
+                    <p>Merge <strong id="mergeSource"></strong> into <strong id="mergeTarget"></strong>?</p>
+                    <p class="warning">This will combine all shows and connections. This action cannot be undone.</p>
+                    <div class="merge-preview">
+                        <div>
+                            <h4>Source Artist</h4>
+                            <p>Shows: <span id="mergeSourceShows"></span></p>
+                            <p>Connections: <span id="mergeSourceConnections"></span></p>
+                        </div>
+                        <div>
+                            <h4>Target Artist</h4>
+                            <p>Shows: <span id="mergeTargetShows"></span></p>
+                            <p>Connections: <span id="mergeTargetConnections"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="cancelMerge">Cancel</button>
+                    <button class="btn btn-primary" id="confirmMerge">Confirm Merge</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="editor.js"></script>
+</body>
+</html>
+

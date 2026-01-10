@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Custom theme variables */
+:root {
+  --color-velour-red: #8b0000;
+  --color-velour-gold: #d4af37;
+  --color-velour-dark: #1a1a1a;
+}
+
+/* Base styles */
+body {
+  @apply bg-gray-950 text-gray-100 min-h-screen;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  @apply font-bold tracking-tight;
+}
+
+/* Links */
+a {
+  @apply text-amber-400 hover:text-amber-300 transition-colors;
+}
+
+/* Network visualization container */
+.network-container {
+  @apply w-full bg-gray-900 rounded-lg overflow-hidden;
+  min-height: 600px;
+}
+
+/* Artist node styling */
+.artist-node {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.artist-node:hover {
+  filter: brightness(1.2);
+}
+
+/* Timeline styling */
+.timeline-year {
+  @apply border-l-2 border-amber-500 pl-4 py-2;
+}
+
+/* Cards */
+.card {
+  @apply bg-gray-900 rounded-xl p-6 border border-gray-800 hover:border-gray-700 transition-colors;
+}
+
+/* Search input */
+.search-input {
+  @apply w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-gray-100
+         placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-amber-500
+         focus:border-transparent;
+}
+
+/* Stats badge */
+.stat-badge {
+  @apply inline-flex items-center gap-1 bg-gray-800 px-3 py-1 rounded-full text-sm;
+}
