@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="About">
+  <section class="container mx-auto px-4 py-16">
+    <h1 class="text-4xl font-bold text-white mb-8">About the Provo Music Museum</h1>
+
+    <div class="max-w-3xl space-y-6 text-gray-300">
+      <p class="text-lg">
+        The Provo Music Museum is a digital archive documenting 20 years of live music history
+        at <a href="https://velourlive.com" target="_blank" rel="noopener" class="text-[#BF0404] hover:text-[#F20505]">Velour Live Music Gallery</a> in Provo, Utah.
+      </p>
+
+      <p>
+        Since opening its doors in 2006, Velour has been a launching pad for countless musicians and bands,
+        hosting over 4,000 shows featuring more than 3,000 artists. This archive celebrates the
+        vibrant music scene that has made Provo a cultural hub in Utah.
+      </p>
+
+      <h2 class="text-2xl font-bold text-white mt-12 mb-4">The Data</h2>
+      <p>
+        All show data has been sourced from the official Velour website archives. We've processed
+        and structured this information to make it searchable, browsable, and visualizable.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-6 my-8">
+        <div class="card text-center">
+          <div class="text-3xl font-bold text-[#BF0404] mb-2">4,135</div>
+          <div class="text-gray-400">Shows</div>
+        </div>
+        <div class="card text-center">
+          <div class="text-3xl font-bold text-[#BF0404] mb-2">3,046</div>
+          <div class="text-gray-400">Artists</div>
+        </div>
+        <div class="card text-center">
+          <div class="text-3xl font-bold text-[#BF0404] mb-2">20</div>
+          <div class="text-gray-400">Years</div>
+        </div>
+      </div>
+
+      <h2 class="text-2xl font-bold text-white mt-12 mb-4">Explore</h2>
+      <div class="space-y-4">
+        <div>
+          <a href="/artists" class="text-[#BF0404] hover:text-[#F20505] font-bold">Artists →</a>
+          <p class="text-gray-400 mt-1">Search and browse through all artists who have performed at Velour</p>
+        </div>
+        <div>
+          <a href="/network" class="text-[#BF0404] hover:text-[#F20505] font-bold">Timeline →</a>
+          <p class="text-gray-400 mt-1">Explore the interactive timeline visualization showing artist connections and show history</p>
+        </div>
+      </div>
+
+      <h2 class="text-2xl font-bold text-white mt-12 mb-4">Corrections</h2>
+      <p>
+        We've done our best to accurately represent the show data, but mistakes happen.
+        If you spot an error or have additional information, please <a href="#" id="suggest-correction" class="text-[#BF0404] hover:text-[#F20505]">suggest a correction</a>.
+      </p>
+
+      <h2 class="text-2xl font-bold text-white mt-12 mb-4">About This Project</h2>
+      <p>
+        This is an independent archival project created by fans of the Provo music scene.
+        It is not officially affiliated with Velour Live Music Gallery.
+      </p>
+
+      <p class="text-gray-400 text-sm mt-8">
+        Data sourced from <a href="https://velourlive.com" target="_blank" rel="noopener" class="text-[#BF0404] hover:text-[#F20505]">velourlive.com</a>
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  document.getElementById('suggest-correction')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    const pageUrl = window.location.href;
+    const subject = encodeURIComponent('Provo Music Museum - Suggested Correction');
+    const body = encodeURIComponent(`Page: ${pageUrl}\n\nSuggested correction:\n\n`);
+    window.location.href = `mailto:dcheesman+provomusicmuseum@gmail.com?subject=${subject}&body=${body}`;
+  });
+</script>
