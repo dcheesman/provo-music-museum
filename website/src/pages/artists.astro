@@ -116,8 +116,8 @@ const artists = [
     }
 
     grid.innerHTML = pageArtists.map(artist => `
-      <a href="/artist/${encodeURIComponent(artist.id)}" class="card group">
-        <h3 class="font-bold text-white group-hover:text-amber-400 transition-colors">
+      <a href="/artists/${encodeURIComponent(artist.id)}" class="card group">
+        <h3 class="font-bold text-white group-hover:text-[#BF0404] transition-colors">
           ${escapeHtml(artist.name)}
         </h3>
         <div class="flex gap-4 mt-2 text-sm text-gray-400">

@@ -1,0 +1,153 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  // Load artists and shows data at build time
+  const fs = await import('fs');
+  const path = await import('path');
+
+  const artistsPath = path.join(process.cwd(), 'public/data/artists.json');
+  const showsPath = path.join(process.cwd(), 'public/data/shows.json');
+  const networkPath = path.join(process.cwd(), 'public/data/network.json');
+
+  const artistsData = JSON.parse(fs.readFileSync(artistsPath, 'utf-8'));
+  const showsData = JSON.parse(fs.readFileSync(showsPath, 'utf-8'));
+  const networkData = JSON.parse(fs.readFileSync(networkPath, 'utf-8'));
+
+  return artistsData.map((artist: any) => {
+    // Find all shows this artist played
+    const artistShows = showsData
+      .filter((show: any) => show.artists.some((a: any) => a.id === artist.id))
+      .sort((a: any, b: any) => b.date.localeCompare(a.date)); // Newest first
+
+    // Find connections from network data
+    const networkNode = networkData.nodes.find((n: any) => n.id === artist.id);
+
+    return {
+      params: { id: artist.id },
+      props: {
+        artist,
+        shows: artistShows,
+        firstShowDate: networkNode?.firstShowDate || artist.firstYear,
+      },
+    };
+  });
+}
+
+const { artist, shows, firstShowDate } = Astro.props;
+const lastShowDate = shows[0]?.date || artist.lastYear;
+---
+
+<Layout title={artist.name}>
+  <section class="container mx-auto px-4 py-16">
+    <div class="max-w-4xl mx-auto">
+      <!-- Back link -->
+      <a href="/artists" class="text-[#BF0404] hover:text-[#F20505] mb-8 inline-block">
+        ← Back to Artists
+      </a>
+
+      <!-- Artist header -->
+      <div class="mb-8">
+        <h1 class="text-4xl font-bold text-white mb-6">{artist.name}</h1>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="card text-center">
+            <div class="text-2xl font-bold text-[#BF0404] mb-1">{artist.showCount}</div>
+            <div class="text-gray-400 text-sm">Shows</div>
+          </div>
+          <div class="card text-center">
+            <div class="text-2xl font-bold text-[#BF0404] mb-1">{firstShowDate?.substring(0, 4) || artist.firstYear}</div>
+            <div class="text-gray-400 text-sm">First Show</div>
+          </div>
+          <div class="card text-center">
+            <div class="text-2xl font-bold text-[#BF0404] mb-1">{lastShowDate?.substring(0, 4) || artist.lastYear}</div>
+            <div class="text-gray-400 text-sm">Last Show</div>
+          </div>
+          <div class="card text-center">
+            <div class="text-2xl font-bold text-[#BF0404] mb-1">
+              {artist.lastYear - artist.firstYear + 1}
+            </div>
+            <div class="text-gray-400 text-sm">Years Active</div>
+          </div>
+        </div>
+
+        <!-- External links -->
+        {(artist.spotifyUrl || artist.website) && (
+          <div class="flex gap-4 mt-6">
+            {artist.spotifyUrl && (
+              <a
+                href={artist.spotifyUrl}
+                target="_blank"
+                rel="noopener"
+                class="text-[#BF0404] hover:text-[#F20505] text-sm"
+              >
+                Spotify →
+              </a>
+            )}
+            {artist.website && (
+              <a
+                href={artist.website}
+                target="_blank"
+                rel="noopener"
+                class="text-[#BF0404] hover:text-[#F20505] text-sm"
+              >
+                Website →
+              </a>
+            )}
+          </div>
+        )}
+      </div>
+
+      <!-- Shows list -->
+      <div class="card">
+        <h2 class="text-2xl font-bold text-white mb-6">Shows at Velour</h2>
+
+        {shows.length === 0 ? (
+          <p class="text-gray-400">No shows found.</p>
+        ) : (
+          <div class="space-y-4">
+            {shows.map((show: any) => (
+              <a
+                href={`/shows/${show.id}`}
+                class="block p-4 bg-gray-800/50 rounded-lg hover:bg-gray-800 transition-colors group"
+              >
+                <div class="flex justify-between items-start gap-4">
+                  <div class="flex-1">
+                    <div class="text-[#BF0404] text-sm mb-1">{show.date}</div>
+                    <div class="text-[#F0F0F0] group-hover:text-white transition-colors mb-2">
+                      {show.title}
+                    </div>
+                    <div class="text-gray-400 text-sm">
+                      {show.artists.length > 1 && (
+                        <span>
+                          with {show.artists
+                            .filter((a: any) => a.id !== artist.id)
+                            .map((a: any) => a.name)
+                            .join(', ')}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <div class="text-gray-500 group-hover:text-[#BF0404] transition-colors">
+                    →
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <!-- View in timeline -->
+      <div class="mt-8">
+        <a
+          href={`/network`}
+          class="inline-block bg-[#BF0404] hover:bg-[#F20505] text-white font-bold px-6 py-3 rounded-lg transition-colors"
+        >
+          View in Timeline →
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
