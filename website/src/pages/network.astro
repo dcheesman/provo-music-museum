@@ -19,18 +19,21 @@ import Layout from '../layouts/Layout.astro';
           placeholder="Search for an artist..."
           class="search-input max-w-md"
         />
-        <button id="reset-view" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg">
-          Reset View
+        <button id="scroll-to-start" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg">
+          Scroll to 2006
+        </button>
+        <button id="scroll-to-end" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg">
+          Scroll to 2026
         </button>
       </div>
     </div>
 
-    <!-- Timeline Container - Full Width -->
-    <div id="timeline-container" class="timeline-container relative w-full" style="background-color: #1a1a1a; min-height: 80vh;">
+    <!-- Timeline Container - Horizontal Scroll -->
+    <div id="timeline-container" class="timeline-container relative w-full overflow-x-auto overflow-y-hidden" style="background-color: #1a1a1a; height: 800px;">
       <div id="timeline-loading" class="absolute inset-0 flex items-center justify-center">
         <span class="text-gray-400">Loading timeline visualization...</span>
       </div>
-      <svg id="timeline-svg" class="w-full h-full" style="display: none;"></svg>
+      <svg id="timeline-svg" style="display: none;"></svg>
       <!-- Tooltip -->
       <div id="tooltip" class="absolute hidden bg-gray-900 text-white px-3 py-2 rounded-lg text-sm pointer-events-none shadow-lg border border-gray-700 z-50">
         <div id="tooltip-name" class="font-bold"></div>
@@ -158,8 +161,10 @@ import Layout from '../layouts/Layout.astro';
     loading?.remove();
     svgElement.style.display = 'block';
 
-    const width = container.clientWidth;
-    const height = Math.max(container.clientHeight, window.innerHeight * 0.8);
+    // Make the SVG much wider for horizontal scrolling (8x viewport width)
+    const viewportWidth = container.clientWidth;
+    const width = viewportWidth * 8;
+    const height = 800;
     margin = { top: 40, right: 40, bottom: 60, left: 40 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
@@ -168,7 +173,8 @@ import Layout from '../layouts/Layout.astro';
     svgElement.innerHTML = '';
 
     svg = d3.select(svgElement)
-      .attr('viewBox', [0, 0, width, height]);
+      .attr('width', width)
+      .attr('height', height);
 
     // Filter nodes to only those with a valid first show date between 2006-2026
     const validNodes = data.nodes.filter(n => {
@@ -191,18 +197,8 @@ import Layout from '../layouts/Layout.astro';
       node.y = innerHeight / 2 + margin.top; // Start in middle
     });
 
-    // Add zoom behavior
+    // No zoom - just use horizontal scrollbar
     const g = svg.append('g');
-
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.5, 10])
-      .on('zoom', (event) => {
-        g.attr('transform', event.transform);
-        currentZoom = event.transform.k;
-        updateLabelsVisibility();
-      });
-
-    svg.call(zoom);
 
     // Scale for node size based on connection count
     const sizeScale = d3.scaleSqrt()
@@ -291,7 +287,7 @@ import Layout from '../layouts/Layout.astro';
         hideTooltip();
       });
 
-    // Add text labels (shown on zoom)
+    // Add text labels (always shown with more space)
     labelsGroup = g.append('g').attr('class', 'labels');
     labelsGroup.selectAll('text')
       .data(validNodes)
@@ -301,7 +297,7 @@ import Layout from '../layouts/Layout.astro';
       .attr('font-size', '11px')
       .attr('fill', '#e5e5e5')
       .attr('pointer-events', 'none')
-      .attr('opacity', 0)
+      .attr('opacity', 0.8)
       .text(d => d.name);
 
     // Update positions on tick (only Y changes, X is fixed by date)
@@ -520,12 +516,9 @@ import Layout from '../layouts/Layout.astro';
     if (tooltip) tooltip.classList.add('hidden');
   }
 
+  // No longer needed - labels always shown
   function updateLabelsVisibility() {
-    if (!labelsGroup) return;
-    const showLabels = currentZoom >= 1.5;
-    labelsGroup.selectAll('text')
-      .attr('opacity', showLabels ? 1 : 0)
-      .attr('font-size', `${11 / currentZoom}px`);
+    // Labels are always visible now
   }
 
   function dragstarted(event: d3.D3DragEvent<SVGCircleElement, TimelineNode, TimelineNode>, d: TimelineNode) {
@@ -632,11 +625,19 @@ import Layout from '../layouts/Layout.astro';
 
     // Event handlers
     document.getElementById('close-panel')?.addEventListener('click', clearSelection);
-    document.getElementById('reset-view')?.addEventListener('click', () => {
-      svg.transition().duration(500).call(
-        d3.zoom<SVGSVGElement, unknown>().transform as any,
-        d3.zoomIdentity
-      );
+
+    document.getElementById('scroll-to-start')?.addEventListener('click', () => {
+      const container = document.getElementById('timeline-container');
+      if (container) {
+        container.scrollTo({ left: 0, behavior: 'smooth' });
+      }
+    });
+
+    document.getElementById('scroll-to-end')?.addEventListener('click', () => {
+      const container = document.getElementById('timeline-container');
+      if (container) {
+        container.scrollTo({ left: container.scrollWidth, behavior: 'smooth' });
+      }
     });
 
     const searchInput = document.getElementById('timeline-search') as HTMLInputElement;
