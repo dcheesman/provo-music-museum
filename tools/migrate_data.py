@@ -62,6 +62,19 @@ def process_show(raw: dict, parser: ArtistParser, store: DataStore) -> Show:
 
     result = parser.parse(title, description, date)
 
+    # Validate date range (Velour opened in 2006)
+    needs_review = result.needs_review
+    review_notes = result.review_reason
+    if date:
+        try:
+            year = int(date[:4])
+            if year < 2006 or year > 2026:
+                needs_review = True
+                review_notes = f"Date outside valid range (2006-2026): {date}"
+        except (ValueError, IndexError):
+            needs_review = True
+            review_notes = f"Invalid date format: {date}"
+
     # Create Show object
     show = Show(
         date=date if date else None,
@@ -75,8 +88,8 @@ def process_show(raw: dict, parser: ArtistParser, store: DataStore) -> Show:
         sold_out=result.sold_out,
         raw_artists_text=raw.get('artists', ''),
         parse_confidence=result.confidence,
-        needs_review=result.needs_review,
-        review_notes=result.review_reason,
+        needs_review=needs_review,
+        review_notes=review_notes,
         original_extracted_at=raw.get('extracted_at')
     )
 

@@ -140,8 +140,12 @@ import Layout from '../layouts/Layout.astro';
     svg = d3.select(svgElement)
       .attr('viewBox', [0, 0, width, height]);
 
-    // Filter nodes to only those with a valid first show date
-    const validNodes = data.nodes.filter(n => n.firstShowDate);
+    // Filter nodes to only those with a valid first show date between 2006-2026
+    const validNodes = data.nodes.filter(n => {
+      if (!n.firstShowDate) return false;
+      const year = parseInt(n.firstShowDate.substring(0, 4));
+      return year >= 2006 && year <= 2026;
+    });
 
     // Create time scale for x-axis (2006 to 2026)
     const minDate = new Date('2006-01-01');
@@ -181,7 +185,9 @@ import Layout from '../layouts/Layout.astro';
       .interpolator(t => d3.interpolateRgb('#F87171', '#BF0404')(t));
 
     // Create simulation with collision detection on Y-axis only
+    // X positions are locked to the timeline date
     simulation = d3.forceSimulation(validNodes)
+      .force('x', d3.forceX<TimelineNode>(d => xScale(new Date(d.firstShowDate))).strength(1))
       .force('y', d3.forceY<TimelineNode>().y(innerHeight / 2 + margin.top).strength(0.02))
       .force('collision', d3.forceCollide<TimelineNode>().radius(d => sizeScale(d.connectionCount) + 2).iterations(3))
       .alphaDecay(0.01);
@@ -393,16 +399,20 @@ import Layout from '../layouts/Layout.astro';
 
   function dragstarted(event: d3.D3DragEvent<SVGCircleElement, TimelineNode, TimelineNode>, d: TimelineNode) {
     if (!event.active) simulation.alphaTarget(0.3).restart();
+    // Lock x position to date, only allow y dragging
+    d.fx = xScale(new Date(d.firstShowDate));
     d.fy = d.y;
   }
 
   function dragged(event: d3.D3DragEvent<SVGCircleElement, TimelineNode, TimelineNode>, d: TimelineNode) {
-    // Only allow vertical dragging
+    // Only allow vertical dragging, x is locked to date
+    d.fx = xScale(new Date(d.firstShowDate));
     d.fy = event.y;
   }
 
   function dragended(event: d3.D3DragEvent<SVGCircleElement, TimelineNode, TimelineNode>, d: TimelineNode) {
     if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
     d.fy = null;
   }
 
