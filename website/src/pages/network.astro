@@ -410,29 +410,32 @@ import Layout from '../layouts/Layout.astro';
       show.artists.some(a => a.id === artist.id)
     );
 
-    // Clear existing markers and lines
-    showMarkersGroup.selectAll('*').remove();
+    // Clear existing markers and lines (except the time active bar which was drawn first)
+    showMarkersGroup.selectAll('.show-connection-line').remove();
+    showMarkersGroup.selectAll('rect:not(.time-active-bar)').remove();
 
-    // Draw a small rectangle for each show at the artist's y position
-    const markerHeight = 10;
+    // Draw rectangles at the bottom on top of the time active bar
+    const markerHeight = 12;
     const markerWidth = 4;
-    const yPosition = artist.y! - markerHeight / 2; // Centered on artist node
+    const container = document.getElementById('timeline-container');
+    const height = Math.max(container?.clientHeight || 0, window.innerHeight * 0.8);
+    const yPosition = height - margin.bottom + 10; // Same as time active bar
 
     // Build a map of node positions for drawing connection lines
     const nodeMap = new Map<string, TimelineNode>();
     nodesSelection.data().forEach((n: TimelineNode) => nodeMap.set(n.id, n));
 
-    // First, draw connection lines from shows to other artists
+    // First, draw connection lines from show markers (at bottom) to other artists
     artistShows.forEach((show: Show) => {
       const showX = xScale(new Date(show.date));
-      const showY = artist.y!;
+      const showY = yPosition + markerHeight / 2; // Middle of the marker at bottom
 
       // Find other artists in this show
       show.artists.forEach(showArtist => {
         if (showArtist.id !== artist.id) {
           const otherNode = nodeMap.get(showArtist.id);
           if (otherNode && otherNode.x !== undefined && otherNode.y !== undefined) {
-            // Draw line from show marker to other artist
+            // Draw line from show marker (at bottom) to other artist
             showMarkersGroup.append('line')
               .attr('x1', showX)
               .attr('y1', showY)
@@ -497,8 +500,8 @@ import Layout from '../layouts/Layout.astro';
     // Remove all links
     linksGroup.selectAll('line').remove();
 
-    // Remove show markers
-    showMarkersGroup.selectAll('rect').remove();
+    // Remove show markers and time active bar
+    showMarkersGroup.selectAll('*').remove();
 
     // Reset node appearance
     nodesSelection
