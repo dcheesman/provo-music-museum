@@ -281,8 +281,13 @@ import Layout from '../layouts/Layout.astro';
       .on('mousemove', function(event, d) {
         moveTooltip(event);
       })
-      .on('mouseout', function() {
-        d3.select(this).attr('stroke', '#1a1a1a').attr('stroke-width', 2);
+      .on('mouseout', function(event, d) {
+        // Keep white stroke if this is the selected node
+        if (selectedNode?.id === d.id) {
+          d3.select(this).attr('stroke', '#F0F0F0').attr('stroke-width', 3);
+        } else {
+          d3.select(this).attr('stroke', '#1a1a1a').attr('stroke-width', 2);
+        }
         hideTooltip();
       });
 
