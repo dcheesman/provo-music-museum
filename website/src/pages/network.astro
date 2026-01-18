@@ -53,6 +53,10 @@ import Layout from '../layouts/Layout.astro';
           <div class="w-4 h-4 rounded-full bg-[#F87171]"></div>
           <span>Lower connection count</span>
         </div>
+        <div class="flex items-center gap-2">
+          <div class="w-3 h-2 bg-[#3B82F6] rounded-sm"></div>
+          <span>Show marker (hover for details)</span>
+        </div>
       </div>
     </div>
   </section>
@@ -96,15 +100,29 @@ import Layout from '../layouts/Layout.astro';
     links: TimelineLink[];
   }
 
+  interface Show {
+    id: string;
+    date: string;
+    title: string;
+    genre?: string;
+    eventType: string;
+    artists: Array<{id: string; name: string; isHeadliner: boolean}>;
+    soldOut: boolean;
+    ticketPrice?: string;
+  }
+
   let simulation: d3.Simulation<TimelineNode, TimelineLink>;
   let svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>;
   let networkData: NetworkData;
+  let showsData: Show[] = [];
   let currentZoom = 1;
   let labelsGroup: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
   let linksGroup: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
+  let showMarkersGroup: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
   let nodesSelection: d3.Selection<SVGCircleElement, TimelineNode, SVGGElement, unknown>;
   let selectedNode: TimelineNode | null = null;
   let xScale: d3.ScaleTime<number, number>;
+  let margin: {top: number; right: number; bottom: number; left: number};
 
   async function loadNetworkData(): Promise<NetworkData | null> {
     try {
@@ -114,6 +132,18 @@ import Layout from '../layouts/Layout.astro';
       }
     } catch (e) {
       console.error('Failed to load network data:', e);
+    }
+    return null;
+  }
+
+  async function loadShowsData(): Promise<Show[] | null> {
+    try {
+      const response = await fetch('/data/shows.json');
+      if (response.ok) {
+        return await response.json();
+      }
+    } catch (e) {
+      console.error('Failed to load shows data:', e);
     }
     return null;
   }
@@ -130,7 +160,7 @@ import Layout from '../layouts/Layout.astro';
 
     const width = container.clientWidth;
     const height = Math.max(container.clientHeight, window.innerHeight * 0.8);
-    const margin = { top: 40, right: 40, bottom: 60, left: 40 };
+    margin = { top: 40, right: 40, bottom: 60, left: 40 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
@@ -221,6 +251,9 @@ import Layout from '../layouts/Layout.astro';
 
     // Create empty links group
     linksGroup = g.append('g').attr('class', 'links');
+
+    // Create show markers group (below nodes)
+    showMarkersGroup = g.append('g').attr('class', 'show-markers');
 
     // Draw nodes
     nodesSelection = g.append('g')
@@ -334,6 +367,9 @@ import Layout from '../layouts/Layout.astro';
       .attr('x2', (d: any) => nodeMap.get(getId(d.target))?.x || 0)
       .attr('y2', (d: any) => nodeMap.get(getId(d.target))?.y || 0);
 
+    // Draw show markers for this artist
+    drawShowMarkers(artist);
+
     // Dim non-connected nodes
     nodesSelection
       .attr('opacity', (d: TimelineNode) => connectedIds.has(d.id) ? 1 : 0.2)
@@ -344,11 +380,71 @@ import Layout from '../layouts/Layout.astro';
     showArtistPanel(artist);
   }
 
+  function drawShowMarkers(artist: TimelineNode) {
+    // Find all shows for this artist
+    const artistShows = showsData.filter(show =>
+      show.artists.some(a => a.id === artist.id)
+    );
+
+    // Clear existing markers
+    showMarkersGroup.selectAll('rect').remove();
+
+    // Draw a small rectangle for each show
+    const markerHeight = 8;
+    const markerWidth = 3;
+    const yPosition = margin.top + 10; // Near the top of the viz
+
+    showMarkersGroup.selectAll('rect')
+      .data(artistShows)
+      .join('rect')
+      .attr('x', (d: Show) => xScale(new Date(d.date)) - markerWidth / 2)
+      .attr('y', yPosition)
+      .attr('width', markerWidth)
+      .attr('height', markerHeight)
+      .attr('fill', '#3B82F6')
+      .attr('opacity', 0.7)
+      .attr('rx', 1)
+      .style('cursor', 'pointer')
+      .on('mouseover', function(event, d: Show) {
+        d3.select(this).attr('opacity', 1).attr('fill', '#60A5FA');
+        showShowTooltip(event, d);
+      })
+      .on('mousemove', function(event) {
+        moveTooltip(event);
+      })
+      .on('mouseout', function() {
+        d3.select(this).attr('opacity', 0.7).attr('fill', '#3B82F6');
+        hideTooltip();
+      });
+  }
+
+  function showShowTooltip(event: MouseEvent, show: Show) {
+    const tooltip = document.getElementById('tooltip');
+    const nameEl = document.getElementById('tooltip-name');
+    const statsEl = document.getElementById('tooltip-stats');
+    if (!tooltip || !nameEl || !statsEl) return;
+
+    const artistNames = show.artists.map(a => a.name).join(', ');
+    nameEl.textContent = show.title;
+    statsEl.innerHTML = `
+      <div>${show.date}</div>
+      <div>${artistNames}</div>
+      ${show.genre ? `<div>Genre: ${show.genre}</div>` : ''}
+      ${show.ticketPrice ? `<div>Price: ${show.ticketPrice}</div>` : ''}
+      ${show.soldOut ? '<div class="text-red-400">SOLD OUT</div>' : ''}
+    `;
+    tooltip.classList.remove('hidden');
+    moveTooltip(event);
+  }
+
   function clearSelection() {
     selectedNode = null;
 
     // Remove all links
     linksGroup.selectAll('line').remove();
+
+    // Remove show markers
+    showMarkersGroup.selectAll('rect').remove();
 
     // Reset node appearance
     nodesSelection
@@ -479,9 +575,14 @@ import Layout from '../layouts/Layout.astro';
 
   // Initialize
   document.addEventListener('DOMContentLoaded', async () => {
-    const data = await loadNetworkData();
-    if (data) {
-      initTimeline(data);
+    const [networkDataResult, showsDataResult] = await Promise.all([
+      loadNetworkData(),
+      loadShowsData()
+    ]);
+
+    if (networkDataResult && showsDataResult) {
+      showsData = showsDataResult;
+      initTimeline(networkDataResult);
     } else {
       const loading = document.getElementById('timeline-loading');
       if (loading) {
