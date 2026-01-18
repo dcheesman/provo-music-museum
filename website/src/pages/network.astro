@@ -2,20 +2,20 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Artist Network">
+<Layout title="Artist Timeline">
   <section class="px-4 py-8">
     <div class="container mx-auto mb-6">
-      <h1 class="text-4xl font-bold text-white mb-4">Artist Network</h1>
+      <h1 class="text-4xl font-bold text-white mb-4">Artist Timeline & Connections</h1>
       <p class="text-gray-400 mb-6 max-w-2xl">
-        Explore the connections between artists who have shared the stage at Velour.
-        Each node represents an artist, and lines connect artists who have played together.
+        Artists positioned by their first show at Velour (2006-2026).
+        Circle size represents connection count. Click an artist to see who they've played with.
       </p>
 
       <!-- Controls -->
       <div class="flex flex-wrap gap-4">
         <input
           type="text"
-          id="network-search"
+          id="timeline-search"
           placeholder="Search for an artist..."
           class="search-input max-w-md"
         />
@@ -25,12 +25,12 @@ import Layout from '../layouts/Layout.astro';
       </div>
     </div>
 
-    <!-- Network Container - Full Width -->
-    <div id="network-container" class="network-container relative w-full" style="background-color: #e5e5e5; min-height: 80vh;">
-      <div id="network-loading" class="absolute inset-0 flex items-center justify-center">
-        <span class="text-gray-600">Loading network visualization...</span>
+    <!-- Timeline Container - Full Width -->
+    <div id="timeline-container" class="timeline-container relative w-full" style="background-color: #1a1a1a; min-height: 80vh;">
+      <div id="timeline-loading" class="absolute inset-0 flex items-center justify-center">
+        <span class="text-gray-400">Loading timeline visualization...</span>
       </div>
-      <svg id="network-svg" class="w-full h-full" style="display: none;"></svg>
+      <svg id="timeline-svg" class="w-full h-full" style="display: none;"></svg>
       <!-- Tooltip -->
       <div id="tooltip" class="absolute hidden bg-gray-900 text-white px-3 py-2 rounded-lg text-sm pointer-events-none shadow-lg border border-gray-700 z-50">
         <div id="tooltip-name" class="font-bold"></div>
@@ -42,15 +42,15 @@ import Layout from '../layouts/Layout.astro';
     <div class="container mx-auto mt-6">
       <div class="flex flex-wrap gap-6 text-sm text-gray-400">
         <div class="flex items-center gap-2">
-          <div class="w-4 h-4 rounded-full bg-amber-400"></div>
+          <div class="w-4 h-4 rounded-full bg-[#BF0404]"></div>
           <span>High connection count</span>
         </div>
         <div class="flex items-center gap-2">
-          <div class="w-4 h-4 rounded-full bg-amber-700"></div>
+          <div class="w-4 h-4 rounded-full bg-[#F20505]"></div>
           <span>Medium connection count</span>
         </div>
         <div class="flex items-center gap-2">
-          <div class="w-4 h-4 rounded-full bg-gray-600"></div>
+          <div class="w-4 h-4 rounded-full bg-[#F87171]"></div>
           <span>Lower connection count</span>
         </div>
       </div>
@@ -58,7 +58,7 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
   <!-- Artist Details Panel -->
-  <div id="artist-panel" class="fixed right-0 top-0 h-full w-80 bg-gray-900 border-l border-gray-800 p-6 transform translate-x-full transition-transform z-50">
+  <div id="artist-panel" class="fixed right-0 top-0 h-full w-80 bg-gray-900 border-l border-gray-800 p-6 transform translate-x-full transition-transform z-50 overflow-y-auto">
     <button id="close-panel" class="absolute top-4 right-4 text-gray-500 hover:text-white">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -74,36 +74,37 @@ import Layout from '../layouts/Layout.astro';
 <script>
   import * as d3 from 'd3';
 
-  interface NetworkNode {
+  interface TimelineNode {
     id: string;
     name: string;
     showCount: number;
     connectionCount: number;
+    firstShowDate: string;
     x?: number;
     y?: number;
-    fx?: number | null;
     fy?: number | null;
   }
 
-  interface NetworkLink {
-    source: string | NetworkNode;
-    target: string | NetworkNode;
+  interface TimelineLink {
+    source: string | TimelineNode;
+    target: string | TimelineNode;
     weight: number;
   }
 
   interface NetworkData {
-    nodes: NetworkNode[];
-    links: NetworkLink[];
+    nodes: TimelineNode[];
+    links: TimelineLink[];
   }
 
-  let simulation: d3.Simulation<NetworkNode, NetworkLink>;
+  let simulation: d3.Simulation<TimelineNode, TimelineLink>;
   let svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>;
   let networkData: NetworkData;
   let currentZoom = 1;
   let labelsGroup: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
   let linksGroup: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
-  let nodesSelection: d3.Selection<SVGCircleElement, NetworkNode, SVGGElement, unknown>;
-  let selectedNode: NetworkNode | null = null;
+  let nodesSelection: d3.Selection<SVGCircleElement, TimelineNode, SVGGElement, unknown>;
+  let selectedNode: TimelineNode | null = null;
+  let xScale: d3.ScaleTime<number, number>;
 
   async function loadNetworkData(): Promise<NetworkData | null> {
     try {
@@ -117,10 +118,10 @@ import Layout from '../layouts/Layout.astro';
     return null;
   }
 
-  function initNetwork(data: NetworkData) {
-    const container = document.getElementById('network-container');
-    const loading = document.getElementById('network-loading');
-    const svgElement = document.getElementById('network-svg') as SVGSVGElement;
+  function initTimeline(data: NetworkData) {
+    const container = document.getElementById('timeline-container');
+    const loading = document.getElementById('timeline-loading');
+    const svgElement = document.getElementById('timeline-svg') as SVGSVGElement;
 
     if (!container || !svgElement) return;
 
@@ -129,6 +130,9 @@ import Layout from '../layouts/Layout.astro';
 
     const width = container.clientWidth;
     const height = Math.max(container.clientHeight, window.innerHeight * 0.8);
+    const margin = { top: 40, right: 40, bottom: 60, left: 40 };
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
 
     // Clear existing
     svgElement.innerHTML = '';
@@ -136,11 +140,28 @@ import Layout from '../layouts/Layout.astro';
     svg = d3.select(svgElement)
       .attr('viewBox', [0, 0, width, height]);
 
+    // Filter nodes to only those with a valid first show date
+    const validNodes = data.nodes.filter(n => n.firstShowDate);
+
+    // Create time scale for x-axis (2006 to 2026)
+    const minDate = new Date('2006-01-01');
+    const maxDate = new Date('2026-12-31');
+
+    xScale = d3.scaleTime()
+      .domain([minDate, maxDate])
+      .range([margin.left, width - margin.right]);
+
+    // Set initial x positions based on first show date
+    validNodes.forEach(node => {
+      node.x = xScale(new Date(node.firstShowDate));
+      node.y = innerHeight / 2 + margin.top; // Start in middle
+    });
+
     // Add zoom behavior
     const g = svg.append('g');
 
     const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.1, 8])
+      .scaleExtent([0.5, 10])
       .on('zoom', (event) => {
         g.attr('transform', event.transform);
         currentZoom = event.transform.k;
@@ -149,79 +170,97 @@ import Layout from '../layouts/Layout.astro';
 
     svg.call(zoom);
 
-    // Use all links (no filtering)
-    const visibleLinks = data.links;
-
-    // Use all nodes that have at least one connection
-    const connectedNodeIds = new Set<string>();
-    visibleLinks.forEach((l: any) => {
-      connectedNodeIds.add(typeof l.source === 'string' ? l.source : l.source.id);
-      connectedNodeIds.add(typeof l.target === 'string' ? l.target : l.target.id);
-    });
-
-    // All nodes with connections
-    const visibleNodes = data.nodes.filter(n => connectedNodeIds.has(n.id));
-
-    // Scale for node size (based on visible nodes)
+    // Scale for node size based on connection count
     const sizeScale = d3.scaleSqrt()
-      .domain([1, d3.max(visibleNodes, d => d.showCount) || 100])
-      .range([3, 20]);
+      .domain([1, d3.max(validNodes, d => d.connectionCount) || 50])
+      .range([4, 25]);
 
-    // Color scale based on connections (based on visible nodes)
+    // Color scale based on connection count
     const colorScale = d3.scaleSequential()
-      .domain([0, d3.max(visibleNodes, d => d.connectionCount) || 50])
-      .interpolator(d3.interpolateYlOrBr);
+      .domain([0, d3.max(validNodes, d => d.connectionCount) || 50])
+      .interpolator(t => d3.interpolateRgb('#F87171', '#BF0404')(t));
 
-    // Create simulation - no link force initially for better performance
-    simulation = d3.forceSimulation(visibleNodes)
-      .force('charge', d3.forceManyBody().strength(-30))
-      .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius((d: any) => sizeScale(d.showCount) + 3));
+    // Create simulation with collision detection on Y-axis only
+    simulation = d3.forceSimulation(validNodes)
+      .force('y', d3.forceY<TimelineNode>().y(innerHeight / 2 + margin.top).strength(0.02))
+      .force('collision', d3.forceCollide<TimelineNode>().radius(d => sizeScale(d.connectionCount) + 2).iterations(3))
+      .alphaDecay(0.01);
 
-    // Create empty links group (will be populated on node click)
+    // Draw timeline axis
+    const xAxis = d3.axisBottom(xScale)
+      .ticks(d3.timeYear.every(2))
+      .tickFormat(d => d3.timeFormat('%Y')(d as Date));
+
+    g.append('g')
+      .attr('class', 'x-axis')
+      .attr('transform', `translate(0, ${height - margin.bottom})`)
+      .call(xAxis)
+      .attr('color', '#666')
+      .selectAll('text')
+      .attr('fill', '#999');
+
+    // Add grid lines for years
+    g.append('g')
+      .attr('class', 'grid')
+      .selectAll('line')
+      .data(d3.timeYear.range(minDate, maxDate, 1))
+      .join('line')
+      .attr('x1', d => xScale(d))
+      .attr('x2', d => xScale(d))
+      .attr('y1', margin.top)
+      .attr('y2', height - margin.bottom)
+      .attr('stroke', '#333')
+      .attr('stroke-width', 0.5)
+      .attr('stroke-dasharray', '2,2');
+
+    // Create empty links group
     linksGroup = g.append('g').attr('class', 'links');
 
-    // Draw nodes (only those with visible connections)
+    // Draw nodes
     nodesSelection = g.append('g')
       .selectAll('circle')
-      .data(visibleNodes)
+      .data(validNodes)
       .join('circle')
-      .attr('r', d => sizeScale(d.showCount))
+      .attr('r', d => sizeScale(d.connectionCount))
       .attr('fill', d => colorScale(d.connectionCount))
-      .attr('stroke', '#374151')
-      .attr('stroke-width', 1)
+      .attr('stroke', '#1a1a1a')
+      .attr('stroke-width', 2)
       .attr('class', 'artist-node')
-      .call(d3.drag<SVGCircleElement, NetworkNode>()
+      .attr('cursor', 'pointer')
+      .call(d3.drag<SVGCircleElement, TimelineNode>()
         .on('start', dragstarted)
         .on('drag', dragged)
         .on('end', dragended))
-      .on('click', (event, d) => selectNode(d))
+      .on('click', (event, d) => {
+        event.stopPropagation();
+        selectNode(d);
+      })
       .on('mouseover', function(event, d) {
-        d3.select(this).attr('stroke', '#BF0404').attr('stroke-width', 3);
+        d3.select(this).attr('stroke', '#F0F0F0').attr('stroke-width', 3);
         showTooltip(event, d);
       })
       .on('mousemove', function(event, d) {
         moveTooltip(event);
       })
       .on('mouseout', function() {
-        d3.select(this).attr('stroke', '#374151').attr('stroke-width', 1);
+        d3.select(this).attr('stroke', '#1a1a1a').attr('stroke-width', 2);
         hideTooltip();
       });
 
-    // Add text labels (hidden by default, shown on zoom)
+    // Add text labels (shown on zoom)
     labelsGroup = g.append('g').attr('class', 'labels');
     labelsGroup.selectAll('text')
-      .data(visibleNodes)
+      .data(validNodes)
       .join('text')
       .attr('text-anchor', 'middle')
-      .attr('dy', d => -sizeScale(d.showCount) - 4)
-      .attr('font-size', '10px')
-      .attr('fill', '#1f2937')
+      .attr('dy', d => -sizeScale(d.connectionCount) - 6)
+      .attr('font-size', '11px')
+      .attr('fill', '#e5e5e5')
       .attr('pointer-events', 'none')
       .attr('opacity', 0)
       .text(d => d.name);
 
-    // Update positions on tick
+    // Update positions on tick (only Y changes, X is fixed by date)
     simulation.on('tick', () => {
       // Update link positions if any are drawn
       linksGroup.selectAll('line')
@@ -239,17 +278,15 @@ import Layout from '../layouts/Layout.astro';
         .attr('y', (d: any) => d.y);
     });
 
-    networkData = data;
+    networkData = { nodes: validNodes, links: data.links };
 
     // Click on background to deselect
-    svg.on('click', (event) => {
-      if (event.target === svgElement) {
-        clearSelection();
-      }
+    svg.on('click', () => {
+      clearSelection();
     });
   }
 
-  function selectNode(artist: NetworkNode) {
+  function selectNode(artist: TimelineNode) {
     // If clicking same node, deselect
     if (selectedNode?.id === artist.id) {
       clearSelection();
@@ -258,7 +295,7 @@ import Layout from '../layouts/Layout.astro';
 
     selectedNode = artist;
 
-    // Helper to get ID from source/target (could be string or object)
+    // Helper to get ID from source/target
     const getId = (node: any) => typeof node === 'string' ? node : node.id;
 
     // Find all connections for this artist
@@ -274,9 +311,9 @@ import Layout from '../layouts/Layout.astro';
       connectedIds.add(getId(l.target));
     });
 
-    // Build a map of node positions for drawing links
-    const nodeMap = new Map<string, NetworkNode>();
-    nodesSelection.data().forEach((n: NetworkNode) => nodeMap.set(n.id, n));
+    // Build a map of node positions
+    const nodeMap = new Map<string, TimelineNode>();
+    nodesSelection.data().forEach((n: TimelineNode) => nodeMap.set(n.id, n));
 
     // Draw links for selected node
     linksGroup.selectAll('line').remove();
@@ -284,18 +321,18 @@ import Layout from '../layouts/Layout.astro';
       .data(artistLinks)
       .join('line')
       .attr('stroke', '#BF0404')
-      .attr('stroke-opacity', 0.6)
+      .attr('stroke-opacity', 0.4)
       .attr('stroke-width', (d: any) => Math.max(1, Math.sqrt(d.weight)))
       .attr('x1', (d: any) => nodeMap.get(getId(d.source))?.x || 0)
       .attr('y1', (d: any) => nodeMap.get(getId(d.source))?.y || 0)
       .attr('x2', (d: any) => nodeMap.get(getId(d.target))?.x || 0)
       .attr('y2', (d: any) => nodeMap.get(getId(d.target))?.y || 0);
 
-    // Dim non-connected nodes, highlight connected ones
+    // Dim non-connected nodes
     nodesSelection
-      .attr('opacity', (d: NetworkNode) => connectedIds.has(d.id) ? 1 : 0.15)
-      .attr('stroke', (d: NetworkNode) => d.id === artist.id ? '#BF0404' : '#374151')
-      .attr('stroke-width', (d: NetworkNode) => d.id === artist.id ? 3 : 1);
+      .attr('opacity', (d: TimelineNode) => connectedIds.has(d.id) ? 1 : 0.2)
+      .attr('stroke', (d: TimelineNode) => d.id === artist.id ? '#F0F0F0' : '#1a1a1a')
+      .attr('stroke-width', (d: TimelineNode) => d.id === artist.id ? 3 : 2);
 
     // Show artist panel
     showArtistPanel(artist);
@@ -310,28 +347,28 @@ import Layout from '../layouts/Layout.astro';
     // Reset node appearance
     nodesSelection
       .attr('opacity', 1)
-      .attr('stroke', '#374151')
-      .attr('stroke-width', 1);
+      .attr('stroke', '#1a1a1a')
+      .attr('stroke-width', 2);
 
     // Hide panel
     hideArtistPanel();
   }
 
-  function showTooltip(event: MouseEvent, d: NetworkNode) {
+  function showTooltip(event: MouseEvent, d: TimelineNode) {
     const tooltip = document.getElementById('tooltip');
     const nameEl = document.getElementById('tooltip-name');
     const statsEl = document.getElementById('tooltip-stats');
     if (!tooltip || !nameEl || !statsEl) return;
 
     nameEl.textContent = d.name;
-    statsEl.textContent = `${d.showCount} shows • ${d.connectionCount} connections`;
+    statsEl.textContent = `First show: ${d.firstShowDate} • ${d.showCount} shows • ${d.connectionCount} connections`;
     tooltip.classList.remove('hidden');
     moveTooltip(event);
   }
 
   function moveTooltip(event: MouseEvent) {
     const tooltip = document.getElementById('tooltip');
-    const container = document.getElementById('network-container');
+    const container = document.getElementById('timeline-container');
     if (!tooltip || !container) return;
 
     const rect = container.getBoundingClientRect();
@@ -348,30 +385,28 @@ import Layout from '../layouts/Layout.astro';
 
   function updateLabelsVisibility() {
     if (!labelsGroup) return;
-    const showLabels = currentZoom >= 2;
+    const showLabels = currentZoom >= 1.5;
     labelsGroup.selectAll('text')
       .attr('opacity', showLabels ? 1 : 0)
-      .attr('font-size', `${10 / currentZoom}px`);
+      .attr('font-size', `${11 / currentZoom}px`);
   }
 
-  function dragstarted(event: d3.D3DragEvent<SVGCircleElement, NetworkNode, NetworkNode>, d: NetworkNode) {
+  function dragstarted(event: d3.D3DragEvent<SVGCircleElement, TimelineNode, TimelineNode>, d: TimelineNode) {
     if (!event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
     d.fy = d.y;
   }
 
-  function dragged(event: d3.D3DragEvent<SVGCircleElement, NetworkNode, NetworkNode>, d: NetworkNode) {
-    d.fx = event.x;
+  function dragged(event: d3.D3DragEvent<SVGCircleElement, TimelineNode, TimelineNode>, d: TimelineNode) {
+    // Only allow vertical dragging
     d.fy = event.y;
   }
 
-  function dragended(event: d3.D3DragEvent<SVGCircleElement, NetworkNode, NetworkNode>, d: NetworkNode) {
+  function dragended(event: d3.D3DragEvent<SVGCircleElement, TimelineNode, TimelineNode>, d: TimelineNode) {
     if (!event.active) simulation.alphaTarget(0);
-    d.fx = null;
     d.fy = null;
   }
 
-  function showArtistPanel(artist: NetworkNode) {
+  function showArtistPanel(artist: TimelineNode) {
     const panel = document.getElementById('artist-panel');
     const nameEl = document.getElementById('panel-artist-name');
     const statsEl = document.getElementById('panel-stats');
@@ -379,12 +414,11 @@ import Layout from '../layouts/Layout.astro';
 
     if (!panel || !nameEl || !statsEl || !connectionsEl) return;
 
-    // Helper to get ID from source/target (could be string or object)
     const getId = (node: any) => typeof node === 'string' ? node : node.id;
 
     // Build node lookup map
-    const nodeMap = new Map<string, NetworkNode>();
-    networkData.nodes.forEach((n: NetworkNode) => nodeMap.set(n.id, n));
+    const nodeMap = new Map<string, TimelineNode>();
+    networkData.nodes.forEach((n: TimelineNode) => nodeMap.set(n.id, n));
 
     // Find connections from actual links
     const connections = networkData.links
@@ -398,7 +432,8 @@ import Layout from '../layouts/Layout.astro';
 
     nameEl.textContent = artist.name;
     statsEl.innerHTML = `
-      <div><span class="text-[#BF0404]">${artist.showCount}</span> shows</div>
+      <div><span class="text-[#BF0404]">${artist.firstShowDate}</span> First show</div>
+      <div><span class="text-[#BF0404]">${artist.showCount}</span> total shows</div>
       <div><span class="text-[#BF0404]">${connections.length}</span> connections</div>
     `;
 
@@ -417,7 +452,7 @@ import Layout from '../layouts/Layout.astro';
     panel?.classList.add('translate-x-full');
   }
 
-  function searchNetwork(term: string) {
+  function searchTimeline(term: string) {
     if (!networkData) return;
 
     const searchLower = term.toLowerCase();
@@ -426,7 +461,7 @@ import Layout from '../layouts/Layout.astro';
     );
 
     // Highlight matches
-    svg.selectAll('circle')
+    nodesSelection
       .attr('opacity', (d: any) =>
         term ? (matches.includes(d) ? 1 : 0.2) : 1
       );
@@ -436,14 +471,14 @@ import Layout from '../layouts/Layout.astro';
   document.addEventListener('DOMContentLoaded', async () => {
     const data = await loadNetworkData();
     if (data) {
-      initNetwork(data);
+      initTimeline(data);
     } else {
-      const loading = document.getElementById('network-loading');
+      const loading = document.getElementById('timeline-loading');
       if (loading) {
         loading.innerHTML = `
           <div class="text-center">
-            <p class="text-gray-400 mb-4">Network data is being processed.</p>
-            <p class="text-gray-500 text-sm">Run the migration and export scripts to generate the data.</p>
+            <p class="text-gray-400 mb-4">Timeline data is being processed.</p>
+            <p class="text-gray-500 text-sm">Run the export script to generate the data.</p>
           </div>
         `;
       }
@@ -458,12 +493,12 @@ import Layout from '../layouts/Layout.astro';
       );
     });
 
-    const searchInput = document.getElementById('network-search') as HTMLInputElement;
+    const searchInput = document.getElementById('timeline-search') as HTMLInputElement;
     let searchTimeout: number;
     searchInput?.addEventListener('input', (e) => {
       clearTimeout(searchTimeout);
       searchTimeout = window.setTimeout(() => {
-        searchNetwork((e.target as HTMLInputElement).value);
+        searchTimeline((e.target as HTMLInputElement).value);
       }, 300);
     });
   });

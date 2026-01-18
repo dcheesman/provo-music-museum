@@ -150,11 +150,16 @@ def export_network(store: DataStore, output_dir: Path, min_connections: int = 2)
 
         show_count = store.get_artist_show_count(aid)
 
+        # Find first show date for this artist
+        artist_shows = [s for s in shows if any(a.artist_id == aid for a in s.artists)]
+        first_show_date = min((s.date for s in artist_shows if s.date), default=None)
+
         nodes.append({
             "id": aid,
             "name": artist.name,
             "showCount": show_count,
-            "connectionCount": artist_connection_counts[aid]
+            "connectionCount": artist_connection_counts[aid],
+            "firstShowDate": first_show_date
         })
 
     # Create links
