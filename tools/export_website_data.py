@@ -105,7 +105,7 @@ def export_shows(store: DataStore, output_dir: Path):
     return show_data
 
 
-def export_network(store: DataStore, output_dir: Path, min_connections: int = 2):
+def export_network(store: DataStore, output_dir: Path, min_connections: int = 1):
     """Export network data for D3 visualization."""
     artists = store.all_artists()
     shows = store.all_shows()
@@ -224,8 +224,8 @@ def main():
     parser.add_argument(
         '--min-connections',
         type=int,
-        default=2,
-        help='Minimum connection count to include in network (default: 2)'
+        default=1,
+        help='Minimum connection count to include in network (default: 1)'
     )
 
     args = parser.parse_args()
