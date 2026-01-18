@@ -4,7 +4,7 @@ interface Props {
   description?: string;
 }
 
-const { title, description = "Explore 20 years of live music history at Velour Live Music Gallery in Provo, Utah" } = Astro.props;
+const { title, description = "A digital archive documenting the history of Provo's music scene. Featuring 20 years of Velour Live Music Gallery." } = Astro.props;
 ---
 
 <!doctype html>
@@ -57,7 +57,7 @@ const { title, description = "Explore 20 years of live music history at Velour L
         const pageUrl = window.location.href;
         const subject = encodeURIComponent('Provo Music Museum - Suggested Correction');
         const body = encodeURIComponent(`Page: ${pageUrl}\n\nSuggested correction:\n\n`);
-        window.location.href = `mailto:dcheesman+provomusicmuseum@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:dcheesman@gmail.com?subject=${subject}&body=${body}`;
       });
     </script>
   </body>

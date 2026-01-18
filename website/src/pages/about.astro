@@ -8,17 +8,22 @@ import Layout from '../layouts/Layout.astro';
 
     <div class="max-w-3xl space-y-6 text-gray-300">
       <p class="text-lg">
-        The Provo Music Museum is a digital archive documenting 20 years of live music history
+        The Provo Music Museum is a digital archive project documenting the history of Provo's music scene.
+      </p>
+
+      <p>
+        We're launching with our first exhibit: <span class="text-white font-semibold">The Velour Archive</span> — 20 years of live music history
         at <a href="https://velourlive.com" target="_blank" rel="noopener" class="text-[#BF0404] hover:text-[#F20505]">Velour Live Music Gallery</a> in Provo, Utah.
       </p>
 
+      <h2 class="text-2xl font-bold text-white mt-12 mb-4">The Velour Archive</h2>
       <p>
         Since opening its doors in 2006, Velour has been a launching pad for countless musicians and bands,
         hosting over 4,000 shows featuring more than 3,000 artists. This archive celebrates the
         vibrant music scene that has made Provo a cultural hub in Utah.
       </p>
 
-      <h2 class="text-2xl font-bold text-white mt-12 mb-4">The Data</h2>
+      <h3 class="text-xl font-bold text-white mt-8 mb-4">The Data</h3>
       <p>
         All show data has been sourced from the official Velour website archives. We've processed
         and structured this information to make it searchable, browsable, and visualizable.
@@ -59,12 +64,23 @@ import Layout from '../layouts/Layout.astro';
 
       <h2 class="text-2xl font-bold text-white mt-12 mb-4">About This Project</h2>
       <p>
-        This is an independent archival project created by fans of the Provo music scene.
-        It is not officially affiliated with Velour Live Music Gallery.
+        The Provo Music Museum is an independent archival project created by Dean Cheesman and
+        contributors who love the Provo music scene. The Velour archive is our first exhibit,
+        but we hope to expand to document more venues, artists, and stories from Provo's musical history.
+      </p>
+
+      <p>
+        This project is not officially affiliated with Velour Live Music Gallery.
+      </p>
+
+      <h2 class="text-2xl font-bold text-white mt-12 mb-4">Get Involved</h2>
+      <p>
+        Want to contribute? Have data, stories, or photos to share? Interested in helping expand the museum?
+        Reach out to <a href="mailto:dcheesman@gmail.com?subject=Provo Music Museum" class="text-[#BF0404] hover:text-[#F20505]">Dean Cheesman (dcheesman@gmail.com)</a>.
       </p>
 
       <p class="text-gray-400 text-sm mt-8">
-        Data sourced from <a href="https://velourlive.com" target="_blank" rel="noopener" class="text-[#BF0404] hover:text-[#F20505]">velourlive.com</a>
+        Velour data sourced from <a href="https://velourlive.com" target="_blank" rel="noopener" class="text-[#BF0404] hover:text-[#F20505]">velourlive.com</a>
       </p>
     </div>
   </section>
@@ -76,6 +92,6 @@ import Layout from '../layouts/Layout.astro';
     const pageUrl = window.location.href;
     const subject = encodeURIComponent('Provo Music Museum - Suggested Correction');
     const body = encodeURIComponent(`Page: ${pageUrl}\n\nSuggested correction:\n\n`);
-    window.location.href = `mailto:dcheesman+provomusicmuseum@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:dcheesman@gmail.com?subject=${subject}&body=${body}`;
   });
 </script>
