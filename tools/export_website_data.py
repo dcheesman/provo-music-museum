@@ -133,6 +133,15 @@ def export_network(store: DataStore, output_dir: Path, min_connections: int = 2)
                 connected_artists.add(aid2)
 
     artist_map = {a.id: a for a in artists}
+
+    # Pre-calculate actual connection counts for each artist
+    artist_connection_counts = defaultdict(int)
+    for aid1, targets in connections.items():
+        for aid2, count in targets.items():
+            if count >= min_connections and aid1 in connected_artists and aid2 in connected_artists:
+                artist_connection_counts[aid1] += 1
+                artist_connection_counts[aid2] += 1
+
     nodes = []
     for aid in connected_artists:
         artist = artist_map.get(aid)
@@ -140,15 +149,12 @@ def export_network(store: DataStore, output_dir: Path, min_connections: int = 2)
             continue
 
         show_count = store.get_artist_show_count(aid)
-        connection_count = sum(1 for targets in connections.values()
-                               for t, c in targets.items()
-                               if (aid in [t] or aid in connections) and c >= min_connections)
 
         nodes.append({
             "id": aid,
             "name": artist.name,
             "showCount": show_count,
-            "connectionCount": connection_count
+            "connectionCount": artist_connection_counts[aid]
         })
 
     # Create links

@@ -13,9 +13,9 @@ const stats = {
 <Layout title="Home">
   <!-- Hero Section -->
   <section class="relative overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-br from-amber-900/20 via-gray-950 to-gray-950"></div>
+    <div class="absolute inset-0 bg-gradient-to-br from-[#400106] via-gray-950 to-gray-950"></div>
     <div class="container mx-auto px-4 py-24 relative">
-      <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">
+      <h1 class="text-5xl md:text-7xl text-white mb-6">
         Provo Music Museum
       </h1>
       <p class="text-xl md:text-2xl text-gray-400 max-w-2xl mb-8">
@@ -23,10 +23,10 @@ const stats = {
         Discover the bands, the connections, and the stories that shaped Utah's music scene.
       </p>
       <div class="flex flex-wrap gap-4">
-        <a href="/artists" class="bg-amber-500 hover:bg-amber-400 text-gray-900 font-bold px-6 py-3 rounded-lg transition-colors">
+        <a href="/artists" class="bg-[#BF0404] hover:bg-[#F20505] text-white font-bold px-6 py-3 rounded-lg transition-colors">
           Browse Artists
         </a>
-        <a href="/network" class="bg-gray-800 hover:bg-gray-700 text-white font-bold px-6 py-3 rounded-lg transition-colors">
+        <a href="/network" class="bg-[#400106] hover:bg-[#BF0404] text-white font-bold px-6 py-3 rounded-lg border border-[#BF0404] transition-colors">
           View Network
         </a>
       </div>
@@ -37,19 +37,19 @@ const stats = {
   <section class="container mx-auto px-4 py-16">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
       <div class="card text-center">
-        <div class="text-4xl font-bold text-amber-400 mb-2">{stats.totalShows.toLocaleString()}</div>
+        <div class="text-4xl font-bold text-[#F0F0F0] mb-2">{stats.totalShows.toLocaleString()}</div>
         <div class="text-gray-400">Shows</div>
       </div>
       <div class="card text-center">
-        <div class="text-4xl font-bold text-amber-400 mb-2">{stats.totalArtists.toLocaleString()}</div>
+        <div class="text-4xl font-bold text-[#F0F0F0] mb-2">{stats.totalArtists.toLocaleString()}</div>
         <div class="text-gray-400">Artists</div>
       </div>
       <div class="card text-center">
-        <div class="text-4xl font-bold text-amber-400 mb-2">{stats.yearsActive}</div>
+        <div class="text-4xl font-bold text-[#F0F0F0] mb-2">{stats.yearsActive}</div>
         <div class="text-gray-400">Years</div>
       </div>
       <div class="card text-center">
-        <div class="text-4xl font-bold text-amber-400 mb-2">2006</div>
+        <div class="text-4xl font-bold text-[#F0F0F0] mb-2">2006</div>
         <div class="text-gray-400">First Show</div>
       </div>
     </div>
@@ -57,35 +57,35 @@ const stats = {
 
   <!-- Features Section -->
   <section class="container mx-auto px-4 py-16">
-    <h2 class="text-3xl font-bold text-white mb-12 text-center">Explore the Archive</h2>
+    <h2 class="text-3xl text-white mb-12 text-center">Explore the Archive</h2>
     <div class="grid md:grid-cols-3 gap-8">
       <a href="/artists" class="card group">
-        <div class="text-amber-400 text-4xl mb-4">
+        <div class="text-[#F0F0F0] text-4xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">Artists</h3>
+        <h3 class="text-xl text-white mb-2 group-hover:text-[#F0F0F0] transition-colors">Artists</h3>
         <p class="text-gray-400">Search and browse through thousands of artists who've performed at Velour over the years.</p>
       </a>
 
       <a href="/network" class="card group">
-        <div class="text-amber-400 text-4xl mb-4">
+        <div class="text-[#F0F0F0] text-4xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">Connections</h3>
+        <h3 class="text-xl text-white mb-2 group-hover:text-[#F0F0F0] transition-colors">Connections</h3>
         <p class="text-gray-400">Visualize the network of artists who've shared the stage. See who's played with who.</p>
       </a>
 
       <a href="/timeline" class="card group">
-        <div class="text-amber-400 text-4xl mb-4">
+        <div class="text-[#F0F0F0] text-4xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">Timeline</h3>
+        <h3 class="text-xl text-white mb-2 group-hover:text-[#F0F0F0] transition-colors">Timeline</h3>
         <p class="text-gray-400">Travel through time and see when bands were most active and how the scene evolved.</p>
       </a>
     </div>
@@ -93,7 +93,7 @@ const stats = {
 
   <!-- Notable Artists Section -->
   <section class="container mx-auto px-4 py-16">
-    <h2 class="text-3xl font-bold text-white mb-8">Notable Artists from Velour</h2>
+    <h2 class="text-3xl text-white mb-8">Notable Artists from Velour</h2>
     <p class="text-gray-400 mb-8 max-w-3xl">
       Many artists who got their start at Velour went on to national and international success.
       Here are some notable names from the archive.
@@ -102,20 +102,20 @@ const stats = {
       {['Neon Trees', 'Imagine Dragons', 'The Moth & The Flame', 'Joshua James',
         'The National Parks', 'Fictionist', 'The Aces', 'Mindy Gledhill',
         'Alex Boye', 'Desert Noises'].map((artist) => (
-        <span class="stat-badge text-amber-400">{artist}</span>
+        <span class="stat-badge">{artist}</span>
       ))}
     </div>
   </section>
 
   <!-- CTA Section -->
-  <section class="bg-gradient-to-r from-amber-900/30 to-gray-900 py-16">
+  <section class="bg-gradient-to-r from-[#400106] to-gray-900 py-16">
     <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold text-white mb-4">Dive Into the Data</h2>
+      <h2 class="text-3xl text-white mb-4">Dive Into the Data</h2>
       <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
         Search for your favorite bands, explore connections between artists,
         or browse shows by year. The entire archive is at your fingertips.
       </p>
-      <a href="/shows" class="inline-block bg-amber-500 hover:bg-amber-400 text-gray-900 font-bold px-8 py-4 rounded-lg transition-colors">
+      <a href="/shows" class="inline-block bg-[#BF0404] hover:bg-[#F20505] text-white font-bold px-8 py-4 rounded-lg transition-colors">
         Browse All Shows
       </a>
     </div>

@@ -1,31 +1,55 @@
 @import "tailwindcss";
 
+@theme {
+  --font-family-display: 'Ultra', serif;
+  --font-family-body: 'IBM Plex Mono', monospace;
+
+  /* Custom color palette */
+  --color-red: #BF0404;
+  --color-red-bright: #F20505;
+  --color-teal: #F0F0F0;
+  --color-yellow: #F2EA79;
+  --color-burgundy: #400106;
+}
+
 /* Custom theme variables */
 :root {
-  --color-velour-red: #8b0000;
-  --color-velour-gold: #d4af37;
-  --color-velour-dark: #1a1a1a;
+  --color-primary: #BF0404;
+  --color-accent: #F0F0F0;
+  --color-highlight: #F20505;
+  --color-yellow: #F2EA79;
+  --color-dark: #400106;
 }
 
-/* Base styles */
-body {
-  @apply bg-gray-950 text-gray-100 min-h-screen;
-  font-family: system-ui, -apple-system, sans-serif;
+/* Base styles - applied after Tailwind */
+@layer base {
+  body {
+    @apply text-gray-100 min-h-screen;
+    background-color: #0a0a0a;
+    font-family: 'IBM Plex Mono', monospace !important;
+    font-weight: 300;
+  }
+
+  h1, h2, h3, h4, .font-title {
+    font-family: 'Ultra', serif !important;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+  }
 }
 
-/* Typography */
-h1, h2, h3, h4 {
-  @apply font-bold tracking-tight;
-}
-
-/* Links */
+/* Links - teal accent */
 a {
-  @apply text-amber-400 hover:text-amber-300 transition-colors;
+  color: #F0F0F0;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #F2EA79;
 }
 
 /* Network visualization container */
 .network-container {
-  @apply w-full bg-gray-900 rounded-lg overflow-hidden;
+  @apply w-full rounded-lg overflow-hidden;
+  background-color: #400106;
   min-height: 600px;
 }
 
@@ -41,22 +65,59 @@ a {
 
 /* Timeline styling */
 .timeline-year {
-  @apply border-l-2 border-amber-500 pl-4 py-2;
+  border-left: 2px solid #BF0404;
+  @apply pl-4 py-2;
 }
 
 /* Cards */
 .card {
-  @apply bg-gray-900 rounded-xl p-6 border border-gray-800 hover:border-gray-700 transition-colors;
+  @apply rounded-xl p-6 transition-colors;
+  background-color: rgba(64, 1, 6, 0.5);
+  border: 1px solid #BF0404;
+}
+.card:hover {
+  border-color: #F0F0F0;
 }
 
 /* Search input */
 .search-input {
-  @apply w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-gray-100
-         placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-amber-500
-         focus:border-transparent;
+  @apply w-full rounded-lg px-4 py-3 text-gray-100 placeholder-gray-500 focus:outline-none;
+  background-color: rgba(64, 1, 6, 0.7);
+  border: 1px solid #BF0404;
+}
+.search-input:focus {
+  border-color: #F0F0F0;
+  box-shadow: 0 0 0 2px rgba(1, 207, 194, 0.3);
 }
 
 /* Stats badge */
 .stat-badge {
-  @apply inline-flex items-center gap-1 bg-gray-800 px-3 py-1 rounded-full text-sm;
+  @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm;
+  background-color: rgba(191, 4, 4, 0.3);
+  color: #F0F0F0;
+}
+
+/* Accent text colors */
+.text-accent {
+  color: #F0F0F0;
+}
+.text-primary {
+  color: #BF0404;
+}
+.text-highlight {
+  color: #F20505;
+}
+.text-yellow {
+  color: #F2EA79;
+}
+
+/* Background utilities */
+.bg-primary {
+  background-color: #BF0404;
+}
+.bg-accent {
+  background-color: #F0F0F0;
+}
+.bg-dark {
+  background-color: #400106;
 }

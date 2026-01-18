@@ -14,20 +14,23 @@ const { title, description = "Explore 20 years of live music history at Velour L
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Ultra&display=swap" rel="stylesheet">
     <title>{title} | Provo Music Museum</title>
   </head>
   <body>
-    <header class="sticky top-0 z-50 bg-gray-950/90 backdrop-blur-sm border-b border-gray-800">
+    <header class="sticky top-0 z-50 bg-gray-950/95 backdrop-blur-sm border-b border-[#BF0404]/30">
       <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="/" class="text-xl font-bold text-white hover:text-amber-400 transition-colors">
+        <a href="/" class="text-xl text-white hover:text-[#F0F0F0] transition-colors font-title">
           Provo Music Museum
         </a>
         <div class="flex items-center gap-6">
-          <a href="/shows" class="text-gray-300 hover:text-white transition-colors">Shows</a>
-          <a href="/artists" class="text-gray-300 hover:text-white transition-colors">Artists</a>
-          <a href="/network" class="text-gray-300 hover:text-white transition-colors">Network</a>
-          <a href="/timeline" class="text-gray-300 hover:text-white transition-colors">Timeline</a>
-          <a href="/about" class="text-gray-300 hover:text-white transition-colors">About</a>
+          <a href="/shows" class="text-gray-300 hover:text-[#F0F0F0] transition-colors">Shows</a>
+          <a href="/artists" class="text-gray-300 hover:text-[#F0F0F0] transition-colors">Artists</a>
+          <a href="/network" class="text-gray-300 hover:text-[#F0F0F0] transition-colors">Network</a>
+          <a href="/timeline" class="text-gray-300 hover:text-[#F0F0F0] transition-colors">Timeline</a>
+          <a href="/about" class="text-gray-300 hover:text-[#F0F0F0] transition-colors">About</a>
         </div>
       </nav>
     </header>
@@ -36,21 +39,32 @@ const { title, description = "Explore 20 years of live music history at Velour L
       <slot />
     </main>
 
-    <footer class="border-t border-gray-800 mt-16">
+    <footer class="border-t border-[#BF0404]/30 mt-16">
       <div class="container mx-auto px-4 py-8">
         <div class="flex flex-col md:flex-row justify-between items-center gap-4">
           <p class="text-gray-500 text-sm">
             Documenting the history of Velour Live Music Gallery (2006-present)
           </p>
-          <p class="text-gray-500 text-sm">
-            Data sourced from <a href="https://velourlive.com" target="_blank" rel="noopener">velourlive.com</a>
-          </p>
+          <div class="flex items-center gap-4 text-sm">
+            <a href="#" id="suggest-edit" class="text-gray-500 hover:text-[#F0F0F0]">Suggest a correction</a>
+            <span class="text-gray-700">|</span>
+            <span class="text-gray-500">Data sourced from <a href="https://velourlive.com" target="_blank" rel="noopener">velourlive.com</a></span>
+          </div>
         </div>
       </div>
     </footer>
+    <script>
+      document.getElementById('suggest-edit')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        const pageUrl = window.location.href;
+        const subject = encodeURIComponent('Provo Music Museum - Suggested Correction');
+        const body = encodeURIComponent(`Page: ${pageUrl}\n\nSuggested correction:\n\n`);
+        window.location.href = `mailto:dcheesman+provomusicmuseum@gmail.com?subject=${subject}&body=${body}`;
+      });
+    </script>
   </body>
 </html>
 
-<style>
+<style is:global>
   @import "../styles/global.css";
 </style>

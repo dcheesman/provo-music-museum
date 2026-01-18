@@ -3,47 +3,56 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Artist Network">
-  <section class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold text-white mb-4">Artist Network</h1>
-    <p class="text-gray-400 mb-8 max-w-2xl">
-      Explore the connections between artists who have shared the stage at Velour.
-      Each node represents an artist, and lines connect artists who have played together.
-    </p>
+  <section class="px-4 py-8">
+    <div class="container mx-auto mb-6">
+      <h1 class="text-4xl font-bold text-white mb-4">Artist Network</h1>
+      <p class="text-gray-400 mb-6 max-w-2xl">
+        Explore the connections between artists who have shared the stage at Velour.
+        Each node represents an artist, and lines connect artists who have played together.
+      </p>
 
-    <!-- Controls -->
-    <div class="flex flex-wrap gap-4 mb-8">
-      <input
-        type="text"
-        id="network-search"
-        placeholder="Search for an artist..."
-        class="search-input max-w-md"
-      />
-      <button id="reset-view" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg">
-        Reset View
-      </button>
+      <!-- Controls -->
+      <div class="flex flex-wrap gap-4">
+        <input
+          type="text"
+          id="network-search"
+          placeholder="Search for an artist..."
+          class="search-input max-w-md"
+        />
+        <button id="reset-view" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg">
+          Reset View
+        </button>
+      </div>
     </div>
 
-    <!-- Network Container -->
-    <div id="network-container" class="network-container relative">
+    <!-- Network Container - Full Width -->
+    <div id="network-container" class="network-container relative w-full" style="background-color: #e5e5e5; min-height: 80vh;">
       <div id="network-loading" class="absolute inset-0 flex items-center justify-center">
-        <span class="text-gray-400">Loading network visualization...</span>
+        <span class="text-gray-600">Loading network visualization...</span>
       </div>
       <svg id="network-svg" class="w-full h-full" style="display: none;"></svg>
+      <!-- Tooltip -->
+      <div id="tooltip" class="absolute hidden bg-gray-900 text-white px-3 py-2 rounded-lg text-sm pointer-events-none shadow-lg border border-gray-700 z-50">
+        <div id="tooltip-name" class="font-bold"></div>
+        <div id="tooltip-stats" class="text-gray-400 text-xs"></div>
+      </div>
     </div>
 
     <!-- Legend -->
-    <div class="mt-8 flex flex-wrap gap-6 text-sm text-gray-400">
-      <div class="flex items-center gap-2">
-        <div class="w-4 h-4 rounded-full bg-amber-400"></div>
-        <span>High connection count</span>
-      </div>
-      <div class="flex items-center gap-2">
-        <div class="w-4 h-4 rounded-full bg-amber-700"></div>
-        <span>Medium connection count</span>
-      </div>
-      <div class="flex items-center gap-2">
-        <div class="w-4 h-4 rounded-full bg-gray-600"></div>
-        <span>Lower connection count</span>
+    <div class="container mx-auto mt-6">
+      <div class="flex flex-wrap gap-6 text-sm text-gray-400">
+        <div class="flex items-center gap-2">
+          <div class="w-4 h-4 rounded-full bg-amber-400"></div>
+          <span>High connection count</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="w-4 h-4 rounded-full bg-amber-700"></div>
+          <span>Medium connection count</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="w-4 h-4 rounded-full bg-gray-600"></div>
+          <span>Lower connection count</span>
+        </div>
       </div>
     </div>
   </section>
@@ -90,6 +99,11 @@ import Layout from '../layouts/Layout.astro';
   let simulation: d3.Simulation<NetworkNode, NetworkLink>;
   let svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>;
   let networkData: NetworkData;
+  let currentZoom = 1;
+  let labelsGroup: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
+  let linksGroup: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
+  let nodesSelection: d3.Selection<SVGCircleElement, NetworkNode, SVGGElement, unknown>;
+  let selectedNode: NetworkNode | null = null;
 
   async function loadNetworkData(): Promise<NetworkData | null> {
     try {
@@ -114,7 +128,7 @@ import Layout from '../layouts/Layout.astro';
     svgElement.style.display = 'block';
 
     const width = container.clientWidth;
-    const height = 600;
+    const height = Math.max(container.clientHeight, window.innerHeight * 0.8);
 
     // Clear existing
     svgElement.innerHTML = '';
@@ -126,81 +140,218 @@ import Layout from '../layouts/Layout.astro';
     const g = svg.append('g');
 
     const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.1, 4])
+      .scaleExtent([0.1, 8])
       .on('zoom', (event) => {
         g.attr('transform', event.transform);
+        currentZoom = event.transform.k;
+        updateLabelsVisibility();
       });
 
     svg.call(zoom);
 
-    // Scale for node size
+    // Use all links (no filtering)
+    const visibleLinks = data.links;
+
+    // Use all nodes that have at least one connection
+    const connectedNodeIds = new Set<string>();
+    visibleLinks.forEach((l: any) => {
+      connectedNodeIds.add(typeof l.source === 'string' ? l.source : l.source.id);
+      connectedNodeIds.add(typeof l.target === 'string' ? l.target : l.target.id);
+    });
+
+    // All nodes with connections
+    const visibleNodes = data.nodes.filter(n => connectedNodeIds.has(n.id));
+
+    // Scale for node size (based on visible nodes)
     const sizeScale = d3.scaleSqrt()
-      .domain([1, d3.max(data.nodes, d => d.showCount) || 100])
+      .domain([1, d3.max(visibleNodes, d => d.showCount) || 100])
       .range([3, 20]);
 
-    // Color scale based on connections
+    // Color scale based on connections (based on visible nodes)
     const colorScale = d3.scaleSequential()
-      .domain([0, d3.max(data.nodes, d => d.connectionCount) || 50])
+      .domain([0, d3.max(visibleNodes, d => d.connectionCount) || 50])
       .interpolator(d3.interpolateYlOrBr);
 
-    // Create simulation
-    simulation = d3.forceSimulation(data.nodes)
-      .force('link', d3.forceLink(data.links)
-        .id((d: any) => d.id)
-        .distance(50))
-      .force('charge', d3.forceManyBody().strength(-100))
+    // Create simulation - no link force initially for better performance
+    simulation = d3.forceSimulation(visibleNodes)
+      .force('charge', d3.forceManyBody().strength(-30))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius((d: any) => sizeScale(d.showCount) + 2));
+      .force('collision', d3.forceCollide().radius((d: any) => sizeScale(d.showCount) + 3));
 
-    // Draw links
-    const link = g.append('g')
-      .attr('stroke', '#374151')
-      .attr('stroke-opacity', 0.3)
-      .selectAll('line')
-      .data(data.links)
-      .join('line')
-      .attr('stroke-width', (d: any) => Math.sqrt(d.weight));
+    // Create empty links group (will be populated on node click)
+    linksGroup = g.append('g').attr('class', 'links');
 
-    // Draw nodes
-    const node = g.append('g')
+    // Draw nodes (only those with visible connections)
+    nodesSelection = g.append('g')
       .selectAll('circle')
-      .data(data.nodes)
+      .data(visibleNodes)
       .join('circle')
       .attr('r', d => sizeScale(d.showCount))
       .attr('fill', d => colorScale(d.connectionCount))
-      .attr('stroke', '#1f2937')
+      .attr('stroke', '#374151')
       .attr('stroke-width', 1)
       .attr('class', 'artist-node')
       .call(d3.drag<SVGCircleElement, NetworkNode>()
         .on('start', dragstarted)
         .on('drag', dragged)
         .on('end', dragended))
-      .on('click', (event, d) => showArtistPanel(d))
-      .on('mouseover', function() {
-        d3.select(this).attr('stroke', '#fbbf24').attr('stroke-width', 2);
+      .on('click', (event, d) => selectNode(d))
+      .on('mouseover', function(event, d) {
+        d3.select(this).attr('stroke', '#BF0404').attr('stroke-width', 3);
+        showTooltip(event, d);
+      })
+      .on('mousemove', function(event, d) {
+        moveTooltip(event);
       })
       .on('mouseout', function() {
-        d3.select(this).attr('stroke', '#1f2937').attr('stroke-width', 1);
+        d3.select(this).attr('stroke', '#374151').attr('stroke-width', 1);
+        hideTooltip();
       });
 
-    // Add tooltips
-    node.append('title')
-      .text(d => `${d.name}\n${d.showCount} shows, ${d.connectionCount} connections`);
+    // Add text labels (hidden by default, shown on zoom)
+    labelsGroup = g.append('g').attr('class', 'labels');
+    labelsGroup.selectAll('text')
+      .data(visibleNodes)
+      .join('text')
+      .attr('text-anchor', 'middle')
+      .attr('dy', d => -sizeScale(d.showCount) - 4)
+      .attr('font-size', '10px')
+      .attr('fill', '#1f2937')
+      .attr('pointer-events', 'none')
+      .attr('opacity', 0)
+      .text(d => d.name);
 
     // Update positions on tick
     simulation.on('tick', () => {
-      link
+      // Update link positions if any are drawn
+      linksGroup.selectAll('line')
         .attr('x1', (d: any) => d.source.x)
         .attr('y1', (d: any) => d.source.y)
         .attr('x2', (d: any) => d.target.x)
         .attr('y2', (d: any) => d.target.y);
 
-      node
+      nodesSelection
         .attr('cx', d => d.x!)
         .attr('cy', d => d.y!);
+
+      labelsGroup.selectAll('text')
+        .attr('x', (d: any) => d.x)
+        .attr('y', (d: any) => d.y);
     });
 
     networkData = data;
+
+    // Click on background to deselect
+    svg.on('click', (event) => {
+      if (event.target === svgElement) {
+        clearSelection();
+      }
+    });
+  }
+
+  function selectNode(artist: NetworkNode) {
+    // If clicking same node, deselect
+    if (selectedNode?.id === artist.id) {
+      clearSelection();
+      return;
+    }
+
+    selectedNode = artist;
+
+    // Helper to get ID from source/target (could be string or object)
+    const getId = (node: any) => typeof node === 'string' ? node : node.id;
+
+    // Find all connections for this artist
+    const artistLinks = networkData.links.filter((l: any) =>
+      getId(l.source) === artist.id || getId(l.target) === artist.id
+    );
+
+    // Get connected node IDs
+    const connectedIds = new Set<string>();
+    connectedIds.add(artist.id);
+    artistLinks.forEach((l: any) => {
+      connectedIds.add(getId(l.source));
+      connectedIds.add(getId(l.target));
+    });
+
+    // Build a map of node positions for drawing links
+    const nodeMap = new Map<string, NetworkNode>();
+    nodesSelection.data().forEach((n: NetworkNode) => nodeMap.set(n.id, n));
+
+    // Draw links for selected node
+    linksGroup.selectAll('line').remove();
+    linksGroup.selectAll('line')
+      .data(artistLinks)
+      .join('line')
+      .attr('stroke', '#BF0404')
+      .attr('stroke-opacity', 0.6)
+      .attr('stroke-width', (d: any) => Math.max(1, Math.sqrt(d.weight)))
+      .attr('x1', (d: any) => nodeMap.get(getId(d.source))?.x || 0)
+      .attr('y1', (d: any) => nodeMap.get(getId(d.source))?.y || 0)
+      .attr('x2', (d: any) => nodeMap.get(getId(d.target))?.x || 0)
+      .attr('y2', (d: any) => nodeMap.get(getId(d.target))?.y || 0);
+
+    // Dim non-connected nodes, highlight connected ones
+    nodesSelection
+      .attr('opacity', (d: NetworkNode) => connectedIds.has(d.id) ? 1 : 0.15)
+      .attr('stroke', (d: NetworkNode) => d.id === artist.id ? '#BF0404' : '#374151')
+      .attr('stroke-width', (d: NetworkNode) => d.id === artist.id ? 3 : 1);
+
+    // Show artist panel
+    showArtistPanel(artist);
+  }
+
+  function clearSelection() {
+    selectedNode = null;
+
+    // Remove all links
+    linksGroup.selectAll('line').remove();
+
+    // Reset node appearance
+    nodesSelection
+      .attr('opacity', 1)
+      .attr('stroke', '#374151')
+      .attr('stroke-width', 1);
+
+    // Hide panel
+    hideArtistPanel();
+  }
+
+  function showTooltip(event: MouseEvent, d: NetworkNode) {
+    const tooltip = document.getElementById('tooltip');
+    const nameEl = document.getElementById('tooltip-name');
+    const statsEl = document.getElementById('tooltip-stats');
+    if (!tooltip || !nameEl || !statsEl) return;
+
+    nameEl.textContent = d.name;
+    statsEl.textContent = `${d.showCount} shows • ${d.connectionCount} connections`;
+    tooltip.classList.remove('hidden');
+    moveTooltip(event);
+  }
+
+  function moveTooltip(event: MouseEvent) {
+    const tooltip = document.getElementById('tooltip');
+    const container = document.getElementById('network-container');
+    if (!tooltip || !container) return;
+
+    const rect = container.getBoundingClientRect();
+    const x = event.clientX - rect.left + 15;
+    const y = event.clientY - rect.top - 10;
+    tooltip.style.left = `${x}px`;
+    tooltip.style.top = `${y}px`;
+  }
+
+  function hideTooltip() {
+    const tooltip = document.getElementById('tooltip');
+    if (tooltip) tooltip.classList.add('hidden');
+  }
+
+  function updateLabelsVisibility() {
+    if (!labelsGroup) return;
+    const showLabels = currentZoom >= 2;
+    labelsGroup.selectAll('text')
+      .attr('opacity', showLabels ? 1 : 0)
+      .attr('font-size', `${10 / currentZoom}px`);
   }
 
   function dragstarted(event: d3.D3DragEvent<SVGCircleElement, NetworkNode, NetworkNode>, d: NetworkNode) {
@@ -228,20 +379,28 @@ import Layout from '../layouts/Layout.astro';
 
     if (!panel || !nameEl || !statsEl || !connectionsEl) return;
 
-    nameEl.textContent = artist.name;
-    statsEl.innerHTML = `
-      <div><span class="text-amber-400">${artist.showCount}</span> shows</div>
-      <div><span class="text-amber-400">${artist.connectionCount}</span> connections</div>
-    `;
+    // Helper to get ID from source/target (could be string or object)
+    const getId = (node: any) => typeof node === 'string' ? node : node.id;
 
-    // Find connections
+    // Build node lookup map
+    const nodeMap = new Map<string, NetworkNode>();
+    networkData.nodes.forEach((n: NetworkNode) => nodeMap.set(n.id, n));
+
+    // Find connections from actual links
     const connections = networkData.links
-      .filter((l: any) => l.source.id === artist.id || l.target.id === artist.id)
+      .filter((l: any) => getId(l.source) === artist.id || getId(l.target) === artist.id)
       .map((l: any) => {
-        const other = l.source.id === artist.id ? l.target : l.source;
-        return { name: other.name, weight: l.weight };
+        const otherId = getId(l.source) === artist.id ? getId(l.target) : getId(l.source);
+        const otherNode = nodeMap.get(otherId);
+        return { name: otherNode?.name || 'Unknown', weight: l.weight };
       })
       .sort((a, b) => b.weight - a.weight);
+
+    nameEl.textContent = artist.name;
+    statsEl.innerHTML = `
+      <div><span class="text-[#BF0404]">${artist.showCount}</span> shows</div>
+      <div><span class="text-[#BF0404]">${connections.length}</span> connections</div>
+    `;
 
     connectionsEl.innerHTML = connections.map(c => `
       <li class="flex justify-between">
@@ -291,7 +450,7 @@ import Layout from '../layouts/Layout.astro';
     }
 
     // Event handlers
-    document.getElementById('close-panel')?.addEventListener('click', hideArtistPanel);
+    document.getElementById('close-panel')?.addEventListener('click', clearSelection);
     document.getElementById('reset-view')?.addEventListener('click', () => {
       svg.transition().duration(500).call(
         d3.zoom<SVGSVGElement, unknown>().transform as any,
