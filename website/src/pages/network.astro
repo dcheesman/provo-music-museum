@@ -354,11 +354,11 @@ import Layout from '../layouts/Layout.astro';
       .attr('x2', (d: any) => nodeMap.get(getId(d.target))?.x || 0)
       .attr('y2', (d: any) => nodeMap.get(getId(d.target))?.y || 0);
 
-    // Draw show markers for this artist
-    drawShowMarkers(artist);
-
-    // Draw time active rectangle on date axis
+    // Draw time active rectangle on date axis FIRST (behind)
     drawTimeActiveBar(artist);
+
+    // Draw show markers SECOND (on top)
+    drawShowMarkers(artist);
 
     // Dim non-connected nodes
     nodesSelection
