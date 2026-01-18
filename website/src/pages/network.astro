@@ -392,7 +392,9 @@ import Layout from '../layouts/Layout.astro';
     // Draw a small rectangle for each show
     const markerHeight = 8;
     const markerWidth = 3;
-    const yPosition = margin.top + 10; // Near the top of the viz
+    const container = document.getElementById('timeline-container');
+    const height = Math.max(container?.clientHeight || 0, window.innerHeight * 0.8);
+    const yPosition = height - margin.bottom - markerHeight - 5; // Just above the date axis
 
     showMarkersGroup.selectAll('rect')
       .data(artistShows)
