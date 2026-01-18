@@ -462,8 +462,8 @@ import Layout from '../layouts/Layout.astro';
         d3.select(this).attr('opacity', 1).attr('fill', '#60A5FA');
         showShowTooltip(event, d);
       })
-      .on('mousemove', function(event) {
-        moveTooltip(event);
+      .on('mousemove', function(event, d: Show) {
+        showShowTooltip(event, d); // Update position on move
       })
       .on('mouseout', function() {
         d3.select(this).attr('opacity', 0.8).attr('fill', '#3B82F6');
@@ -487,12 +487,15 @@ import Layout from '../layouts/Layout.astro';
       ${show.ticketPrice ? `<div>Price: ${show.ticketPrice}</div>` : ''}
       ${show.soldOut ? '<div class="text-red-400">SOLD OUT</div>' : ''}
     `;
+
+    // Make visible first so offsetHeight is calculated
     tooltip.classList.remove('hidden');
 
-    // Position tooltip ABOVE the show marker to avoid clipping at bottom
+    // Position tooltip well ABOVE the mouse cursor to prevent bottom cutoff
     const rect = container.getBoundingClientRect();
     const x = event.clientX - rect.left + container.scrollLeft + 15;
-    const y = event.clientY - rect.top - tooltip.offsetHeight - 15; // Position above
+    // Position it above the mouse by tooltip height + 20px margin
+    const y = event.clientY - rect.top - tooltip.offsetHeight - 20;
     tooltip.style.left = `${x}px`;
     tooltip.style.top = `${y}px`;
   }
