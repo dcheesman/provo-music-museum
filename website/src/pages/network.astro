@@ -287,18 +287,8 @@ import Layout from '../layouts/Layout.astro';
         hideTooltip();
       });
 
-    // Add text labels (always shown with more space)
+    // Labels removed for performance and clarity
     labelsGroup = g.append('g').attr('class', 'labels');
-    labelsGroup.selectAll('text')
-      .data(validNodes)
-      .join('text')
-      .attr('text-anchor', 'middle')
-      .attr('dy', d => -sizeScale(d.connectionCount) - 6)
-      .attr('font-size', '11px')
-      .attr('fill', '#e5e5e5')
-      .attr('pointer-events', 'none')
-      .attr('opacity', 0.8)
-      .text(d => d.name);
 
     // Update positions on tick (only Y changes, X is fixed by date)
     simulation.on('tick', () => {
@@ -312,10 +302,6 @@ import Layout from '../layouts/Layout.astro';
       nodesSelection
         .attr('cx', d => d.x!)
         .attr('cy', d => d.y!);
-
-      labelsGroup.selectAll('text')
-        .attr('x', (d: any) => d.x)
-        .attr('y', (d: any) => d.y);
     });
 
     networkData = { nodes: validNodes, links: data.links };
@@ -371,6 +357,9 @@ import Layout from '../layouts/Layout.astro';
     // Draw show markers for this artist
     drawShowMarkers(artist);
 
+    // Draw time active rectangle on date axis
+    drawTimeActiveBar(artist);
+
     // Dim non-connected nodes
     nodesSelection
       .attr('opacity', (d: TimelineNode) => connectedIds.has(d.id) ? 1 : 0.2)
@@ -379,6 +368,40 @@ import Layout from '../layouts/Layout.astro';
 
     // Show artist panel
     showArtistPanel(artist);
+  }
+
+  function drawTimeActiveBar(artist: TimelineNode) {
+    // Find all shows for this artist to determine active period
+    const artistShows = showsData.filter(show =>
+      show.artists.some(a => a.id === artist.id)
+    );
+
+    if (artistShows.length === 0) return;
+
+    // Get first and last show dates
+    const dates = artistShows.map(s => new Date(s.date)).sort((a, b) => a.getTime() - b.getTime());
+    const firstDate = dates[0];
+    const lastDate = dates[dates.length - 1];
+
+    const container = document.getElementById('timeline-container');
+    const height = Math.max(container?.clientHeight || 0, window.innerHeight * 0.8);
+    const barHeight = 20;
+    const yPosition = height - margin.bottom + 10; // Just below the axis
+
+    const startX = xScale(firstDate);
+    const endX = xScale(lastDate);
+    const barWidth = Math.max(endX - startX, 3); // At least 3px wide
+
+    // Draw the time active bar
+    showMarkersGroup.append('rect')
+      .attr('x', startX)
+      .attr('y', yPosition)
+      .attr('width', barWidth)
+      .attr('height', barHeight)
+      .attr('fill', '#BF0404')
+      .attr('opacity', 0.6)
+      .attr('rx', 2)
+      .attr('class', 'time-active-bar');
   }
 
   function drawShowMarkers(artist: TimelineNode) {
@@ -564,9 +587,17 @@ import Layout from '../layouts/Layout.astro';
       })
       .sort((a, b) => b.weight - a.weight);
 
+    // Find last show date
+    const artistShows = showsData.filter(show =>
+      show.artists.some(a => a.id === artist.id)
+    );
+    const dates = artistShows.map(s => s.date).sort();
+    const lastShowDate = dates[dates.length - 1] || artist.firstShowDate;
+
     nameEl.textContent = artist.name;
     statsEl.innerHTML = `
       <div><span class="text-[#BF0404]">${artist.firstShowDate}</span> First show</div>
+      <div><span class="text-[#BF0404]">${lastShowDate}</span> Last show</div>
       <div><span class="text-[#BF0404]">${artist.showCount}</span> total shows</div>
       <div><span class="text-[#BF0404]">${connections.length}</span> connections</div>
     `;
