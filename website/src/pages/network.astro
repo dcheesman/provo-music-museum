@@ -371,6 +371,9 @@ import Layout from '../layouts/Layout.astro';
   }
 
   function drawTimeActiveBar(artist: TimelineNode) {
+    // Clear any existing time active line first
+    showMarkersGroup.selectAll('.time-active-line').remove();
+
     // Find all shows for this artist to determine active period
     const artistShows = showsData.filter(show =>
       show.artists.some(a => a.id === artist.id)
