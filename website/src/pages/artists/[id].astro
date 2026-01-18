@@ -57,11 +57,11 @@ const lastShowDate = shows[0]?.date || artist.lastYear;
             <div class="text-gray-400 text-sm">Shows</div>
           </div>
           <div class="card text-center">
-            <div class="text-2xl font-bold text-[#BF0404] mb-1">{firstShowDate?.substring(0, 4) || artist.firstYear}</div>
+            <div class="text-2xl font-bold text-[#BF0404] mb-1">{typeof firstShowDate === 'string' ? firstShowDate.substring(0, 4) : firstShowDate || artist.firstYear}</div>
             <div class="text-gray-400 text-sm">First Show</div>
           </div>
           <div class="card text-center">
-            <div class="text-2xl font-bold text-[#BF0404] mb-1">{lastShowDate?.substring(0, 4) || artist.lastYear}</div>
+            <div class="text-2xl font-bold text-[#BF0404] mb-1">{typeof lastShowDate === 'string' ? lastShowDate.substring(0, 4) : lastShowDate || artist.lastYear}</div>
             <div class="text-gray-400 text-sm">Last Show</div>
           </div>
           <div class="card text-center">
