@@ -29,7 +29,7 @@ import Layout from '../layouts/Layout.astro';
     </div>
 
     <!-- Timeline Container - Horizontal Scroll -->
-    <div id="timeline-container" class="timeline-container relative w-full overflow-x-auto overflow-y-hidden" style="background-color: #1a1a1a; height: 800px;">
+    <div id="timeline-container" class="timeline-container relative w-full overflow-x-auto overflow-y-visible" style="background-color: #1a1a1a; height: 800px;">
       <div id="timeline-loading" class="absolute inset-0 flex items-center justify-center">
         <span class="text-gray-400">Loading timeline visualization...</span>
       </div>
@@ -384,22 +384,22 @@ import Layout from '../layouts/Layout.astro';
     const lastDate = dates[dates.length - 1];
 
     const container = document.getElementById('timeline-container');
-    const height = Math.max(container?.clientHeight || 0, window.innerHeight * 0.8);
+    const height = 800; // Fixed height we set
     const barHeight = 20;
-    const yPosition = height - margin.bottom + 10; // Just below the axis
+    const yPosition = height - margin.bottom + 5; // Just below the axis, closer
 
     const startX = xScale(firstDate);
     const endX = xScale(lastDate);
     const barWidth = Math.max(endX - startX, 3); // At least 3px wide
 
-    // Draw the time active bar
-    showMarkersGroup.append('rect')
+    // Draw the time active bar - use insert to place it at the beginning (behind)
+    const timeBar = showMarkersGroup.insert('rect', ':first-child')
       .attr('x', startX)
       .attr('y', yPosition)
       .attr('width', barWidth)
       .attr('height', barHeight)
       .attr('fill', '#BF0404')
-      .attr('opacity', 0.6)
+      .attr('opacity', 0.7)
       .attr('rx', 2)
       .attr('class', 'time-active-bar');
   }
@@ -479,7 +479,8 @@ import Layout from '../layouts/Layout.astro';
     const tooltip = document.getElementById('tooltip');
     const nameEl = document.getElementById('tooltip-name');
     const statsEl = document.getElementById('tooltip-stats');
-    if (!tooltip || !nameEl || !statsEl) return;
+    const container = document.getElementById('timeline-container');
+    if (!tooltip || !nameEl || !statsEl || !container) return;
 
     const artistNames = show.artists.map(a => a.name).join(', ');
     nameEl.textContent = show.title;
@@ -491,7 +492,13 @@ import Layout from '../layouts/Layout.astro';
       ${show.soldOut ? '<div class="text-red-400">SOLD OUT</div>' : ''}
     `;
     tooltip.classList.remove('hidden');
-    moveTooltip(event);
+
+    // Position tooltip ABOVE the show marker to avoid clipping at bottom
+    const rect = container.getBoundingClientRect();
+    const x = event.clientX - rect.left + container.scrollLeft + 15;
+    const y = event.clientY - rect.top - tooltip.offsetHeight - 15; // Position above
+    tooltip.style.left = `${x}px`;
+    tooltip.style.top = `${y}px`;
   }
 
   function clearSelection() {
@@ -531,7 +538,8 @@ import Layout from '../layouts/Layout.astro';
     if (!tooltip || !container) return;
 
     const rect = container.getBoundingClientRect();
-    const x = event.clientX - rect.left + 15;
+    // Account for horizontal scroll position
+    const x = event.clientX - rect.left + container.scrollLeft + 15;
     const y = event.clientY - rect.top - 10;
     tooltip.style.left = `${x}px`;
     tooltip.style.top = `${y}px`;
