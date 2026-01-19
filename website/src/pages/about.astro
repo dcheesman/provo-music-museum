@@ -1,5 +1,35 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load actual stats from data files
+let stats = {
+  totalShows: 4135,
+  totalArtists: 3046,
+  yearsActive: 21
+};
+
+try {
+  const showsPath = path.join(process.cwd(), 'public/data/shows.json');
+  const artistsPath = path.join(process.cwd(), 'public/data/artists.json');
+
+  const showsData = JSON.parse(fs.readFileSync(showsPath, 'utf-8'));
+  const artistsData = JSON.parse(fs.readFileSync(artistsPath, 'utf-8'));
+
+  stats.totalShows = showsData.length;
+  stats.totalArtists = artistsData.length;
+
+  // Get date range
+  const dates = showsData.map((s: any) => s.date).filter(Boolean).sort();
+  if (dates.length > 0) {
+    const firstYear = parseInt(dates[0].substring(0, 4));
+    const lastYear = parseInt(dates[dates.length - 1].substring(0, 4));
+    stats.yearsActive = lastYear - firstYear + 1;
+  }
+} catch (e) {
+  console.error('Could not load stats from data files:', e);
+}
 ---
 
 <Layout title="About">
@@ -31,15 +61,15 @@ import Layout from '../layouts/Layout.astro';
 
       <div class="grid md:grid-cols-3 gap-6 my-8">
         <div class="card text-center">
-          <div class="text-3xl font-bold text-[#BF0404] mb-2">4,135</div>
+          <div class="text-3xl font-bold text-[#BF0404] mb-2">{stats.totalShows.toLocaleString()}</div>
           <div class="text-gray-400">Shows</div>
         </div>
         <div class="card text-center">
-          <div class="text-3xl font-bold text-[#BF0404] mb-2">3,046</div>
+          <div class="text-3xl font-bold text-[#BF0404] mb-2">{stats.totalArtists.toLocaleString()}</div>
           <div class="text-gray-400">Artists</div>
         </div>
         <div class="card text-center">
-          <div class="text-3xl font-bold text-[#BF0404] mb-2">20</div>
+          <div class="text-3xl font-bold text-[#BF0404] mb-2">{stats.yearsActive}</div>
           <div class="text-gray-400">Years</div>
         </div>
       </div>

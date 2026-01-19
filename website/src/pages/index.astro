@@ -3,13 +3,45 @@ import Layout from '../layouts/Layout.astro';
 import * as fs from 'fs';
 import * as path from 'path';
 
-// These will be populated from the clean data once migrated
-const stats = {
-  totalShows: 7193,
-  totalArtists: 2879,
-  yearsActive: 20,
+// Load actual stats from data files
+let stats = {
+  totalShows: 4135,
+  totalArtists: 3046,
+  yearsActive: 21,
   firstShow: "January 13, 2006",
 };
+
+try {
+  const showsPath = path.join(process.cwd(), 'public/data/shows.json');
+  const artistsPath = path.join(process.cwd(), 'public/data/artists.json');
+
+  const showsData = JSON.parse(fs.readFileSync(showsPath, 'utf-8'));
+  const artistsData = JSON.parse(fs.readFileSync(artistsPath, 'utf-8'));
+
+  // Calculate from actual data
+  stats.totalShows = showsData.length;
+  stats.totalArtists = artistsData.length;
+
+  // Get date range
+  const dates = showsData.map((s: any) => s.date).filter(Boolean).sort();
+  if (dates.length > 0) {
+    const firstDate = dates[0];
+    const lastDate = dates[dates.length - 1];
+    const firstYear = parseInt(firstDate.substring(0, 4));
+    const lastYear = parseInt(lastDate.substring(0, 4));
+    stats.yearsActive = lastYear - firstYear + 1;
+
+    // Format first show date
+    const firstDateObj = new Date(firstDate);
+    stats.firstShow = firstDateObj.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  }
+} catch (e) {
+  console.error('Could not load stats from data files:', e);
+}
 
 // Load artists data to get IDs for notable artists
 let notableArtistsWithLinks: Array<{name: string, id: string}> = [];
