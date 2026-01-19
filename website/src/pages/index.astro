@@ -7,8 +7,6 @@ import * as path from 'path';
 let stats = {
   totalShows: 4135,
   totalArtists: 3046,
-  yearsActive: 21,
-  firstShow: "January 13, 2006",
 };
 
 try {
@@ -18,27 +16,13 @@ try {
   const showsData = JSON.parse(fs.readFileSync(showsPath, 'utf-8'));
   const artistsData = JSON.parse(fs.readFileSync(artistsPath, 'utf-8'));
 
-  // Calculate from actual data
-  stats.totalShows = showsData.length;
+  // Count only music shows (concert, open_mic, improv)
+  const musicShows = showsData.filter((s: any) =>
+    ['concert', 'open_mic', 'improv'].includes(s.eventType)
+  );
+
+  stats.totalShows = musicShows.length;
   stats.totalArtists = artistsData.length;
-
-  // Get date range
-  const dates = showsData.map((s: any) => s.date).filter(Boolean).sort();
-  if (dates.length > 0) {
-    const firstDate = dates[0];
-    const lastDate = dates[dates.length - 1];
-    const firstYear = parseInt(firstDate.substring(0, 4));
-    const lastYear = parseInt(lastDate.substring(0, 4));
-    stats.yearsActive = lastYear - firstYear + 1;
-
-    // Format first show date
-    const firstDateObj = new Date(firstDate);
-    stats.firstShow = firstDateObj.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    });
-  }
 } catch (e) {
   console.error('Could not load stats from data files:', e);
 }
@@ -94,7 +78,7 @@ try {
   <!-- Stats Section -->
   <section class="container mx-auto px-4 py-16">
     <h2 class="text-3xl text-white mb-8 text-center">The Velour Archive</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+    <div class="grid grid-cols-2 gap-6 max-w-2xl mx-auto">
       <div class="card text-center">
         <div class="text-4xl font-bold text-[#F0F0F0] mb-2">{stats.totalShows.toLocaleString()}</div>
         <div class="text-gray-400">Shows</div>
@@ -102,14 +86,6 @@ try {
       <div class="card text-center">
         <div class="text-4xl font-bold text-[#F0F0F0] mb-2">{stats.totalArtists.toLocaleString()}</div>
         <div class="text-gray-400">Artists</div>
-      </div>
-      <div class="card text-center">
-        <div class="text-4xl font-bold text-[#F0F0F0] mb-2">{stats.yearsActive}</div>
-        <div class="text-gray-400">Years</div>
-      </div>
-      <div class="card text-center">
-        <div class="text-4xl font-bold text-[#F0F0F0] mb-2">2006</div>
-        <div class="text-gray-400">First Show</div>
       </div>
     </div>
   </section>
