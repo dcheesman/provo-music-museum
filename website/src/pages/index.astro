@@ -5,7 +5,7 @@ import * as path from 'path';
 
 // Load actual stats from data files
 let stats = {
-  totalShows: 4135,
+  totalShows: 4011,
   totalArtists: 3046,
 };
 
@@ -16,9 +16,9 @@ try {
   const showsData = JSON.parse(fs.readFileSync(showsPath, 'utf-8'));
   const artistsData = JSON.parse(fs.readFileSync(artistsPath, 'utf-8'));
 
-  // Count only music shows (concert, open_mic, improv)
+  // Count only music shows (concert, open_mic - exclude improv)
   const musicShows = showsData.filter((s: any) =>
-    ['concert', 'open_mic', 'improv'].includes(s.eventType)
+    ['concert', 'open_mic'].includes(s.eventType)
   );
 
   stats.totalShows = musicShows.length;
